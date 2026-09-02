@@ -109,19 +109,48 @@ export function buildMatrix(): SeoTopic[] {
 }
 
 /**
+ * Find which corpus topic a free-text title is about, so ad-hoc posts get the
+ * same internal linking as matrix ones. Without this a hand-typed topic
+ * produces an orphan page, which is the single most common reason generated
+ * content never gets indexed.
+ *
+ * Longest match wins, so "Hardware & Operating Systems" beats "Hardware".
+ */
+export function inferEntity(text: string): string | null {
+  const hay = text.toLowerCase();
+  let best: string | null = null;
+  for (const e of entities()) {
+    if (hay.includes(e.toLowerCase()) && (!best || e.length > best.length)) best = e;
+  }
+  return best;
+}
+
+/**
  * Question pages relevant to an entity, for internal linking. Orphan pages do
  * not rank: every generated post has to point at the corpus, and the topic hubs
  * point back.
  */
-export function linksFor(entity: string, max = 6) {
-  const slug = topicSlug(entity);
-  const questions = freeQuestions
-    .filter((q) => topicSlug(q.topic) === slug)
-    .slice(0, max)
-    .map((q) => ({ href: `/questions/${q.slug}`, label: q.en.stem }));
+export function linksFor(entity: string | null, max = 6) {
+  const slug = entity ? topicSlug(entity) : '';
+  const questions = entity
+    ? freeQuestions
+        .filter((q) => topicSlug(q.topic) === slug)
+        .slice(0, max)
+        .map((q) => ({ href: `/questions/${q.slug}`, label: q.en.stem }))
+    : [];
 
-  return {
-    topicHref: questions.length ? `/topics/${slug}` : null,
-    questions,
-  };
+  // Standalone topics (exam mechanics, audience pieces) have no matching corpus
+  // topic. They still must not ship as orphans, so fall back to a spread of
+  // past-paper questions and the topics index.
+  if (!questions.length) {
+    return {
+      topicHref: '/topics',
+      questions: freeQuestions
+        .filter((q) => q.examNumber !== null)
+        .slice(0, max)
+        .map((q) => ({ href: `/questions/${q.slug}`, label: q.en.stem })),
+    };
+  }
+
+  return { topicHref: `/topics/${slug}`, questions };
 }

@@ -1,8 +1,9 @@
 import { NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { timingSafeEqual } from 'node:crypto';
 import { getDb } from '@/lib/db';
 import { draftPost, providerConfigured } from '@/lib/llm';
-import { linksFor } from '@/lib/seo-matrix';
+import { inferEntity, linksFor } from '@/lib/seo-matrix';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -53,6 +54,10 @@ export async function POST(req: Request) {
   let slug = draft.slug;
   for (let n = 2; await posts.findOne({ slug }); n++) slug = `${draft.slug}-${n}`;
 
+  // Match the bulk path: work out which corpus topic this is about so the post
+  // links into the question bank instead of shipping as an orphan.
+  const entity = inferEntity(`${topic} ${draft.title} ${draft.keywords.join(' ')}`);
+
   const doc = {
     ...draft,
     slug,
@@ -60,8 +65,8 @@ export async function POST(req: Request) {
     createdAt: new Date(),
     publishedAt: null as Date | null,
     topic: topic.trim(),
-    // Match the bulk path: every post links into the corpus.
-    links: linksFor(topic.trim()),
+    entity: entity ?? undefined,
+    links: linksFor(entity),
   };
   await posts.insertOne({ ...doc });
 
@@ -78,8 +83,18 @@ export async function PATCH(req: Request) {
   const db = await getDb();
   const posts = db.collection('posts');
 
+  // Publishing has to show up immediately. Without this the ISR window means an
+  // admin publishes a post and cannot see it for five minutes, and assumes it
+  // failed.
+  const refresh = () => {
+    revalidatePath('/blog');
+    revalidatePath(`/blog/${slug}`);
+    revalidatePath('/sitemap.xml');
+  };
+
   if (action === 'delete') {
     await posts.deleteOne({ slug });
+    refresh();
     return NextResponse.json({ ok: true, deleted: slug });
   }
   if (action === 'publish' || action === 'unpublish') {
@@ -88,6 +103,7 @@ export async function PATCH(req: Request) {
       { slug },
       { $set: { status: publishing ? 'published' : 'draft', publishedAt: publishing ? new Date() : null } }
     );
+    refresh();
     return NextResponse.json({ ok: true, slug, status: publishing ? 'published' : 'draft' });
   }
   return NextResponse.json({ error: 'Unknown action' }, { status: 400 });

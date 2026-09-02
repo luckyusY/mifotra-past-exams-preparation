@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data:extract": "node scripts/extract-legacy.mjs ..",
+    "data:build": "node scripts/build-corpus.mjs",
+    "data:seed": "node scripts/seed-mongo.mjs",
+    "test:redemption": "node scripts/test-redemption.mjs"
   },
   "dependencies": {
     "jose": "^6.2.10",

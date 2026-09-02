@@ -102,3 +102,14 @@ serverless functions.
 Practice questions outside the past paper are original, written against publicly
 published certification objectives. This project is not affiliated with MIFOTRA,
 CompTIA or Cisco, and contains no proprietary exam content.
+
+## Tests
+
+```bash
+npm run test:redemption
+```
+
+Spins up an in-memory MongoDB and runs the real redemption queries against it:
+single use, ten concurrent redemptions of one code (exactly one must win),
+unknown and revoked codes, input tolerance, and the guarantee that plaintext
+codes are never persisted.

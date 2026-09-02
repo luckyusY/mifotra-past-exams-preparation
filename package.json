@@ -12,7 +12,8 @@
     "data:seed": "node scripts/seed-mongo.mjs",
     "test:redemption": "node scripts/test-redemption.mjs",
     "dev:db": "node scripts/dev-db.mjs",
-    "data:backfill-links": "node scripts/backfill-links.mjs"
+    "data:backfill-links": "node scripts/backfill-links.mjs",
+    "check:seo": "node scripts/check-indexability.mjs"
   },
   "dependencies": {
     "jose": "^6.2.10",

@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   ],
   openGraph: { type: 'website', locale: 'en_RW', siteName: 'MIFOTRA Past Exams Preparation' },
   alternates: { languages: { en: '/', fr: '/' } },
+  // Search Console verification. Set GOOGLE_SITE_VERIFICATION to the content
+  // value from the "HTML tag" method; the tag only renders once it is set.
+  verification: process.env.GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.GOOGLE_SITE_VERIFICATION }
+    : undefined,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -142,6 +142,30 @@ URLs.
 Current indexable surface: 2,446 question pages + 17 topic hubs + 89 potential
 guides + the static pages. Sitemap: 2,468 URLs.
 
+## Google Search Console
+
+A `.vercel.app` subdomain can be verified, but only as a **URL-prefix**
+property. The Domain property type needs a DNS TXT record on the apex, and you
+do not control `vercel.app`.
+
+1. Search Console -> Add property -> **URL prefix** -> the full production URL.
+2. Choose the **HTML tag** method and copy the `content` value.
+3. Set `GOOGLE_SITE_VERIFICATION` in Vercel to that value, redeploy, verify.
+4. Submit `sitemap.xml`.
+
+Before submitting, run the pre-flight:
+
+```bash
+npm run check:seo -- https://your-site.vercel.app
+```
+
+The header check is the one that matters. Vercel serves
+`X-Robots-Tag: noindex` on preview deployments and on production deployments
+that have since been superseded, and a page carrying it will never be indexed
+however good the sitemap is. The script also catches a `NEXT_PUBLIC_SITE_URL`
+that does not match the host being crawled, which silently points every
+canonical and every sitemap entry at the wrong origin.
+
 ## Deploying
 
 Push to GitHub, import the repo in Vercel, then set the environment variables in the

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import AdminPanel from './AdminPanel';
 
 export const metadata: Metadata = {
@@ -13,6 +14,9 @@ export default function AdminPage() {
       <p className="lead">
         Generate a code after confirming a MoMo payment. The plaintext is shown once and is not
         recoverable &mdash; copy it before leaving the page.
+      </p>
+      <p className="navrow">
+        <Link className="btn ghost" href="/admin/blog">Blog generator</Link>
       </p>
       <AdminPanel />
     </>

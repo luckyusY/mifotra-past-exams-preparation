@@ -22,6 +22,7 @@ export default function ExamPage() {
         durationMinutes={120}
         mode="study"
         shuffleQuestions={false}
+        showUpsell
       />
     </>
   );

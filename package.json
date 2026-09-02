@@ -10,7 +10,8 @@
     "data:extract": "node scripts/extract-legacy.mjs ..",
     "data:build": "node scripts/build-corpus.mjs",
     "data:seed": "node scripts/seed-mongo.mjs",
-    "test:redemption": "node scripts/test-redemption.mjs"
+    "test:redemption": "node scripts/test-redemption.mjs",
+    "dev:db": "node scripts/dev-db.mjs"
   },
   "dependencies": {
     "jose": "^6.2.10",
@@ -25,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.4",
+    "mongodb-memory-server": "^11.2.0",
     "typescript": "^5"
   }
 }

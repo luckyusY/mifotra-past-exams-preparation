@@ -19,6 +19,7 @@ export default function PracticePage() {
         title="Quick drill"
         durationMinutes={30}
         mode="study"
+        showUpsell
       />
     </>
   );

@@ -1,8 +1,10 @@
 'use client';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
+import Link from 'next/link';
 import type { Question } from '@/lib/questions';
 import { shuffle } from '@/lib/questions';
+import UpsellModal from './UpsellModal';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -34,12 +36,15 @@ export default function ExamRunner({
   durationMinutes,
   mode = 'study',
   shuffleQuestions = true,
+  showUpsell = false,
 }: {
   questions: Question[];
   title: string;
   durationMinutes: number;
   mode?: 'study' | 'exam';
   shuffleQuestions?: boolean;
+  /** Free surfaces offer the paid bank; the paid bank itself must not. */
+  showUpsell?: boolean;
 }) {
   // Shuffling must not run during render: the server and the client would pick
   // different orders and hydration would mismatch. Render the fixed order first,
@@ -131,8 +136,27 @@ export default function ExamRunner({
           </div>
           <div className="navrow">
             <button className="btn" onClick={() => location.reload()}>Retake</button>
+            {showUpsell && (
+              <Link className="btn green" href="/unlock">Unlock 1,000 more questions</Link>
+            )}
           </div>
         </div>
+
+        {showUpsell && (
+          <aside className="card upsell" style={{ marginBottom: '1rem' }}>
+            <h2 style={{ marginTop: 0 }}>
+              {pct >= 70
+                ? 'Solid score. Widen the ground you cover.'
+                : `${possible - scored} marks were left on the table.`}
+            </h2>
+            <p className="muted">
+              This paper is 50 questions. The full bank is 2,446, and every answer is
+              explained rather than just marked. A bank of 1,000 is 5,000 RWF, paid once
+              to MoMo Pay 232255.
+            </p>
+            <Link className="btn" href="/unlock">Get an access code</Link>
+          </aside>
+        )}
 
         <h2>Review</h2>
         {prepared.map((item, idx) => {
@@ -171,6 +195,7 @@ export default function ExamRunner({
 
   return (
     <div>
+      {showUpsell && <UpsellModal answeredCount={answered} triggerAfter={8} />}
       <div className="exam-head">
         <span className="exam-title">{title}</span>
         <div className={'timeblock' + (left < 300 ? ' low' : '')}>

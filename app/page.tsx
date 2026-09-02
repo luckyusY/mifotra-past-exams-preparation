@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { freeQuestions, mifotraQuestions, topics, topicSlug } from '@/lib/questions';
+import UpsellCard from './UpsellCard';
 
 export default function Home() {
   const marks = mifotraQuestions.reduce((a, q) => a + q.marks, 0);
@@ -41,6 +42,10 @@ export default function Home() {
             legitimate software is a <strong>Trojan</strong>, not a virus.
           </p>
         </div>
+      </section>
+
+      <section style={{ marginBottom: '1.5rem' }}>
+        <UpsellCard variant="full" />
       </section>
 
       <section>

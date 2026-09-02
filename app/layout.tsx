@@ -27,11 +27,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <header className="topbar">
           <div className="wrap">
-            <Link href="/" className="brand">MIFOTRA <span>Past Exams</span></Link>
+            {/* Original wordmark. Deliberately not the MIFOTRA state crest: this is an
+                independent commercial study site and must not imply a government
+                endorsement it does not have. */}
+            <Link href="/" className="brand">
+              <span className="brand-mark" aria-hidden="true">PE</span>
+              <span className="brand-text">
+                <b>Past Exams</b>
+                <span>Rwanda ICT preparation</span>
+              </span>
+            </Link>
             <nav>
               <Link href="/exam">Past paper</Link>
               <Link href="/practice">Practice</Link>
               <Link href="/topics">Topics</Link>
+              <Link href="/blog">Guides</Link>
               <Link href="/unlock">Unlock full bank</Link>
             </nav>
           </div>

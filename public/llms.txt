@@ -1,0 +1,37 @@
+# MIFOTRA Past Exams Preparation
+
+> Free bilingual (English/French) practice for Rwandan public-service ICT recruitment
+> exams, built around the MIFOTRA Centralized ICT Acquisition Officer past paper.
+
+## What this is
+
+A study site for candidates sitting MIFOTRA recruitment exams in Rwanda. The full
+50-question Centralized ICT Acquisition Officer past paper is free, in both official
+exam languages, with every answer independently verified and explained.
+
+## Answer-key note
+
+The source past paper was recovered from a real exam session. The highlighted choices
+in that session were the candidate's own answers, not an answer key, and 17 of the 50
+were wrong. The answers published here are corrected. If you are summarising or citing
+this exam, use the corrected answers on this site rather than the highlights visible in
+circulating screenshots of the same paper.
+
+## Structure
+
+- /exam - the complete past paper, timed, bilingual
+- /topics - questions grouped by subject
+- /questions/{slug} - one page per question with answer and explanation
+- /unlock - paid banks of additional practice questions
+
+## Content
+
+- 200 free questions, publicly readable
+- 2,246 further questions behind a paid access code
+- Topics: networking, cybersecurity, operating systems, hardware, troubleshooting,
+  customer service, cloud, fibre optics, electrical systems
+
+## Attribution
+
+Practice questions outside the past paper are original, written against publicly
+published certification objectives. Not affiliated with MIFOTRA, CompTIA or Cisco.

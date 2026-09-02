@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+build
+.env
+.env.*
+!.env.example
+.DS_Store
+*.pem
+npm-debug.log*
+
+# Never commit the paid bank - the repo is public.
+data/questions.paid.json
+data/legacy-pool.json
+
+# Source exam screenshots contain a candidate photograph.
+*.pdf

@@ -1,0 +1,5252 @@
+[
+ {
+  "id": "MIF-001",
+  "slug": "a-doctor-reports-that-they-are-unable-to-access-the-hospital-managemen-mif-001",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 1,
+  "topic": "Support Procedure",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A doctor reports that they are unable to access the hospital management system from their home computer. What should you do to resolve this issue?",
+   "options": [
+    "Verify the doctor's remote access privileges",
+    "Instruct the doctor to contact their insurance provider",
+    "Inform the doctor that remote access is not available for security reasons",
+    "Provide the doctor with the system administrator's login credentials"
+   ],
+   "explanation": "Start by checking whether the account is actually entitled to remote access. Sharing an administrator's credentials is never acceptable - it destroys accountability and breaches every access-control policy."
+  },
+  "fr": {
+   "stem": "Un medecin signale qu'il ne peut pas acceder au systeme de gestion de l'hopital depuis son ordinateur personnel. Que devez-vous faire pour resoudre ce probleme ?",
+   "options": [
+    "Verifier les privileges d'acces a distance du medecin",
+    "Demandez au medecin de contacter son assureur",
+    "Informez le medecin que l'acces a distance n'est pas disponible pour des raisons de securite",
+    "Fournissez au medecin les informations de connexion de l'administrateur systeme"
+   ],
+   "explanation": "Commencez par verifier si le compte dispose reellement d'un droit d'acces a distance. Partager les identifiants de l'administrateur n'est jamais acceptable."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-002",
+  "slug": "which-of-the-following-is-the-best-way-to-handle-an-angry-customer-mif-002",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 2,
+  "topic": "Customer Service",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following is the best way to handle an angry customer?",
+   "options": [
+    "Interrupt them to correct their mistakes",
+    "Listen actively and empathetically",
+    "Hang up the call",
+    "Transfer them to another department"
+   ],
+   "explanation": "Active, empathetic listening defuses the situation and surfaces the real problem. Interrupting, hanging up, or deflecting all escalate it."
+  },
+  "fr": {
+   "stem": "Parmi les propositions suivantes, laquelle est la meilleure facon de gerer un client en colere ?",
+   "options": [
+    "Interrompre-les pour corriger leurs erreurs",
+    "Ecouter activement et avec empathie",
+    "Raccrocher l'appel",
+    "Transferez-les dans un autre departement"
+   ],
+   "explanation": "L'ecoute active et empathique desamorce la situation et fait apparaitre le vrai probleme."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-003",
+  "slug": "what-is-the-function-of-a-solid-state-drive-ssd-mif-003",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 3,
+  "topic": "Hardware",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What is the function of a Solid State Drive (SSD)?",
+   "options": [
+    "To process data",
+    "To display images",
+    "To cool the computer",
+    "To store data"
+   ],
+   "explanation": "An SSD is non-volatile storage. It holds data in flash memory with no moving parts, which is why it is faster and more shock-resistant than a mechanical hard drive."
+  },
+  "fr": {
+   "stem": "Quelle est la fonction d'un disque SSD ?",
+   "options": [
+    "Traiter les donnees",
+    "Afficher des images",
+    "Refroidir l'ordinateur",
+    "Stocker des donnees"
+   ],
+   "explanation": "Un SSD est un stockage non volatil utilisant de la memoire flash, sans pieces mobiles."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-004",
+  "slug": "the-hospital-management-system-is-experiencing-issues-with-data-encryp-mif-004",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 4,
+  "topic": "Cybersecurity",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The hospital management system is experiencing issues with data encryption and security due to a compromised encryption key. What is the best approach to resolve this issue while ensuring data protection and minimizing downtime?",
+   "options": [
+    "Implement a data encryption mechanism with automatic key rotation",
+    "Delete all data",
+    "Implement a key management system with secure key storage",
+    "Utilize a hardware security module (HSM) for secure key management"
+   ],
+   "explanation": "A key management system with secure storage addresses the root cause: the key was exposed because it was not properly protected. Automatic rotation and an HSM are components of a good KMS rather than complete answers on their own."
+  },
+  "fr": {
+   "stem": "Le systeme de gestion de l'hopital rencontre des problemes de cryptage et de securite des donnees en raison d'une cle de cryptage compromise. Quelle est la meilleure approche pour resoudre ce probleme tout en garantissant la protection des donnees et en minimisant les temps d'arret ?",
+   "options": [
+    "Implementer un mecanisme de cryptage des donnees avec rotation automatique des cles",
+    "Supprimer toutes les donnees",
+    "Mettre en oeuvre un systeme de gestion des cles avec stockage securise des cles",
+    "Utiliser un module de securite materiel (HSM) pour une gestion securisee des cles"
+   ],
+   "explanation": "Un systeme de gestion des cles avec stockage securise traite la cause racine : la cle etait exposee car mal protegee."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-005",
+  "slug": "what-is-the-primary-purpose-of-safe-mode-in-windows-mif-005",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 5,
+  "topic": "Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What is the primary purpose of Safe Mode in Windows?",
+   "options": [
+    "To delete files securely",
+    "To update drivers",
+    "To install new software",
+    "To diagnose and fix problems"
+   ],
+   "explanation": "Safe Mode boots with a minimal set of drivers and services so a faulty driver or startup program can be isolated and removed."
+  },
+  "fr": {
+   "stem": "Quel est l'objectif principal du mode sans echec sous Windows ?",
+   "options": [
+    "Pour supprimer des fichiers en toute securite",
+    "Pour mettre a jour les pilotes",
+    "Pour installer un nouveau logiciel",
+    "Pour diagnostiquer et resoudre les problemes"
+   ],
+   "explanation": "Le mode sans echec demarre avec un minimum de pilotes et de services afin d'isoler un pilote ou un programme defectueux."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-006",
+  "slug": "when-a-printer-is-not-printing-which-of-the-following-should-you-check-mif-006",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 6,
+  "topic": "Hardware",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "When a printer is not printing, which of the following should you check first?",
+   "options": [
+    "All answer are correct",
+    "Paper tray",
+    "Printer driver installation",
+    "Printer ink levels"
+   ],
+   "explanation": "Paper, ink and driver are all standard first-line checks in printer troubleshooting, so the combined option is the intended answer."
+  },
+  "fr": {
+   "stem": "Lorsqu'une imprimante n'imprime pas, lequel des elements suivants devez-vous verifier en premier ?",
+   "options": [
+    "Toutes les reponses sont correctes",
+    "Bac a papier",
+    "Installation du pilote d'imprimante",
+    "Niveaux d'encre de l'imprimante"
+   ],
+   "explanation": "Le papier, l'encre et le pilote font tous partie des premieres verifications standard."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-007",
+  "slug": "which-of-the-following-is-an-example-of-an-operating-system-mif-007",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 7,
+  "topic": "Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following is an example of an operating system?",
+   "options": [
+    "Window 10",
+    "Microsoft Word",
+    "Adobe Photoshop",
+    "Google Chrome"
+   ],
+   "explanation": "Windows 10 is an operating system. Word, Photoshop and Chrome are applications that run on top of one."
+  },
+  "fr": {
+   "stem": "Lequel des elements suivants est un exemple de systeme d'exploitation ?",
+   "options": [
+    "Window 10",
+    "Microsoft Word",
+    "Adobe Photoshop",
+    "Google Chrome"
+   ],
+   "explanation": "Windows 10 est un systeme d'exploitation. Word, Photoshop et Chrome sont des applications."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-008",
+  "slug": "what-should-you-do-if-you-cannot-resolve-a-customer-s-issue-immediatel-mif-008",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 8,
+  "topic": "Customer Service",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What should you do if you cannot resolve a customer's issue immediately?",
+   "options": [
+    "Promise a solution without a timeline",
+    "Escalate the issue and provide an estimated resolution time",
+    "Tell them you can't help",
+    "Ignore the issue"
+   ],
+   "explanation": "Escalating with a realistic estimate keeps the customer informed and moves the ticket to someone who can close it."
+  },
+  "fr": {
+   "stem": "Que devez-vous faire si vous ne pouvez pas resoudre immediatement le probleme d'un client ?",
+   "options": [
+    "Promettre une solution sans echeancier",
+    "Faire remonter le probleme et fournir une estimation du temps de resolution",
+    "Dis-leur que tu ne peux pas aider",
+    "Ignorer le probleme"
+   ],
+   "explanation": "Faire remonter le probleme avec une estimation realiste tient le client informe."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-009",
+  "slug": "which-of-the-following-is-a-key-aspect-of-good-customer-service-mif-009",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 9,
+  "topic": "Customer Service",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following is a key aspect of good customer service?",
+   "options": [
+    "Redirecting all calls to voicemail",
+    "Using technical jargon",
+    "Responding quickly and effectively",
+    "Being argumentative"
+   ],
+   "explanation": "Speed combined with effectiveness is the core measure of support quality."
+  },
+  "fr": {
+   "stem": "Parmi les elements suivants, lequel est un aspect cle d'un bon service client ?",
+   "options": [
+    "Rediriger tous les appels vers la messagerie vocale",
+    "Utiliser le jargon technique",
+    "Repondre rapidement et efficacement",
+    "Etre argumentatif"
+   ],
+   "explanation": "La rapidite combinee a l'efficacite est la mesure principale de la qualite du support."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-010",
+  "slug": "if-a-user-s-computer-is-running-very-slowly-which-of-the-following-cou-mif-010",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 10,
+  "topic": "Troubleshooting",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "If a user's computer is running very slowly, which of the following could be a potential cause?",
+   "options": [
+    "All answer are correct",
+    "Overloaded CPU",
+    "Insufficient RAM",
+    "Full hard drive"
+   ],
+   "explanation": "CPU saturation, memory pressure and a full disk each cause slowdowns, so all three are potential causes."
+  },
+  "fr": {
+   "stem": "Si l'ordinateur d'un utilisateur fonctionne tres lentement, lequel des elements suivants pourrait en etre la cause potentielle ?",
+   "options": [
+    "Toutes les reponses sont correctes",
+    "Processeur surcharge",
+    "RAM insuffisante",
+    "Disque dur complet"
+   ],
+   "explanation": "La saturation du processeur, le manque de memoire et un disque plein provoquent chacun des ralentissements."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-011",
+  "slug": "which-of-the-following-is-a-primary-function-of-the-cpu-mif-011",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 11,
+  "topic": "Hardware",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following is a primary function of the CPU?",
+   "options": [
+    "Network connection",
+    "Data storage",
+    "Processing instructions",
+    "Display output"
+   ],
+   "explanation": "The CPU fetches, decodes and executes instructions. Storage, networking and display are handled by other components."
+  },
+  "fr": {
+   "stem": "Parmi les elements suivants, lequel est une fonction principale du processeur ?",
+   "options": [
+    "Connexion reseau",
+    "Stockage de donnees",
+    "Instructions de traitement",
+    "Sortie d'affichage"
+   ],
+   "explanation": "Le processeur recupere, decode et execute les instructions."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-012",
+  "slug": "which-command-is-used-to-list-files-and-directories-in-linux-mif-012",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 12,
+  "topic": "Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which command is used to list files and directories in Linux?",
+   "options": [
+    "list",
+    "show",
+    "ls",
+    "dir"
+   ],
+   "explanation": "ls is the standard Linux listing command. dir exists on some systems as a compatibility alias, but ls is the expected answer; list and show are not commands."
+  },
+  "fr": {
+   "stem": "Quelle commande est utilisee pour lister les fichiers et repertoires sous Linux ?",
+   "options": [
+    "list",
+    "show",
+    "ls",
+    "dir"
+   ],
+   "explanation": "ls est la commande standard sous Linux. list et show n'existent pas."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-013",
+  "slug": "which-linux-command-is-used-to-record-a-user-login-session-in-a-file-mif-013",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 13,
+  "topic": "Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which Linux command is used to record a user login session in a file?",
+   "options": [
+    "shell",
+    "script",
+    "macro",
+    "read"
+   ],
+   "explanation": "script starts a session recorder that writes everything typed and displayed to a typescript file. macro is not a Linux command."
+  },
+  "fr": {
+   "stem": "Quelle commande Linux est utilisee pour enregistrer une session de connexion utilisateur dans un fichier ?",
+   "options": [
+    "shell",
+    "script",
+    "macro",
+    "read"
+   ],
+   "explanation": "script demarre un enregistreur de session qui ecrit tout dans un fichier. macro n'est pas une commande Linux."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-014",
+  "slug": "what-device-is-commonly-used-to-connect-multiple-computers-within-a-la-mif-014",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 14,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What device is commonly used to connect multiple computers within a LAN?",
+   "options": [
+    "Switch",
+    "Router",
+    "Firewall",
+    "Modem"
+   ],
+   "explanation": "A switch forwards frames between hosts inside the same local network. A router joins different networks; a modem converts signals for the WAN link."
+  },
+  "fr": {
+   "stem": "Quel appareil est couramment utilise pour connecter plusieurs ordinateurs au sein d'un reseau local ?",
+   "options": [
+    "Switch",
+    "Routeur",
+    "Firewall",
+    "Modem"
+   ],
+   "explanation": "Un commutateur transmet les trames entre hotes du meme reseau local."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-015",
+  "slug": "which-file-system-is-commonly-used-on-windows-operating-system-mif-015",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 15,
+  "topic": "Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which file system is commonly used on Windows operating system?",
+   "options": [
+    "NTFS",
+    "EXT4",
+    "APFS",
+    "HFS+"
+   ],
+   "explanation": "NTFS is the standard Windows file system. EXT4 belongs to Linux; APFS and HFS+ are Apple file systems."
+  },
+  "fr": {
+   "stem": "Quel systeme de fichiers est couramment utilise sur le systeme d'exploitation Windows ?",
+   "options": [
+    "NTFS",
+    "EXT4",
+    "APFS",
+    "HFS+"
+   ],
+   "explanation": "NTFS est le systeme de fichiers standard de Windows."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-016",
+  "slug": "what-is-the-first-step-in-troubleshooting-a-computer-that-won-t-turn-o-mif-016",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 16,
+  "topic": "Troubleshooting",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What is the first step in troubleshooting a computer that won't turn on?",
+   "options": [
+    "Reinstall the operating system",
+    "Replace the hard drive",
+    "Update the BIOS",
+    "Check the power supply and connections"
+   ],
+   "explanation": "Always start with power. A dead outlet, loose cable or failed PSU explains the symptom before anything else is worth testing."
+  },
+  "fr": {
+   "stem": "Quelle est la premiere etape pour depanner un ordinateur qui ne s'allume pas ?",
+   "options": [
+    "Reinstaller le systeme d'exploitation",
+    "Remplacer le disque dur",
+    "Mettre a jour le BIOS",
+    "Verifier l'alimentation et les connexions"
+   ],
+   "explanation": "Commencez toujours par l'alimentation avant de tester autre chose."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-017",
+  "slug": "which-cable-type-is-most-commonly-used-for-ethernet-connections-mif-017",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 17,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which cable type is most commonly used for Ethernet connections?",
+   "options": [
+    "Twisted pair cable",
+    "Serial cable",
+    "Coaxial cable",
+    "Fiber optic cable"
+   ],
+   "explanation": "Twisted pair (Cat5e/Cat6) is by far the most common Ethernet medium. Fibre is used for long or high-capacity links, not for the typical desk connection."
+  },
+  "fr": {
+   "stem": "Quel type de cable est le plus couramment utilise pour les connexions Ethernet ?",
+   "options": [
+    "Paire torsadee",
+    "Cable serie",
+    "Cable coaxial",
+    "Cable de fibre optique"
+   ],
+   "explanation": "La paire torsadee (Cat5e/Cat6) est de loin le support Ethernet le plus courant."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-018",
+  "slug": "what-is-the-main-function-of-an-operating-system-mif-018",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 18,
+  "topic": "Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What is the main function of an operating system?",
+   "options": [
+    "To manage hardware resources",
+    "To run applications",
+    "To browse the internet",
+    "To edit documents"
+   ],
+   "explanation": "The operating system manages CPU, memory, storage and devices, and schedules access to them. Running applications is a consequence of that role, not the definition of it."
+  },
+  "fr": {
+   "stem": "Quelle est la fonction principale d'un systeme d'exploitation ?",
+   "options": [
+    "Gerer les ressources materielles",
+    "Executer des applications",
+    "Naviguer sur Internet",
+    "Modifier des documents"
+   ],
+   "explanation": "Le systeme d'exploitation gere le processeur, la memoire, le stockage et les peripheriques."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-019",
+  "slug": "which-of-the-following-phrases-is-most-appropriate-when-dealing-with-a-mif-019",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 19,
+  "topic": "Customer Service",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following phrases is most appropriate when dealing with a customer complaint?",
+   "options": [
+    "\"Please calm down.\"",
+    "\"It's not my problem.\"",
+    "\"You'll need to call back later.\"",
+    "\"I understand your frustration, let me help resolve this.\""
+   ],
+   "explanation": "Acknowledging the feeling and immediately offering help is the standard de-escalation phrasing."
+  },
+  "fr": {
+   "stem": "Laquelle des phrases suivantes est la plus appropriee pour traiter une reclamation client ?",
+   "options": [
+    "\"Calmez vous s'il vous plait.\"",
+    "\"Ce n'est pas mon probleme.\"",
+    "\"Tu devras rappeler plus tard.\"",
+    "\"Je comprends votre frustration, laissez-moi vous aider a resoudre ce probleme.\""
+   ],
+   "explanation": "Reconnaitre l'emotion et proposer immediatement de l'aide est la formulation standard."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-020",
+  "slug": "a-user-reports-that-they-are-unable-to-access-the-hospital-management--mif-020",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 20,
+  "topic": "Troubleshooting",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A user reports that they are unable to access the hospital management system due to a slow internet connection. What steps would you take to troubleshoot this issue?",
+   "options": [
+    "Instruct the user to contact their internet service provider",
+    "Inform the user that the system is experiencing high traffic and recommend accessing it during off-peak hours",
+    "Inform the user to Verify the network connectivity and sleep computer",
+    "No correct answer"
+   ],
+   "explanation": "Verify connectivity locally before blaming an external party. Sending the user to their ISP first skips the diagnosis entirely."
+  },
+  "fr": {
+   "stem": "Un utilisateur signale qu'il ne parvient pas a acceder au systeme de gestion de l'hopital en raison d'une connexion Internet lente. Quelles mesures prendriez-vous pour resoudre ce probleme ?",
+   "options": [
+    "Demandez a l'utilisateur de contacter son fournisseur d'acces Internet",
+    "Informer l'utilisateur que le systeme connait un trafic eleve et lui recommander d'y acceder pendant les heures creuses",
+    "Informez l'utilisateur de verifier la connectivite reseau et l'ordinateur en veille",
+    "Pas de bonne reponse"
+   ],
+   "explanation": "Verifiez la connectivite localement avant d'incriminer un tiers externe."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-021",
+  "slug": "what-is-the-purpose-of-dns-mif-021",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 21,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What is the purpose of DNS?",
+   "options": [
+    "To encrypt data",
+    "To assign IP addresses",
+    "To store website data",
+    "To translate domain names to IP addresses"
+   ],
+   "explanation": "DNS resolves human-readable names to IP addresses. Assigning addresses is DHCP's job - a very common confusion."
+  },
+  "fr": {
+   "stem": "Quel est le but du DNS ?",
+   "options": [
+    "Pour chiffrer les donnees",
+    "Pour attribuer des adresses IP",
+    "Pour stocker les donnees du site Web",
+    "Pour traduire les noms de domaine en adresses IP"
+   ],
+   "explanation": "Le DNS resout les noms en adresses IP. L'attribution d'adresses est le role du DHCP."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-022",
+  "slug": "what-does-a-blue-screen-of-death-bsod-typically-indicate-mif-022",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 22,
+  "topic": "Troubleshooting",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What does a 'blue screen of death' (BSOD) typically indicate?",
+   "options": [
+    "Low battery",
+    "Hardware failure",
+    "System crash or fatal error",
+    "Software update"
+   ],
+   "explanation": "A BSOD is a kernel-level stop error. Hardware failure is one possible cause among many, including bad drivers and corrupt system files, so the general answer is the correct one."
+  },
+  "fr": {
+   "stem": "Qu'indique generalement un ecran bleu de la mort (BSOD) ?",
+   "options": [
+    "Batterie faible",
+    "Panne materielle",
+    "Plantage du systeme ou erreur fatale",
+    "Mise a jour logicielle"
+   ],
+   "explanation": "Un BSOD est une erreur d'arret au niveau du noyau, dont la panne materielle n'est qu'une cause possible."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-023",
+  "slug": "a-user-reports-that-they-are-unable-to-access-the-hospital-management--mif-023",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 23,
+  "topic": "Cybersecurity",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A user reports that they are unable to access the hospital management system due to a certificate expiration issue. What steps would you take to troubleshoot and resolve the issue while ensuring system availability?",
+   "options": [
+    "No correct answer",
+    "Utilize a certificate revocation list (CRL) to block access from expired certificates",
+    "Promise a solution without a timeline",
+    "Renew the expired certificate and update it on the system"
+   ],
+   "explanation": "Renewing and installing the certificate restores trust and availability. A CRL blocks access rather than restoring it."
+  },
+  "fr": {
+   "stem": "Un utilisateur signale qu'il ne peut pas acceder au systeme de gestion de l'hopital en raison d'un probleme d'expiration de certificat. Quelles mesures prendriez-vous pour depanner et resoudre le probleme tout en garantissant la disponibilite du systeme ?",
+   "options": [
+    "Pas de bonne reponse",
+    "Utiliser une liste de revocation de certificats (CRL) pour bloquer l'acces aux certificats expires",
+    "Promettre une solution sans echeancier",
+    "Renouveler le certificat expire et le mettre a jour sur le systeme"
+   ],
+   "explanation": "Renouveler et installer le certificat retablit la confiance et la disponibilite."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-024",
+  "slug": "what-does-ram-stand-for-mif-024",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 24,
+  "topic": "Hardware",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What does RAM stand for?",
+   "options": [
+    "Read Access Memory",
+    "Rapid Access Memory",
+    "Real Access Memory",
+    "Random Access Memory"
+   ],
+   "explanation": "Random Access Memory - volatile working memory in which any location can be reached directly, without reading through what precedes it."
+  },
+  "fr": {
+   "stem": "Que signifie RAM ?",
+   "options": [
+    "Read Access Memory",
+    "Rapid Access Memory",
+    "Real Access Memory",
+    "Random Access Memory"
+   ],
+   "explanation": "Random Access Memory - memoire de travail volatile accessible directement a n'importe quelle adresse."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-025",
+  "slug": "what-is-the-best-way-to-end-a-call-with-a-satisfied-customer-mif-025",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 25,
+  "topic": "Customer Service",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What is the best way to end a call with a satisfied customer?",
+   "options": [
+    "Hang up quickly",
+    "Say nothing",
+    "Ask them to call back",
+    "Thank them and confirm their issue is resolved"
+   ],
+   "explanation": "Confirming resolution and thanking the caller closes the loop and prevents repeat contacts."
+  },
+  "fr": {
+   "stem": "Quelle est la meilleure facon de terminer un appel avec un client satisfait ?",
+   "options": [
+    "Raccrochez rapidement",
+    "Ne rien dire",
+    "Demandez-leur de rappeler",
+    "Remerciez-les et confirmez que leur probleme est resolu"
+   ],
+   "explanation": "Confirmer la resolution et remercier l'appelant boucle l'echange."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-026",
+  "slug": "which-of-the-following-tools-is-used-to-diagnose-network-connectivity--mif-026",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 26,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following tools is used to diagnose network connectivity issues?",
+   "options": [
+    "System Restore",
+    "Disk Cleanup",
+    "Ping",
+    "Device Manager"
+   ],
+   "explanation": "ping sends ICMP echo requests to test reachability and latency. The other three are local maintenance tools with no network diagnostic role."
+  },
+  "fr": {
+   "stem": "Lequel des outils suivants est utilise pour diagnostiquer les problemes de connectivite reseau ?",
+   "options": [
+    "Restauration du systeme",
+    "Nettoyage de disque",
+    "Ping",
+    "Gestionnaire de peripheriques"
+   ],
+   "explanation": "ping envoie des requetes ICMP pour tester l'accessibilite et la latence."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-027",
+  "slug": "the-hospital-management-system-is-experiencing-issues-with-user-authen-mif-027",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 27,
+  "topic": "Cybersecurity",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The hospital management system is experiencing issues with user authentication due to a compromised authentication token. What is the best approach to resolve this issue while minimizing disruption to patient care?",
+   "options": [
+    "both b) and c)",
+    "Utilize a multi-factor authentication system to add an additional layer of security",
+    "Implement a token-based authentication system with secure token storage",
+    "Implement a token revocation mechanism to invalidate compromised tokens"
+   ],
+   "explanation": "Combining multi-factor authentication with securely stored tokens both contains the current compromise and hardens against the next one."
+  },
+  "fr": {
+   "stem": "Le systeme de gestion de l'hopital rencontre des problemes d'authentification des utilisateurs en raison d'un jeton d'authentification compromis. Quelle est la meilleure approche pour resoudre ce probleme tout en minimisant les perturbations dans les soins aux patients ?",
+   "options": [
+    "b) et c) a la fois",
+    "Utilisez un systeme d'authentification multifacteur pour ajouter une couche de securite supplementaire",
+    "Implementez un systeme d'authentification base sur des jetons avec un stockage securise des jetons",
+    "Implementer un mecanisme de revocation de jetons pour invalider les jetons compromis"
+   ],
+   "explanation": "Combiner l'authentification multifacteur et un stockage securise des jetons traite la compromission actuelle et future."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-028",
+  "slug": "what-is-the-main-purpose-of-a-firewall-mif-028",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 28,
+  "topic": "Cybersecurity",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What is the main purpose of a firewall?",
+   "options": [
+    "To protect against malware",
+    "To speed up the internet",
+    "To monitor network traffic",
+    "To store data"
+   ],
+   "explanation": "A firewall inspects and filters traffic against a rule set. Anti-malware is a separate control - a firewall does not scan files for infection."
+  },
+  "fr": {
+   "stem": "Quel est l'objectif principal d'un pare-feu ?",
+   "options": [
+    "Pour se proteger contre les logiciels malveillants",
+    "Pour accelerer Internet",
+    "Pour surveiller le trafic reseau",
+    "Pour stocker des donnees"
+   ],
+   "explanation": "Un pare-feu inspecte et filtre le trafic selon un ensemble de regles."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-029",
+  "slug": "which-of-the-following-is-a-linux-distribution-mif-029",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 29,
+  "topic": "Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following is a Linux distribution?",
+   "options": [
+    "Ubuntu",
+    "Windows",
+    "iOS",
+    "macOS"
+   ],
+   "explanation": "Ubuntu is a Linux distribution. macOS and iOS are Apple's Unix-derived systems but are not Linux; Windows is unrelated."
+  },
+  "fr": {
+   "stem": "Lequel des elements suivants est une distribution Linux ?",
+   "options": [
+    "Ubuntu",
+    "Windows",
+    "iOS",
+    "macOS"
+   ],
+   "explanation": "Ubuntu est une distribution Linux. macOS et iOS ne sont pas Linux."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-030",
+  "slug": "what-does-vpn-stand-for-mif-030",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 30,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "What does VPN stand for?",
+   "options": [
+    "Virtual Public Network",
+    "Virtual Private Network",
+    "Verified Private Network",
+    "Virtual Protected Network"
+   ],
+   "explanation": "Virtual Private Network - an encrypted tunnel that carries private traffic across a public network."
+  },
+  "fr": {
+   "stem": "Que signifie VPN ?",
+   "options": [
+    "Virtual Public Network",
+    "Reseau prive virtuel",
+    "Verified Private Network",
+    "Virtual Protected Network"
+   ],
+   "explanation": "Reseau prive virtuel - un tunnel chiffre qui transporte du trafic prive sur un reseau public."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-031",
+  "slug": "what-type-of-malware-disguises-itself-as-legitimate-software-mif-031",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 31,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "What type of malware disguises itself as legitimate software?",
+   "options": [
+    "Trojan",
+    "Virus",
+    "Worm",
+    "Spyware"
+   ],
+   "explanation": "A Trojan is defined by its disguise - it looks like something the user wants. A virus attaches to files, a worm self-propagates, spyware collects data covertly."
+  },
+  "fr": {
+   "stem": "Quel type de malware se fait passer pour un logiciel legitime ?",
+   "options": [
+    "Cheval de Troie",
+    "Virus",
+    "Ver",
+    "Logiciel espion"
+   ],
+   "explanation": "Un cheval de Troie se definit par son deguisement. Un virus s'attache aux fichiers, un ver se propage seul."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-032",
+  "slug": "what-is-a-common-method-for-securing-user-passwords-mif-032",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 32,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "What is a common method for securing user passwords?",
+   "options": [
+    "Sharing them openly",
+    "Using password hashing",
+    "Storing them in plain text",
+    "Writing them down on paper"
+   ],
+   "explanation": "Passwords are stored as salted hashes so the original value cannot be recovered from a database breach."
+  },
+  "fr": {
+   "stem": "Quelle est une methode courante pour securiser les mots de passe des utilisateurs ?",
+   "options": [
+    "Les partager ouvertement",
+    "Utiliser le hachage de mot de passe",
+    "Les stocker en texte brut",
+    "Les ecrire sur papier"
+   ],
+   "explanation": "Les mots de passe sont stockes sous forme de hachages sales, irreversibles en cas de fuite."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-033",
+  "slug": "a-user-reports-that-they-are-unable-to-access-the-hospital-management--mif-033",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 33,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A user reports that they are unable to access the hospital management system due to a denial-of-service (DoS) attack. What steps would you take to mitigate the attack and restore system availability?",
+   "options": [
+    "Implement a web application firewall (WAF) to filter malicious traffic",
+    "Implement rate-limiting mechanisms to prevent excessive requests",
+    "Utilize a content delivery network (CDN) to distribute the system's resources",
+    "All the answer are correct"
+   ],
+   "explanation": "WAF filtering, rate limiting and CDN distribution are complementary layers of DoS mitigation, normally deployed together rather than chosen between."
+  },
+  "fr": {
+   "stem": "Un utilisateur signale qu'il ne peut pas acceder au systeme de gestion de l'hopital en raison d'une attaque par deni de service (DoS). Quelles mesures prendriez-vous pour attenuer l'attaque et restaurer la disponibilite du systeme ?",
+   "options": [
+    "Implementez un pare-feu d'application Web (WAF) pour filtrer le trafic malveillant",
+    "Mettre en oeuvre des mecanismes de limitation de debit pour eviter les demandes excessives",
+    "Utiliser un reseau de diffusion de contenu (CDN) pour distribuer les ressources du systeme",
+    "Toutes les reponses sont correctes"
+   ],
+   "explanation": "Le filtrage WAF, la limitation de debit et le CDN sont des couches complementaires."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-034",
+  "slug": "what-should-you-do-before-upgrading-the-operating-system-on-a-user-s-c-mif-034",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 34,
+  "topic": "Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "What should you do before upgrading the operating system on a user's computer?",
+   "options": [
+    "Disconnect from the internet",
+    "Remove all applications",
+    "Back up important data",
+    "Format the hard drive"
+   ],
+   "explanation": "A verified backup is the mandatory first step - an upgrade can fail and leave data unrecoverable."
+  },
+  "fr": {
+   "stem": "Que devez-vous faire avant de mettre a niveau le systeme d'exploitation sur l'ordinateur d'un utilisateur ?",
+   "options": [
+    "Se deconnecter d'Internet",
+    "Supprimer toutes les applications",
+    "Sauvegarder les donnees importantes",
+    "Formater le disque dur"
+   ],
+   "explanation": "Une sauvegarde verifiee est l'etape obligatoire avant toute mise a niveau."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-035",
+  "slug": "what-is-the-purpose-of-a-ups-uninterruptible-power-supply-mif-035",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 35,
+  "topic": "Hardware",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "What is the purpose of a UPS (Uninterruptible Power Supply)?",
+   "options": [
+    "To provide backup power",
+    "To increase processing speed",
+    "To protect against viruses",
+    "To connect multiple devices"
+   ],
+   "explanation": "A UPS supplies battery power during an outage so equipment can ride through it or shut down cleanly."
+  },
+  "fr": {
+   "stem": "A quoi sert un UPS (Uninterruptible Power Supply) ?",
+   "options": [
+    "Pour fournir une alimentation de secours",
+    "Pour augmenter la vitesse de traitement",
+    "Pour se proteger contre les virus",
+    "Pour connecter plusieurs appareils"
+   ],
+   "explanation": "Un onduleur fournit une alimentation sur batterie pendant une coupure."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-036",
+  "slug": "what-is-the-main-purpose-of-antivirus-software-mif-036",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 36,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "What is the main purpose of antivirus software?",
+   "options": [
+    "To speed up the computer",
+    "To manage files",
+    "To detect and remove malware",
+    "To improve graphics"
+   ],
+   "explanation": "Antivirus software identifies malicious code by signature and behaviour, then quarantines or removes it."
+  },
+  "fr": {
+   "stem": "Quel est l'objectif principal d'un logiciel antivirus ?",
+   "options": [
+    "Pour accelerer l'ordinateur",
+    "Pour gerer les fichiers",
+    "Pour detecter et supprimer les logiciels malveillants",
+    "Pour ameliorer les graphismes"
+   ],
+   "explanation": "L'antivirus identifie le code malveillant puis le met en quarantaine ou le supprime."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-037",
+  "slug": "which-of-the-following-is-an-example-of-two-factor-authentication-mif-037",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 37,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Which of the following is an example of two-factor authentication?",
+   "options": [
+    "Password and username",
+    "Password and fingerprint",
+    "Password and CAPTCHA",
+    "Password and security question"
+   ],
+   "explanation": "Two factors must come from different categories: something you know plus something you are. A password paired with a username, CAPTCHA or security question is still only one category."
+  },
+  "fr": {
+   "stem": "Lequel des elements suivants est un exemple d'authentification a deux facteurs ?",
+   "options": [
+    "Mot de passe et nom d'utilisateur",
+    "Mot de passe et empreinte digitale",
+    "Mot de passe et CAPTCHA",
+    "Mot de passe et question de securite"
+   ],
+   "explanation": "Les deux facteurs doivent provenir de categories differentes : ce que vous savez et ce que vous etes."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-038",
+  "slug": "when-setting-up-a-new-user-account-what-is-an-important-first-step-mif-038",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 38,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "When setting up a new user account, what is an important first step?",
+   "options": [
+    "Deleting old user accounts",
+    "Assigning administrative rights",
+    "Installing all available software",
+    "Creating a strong password"
+   ],
+   "explanation": "A strong password comes first. Handing out administrative rights by default violates least privilege and is the opposite of good practice."
+  },
+  "fr": {
+   "stem": "Lors de la creation d'un nouveau compte utilisateur, quelle est la premiere etape importante ?",
+   "options": [
+    "Suppression des anciens comptes d'utilisateurs",
+    "Attribution de droits d'administration",
+    "Installation de tous les logiciels disponibles",
+    "Creer un mot de passe fort"
+   ],
+   "explanation": "Un mot de passe fort vient en premier. Accorder des droits d'administration par defaut viole le moindre privilege."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-039",
+  "slug": "which-command-would-you-use-to-restart-a-windows-computer-from-the-com-mif-039",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 39,
+  "topic": "Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Which command would you use to restart a Windows computer from the Command Prompt?",
+   "options": [
+    "exit",
+    "reboot",
+    "shutdown /r",
+    "restart"
+   ],
+   "explanation": "shutdown /r restarts Windows. reboot and restart are not Windows commands, and exit only closes the prompt."
+  },
+  "fr": {
+   "stem": "Quelle commande utiliseriez-vous pour redemarrer un ordinateur Windows a partir de l'invite de commande ?",
+   "options": [
+    "exit",
+    "reboot",
+    "shutdown /r",
+    "restart"
+   ],
+   "explanation": "shutdown /r redemarre Windows. reboot et restart ne sont pas des commandes Windows."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-040",
+  "slug": "which-of-the-following-is-considered-a-strong-password-mif-040",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 40,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Which of the following is considered a strong password?",
+   "options": [
+    "P@ssw0rd!",
+    "12345678",
+    "password",
+    "qwerty"
+   ],
+   "explanation": "Of the four, only P@ssw0rd! mixes character classes. In real use it is still weak, because it is a dictionary word with predictable substitutions - length and unpredictability matter more than symbol count."
+  },
+  "fr": {
+   "stem": "Lequel des elements suivants est considere comme un mot de passe fort ?",
+   "options": [
+    "P@ssw0rd!",
+    "12345678",
+    "password",
+    "qwerty"
+   ],
+   "explanation": "Seul P@ssw0rd! melange les classes de caracteres, meme s'il reste faible en pratique."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-041",
+  "slug": "which-tool-would-you-use-to-check-for-disk-errors-in-windows-mif-041",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 41,
+  "topic": "Operating Systems",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Which tool would you use to check for disk errors in Windows?",
+   "options": [
+    "Disk Management",
+    "Task Manager",
+    "chkdsk",
+    "Disk Cleanup"
+   ],
+   "explanation": "chkdsk scans the file system and disk surface for errors. Disk Management partitions drives; Disk Cleanup only frees space."
+  },
+  "fr": {
+   "stem": "Quel outil utiliseriez-vous pour verifier les erreurs de disque sous Windows ?",
+   "options": [
+    "Gestion de disque",
+    "Gestionnaire des taches",
+    "chkdsk",
+    "Nettoyage de disque"
+   ],
+   "explanation": "chkdsk analyse le systeme de fichiers et la surface du disque a la recherche d'erreurs."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-042",
+  "slug": "what-is-the-primary-function-of-a-router-mif-042",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 42,
+  "topic": "Networking",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "What is the primary function of a router?",
+   "options": [
+    "To run applications",
+    "To store data",
+    "To print documents",
+    "To connect computers to the internet"
+   ],
+   "explanation": "A router forwards packets between networks, which is what links a local network to the internet."
+  },
+  "fr": {
+   "stem": "Quelle est la fonction principale d'un routeur ?",
+   "options": [
+    "Pour executer des applications",
+    "Pour stocker des donnees",
+    "Pour imprimer des documents",
+    "Pour connecter les ordinateurs a Internet"
+   ],
+   "explanation": "Un routeur achemine les paquets entre reseaux, reliant le reseau local a Internet."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-043",
+  "slug": "what-is-the-primary-benefit-of-using-cloud-storage-services-mif-043",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 43,
+  "topic": "Cloud",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "What is the primary benefit of using cloud storage services?",
+   "options": [
+    "Remote access to files",
+    "Faster processing speed",
+    "Improved graphics performance",
+    "Higher local storage capacity"
+   ],
+   "explanation": "Cloud storage makes files reachable from any location and device. It does not change local processing or graphics performance."
+  },
+  "fr": {
+   "stem": "Quel est le principal avantage de l'utilisation des services de stockage cloud ?",
+   "options": [
+    "Acces a distance aux fichiers",
+    "Vitesse de traitement plus rapide",
+    "Performances graphiques ameliorees",
+    "Capacite de stockage locale plus elevee"
+   ],
+   "explanation": "Le stockage cloud rend les fichiers accessibles depuis n'importe quel endroit et appareil."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-044",
+  "slug": "what-protocol-is-used-to-send-email-mif-044",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 44,
+  "topic": "Networking",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "What protocol is used to send email?",
+   "options": [
+    "HTTP",
+    "SMTP",
+    "POP3",
+    "IMAP"
+   ],
+   "explanation": "SMTP sends mail. POP3 and IMAP retrieve it; HTTP serves web content."
+  },
+  "fr": {
+   "stem": "Quel protocole est utilise pour envoyer des emails ?",
+   "options": [
+    "HTTP",
+    "SMTP",
+    "POP3",
+    "IMAP"
+   ],
+   "explanation": "SMTP envoie le courrier. POP3 et IMAP servent a le recuperer."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-045",
+  "slug": "a-user-reports-that-they-are-unable-to-access-the-hospital-management--mif-045",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 45,
+  "topic": "Networking",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A user reports that they are unable to access the hospital management system due to a firewall blocking the connection. What should you do to resolve this issue?",
+   "options": [
+    "Contact the system administrator for assistance",
+    "Inform the user that the system is down for maintenance",
+    "Configure the firewall to allow the system connection",
+    "Instruct the user to contact their internet service provider"
+   ],
+   "explanation": "Add the required rule so legitimate traffic is permitted. The other options either misinform the user or push the problem elsewhere."
+  },
+  "fr": {
+   "stem": "Un utilisateur signale qu'il ne peut pas acceder au systeme de gestion de l'hopital en raison d'un pare-feu bloquant la connexion. Que devez-vous faire pour resoudre ce probleme ?",
+   "options": [
+    "Contactez l'administrateur systeme pour obtenir de l'aide",
+    "Informer l'utilisateur que le systeme est en panne pour maintenance",
+    "Configurer le pare-feu pour autoriser la connexion au systeme",
+    "Demandez a l'utilisateur de contacter son fournisseur d'acces Internet"
+   ],
+   "explanation": "Ajoutez la regle necessaire pour autoriser le trafic legitime."
+  },
+  "answerIndex": 2,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-046",
+  "slug": "which-of-the-following-is-the-most-important-when-dealing-with-a-frust-mif-046",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 46,
+  "topic": "Customer Service",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Which of the following is the most important when dealing with a frustrated customer?",
+   "options": [
+    "Using technical jargon to assert authority",
+    "Speaking quickly to resolve the issue faster",
+    "Redirecting them to online resources",
+    "Maintaining a calm and empathetic demeanor"
+   ],
+   "explanation": "Staying calm and empathetic is what actually de-escalates. Speaking quickly tends to make a frustrated caller feel dismissed."
+  },
+  "fr": {
+   "stem": "Parmi les elements suivants, lequel est le plus important lorsque vous traitez avec un client frustre ?",
+   "options": [
+    "Utiliser le jargon technique pour affirmer l'autorite",
+    "Parler vite pour resoudre le probleme plus rapidement",
+    "Les rediriger vers des ressources en ligne",
+    "Garder une attitude calme et empathique"
+   ],
+   "explanation": "Rester calme et empathique desamorce reellement la situation."
+  },
+  "answerIndex": 3,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-047",
+  "slug": "what-is-a-common-reason-for-emails-being-marked-as-spam-mif-047",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 47,
+  "topic": "IT Fundamentals",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "What is a common reason for emails being marked as spam?",
+   "options": [
+    "Large attachments",
+    "Use of common phrases and links associated with spam",
+    "Multiple recipients",
+    "Short message content"
+   ],
+   "explanation": "Spam filters score message content against known spam patterns - trigger phrases and suspicious links. Recipient count alone does not mark a message as spam."
+  },
+  "fr": {
+   "stem": "Quelle est la raison courante pour laquelle les e-mails sont marques comme spam ?",
+   "options": [
+    "Pieces jointes volumineuses",
+    "Utilisation d'expressions courantes et de liens associes au spam",
+    "Plusieurs destinataires",
+    "Contenu du message court"
+   ],
+   "explanation": "Les filtres analysent le contenu par rapport a des motifs de spam connus."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-048",
+  "slug": "which-of-the-following-is-an-example-of-a-phishing-attack-mif-048",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 48,
+  "topic": "Cybersecurity",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Which of the following is an example of a phishing attack?",
+   "options": [
+    "A system-generated error message",
+    "An email that asks for personal information by pretending to be from a legitimate source",
+    "A newsletter subscription confirmation",
+    "A software update notification"
+   ],
+   "explanation": "Phishing is social engineering by impersonation - a message that pretends to be a trusted sender in order to extract credentials or personal data."
+  },
+  "fr": {
+   "stem": "Lequel des elements suivants est un exemple d'attaque de phishing ?",
+   "options": [
+    "Un message d'erreur genere par le systeme",
+    "Un e-mail qui demande des informations personnelles en pretendant provenir d'une source legitime",
+    "Une confirmation d'inscription a la newsletter",
+    "Une notification de mise a jour du logiciel"
+   ],
+   "explanation": "Le phishing est une usurpation d'identite visant a extraire des identifiants ou des donnees personnelles."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-049",
+  "slug": "a-user-reports-that-their-computer-screen-is-flickering-what-should-be-mif-049",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 49,
+  "topic": "Troubleshooting",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A user reports that their computer screen is flickering. What should be your first step in troubleshooting this issue?",
+   "options": [
+    "Update the graphics driver",
+    "Replace the monitor",
+    "Reinstall the operating system",
+    "Check the power supply"
+   ],
+   "explanation": "Update the driver first: it is free, reversible and a very common cause. Replacing hardware or reinstalling the OS are far more disruptive and belong later in the sequence."
+  },
+  "fr": {
+   "stem": "Un utilisateur signale que l'ecran de son ordinateur scintille. Quelle devrait etre votre premiere etape pour resoudre ce probleme ?",
+   "options": [
+    "Mettre a jour le pilote graphique",
+    "Remplacer le moniteur",
+    "Reinstaller le systeme d'exploitation",
+    "Verifier l'alimentation"
+   ],
+   "explanation": "Mettez d'abord a jour le pilote : c'est gratuit, reversible et une cause tres frequente."
+  },
+  "answerIndex": 0,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "MIF-050",
+  "slug": "what-does-saas-stand-for-in-cloud-computing-mif-050",
+  "examSource": "MIFOTRA Centralized ICT Acquisition Officer",
+  "examNumber": 50,
+  "topic": "Cloud",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "What does SaaS stand for in cloud computing?",
+   "options": [
+    "System as a Service",
+    "Software as a Service",
+    "Security as a Service",
+    "Storage as a Service"
+   ],
+   "explanation": "Software as a Service - applications delivered over the network, with the provider managing the underlying infrastructure entirely."
+  },
+  "fr": {
+   "stem": "Que signifie SaaS dans le cloud computing ?",
+   "options": [
+    "System as a Service",
+    "Logiciel en tant que service",
+    "Securite en tant que service",
+    "Stockage en tant que service"
+   ],
+   "explanation": "Logiciel en tant que service - des applications livrees via le reseau, l'infrastructure etant geree par le fournisseur."
+  },
+  "answerIndex": 1,
+  "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0001",
+  "slug": "a-junior-technician-notices-collisions-on-an-interface-connected-to-a--l0001",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A junior technician notices collisions on an interface connected to a legacy hub. Which duplex setting is most likely causing this issue?",
+   "options": [
+    "Half-duplex",
+    "Full-duplex",
+    "Auto-negotiation",
+    "Simplex"
+   ],
+   "explanation": "Hubs operate in half-duplex, which is a shared collision domain. Full-duplex allows simultaneous transmission and reception without collisions."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0002",
+  "slug": "after-replacing-a-pc-the-switchport-logs-show-a-continuous-flapping-of-l0002",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "After replacing a PC, the switchport logs show a continuous flapping of MAC addresses. What is the most probable reason for this behavior?",
+   "options": [
+    "A Layer 2 loop due to disabled spanning tree",
+    "A duplex mismatch",
+    "A speed mismatch",
+    "A faulty NIC on the PC"
+   ],
+   "explanation": "MAC address flapping is a classic symptom of a Layer 2 loop, where broadcast frames circle endlessly and cause the switch to continually update its MAC address table with different ports for the same MAC."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0003",
+  "slug": "an-engineer-analyzes-a-packet-capture-and-observes-arp-replies-arrivin-l0003",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "An engineer analyzes a packet capture and observes ARP replies arriving without corresponding ARP requests. This behavior is indicative of what process or attack?",
+   "options": [
+    "Gratuitous ARP or ARP spoofing",
+    "DHCP discover",
+    "DNS recursion",
+    "ICMP redirect"
+   ],
+   "explanation": "Gratuitous ARPs are sent without requests to update neighbor caches (e.g., for HA failover), but they can also be used maliciously for ARP spoofing (poisoning)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0004",
+  "slug": "users-complain-of-slow-performance-an-interface-shows-late-collisions--l0004",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Users complain of slow performance. An interface shows late collisions and CRC errors. What is the standard troubleshooting step for this symptom?",
+   "options": [
+    "Verify duplex settings on both ends of the link",
+    "Check the routing table",
+    "Clear the ARP cache",
+    "Reboot the switch"
+   ],
+   "explanation": "Late collisions and CRC errors often indicate a duplex mismatch (e.g., one side full-duplex, the other side half-duplex)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0005",
+  "slug": "a-router-needs-to-forward-a-packet-but-its-arp-cache-is-empty-for-the--l0005",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A router needs to forward a packet but its ARP cache is empty for the destination IP on a directly connected subnet. What does the router do next?",
+   "options": [
+    "Broadcasts an ARP request for the destination IP MAC address",
+    "Drops the packet",
+    "Sends the packet to the default gateway",
+    "Sends an ICMP unreach"
+   ],
+   "explanation": "Before encapsulating a packet into a frame for a local subnet, a device must know the destination MAC address. It uses an ARP request to find it."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0006",
+  "slug": "a-router-has-three-routes-to-10-1-1-0-24-an-ospf-route-an-eigrp-route--l0006",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A router has three routes to 10.1.1.0/24: an OSPF route, an EIGRP route, and a Static route. Which route will be installed in the routing table?",
+   "options": [
+    "The Static route",
+    "The OSPF route",
+    "The EIGRP route",
+    "All of them"
+   ],
+   "explanation": "Administrative Distance determines route preference. Static=1, EIGRP=90, OSPF=110. The static route has the lowest AD and is preferred."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0007",
+  "slug": "a-packet-is-destined-for-192-168-1-130-the-routing-table-has-192-168-1-l0007",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A packet is destined for 192.168.1.130. The routing table has 192.168.1.0/24 (AD 110) and 192.168.1.128/26 (AD 120). Which path does the router choose?",
+   "options": [
+    "The 192.168.1.128/26 route",
+    "The 192.168.1.0/24 route",
+    "It load balances",
+    "It drops the packet"
+   ],
+   "explanation": "The router uses the longest prefix match rule first, regardless of administrative distance. The /26 is more specific."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0008",
+  "slug": "a-technician-configures-a-floating-static-route-as-a-backup-to-an-eigr-l0008",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A technician configures a floating static route as a backup to an EIGRP learned route for branch office connectivity. What is the necessary configuration step?",
+   "options": [
+    "Set the static route AD to a value higher than 90",
+    "Set the static route AD to a value lower than 90",
+    "Change the EIGRP AD to 1",
+    "Configure route summarization"
+   ],
+   "explanation": "A floating static route acts as a backup. EIGRP has an AD of 90. To make the static route less preferred, its AD must be configured higher than 90."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0009",
+  "slug": "looking-at-the-show-ip-route-output-you-see-a-route-marked-with-a-d-wh-l0009",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Looking at the `show ip route` output, you see a route marked with a \"D\". What routing protocol generated this entry?",
+   "options": [
+    "EIGRP",
+    "OSPF",
+    "BGP",
+    "RIP"
+   ],
+   "explanation": "In the Cisco routing table, \"D\" stands for DUAL, the algorithm used by EIGRP."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0010",
+  "slug": "you-need-to-route-traffic-to-the-internet-but-do-not-have-a-specific-r-l0010",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "You need to route traffic to the internet but do not have a specific route in the routing table. What kind of route should be configured?",
+   "options": [
+    "A default static route (0.0.0.0/0)",
+    "A dynamic routing protocol",
+    "A host route (/32)",
+    "A loopback route"
+   ],
+   "explanation": "A default route (0.0.0.0 0.0.0.0) acts as the gateway of last resort when no specific route matches the destination."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0011",
+  "slug": "an-admin-notices-a-routing-loop-forming-between-three-routers-running--l0011",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An admin notices a routing loop forming between three routers running RIPv2. Which mechanism prevents routing loops by not advertising a route back on the interface it was learned from?",
+   "options": [
+    "Split Horizon",
+    "Poison Reverse",
+    "Holddown Timers",
+    "Route Summarization"
+   ],
+   "explanation": "Split horizon is a distance vector loop prevention mechanism that dictates a route cannot be advertised back out the interface it was learned on."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0012",
+  "slug": "a-multi-access-ospf-network-needs-to-elect-a-dr-and-bdr-which-router-a-l0012",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A multi-access OSPF network needs to elect a DR and BDR. Which router attribute is evaluated first to determine the DR?",
+   "options": [
+    "Highest OSPF Priority",
+    "Highest Router ID",
+    "Highest Loopback IP",
+    "Highest Physical IP"
+   ],
+   "explanation": "OSPF DR election first looks at interface Priority (default is 1). If there is a tie, it breaks the tie using the highest Router ID."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0013",
+  "slug": "two-ospf-routers-are-connected-over-a-point-to-point-link-one-router-i-l0013",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Two OSPF routers are connected over a point-to-point link. One router is stuck in the EXSTART state. What is the most likely cause of this issue?",
+   "options": [
+    "MTU mismatch on the interfaces",
+    "Subnet mask mismatch",
+    "Hello timer mismatch",
+    "Authentication failure"
+   ],
+   "explanation": "EXSTART is where the routers establish master/slave relation and MTU. If the MTU sizes do not match, the routers will be stuck in EXSTART/EXCHANGE."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0014",
+  "slug": "a-network-architect-is-designing-a-multi-area-ospf-network-what-is-the-l0014",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A network architect is designing a multi-area OSPF network. What is the strict requirement regarding Area 0?",
+   "options": [
+    "All other areas must connect directly to Area 0",
+    "Area 0 must contain the ASBR",
+    "Area 0 cannot contain summary LSAs",
+    "Area 0 must use authentication"
+   ],
+   "explanation": "In OSPF, Area 0 is the backbone. All non-backbone areas must physically (or logically via virtual link) connect directly to Area 0 to prevent routing loops."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0015",
+  "slug": "a-technician-is-analyzing-ospf-lsas-which-lsa-type-is-used-by-an-abr-t-l0015",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Cisco CCNA",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician is analyzing OSPF LSAs. Which LSA type is used by an ABR to advertise routes between different areas?",
+   "options": [
+    "Type 3 LSA (Summary LSA)",
+    "Type 1 LSA (Router LSA)",
+    "Type 2 LSA (Network LSA)",
+    "Type 5 LSA (External LSA)"
+   ],
+   "explanation": "Type 3 Summary LSAs are generated by Area Border Routers (ABRs) to flood inter-area routing information into other areas."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0077",
+  "slug": "a-user-submits-a-ticket-stating-their-screen-is-completely-black-but-t-l0077",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A user submits a ticket stating their screen is completely black, but the computer fan is spinning. What is the FIRST troubleshooting step?",
+   "options": [
+    "Check the monitor power and display cable connections",
+    "Reinstall the graphics driver",
+    "Replace the motherboard",
+    "Run a virus scan"
+   ],
+   "explanation": "Always start troubleshooting at the physical layer (Layer 1). Checking power cables and display connections is the simplest and most common fix."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0078",
+  "slug": "a-help-desk-technician-receives-a-blue-screen-of-death-bsod-error-indi-l0078",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A help desk technician receives a \"Blue Screen of Death\" (BSOD) error indicating \"PAGE_FAULT_IN_NONPAGED_AREA\". What is the most likely hardware culprit?",
+   "options": [
+    "RAM (Memory)",
+    "Power Supply",
+    "Network Interface Card",
+    "Optical Drive"
+   ],
+   "explanation": "This specific BSOD usually points to faulty RAM, incorrect memory timings, or sometimes a bad driver trying to access invalid memory addresses."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0079",
+  "slug": "an-employee-reports-that-a-local-network-printer-is-printing-garbled-t-l0079",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An employee reports that a local network printer is printing garbled text instead of the actual document. What is the most probable cause?",
+   "options": [
+    "An incorrect or corrupted printer driver",
+    "The printer is out of toner",
+    "The print spooler service has stopped",
+    "The network switch is dropping packets"
+   ],
+   "explanation": "Garbled or \"gibberish\" printouts occur when the printer receives data it cannot understand, almost always due to an incorrect or corrupted driver."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0080",
+  "slug": "a-user-s-laptop-connects-to-the-wi-fi-but-shows-no-internet-access-the-l0080",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A user’s laptop connects to the Wi-Fi but shows \"No Internet Access\". The IP address assigned is 169.254.x.x. What does this indicate?",
+   "options": [
+    "The DHCP server is unreachable and APIPA assigned the IP",
+    "The DNS server is down",
+    "The user typed the wrong Wi-Fi password",
+    "The router is blocking the MAC address"
+   ],
+   "explanation": "A 169.254.x.x address is an Automatic Private IP Address (APIPA), assigned by the OS when it cannot reach a DHCP server."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0081",
+  "slug": "a-tier-1-agent-cannot-resolve-a-complex-database-connectivity-issue-af-l0081",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A tier-1 agent cannot resolve a complex database connectivity issue after 30 minutes of troubleshooting. What is the proper ITIL procedure?",
+   "options": [
+    "Escalate the ticket to Tier 2 or the database team",
+    "Close the ticket and ask the user to reboot",
+    "Leave the ticket open indefinitely",
+    "Tell the user the system is broken"
+   ],
+   "explanation": "Escalation paths ensure that complex issues are handed off to specialized teams within the SLA timeframes."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0082",
+  "slug": "a-user-complains-of-application-crashes-immediately-after-installing-a-l0082",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A user complains of application crashes immediately after installing a new Windows update. What is the fastest way to restore functionality?",
+   "options": [
+    "Uninstall the recent Windows update or use System Restore",
+    "Reformat the hard drive",
+    "Upgrade the application to a beta version",
+    "Replace the CPU"
+   ],
+   "explanation": "Rolling back the update or using a system restore point removes the conflicting patch and quickly restores system stability."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0083",
+  "slug": "a-remote-user-needs-software-installed-requiring-administrative-privil-l0083",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A remote user needs software installed, requiring administrative privileges. What Windows tool allows the IT agent to take control of their screen and input credentials?",
+   "options": [
+    "Quick Assist / Remote Desktop Connection",
+    "Task Manager",
+    "Event Viewer",
+    "Command Prompt"
+   ],
+   "explanation": "Remote support tools like Quick Assist, RDP, or TeamViewer allow help desk staff to view the screen and enter admin credentials securely."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0084",
+  "slug": "a-user-can-log-into-their-windows-pc-but-cannot-access-a-department-sh-l0084",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A user can log into their Windows PC but cannot access a department shared folder. Permissions are granted via AD groups. What is the most likely reason?",
+   "options": [
+    "The user is not a member of the correct security group",
+    "The user's password has expired",
+    "The domain controller is offline",
+    "The PC is in a workgroup"
+   ],
+   "explanation": "Access to resources in an AD environment is managed by Security Groups. Missing group membership prevents access."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0085",
+  "slug": "group-policy-objects-gpos-are-applied-in-a-specific-order-according-to-l0085",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Group Policy Objects (GPOs) are applied in a specific order. According to the LSDOU model, which policy is applied LAST and has the highest precedence?",
+   "options": [
+    "Organizational Unit (OU)",
+    "Local",
+    "Site",
+    "Domain"
+   ],
+   "explanation": "GPOs are processed in the order of Local, Site, Domain, and finally OU. The last applied policy wins in the event of a conflict."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0086",
+  "slug": "a-technician-is-setting-up-a-new-pc-and-joins-it-to-the-company-domain-l0086",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A technician is setting up a new PC and joins it to the company domain. What primary advantage does a Domain have over a Workgroup?",
+   "options": [
+    "Centralized authentication and management",
+    "Faster internet speeds",
+    "Built-in antivirus protection",
+    "Free software licensing"
+   ],
+   "explanation": "Domains use Active Directory for centralized identity management and policy enforcement, whereas Workgroups require local accounts on every PC."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0087",
+  "slug": "an-admin-deletes-a-user-account-by-mistake-after-recreating-the-exact--l0087",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An admin deletes a user account by mistake. After recreating the exact same username, the user still cannot access their previous files. Why?",
+   "options": [
+    "The new account has a different Security Identifier (SID)",
+    "The password is different",
+    "The DNS cache needs to be flushed",
+    "The group policy needs to update"
+   ],
+   "explanation": "Active Directory tracks objects by a unique SID, not the username. Recreating an account creates a new SID."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0088",
+  "slug": "which-ad-component-acts-as-a-container-to-organize-users-groups-and-co-l0088",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which AD component acts as a container to organize users, groups, and computers, and allows for GPO delegation?",
+   "options": [
+    "Organizational Unit (OU)",
+    "Distribution Group",
+    "Forest Root",
+    "Global Catalog"
+   ],
+   "explanation": "OUs are logical containers used to organize objects and apply Group Policies selectively."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0089",
+  "slug": "a-user-is-locked-out-of-their-workstation-which-ad-snap-in-tool-is-pri-l0089",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A user is locked out of their workstation. Which AD snap-in tool is primarily used by help desk to unlock accounts and reset passwords?",
+   "options": [
+    "Active Directory Users and Computers (ADUC)",
+    "Active Directory Sites and Services",
+    "Group Policy Management",
+    "DNS Manager"
+   ],
+   "explanation": "ADUC is the standard administrative tool used for daily identity management tasks like password resets and account unlocks."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0090",
+  "slug": "an-administrator-forces-a-group-policy-update-on-a-client-pc-by-runnin-l0090",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "An administrator forces a Group Policy update on a client PC by running `gpupdate /force`. Which command verifies what policies are actually applied to the user and PC?",
+   "options": [
+    "gpresult /r",
+    "ipconfig /all",
+    "nslookup",
+    "netstat -an"
+   ],
+   "explanation": "The `gpresult` tool displays the Resultant Set of Policy (RSoP) to show exactly which GPOs were applied or denied on a machine."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0091",
+  "slug": "multiple-users-need-to-send-and-receive-email-from-a-generic-address-e-l0091",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Information Technology",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Multiple users need to send and receive email from a generic address (e.g., support@company.com) without consuming an extra license. What Exchange Online feature should be used?",
+   "options": [
+    "Shared Mailbox",
+    "Distribution List",
+    "Office 365 Group",
+    "Public Folder"
+   ],
+   "explanation": "A Shared Mailbox allows multiple users to read and send email from a common address, and it does not require a separate M365 license."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0117",
+  "slug": "a-technician-is-replacing-a-laptop-keyboard-after-reassembly-the-displ-l0117",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A technician is replacing a laptop keyboard. After reassembly, the display does not turn on but external monitors work. The MOST likely cause is...",
+   "options": [
+    "The display ribbon cable was not reconnected properly.",
+    "The graphics card is burned out.",
+    "The laptop needs a BIOS update.",
+    "The keyboard is incompatible."
+   ],
+   "explanation": "When working inside a laptop, a common mistake is failing to securely seat the fragile ribbon cables, such as the one for the built-in display."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0118",
+  "slug": "a-user-complains-their-mobile-device-screen-frequently-turns-off-when--l0118",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A user complains their mobile device screen frequently turns off when they hold it to their ear during a call. What component is responsible?",
+   "options": [
+    "Proximity sensor",
+    "Ambient light sensor",
+    "Gyroscope",
+    "Digitizer"
+   ],
+   "explanation": "The proximity sensor detects when an object is close to the screen (like a face) and disables the display to save power and prevent accidental touches."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0119",
+  "slug": "a-network-technician-is-tasked-with-running-cables-through-an-air-circ-l0119",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A network technician is tasked with running cables through an air circulation space above a drop ceiling. What type of cable MUST be used?",
+   "options": [
+    "Plenum",
+    "PVC",
+    "STP",
+    "Fiber optic"
+   ],
+   "explanation": "Plenum-rated cables have a special fire-retardant jacket that produces less toxic smoke if burned, which is required by fire code for air-handling spaces."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0120",
+  "slug": "a-small-business-needs-to-upgrade-its-wireless-network-to-support-the--l0120",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A small business needs to upgrade its wireless network to support the maximum number of devices and highest speeds utilizing both 2.4 GHz and 5 GHz bands, plus a 6 GHz band. Which standard should they adopt?",
+   "options": [
+    "Wi-Fi 6E",
+    "Wi-Fi 5",
+    "Wi-Fi 6",
+    "802.11ac"
+   ],
+   "explanation": "Wi-Fi 6E extends the capabilities of Wi-Fi 6 (802.11ax) into the 6 GHz spectrum for less interference and higher speeds."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0121",
+  "slug": "a-user-is-upgrading-their-motherboard-and-cpu-the-new-processor-is-an--l0121",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A user is upgrading their motherboard and CPU. The new processor is an AMD Ryzen 7000 series. Which CPU socket type should the new motherboard have?",
+   "options": [
+    "AM5",
+    "AM4",
+    "LGA1700",
+    "LGA1200"
+   ],
+   "explanation": "AMD Ryzen 7000 series processors use the AM5 LGA socket, marking a departure from the PGA AM4 socket."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0122",
+  "slug": "a-gamer-is-building-a-new-pc-and-wants-the-fastest-possible-boot-times-l0122",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A gamer is building a new PC and wants the fastest possible boot times and game loading speeds. Which storage technology should they install on their motherboard?",
+   "options": [
+    "NVMe M.2 SSD",
+    "SATA III SSD",
+    "7200 RPM HDD",
+    "eMMC"
+   ],
+   "explanation": "NVMe M.2 SSDs use the PCIe bus, offering drastically higher read/write speeds compared to SATA SSDs or mechanical HDDs."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0123",
+  "slug": "a-developer-is-testing-an-application-on-a-type-2-hypervisor-they-are--l0123",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A developer is testing an application on a Type 2 hypervisor. They are about to install a major software update and want to quickly revert if it fails. What feature should they use?",
+   "options": [
+    "Snapshots",
+    "Clones",
+    "Resource pooling",
+    "Live migration"
+   ],
+   "explanation": "A snapshot captures the exact state of a virtual machine at a specific point in time, allowing for rapid rollback if something goes wrong."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0124",
+  "slug": "a-startup-is-developing-a-web-application-they-want-to-rent-servers-st-l0124",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A startup is developing a web application. They want to rent servers, storage, and networking from a cloud provider but will install and manage their own OS and databases. Which service model is this?",
+   "options": [
+    "IaaS",
+    "PaaS",
+    "SaaS",
+    "DaaS"
+   ],
+   "explanation": "Infrastructure as a Service (IaaS) provides the fundamental compute, network, and storage resources, leaving the OS and application management to the customer."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0125",
+  "slug": "a-user-reports-that-their-laser-printer-is-producing-pages-with-ghoste-l0125",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A user reports that their laser printer is producing pages with ghosted images from previous prints. Which step of the laser printing process is MOST likely failing?",
+   "options": [
+    "Cleaning",
+    "Exposing",
+    "Developing",
+    "Fusing"
+   ],
+   "explanation": "If the cleaning blade or erase lamps fail during the Cleaning step, residual toner or electrical charge remains on the drum, causing ghosting."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0126",
+  "slug": "a-technician-is-troubleshooting-a-desktop-that-powers-on-fans-spin-but-l0126",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician is troubleshooting a desktop that powers on, fans spin, but there is no display and it emits 3 short beeps. What does this indicate?",
+   "options": [
+    "A POST error, likely related to RAM.",
+    "The CPU is overheating.",
+    "The hard drive has failed.",
+    "The power supply is failing."
+   ],
+   "explanation": "Beep codes are used during the Power-On Self-Test (POST) to indicate hardware failures before video is initialized. 3 short beeps often indicate memory errors."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0127",
+  "slug": "a-company-requires-all-corporate-laptops-to-have-their-hard-drives-enc-l0127",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A company requires all corporate laptops to have their hard drives encrypted to protect data in case of theft. Which Windows feature provides full volume encryption?",
+   "options": [
+    "BitLocker",
+    "EFS",
+    "Windows Defender",
+    "UAC"
+   ],
+   "explanation": "BitLocker provides full drive encryption, whereas the Encrypting File System (EFS) is used for individual file and folder encryption."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0128",
+  "slug": "which-edition-of-windows-10-11-is-the-minimum-requirement-to-join-an-a-l0128",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which edition of Windows 10/11 is the minimum requirement to join an Active Directory domain?",
+   "options": [
+    "Pro",
+    "Home",
+    "Education",
+    "Mobile"
+   ],
+   "explanation": "Windows Home editions cannot join a Windows Server Active Directory domain; Pro or Enterprise is required."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0129",
+  "slug": "a-technician-suspects-a-device-driver-is-causing-system-instability-wh-l0129",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A technician suspects a device driver is causing system instability. Which tool allows them to view hardware conflicts, update drivers, or roll back to a previous driver version?",
+   "options": [
+    "Device Manager",
+    "Task Manager",
+    "Event Viewer",
+    "msconfig"
+   ],
+   "explanation": "Device Manager is the centralized Microsoft Management Console snap-in used to manage hardware devices and their drivers."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0130",
+  "slug": "you-run-sfc-scannow-and-it-reports-windows-resource-protection-found-c-l0130",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "You run `sfc /scannow` and it reports `Windows Resource Protection found corrupt files but was unable to fix some of them`. What is the NEXT best step?",
+   "options": [
+    "Run the DISM tool to repair the Windows image.",
+    "Reinstall Windows completely.",
+    "Run chkdsk /r.",
+    "Boot into Safe Mode and run it again."
+   ],
+   "explanation": "DISM (Deployment Image Servicing and Management) can repair the underlying Windows component store that SFC uses to fix corrupted files."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0131",
+  "slug": "a-macos-user-wants-to-restore-a-deleted-file-from-two-days-ago-which-b-l0131",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A macOS user wants to restore a deleted file from two days ago. Which built-in utility should they use?",
+   "options": [
+    "Time Machine",
+    "Finder",
+    "Disk Utility",
+    "Boot Camp"
+   ],
+   "explanation": "Time Machine is the native backup software for macOS, allowing users to restore individual files or the entire system from past backups."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0132",
+  "slug": "a-linux-admin-needs-to-assign-read-write-and-execute-permissions-to-th-l0132",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A Linux admin needs to assign read, write, and execute permissions to the owner of a script, but only read and execute to the group and others. Which command achieves this?",
+   "options": [
+    "chmod 755 script.sh",
+    "chmod 777 script.sh",
+    "chmod 644 script.sh",
+    "chmod 744 script.sh"
+   ],
+   "explanation": "In octal permission notation, 7 (4+2+1) is rwx for the owner, and 5 (4+1) is r-x for group and others. Thus, 755 is correct."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0133",
+  "slug": "a-user-is-trying-to-install-an-unverified-application-a-prompt-appears-l0133",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A user is trying to install an unverified application. A prompt appears asking for administrator credentials to allow the installation. What Windows security feature is triggering this prompt?",
+   "options": [
+    "UAC (User Account Control)",
+    "Windows Defender Firewall",
+    "BitLocker",
+    "SmartScreen"
+   ],
+   "explanation": "UAC helps prevent unauthorized changes to the operating system by prompting for elevation or credentials when administrative tasks are attempted."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0134",
+  "slug": "a-system-administrator-wrote-a-script-to-automate-the-creation-of-acti-l0134",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A system administrator wrote a script to automate the creation of Active Directory users and saved it with a .ps1 extension. Which language was used?",
+   "options": [
+    "PowerShell",
+    "Batch",
+    "Python",
+    "VBScript"
+   ],
+   "explanation": "The .ps1 file extension is used for Windows PowerShell scripts, which are heavily used for administration in Windows environments."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0135",
+  "slug": "a-user-experiences-a-blue-screen-of-death-bsod-with-the-stop-code-irql-l0135",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A user experiences a Blue Screen of Death (BSOD) with the stop code \"IRQL_NOT_LESS_OR_EQUAL\". What is the MOST common cause of this error?",
+   "options": [
+    "Incompatible or faulty device drivers.",
+    "Corrupted user profile.",
+    "Overheating CPU.",
+    "Fragmented hard drive."
+   ],
+   "explanation": "This specific BSOD usually occurs when a kernel-mode driver attempts to access an improper memory address, pointing to driver issues."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0136",
+  "slug": "a-technician-has-just-finished-replacing-a-faulty-power-supply-in-a-us-l0136",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician has just finished replacing a faulty power supply in a user's PC and verified that it boots successfully into Windows. What is the FINAL step of the CompTIA troubleshooting methodology?",
+   "options": [
+    "Document findings, actions, and outcomes.",
+    "Establish a theory of probable cause.",
+    "Implement the solution.",
+    "Test the theory."
+   ],
+   "explanation": "The final step in the troubleshooting process is always to document the issue, what was done to fix it, and the final outcome for future reference."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0137",
+  "slug": "a-laptop-screen-is-entirely-black-but-shining-a-flashlight-on-it-revea-l0137",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A laptop screen is entirely black, but shining a flashlight on it reveals a faint image of the Windows desktop. What component has failed?",
+   "options": [
+    "Backlight or inverter",
+    "LCD panel",
+    "Digitizer",
+    "Video card"
+   ],
+   "explanation": "A faint image indicates the LCD is rendering the image, but the backlight (or the inverter that powers it in older CCFL screens) has failed."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0138",
+  "slug": "a-user-needs-to-replace-a-failing-internal-storage-drive-in-a-thin-and-l0138",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A user needs to replace a failing internal storage drive in a thin-and-light ultrabook. Which form factor is MOST likely to fit?",
+   "options": [
+    "M.2 SSD",
+    "3.5-inch HDD",
+    "2.5-inch SSD",
+    "Optical drive"
+   ],
+   "explanation": "Ultrabooks and thin laptops almost exclusively use M.2 SSDs due to their small size and weight compared to 2.5-inch drives."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0139",
+  "slug": "a-technician-is-terminating-a-cat-6-cable-to-connect-a-pc-to-a-wall-ja-l0139",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician is terminating a Cat 6 cable to connect a PC to a wall jack. Which connector should be used?",
+   "options": [
+    "RJ-45",
+    "RJ-11",
+    "LC",
+    "F-connector"
+   ],
+   "explanation": "RJ-45 is the standard connector for twisted-pair Ethernet cables like Cat 5e, Cat 6, and Cat 6a."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0140",
+  "slug": "a-company-is-running-fiber-optic-cable-between-two-buildings-the-netwo-l0140",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A company is running fiber optic cable between two buildings. The networking team needs a connector that uses a push-pull mechanism and is half the size of older connectors. Which should they use?",
+   "options": [
+    "LC",
+    "SC",
+    "ST",
+    "BNC"
+   ],
+   "explanation": "The Lucent Connector (LC) is a small form-factor fiber optic connector that uses a push-pull latching mechanism."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0141",
+  "slug": "an-office-is-experiencing-slow-network-speeds-when-transferring-large--l0141",
+  "examSource": "CompTIA A+ 220-1101",
+  "examNumber": null,
+  "topic": "CompTIA Core",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "An office is experiencing slow network speeds when transferring large video files over the local network. They are currently using Cat 5 cable. What should they upgrade to for 1 Gbps speeds?",
+   "options": [
+    "Cat 5e or Cat 6",
+    "Cat 3",
+    "Coaxial",
+    "Cat 5"
+   ],
+   "explanation": "Cat 5 is limited to 100 Mbps. Upgrading to Cat 5e or higher supports Gigabit Ethernet (1 Gbps) or faster."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0177",
+  "slug": "a-user-wants-to-upgrade-their-windows-10-home-pc-to-a-version-that-sup-l0177",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A user wants to upgrade their Windows 10 Home PC to a version that supports Microsoft Hyper-V and remote desktop hosting. Which edition should they purchase?",
+   "options": [
+    "Windows 10 Pro",
+    "Windows 10 Education",
+    "Windows 10 Enterprise",
+    "Windows 10 S"
+   ],
+   "explanation": "Windows 10 Pro includes features for power users and small businesses, such as Hyper-V, BitLocker, and Remote Desktop server."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0178",
+  "slug": "an-administrator-needs-to-enforce-password-complexity-rules-across-all-l0178",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An administrator needs to enforce password complexity rules across all computers in a domain. Which Windows tool should they use?",
+   "options": [
+    "Group Policy",
+    "Registry Editor",
+    "Device Manager",
+    "Task Manager"
+   ],
+   "explanation": "Group Policy allows administrators to manage and enforce configurations, security policies, and software installations across a network."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0179",
+  "slug": "a-technician-is-trying-to-format-a-stubborn-usb-drive-that-fails-forma-l0179",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A technician is trying to format a stubborn USB drive that fails formatting in File Explorer. Which command-line tool allows for low-level partition management?",
+   "options": [
+    "diskpart",
+    "chkdsk",
+    "sfc",
+    "msconfig"
+   ],
+   "explanation": "Diskpart is a powerful command-line utility used to manage disks, partitions, and volumes, often used when GUI tools fail."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0180",
+  "slug": "a-user-wants-to-view-the-error-logs-for-an-application-that-keeps-cras-l0180",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A user wants to view the error logs for an application that keeps crashing. Which Windows utility provides detailed logs of system and application events?",
+   "options": [
+    "Event Viewer",
+    "Task Manager",
+    "Services.msc",
+    "Performance Monitor"
+   ],
+   "explanation": "Event Viewer is the central tool for viewing logs of system events, security audits, and application errors."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0181",
+  "slug": "which-macos-utility-is-the-equivalent-of-windows-file-explorer-used-fo-l0181",
+  "examSource": "CompTIA A+ 220-1102",
+  "examNumber": null,
+  "topic": "Hardware & Operating Systems",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Which macOS utility is the equivalent of Windows File Explorer, used for browsing files and applications?",
+   "options": [
+    "Finder",
+    "Spotlight",
+    "System Preferences",
+    "Mission Control"
+   ],
+   "explanation": "Finder is the default file manager and graphical user interface shell used on macOS."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0217",
+  "slug": "a-receptionist-receives-a-call-from-someone-claiming-to-be-the-ceo-dem-l0217",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A receptionist receives a call from someone claiming to be the CEO, demanding a password reset immediately because they are about to start a critical board meeting. This BEST describes which attack?",
+   "options": [
+    "Vishing",
+    "Phishing",
+    "Whaling",
+    "Tailgating"
+   ],
+   "explanation": "Vishing (voice phishing) uses a telephone call to socially engineer a victim. The urgency and authority are classic elements of this attack."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0218",
+  "slug": "an-employee-receives-an-sms-on-their-corporate-phone-stating-their-mul-l0218",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An employee receives an SMS on their corporate phone stating their multi-factor authentication app needs a critical update, including a link to download an APK. What type of attack is occurring?",
+   "options": [
+    "Smishing",
+    "Vishing",
+    "Pretexting",
+    "Whaling"
+   ],
+   "explanation": "Smishing uses SMS text messages to deliver malicious links or social engineering lures. Vishing uses voice, while pretexting is the broader creation of a fabricated scenario."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0219",
+  "slug": "a-contractor-holding-a-large-box-of-networking-equipment-waits-by-the--l0219",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A contractor holding a large box of networking equipment waits by the secure datacenter door until an authorized employee scans their badge and opens it, then follows them inside. This is known as...",
+   "options": [
+    "Tailgating",
+    "Piggybacking",
+    "Shoulder surfing",
+    "Baiting"
+   ],
+   "explanation": "Tailgating is following an authorized user into a restricted area without consent or proper authentication. Piggybacking implies the authorized user consented."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0220",
+  "slug": "the-cfo-of-a-logistics-company-receives-a-highly-customized-email-clai-l0220",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The CFO of a logistics company receives a highly customized email claiming a wire transfer for a known vendor has failed. The email contains a link to a fake banking portal. This attack is an example of...",
+   "options": [
+    "Whaling",
+    "Spam",
+    "Vishing",
+    "Baiting"
+   ],
+   "explanation": "Whaling is a highly targeted phishing attack aimed at senior executives (C-level) who have high-level access or financial authority."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0221",
+  "slug": "an-attacker-leaves-several-usb-drives-labeled-q3-layoffs-bonuses-in-th-l0221",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An attacker leaves several USB drives labeled \"Q3 Layoffs & Bonuses\" in the company parking lot, hoping curious employees will plug them into corporate workstations. This technique is called...",
+   "options": [
+    "Baiting",
+    "Watering hole",
+    "Pretexting",
+    "Dumpster diving"
+   ],
+   "explanation": "Baiting relies on curiosity or greed, offering something enticing (like a USB drive with an interesting label) to trick the victim into compromising their system."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0222",
+  "slug": "a-threat-actor-creates-a-fake-linkedin-profile-claiming-to-be-an-it-re-l0222",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A threat actor creates a fake LinkedIn profile claiming to be an IT recruiter. They spend weeks chatting with a systems administrator before asking them to run a \"skills assessment\" executable. This scenario heavily utilizes...",
+   "options": [
+    "Pretexting",
+    "Whaling",
+    "Phishing",
+    "Hoax"
+   ],
+   "explanation": "Pretexting involves creating a believable fabricated scenario (a pretext) to build trust over time before exploiting the victim."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0223",
+  "slug": "during-a-penetration-test-an-assessor-sits-in-the-break-room-and-watch-l0223",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "During a penetration test, an assessor sits in the break room and watches an employee type their complex password into a laptop. The assessor then uses these credentials later. What occurred?",
+   "options": [
+    "Shoulder surfing",
+    "Tailgating",
+    "Eavesdropping",
+    "Pretexting"
+   ],
+   "explanation": "Shoulder surfing involves visually observing a user entering sensitive information, such as a password or PIN."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0224",
+  "slug": "a-hospital-s-patient-records-system-suddenly-displays-a-red-screen-dem-l0224",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A hospital's patient records system suddenly displays a red screen demanding payment in Bitcoin within 48 hours to decrypt the database. What type of malware has infected the system?",
+   "options": [
+    "Ransomware",
+    "Spyware",
+    "Rootkit",
+    "Keylogger"
+   ],
+   "explanation": "Ransomware encrypts files or locks systems and demands payment for the decryption key or restoration of access."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0225",
+  "slug": "a-security-analyst-discovers-that-a-compromised-workstation-has-softwa-l0225",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A security analyst discovers that a compromised workstation has software installed that allows an attacker to remotely open the CD-ROM tray, turn on the webcam, and browse the filesystem without user knowledge. This is a...",
+   "options": [
+    "RAT",
+    "Worm",
+    "Logic bomb",
+    "Ransomware"
+   ],
+   "explanation": "A Remote Access Trojan (RAT) provides an attacker with administrative control over a target system over a network connection."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0226",
+  "slug": "after-a-suspected-breach-administrators-notice-that-standard-operating-l0226",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "After a suspected breach, administrators notice that standard operating system commands like 'ls' and 'ps' are not showing a malicious process that is consuming CPU resources. The malware has likely installed a...",
+   "options": [
+    "Rootkit",
+    "Trojan",
+    "Fileless malware",
+    "Spyware"
+   ],
+   "explanation": "Rootkits modify the core operating system (often hooking kernel functions) to hide their presence, processes, files, and network connections from standard tools."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0227",
+  "slug": "an-employee-unknowingly-downloads-a-malicious-browser-extension-that-r-l0227",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An employee unknowingly downloads a malicious browser extension that records every keystroke made on banking websites and sends the text to an external server. This malware is a...",
+   "options": [
+    "Keylogger",
+    "Adware",
+    "Rootkit",
+    "Worm"
+   ],
+   "explanation": "A keylogger records user keystrokes, often to steal credentials, credit card numbers, or other sensitive information."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0228",
+  "slug": "users-complain-that-their-web-browsers-are-constantly-redirecting-to-s-l0228",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Users complain that their web browsers are constantly redirecting to search engines they did not set, and pop-up ads appear even when the browser is closed. The systems are likely infected with...",
+   "options": [
+    "Spyware",
+    "Ransomware",
+    "Logic bomb",
+    "Fileless malware"
+   ],
+   "explanation": "Spyware secretly monitors user behavior and gathers information, often redirecting browsers, changing settings, and displaying unwanted advertisements (often overlapping with adware)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0229",
+  "slug": "a-piece-of-malware-exploits-a-vulnerability-in-smbv1-to-spread-rapidly-l0229",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A piece of malware exploits a vulnerability in SMBv1 to spread rapidly across a corporate network without any user interaction, infecting hundreds of machines in minutes. This behavior characterizes a...",
+   "options": [
+    "Worm",
+    "Trojan",
+    "Virus",
+    "Rootkit"
+   ],
+   "explanation": "Worms are self-replicating malware that spread across networks automatically without requiring a host file or user interaction."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0230",
+  "slug": "an-end-user-downloads-what-appears-to-be-a-legitimate-free-pdf-editor--l0230",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An end-user downloads what appears to be a legitimate free PDF editor from a third-party site. Once installed, it edits PDFs but also silently installs a backdoor. This is an example of a...",
+   "options": [
+    "Trojan",
+    "Worm",
+    "Keylogger",
+    "Ransomware"
+   ],
+   "explanation": "A Trojan horse disguises itself as legitimate or desirable software to trick users into installing it, while hiding malicious functionality."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0231",
+  "slug": "an-endpoint-detection-system-flags-unusual-powershell-activity-investi-l0231",
+  "examSource": "CompTIA Security+ SY0-701",
+  "examNumber": null,
+  "topic": "Cybersecurity",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "An endpoint detection system flags unusual PowerShell activity. Investigation reveals a malicious script running entirely in RAM, heavily obfuscated, leaving no executable footprint on the hard drive. This is...",
+   "options": [
+    "Fileless malware",
+    "Rootkit",
+    "Trojan",
+    "Logic bomb"
+   ],
+   "explanation": "Fileless malware operates in memory (RAM) and abuses native legitimate tools (like PowerShell or WMI) rather than dropping an executable file on the disk."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0353",
+  "slug": "a-technician-is-running-a-new-50a-branch-circuit-to-a-range-they-pull--l0353",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A technician is running a new 50A branch circuit to a range. They pull 8 AWG THHN copper wire through an attic where the ambient temperature reaches 120°F. During inspection, the installation fails. Why?",
+   "options": [
+    "The wire gauge is too small after applying ambient temperature derating factors",
+    "A 50A circuit requires a minimum of 6 AWG regardless of temperature",
+    "THHN is not permitted in residential attics",
+    "The breaker must be upgraded to 60A to match the 8 AWG capacity"
+   ],
+   "explanation": "When ambient temperatures exceed 86°F (30°C), NEC requires ampacity derating. 8 AWG THHN at 50A will fall below the required capacity when derated for 120°F (49°C)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0354",
+  "slug": "while-remodeling-a-residential-bathroom-an-apprentice-wires-a-new-20a--l0354",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "While remodeling a residential bathroom, an apprentice wires a new 20A receptacle directly to the vanity light switch circuit without GFCI protection. What specific code violation has occurred?",
+   "options": [
+    "Bathroom receptacles must have GFCI protection and be on a dedicated 20A circuit",
+    "The receptacle must be on a 15A circuit",
+    "Lights and receptacles must share a 15A AFCI circuit",
+    "The receptacle needs AFCI, not GFCI protection"
+   ],
+   "explanation": "NEC requires bathroom receptacles to be GFCI protected and supplied by a dedicated 20A branch circuit that does not serve other areas."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0355",
+  "slug": "a-homeowner-complains-that-a-newly-installed-bedroom-outlet-trips-the--l0355",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A homeowner complains that a newly installed bedroom outlet trips the breaker whenever a lamp is turned on. The panel has a dual-function AFCI/GFCI breaker. What is the most likely cause?",
+   "options": [
+    "A shared neutral or ground fault is triggering the AFCI/GFCI protection",
+    "The lamp is drawing more than 20 amps",
+    "The breaker is sized too small for a bedroom",
+    "The receptacle is installed upside down"
+   ],
+   "explanation": "Dual-function breakers are sensitive to arc faults and ground faults. A shared neutral or slight ground leakage will cause them to trip immediately upon load."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0356",
+  "slug": "during-an-inspection-of-a-commercial-kitchen-you-notice-the-125v-15a-r-l0356",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "During an inspection of a commercial kitchen, you notice the 125V, 15A receptacles near the sinks lack GFCI protection. The manager claims they are exempt because they are dedicated for refrigerators. How should you respond?",
+   "options": [
+    "All 15A and 20A, 125V receptacles in a commercial kitchen require GFCI protection, regardless of their intended use",
+    "The manager is correct; dedicated appliance receptacles are exempt",
+    "Only receptacles within 6 feet of the sink need GFCI",
+    "GFCI is only required for 250V receptacles in kitchens"
+   ],
+   "explanation": "NEC 210.8(B) mandates that all 15A and 20A, 125V receptacles in commercial kitchens must be GFCI protected. There are no exemptions for dedicated equipment."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0357",
+  "slug": "an-electrician-installs-a-100a-subpanel-in-a-detached-garage-using-a-3-l0357",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "An electrician installs a 100A subpanel in a detached garage using a 3-wire feeder (two hots, one neutral) and bonds the neutral to the ground bus at the subpanel. What is the primary safety risk here?",
+   "options": [
+    "Objectionable current will flow on the neutral and metal enclosures back to the main panel",
+    "The subpanel will not have 240V available",
+    "The breakers in the subpanel will trip instantly",
+    "The ground rod at the garage will overheat"
+   ],
+   "explanation": "NEC requires a 4-wire feeder (separated neutral and ground) to detached buildings to prevent the neutral current from traveling on the equipment grounding path."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0358",
+  "slug": "a-maintenance-tech-uses-a-megohmmeter-to-test-a-480v-3-phase-pump-moto-l0358",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A maintenance tech uses a megohmmeter to test a 480V 3-phase pump motor. The reading from phase A to ground is 0.5 MΩ. What should the tech conclude?",
+   "options": [
+    "The motor insulation is severely degraded and the motor should be removed from service",
+    "The motor is in perfect condition and ready to run",
+    "The reading is acceptable if the motor is warm",
+    "The tech should use a multimeter instead of a megohmmeter"
+   ],
+   "explanation": "For a 480V motor, insulation resistance should generally be >1 MΩ. A 0.5 MΩ reading indicates significant insulation breakdown or moisture ingress."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0359",
+  "slug": "you-place-a-clamp-on-ammeter-around-an-extension-cord-powering-a-runni-l0359",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "You place a clamp-on ammeter around an extension cord powering a running 12A space heater, but the meter reads 0.00A. What is the reason for this reading?",
+   "options": [
+    "The clamp is around both the hot and neutral wires, canceling out the magnetic fields",
+    "The heater is operating at 100% efficiency",
+    "The ammeter is set to DC instead of AC",
+    "The extension cord is shielded"
+   ],
+   "explanation": "A clamp meter must be placed around a single conductor (the hot or the neutral). If placed around the entire cable, the opposing currents cancel the magnetic field, resulting in a zero reading."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0360",
+  "slug": "a-technician-measures-voltage-at-a-standard-120v-receptacle-and-gets-1-l0360",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician measures voltage at a standard 120V receptacle and gets 120V between hot and neutral, but 0V between neutral and ground, and 60V between hot and ground. What is the most likely fault?",
+   "options": [
+    "The equipment grounding conductor is open or floating",
+    "The hot and neutral wires are reversed",
+    "The receptacle is wired correctly",
+    "There is a direct short between hot and neutral"
+   ],
+   "explanation": "If the ground is floating (open), capacitive coupling can cause the hot-to-ground voltage to read arbitrarily (often around half voltage, like 60V) with a high-impedance digital multimeter."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0361",
+  "slug": "when-checking-a-3-phase-panel-you-read-120v-from-phase-a-to-neutral-12-l0361",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "When checking a 3-phase panel, you read 120V from Phase A to Neutral, 120V from Phase B to Neutral, and 208V from Phase C to Neutral. What type of electrical system are you testing?",
+   "options": [
+    "A 240/120V 3-phase, 4-wire high-leg delta system",
+    "A 208/120V 3-phase, 4-wire wye system",
+    "A 480/277V 3-phase, 4-wire wye system",
+    "A corner-grounded 240V delta system"
+   ],
+   "explanation": "In a high-leg (or wild-leg) delta system, the center tap of one transformer is grounded, making the voltage from the high leg (typically Phase C) to neutral exactly √3 * 120V = 208V."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0362",
+  "slug": "an-industrial-oven-keeps-tripping-its-breaker-intermittently-a-tech-ch-l0362",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An industrial oven keeps tripping its breaker intermittently. A tech checks the amp draw and finds it steady at 38A on a 40A breaker. Why is the breaker tripping?",
+   "options": [
+    "The continuous load exceeds 80% of the breaker rating",
+    "The breaker is defective and must be replaced",
+    "The oven has a severe ground fault",
+    "The voltage is fluctuating too much"
+   ],
+   "explanation": "Standard breakers are rated to carry 80% of their rating continuously. 80% of 40A is 32A. A 38A continuous load will cause the thermal element to trip eventually."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0363",
+  "slug": "you-are-replacing-a-10-hp-460v-3-phase-motor-the-nameplate-lists-the-f-l0363",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "You are replacing a 10 HP, 460V, 3-phase motor. The nameplate lists the Full Load Amps (FLA) as 14.0A and the Service Factor as 1.15. What is the maximum setting for the overload relays according to general NEC rules?",
+   "options": [
+    "17.5A (125% of FLA)",
+    "16.1A (115% of FLA)",
+    "14.0A (100% of FLA)",
+    "19.6A (140% of FLA)"
+   ],
+   "explanation": "For motors with a Service Factor of 1.15 or greater, the NEC allows the overload device to be sized up to 125% of the nameplate FLA (14.0 * 1.25 = 17.5A)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0364",
+  "slug": "a-large-induction-motor-utilizes-a-star-delta-starter-to-reduce-inrush-l0364",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A large induction motor utilizes a star-delta starter to reduce inrush current. During the start sequence, the motor starts in star but trips the main breaker the exact moment it transitions to delta. What is the most likely cause?",
+   "options": [
+    "The phase sequencing in the delta contactor is reversed, causing a dead short or massive torque spike",
+    "The timer is set too long, overheating the star contactor",
+    "The motor requires a soft starter instead of star-delta",
+    "The thermal overloads are set too low"
+   ],
+   "explanation": "If the wiring on the delta contactor is not phased correctly matching the motor rotation, the transition creates a massive phase-to-phase short or instant torque reversal, tripping the breaker immediately."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0365",
+  "slug": "an-operator-reports-that-a-3-phase-conveyor-motor-is-humming-loudly-an-l0365",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An operator reports that a 3-phase conveyor motor is \"humming loudly and getting extremely hot\" but not turning. Voltage measurements at the motor peckerhead show 480V between L1-L2, 0V between L2-L3, and 0V between L1-L3. What is happening?",
+   "options": [
+    "The motor is single-phasing due to a blown fuse or broken wire on L3",
+    "The motor bearings have seized completely",
+    "The stator windings are shorted to ground",
+    "The VFD frequency is set to zero"
+   ],
+   "explanation": "With 0V across two phase pairs, one of the incoming lines (L3) is dead. The motor is experiencing a single-phasing condition, causing high current, heat, and humming without rotation."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0366",
+  "slug": "when-wiring-a-dual-voltage-230-460v-9-lead-3-phase-motor-for-high-volt-l0366",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "When wiring a dual-voltage (230/460V) 9-lead 3-phase motor for high voltage (460V), how should the windings be connected?",
+   "options": [
+    "In series",
+    "In parallel",
+    "In a delta-only configuration",
+    "In a star-only configuration"
+   ],
+   "explanation": "For a dual-voltage motor, the windings are connected in series for the high-voltage application so that each winding receives its rated voltage."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0367",
+  "slug": "a-technician-is-sizing-the-branch-circuit-conductors-for-a-single-25-h-l0367",
+  "examSource": "NFPA 70 / IEC 60364",
+  "examNumber": null,
+  "topic": "Electrical Circuits",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician is sizing the branch circuit conductors for a single 25 HP, 460V, 3-phase motor with a table FLC of 34A. What is the minimum ampacity required for these conductors?",
+   "options": [
+    "42.5A",
+    "34A",
+    "40A",
+    "85A"
+   ],
+   "explanation": "NEC requires branch circuit conductors for a single continuous duty motor to be sized at 125% of the motor full-load current rating (FLC). 34A * 1.25 = 42.5A."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0393",
+  "slug": "while-analyzing-an-otdr-trace-of-a-newly-installed-5km-single-mode-lin-l0393",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "While analyzing an OTDR trace of a newly installed 5km single-mode link, you see a sharp spike upwards followed by a drop in the trace level. What physical event does this signature represent?",
+   "options": [
+    "A reflective event with loss, such as a mechanical splice or connector",
+    "A non-reflective event, such as a perfect fusion splice",
+    "A macrobend in the fiber",
+    "A ghost reflection from the launch cable"
+   ],
+   "explanation": "A sharp spike indicates reflectance (Fresnel reflection), and the subsequent drop indicates insertion loss. This is the classic signature of a mated connector pair or mechanical splice."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0394",
+  "slug": "an-otdr-trace-shows-an-event-at-4km-that-appears-to-be-a-gainer-the-tr-l0394",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "An OTDR trace shows an event at 4km that appears to be a \"gainer\" (the trace goes up, showing negative loss). What is the actual physical cause of a gainer in an OTDR trace?",
+   "options": [
+    "Splicing two fibers with different backscatter coefficients (e.g., mismatch in core sizes or MFD)",
+    "The splicing machine added power to the optical signal",
+    "The fiber was repaired with an optical amplifier",
+    "The OTDR laser pulse is reflecting off a mirror-like finish"
+   ],
+   "explanation": "A gainer is an optical illusion on an OTDR caused by splicing a fiber with a lower backscatter coefficient to one with a higher coefficient. More light scatters back, making it look like a gain in power."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0395",
+  "slug": "you-are-shooting-an-otdr-trace-on-a-short-100m-patch-cord-but-cannot-s-l0395",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "You are shooting an OTDR trace on a short 100m patch cord but cannot see the connector at the far end clearly due to the initial pulse width. What setting should you adjust?",
+   "options": [
+    "Decrease the pulse width to improve spatial resolution",
+    "Increase the pulse width to push more power into the fiber",
+    "Change the wavelength from 1310nm to 1550nm",
+    "Increase the averaging time to 3 minutes"
+   ],
+   "explanation": "A shorter pulse width provides better spatial resolution, allowing the OTDR to distinguish closely spaced events, which is essential for short links."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0396",
+  "slug": "you-perform-a-tier-1-certification-olts-on-a-multi-mode-fiber-link-the-l0396",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "You perform a Tier 1 certification (OLTS) on a multi-mode fiber link. The measured loss is 2.5 dB, but the calculated loss budget is 1.8 dB. What is the immediate result?",
+   "options": [
+    "The link fails certification and requires troubleshooting or re-termination",
+    "The link passes because 2.5 dB is less than 3.0 dB",
+    "The link conditionally passes but requires an OTDR trace",
+    "The link passes because multi-mode allows up to 5 dB of loss"
+   ],
+   "explanation": "If the measured insertion loss exceeds the calculated loss budget for that specific link (based on length, splices, and connectors), the link fails certification."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0397",
+  "slug": "when-measuring-optical-return-loss-orl-on-a-single-mode-video-link-the-l0397",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "When measuring Optical Return Loss (ORL) on a single-mode video link, the meter reads 20 dB. The specification requires >45 dB. What does the 20 dB reading indicate?",
+   "options": [
+    "There is a highly reflective connector or poor splice causing massive reflection back to the source",
+    "The link has an excellent return loss and passes easily",
+    "The fiber is broken perfectly clean in the middle of the run",
+    "The transmitter is overpowered"
+   ],
+   "explanation": "ORL is measured in positive dB representing the amount of attenuation the reflected signal experiences. A low number (20 dB) means very little attenuation of the reflection, meaning a LOT of light is bouncing back. It needs to be >45 dB."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0398",
+  "slug": "a-technician-scopes-an-sc-upc-connector-and-sees-a-large-dark-smudge-d-l0398",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A technician scopes an SC/UPC connector and sees a large dark smudge directly over the core of the fiber. What is the correct next step?",
+   "options": [
+    "Clean the endface using a dry-cleaning cassette or lint-free wipe with solvent, then re-inspect",
+    "Plug it in anyway; the laser will burn the dirt off",
+    "Cut off the connector and splice on a new pigtail immediately",
+    "Polish the connector with 3-micron sandpaper"
+   ],
+   "explanation": "Contamination should always be cleaned using proper fiber cleaning methods (dry or wet-to-dry) and re-inspected before mating to prevent permanent damage."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0399",
+  "slug": "under-a-fiber-microscope-you-observe-permanent-pitting-and-scratches-c-l0399",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Under a fiber microscope, you observe permanent pitting and scratches crossing the 9-micron core of a single-mode LC connector, even after multiple wet/dry cleanings. What is the impact on performance?",
+   "options": [
+    "It will cause high insertion loss and poor reflectance (low ORL)",
+    "It will only affect transmission if using 1550nm",
+    "It will cause the fiber to melt when used with high power lasers",
+    "It has no effect as long as the cladding is intact"
+   ],
+   "explanation": "Scratches and pitting across the core permanently degrade the optical signal by scattering light, increasing insertion loss and causing high back-reflection."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0400",
+  "slug": "during-a-campus-backbone-installation-a-contractor-pulls-a-24-strand-o-l0400",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "During a campus backbone installation, a contractor pulls a 24-strand outdoor loose-tube cable around a 90-degree conduit bend. The conduit diameter is 2 inches, and the cable diameter is 0.5 inches. The contractor bends the cable over a 4-inch radius. Why is this a problem?",
+   "options": [
+    "The bend radius is too tight; under tension, the minimum bend radius is typically 20x the cable diameter (10 inches)",
+    "The bend radius must be exactly 15 inches for all cables",
+    "The conduit is too small for a 0.5-inch cable",
+    "Outdoor cable cannot be run in conduit"
+   ],
+   "explanation": "Fiber cables under pulling tension generally require a bend radius of at least 20 times the cable diameter (0.5 * 20 = 10 inches). Bending it at 4 inches risks breaking the glass or inducing macrobends."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0401",
+  "slug": "you-are-terminating-a-12-strand-distribution-cable-according-to-the-st-l0401",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "You are terminating a 12-strand distribution cable. According to the standard TIA-598 color code, what is the color of fiber #6?",
+   "options": [
+    "White",
+    "Blue",
+    "Slate",
+    "Red"
+   ],
+   "explanation": "The TIA-598 color code is: 1-Blue, 2-Orange, 3-Green, 4-Brown, 5-Slate, 6-White, 7-Red, 8-Black, 9-Yellow, 10-Violet, 11-Rose, 12-Aqua."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0402",
+  "slug": "a-crew-is-pulling-a-heavy-armored-osp-cable-using-a-tugger-they-exceed-l0402",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A crew is pulling a heavy armored OSP cable using a tugger. They exceed the maximum rated pulling tension of 600 lbs for a few seconds. Later, tests show high attenuation across all fibers. What physically happened inside the cable?",
+   "options": [
+    "The fiber glass was stretched beyond its yield point, causing microscopic fractures and elevated attenuation",
+    "The Kevlar aramid yarn melted from the friction",
+    "The armor shield magnetized, disrupting the optical signal",
+    "The cladding separated from the core"
+   ],
+   "explanation": "Exceeding the tensile load limit stretches the glass itself, causing micro-cracking and permanent attenuation increases, even if the cable jacket looks fine."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0403",
+  "slug": "a-data-center-needs-to-upgrade-a-100-meter-server-to-switch-link-to-40-l0403",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A data center needs to upgrade a 100-meter server-to-switch link to 40GBASE-SR4. What type of fiber and wavelength should they select for the most cost-effective solution?",
+   "options": [
+    "OM4 multimode fiber operating at 850nm",
+    "OS2 single-mode fiber operating at 1310nm",
+    "OM1 multimode fiber operating at 1550nm",
+    "OS1 single-mode fiber operating at 1625nm"
+   ],
+   "explanation": "For short data center runs (up to 150m) at 40Gbps or 100Gbps, OM4 multimode fiber using VCSEL lasers at 850nm is the standard, cost-effective choice (SR4)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0404",
+  "slug": "a-telecom-provider-is-troubleshooting-a-60km-long-haul-single-mode-lin-l0404",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A telecom provider is troubleshooting a 60km long-haul single-mode link. The link passes perfectly at 1310nm but shows 8 dB of excess loss at 1550nm. What is the most likely physical cause?",
+   "options": [
+    "There is a severe macrobend somewhere in the cable run",
+    "The fiber is contaminated with water (water peak attenuation)",
+    "The connectors are dirty",
+    "1310nm is inherently better at traveling long distances than 1550nm"
+   ],
+   "explanation": "Macrobends (sharp physical bends in the fiber) cause significantly higher loss at longer wavelengths like 1550nm because the light mode field diameter is larger and more easily escapes the core when bent."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0405",
+  "slug": "a-technician-spliced-two-pigtails-in-a-splice-tray-the-link-passes-the-l0405",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician spliced two pigtails in a splice tray. The link passes the initial OTDR test. Two days later, the link drops. When the tech opens the tray, the link suddenly comes back up. What is the likely issue?",
+   "options": [
+    "The fiber was twisted or pinched by the splice tray lid, creating a macrobend under pressure",
+    "The fusion splice was \"cold\" and needed exposure to air to heal",
+    "Light from the room illuminated the fiber and restored the signal",
+    "The pigtail jacket absorbed moisture from the air"
+   ],
+   "explanation": "Improper routing in a splice tray can cause the lid to pinch a fiber, inducing a severe macrobend or mechanical stress. Opening the tray relieves the pressure."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0406",
+  "slug": "you-are-designing-a-dwdm-network-using-the-itu-t-g-694-1-grid-the-syst-l0406",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "You are designing a DWDM network using the ITU-T G.694.1 grid. The system uses a 100 GHz channel spacing. Approximately how much wavelength separation exists between adjacent channels?",
+   "options": [
+    "0.8 nm",
+    "20 nm",
+    "5 nm",
+    "1310 nm"
+   ],
+   "explanation": "In Dense Wavelength Division Multiplexing (DWDM), a 100 GHz frequency spacing corresponds to approximately 0.8 nm of wavelength spacing in the 1550nm (C-band) region."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0407",
+  "slug": "a-technician-accidentally-patches-a-cwdm-transceiver-module-transmitti-l0407",
+  "examSource": "TIA-568.3-D / ITU-T G.652",
+  "examNumber": null,
+  "topic": "Fiber Optics",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician accidentally patches a CWDM transceiver module transmitting at 1470nm into a DWDM multiplexer designed for the C-band. What will happen?",
+   "options": [
+    "The DWDM multiplexer will block the signal entirely",
+    "The signal will pass through normally",
+    "The multiplexer will shift the wavelength to 1550nm automatically",
+    "The CWDM laser will burn out the DWDM filters"
+   ],
+   "explanation": "DWDM multiplexers have very narrow passbands (e.g., in the 1530-1565nm range). A 1470nm CWDM signal will simply be filtered out (blocked) and won't pass through."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0423",
+  "slug": "a-maintenance-team-replaces-the-air-filters-on-hvac-rooftop-units-ever-l0423",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A maintenance team replaces the air filters on HVAC rooftop units every three months, regardless of their condition. What type of maintenance strategy is this?",
+   "options": [
+    "Preventive Maintenance",
+    "Corrective Maintenance",
+    "Predictive Maintenance",
+    "Reactive Maintenance"
+   ],
+   "explanation": "Preventive maintenance is performed on a calendar or run-time schedule to prevent failures before they occur, regardless of current condition."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0424",
+  "slug": "a-facility-uses-ultrasonic-sensors-to-monitor-the-high-frequency-acous-l0424",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A facility uses ultrasonic sensors to monitor the high-frequency acoustic emissions of roller bearings on a critical conveyor. When the acoustic signature crosses a threshold, a work order is generated. What strategy is this?",
+   "options": [
+    "Predictive Maintenance (Condition-Based)",
+    "Preventive Maintenance",
+    "Run-to-Failure Maintenance",
+    "Proactive Maintenance"
+   ],
+   "explanation": "Predictive maintenance monitors actual asset conditions (vibration, acoustics, temp) to predict when failure will occur and trigger maintenance exactly when needed."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0425",
+  "slug": "a-technician-repairing-a-failed-boiler-feed-pump-decides-to-analyze-wh-l0425",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A technician repairing a failed boiler feed pump decides to analyze why the seal failed. They discover the baseplate is vibrating due to improper grouting, so they regrout the baseplate to prevent future seal failures. What strategy does this represent?",
+   "options": [
+    "Proactive/Reliability-Centered Maintenance",
+    "Reactive Maintenance",
+    "Preventive Maintenance",
+    "Corrective Maintenance"
+   ],
+   "explanation": "Proactive maintenance goes beyond fixing the immediate breakdown (reactive) and addresses the root cause of the failure to eliminate the defect entirely."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0426",
+  "slug": "a-technician-is-troubleshooting-a-plc-ladder-logic-program-a-physical--l0426",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician is troubleshooting a PLC ladder logic program. A physical emergency stop button is wired normally closed (NC) in the field. In the ladder logic, what instruction should be used to allow the machine to run when the E-stop is NOT pressed?",
+   "options": [
+    "Examine If Closed (XIC / Normally Open contact)",
+    "Examine If Open (XIO / Normally Closed contact)",
+    "Output Energize (OTE)",
+    "One-Shot Rising (OSR)"
+   ],
+   "explanation": "Since the physical button is NC, it constantly supplies 24V to the input card. An XIC instruction looks for this \"True\" state to allow the logic to flow and the machine to run."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0427",
+  "slug": "a-plc-controls-a-pneumatic-cylinder-the-sequence-stops-mid-cycle-the-t-l0427",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A PLC controls a pneumatic cylinder. The sequence stops mid-cycle. The technician forces the output bit ON in the PLC software, and the cylinder moves. What does this confirm?",
+   "options": [
+    "The field wiring, output card, and solenoid valve are functioning, so the issue is in the logic conditions (inputs)",
+    "The PLC output card has failed completely",
+    "The solenoid valve is mechanically stuck",
+    "The PLC processor has crashed"
+   ],
+   "explanation": "By forcing the output and observing field movement, the tech proves the hardware path from the PLC to the actuator is intact. The logic is failing to turn the bit on naturally."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0428",
+  "slug": "a-pressure-transmitter-operates-on-a-standard-4-20ma-loop-what-is-the--l0428",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A pressure transmitter operates on a standard 4-20mA loop. What is the primary advantage of using a \"live zero\" (4mA) instead of 0-20mA?",
+   "options": [
+    "It allows the control system to detect a broken wire (0mA) as a fault, distinguishing it from a zero reading",
+    "It saves power by drawing less current",
+    "It allows the loop to carry voice communications",
+    "It prevents the transmitter from freezing in cold weather"
+   ],
+   "explanation": "With 4-20mA, 4mA represents 0% of the scale. If the wire breaks, current drops to 0mA, instantly alerting the system to a loop failure (dead zero)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0429",
+  "slug": "a-level-transmitter-is-scaled-from-0-to-100-inches-the-loop-current-is-l0429",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A level transmitter is scaled from 0 to 100 inches. The loop current is currently measuring 12mA. What is the actual water level in the tank?",
+   "options": [
+    "50 inches",
+    "25 inches",
+    "75 inches",
+    "12 inches"
+   ],
+   "explanation": "The total span is 16mA (from 4 to 20). 12mA is exactly halfway between 4mA and 20mA (8mA span). Therefore, the process variable is at 50% of 100 inches, which is 50 inches."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0430",
+  "slug": "a-4-20ma-loop-is-wired-in-series-through-a-transmitter-a-plc-input-car-l0430",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A 4-20mA loop is wired in series through a transmitter, a PLC input card (250 ohm resistor), and a chart recorder (250 ohm resistor). The power supply is 24VDC. The transmitter requires a minimum of 12VDC to operate. Will this loop function at 20mA?",
+   "options": [
+    "Yes. The voltage drop across the resistors is 10V (500 ohms * 0.02A), leaving 14V for the transmitter",
+    "No. The resistance is too high and will choke the current to 10mA",
+    "No. The transmitter will receive 24V and burn out",
+    "Yes, but the chart recorder will not read accurately"
+   ],
+   "explanation": "Total resistance = 500 ohms. At 20mA (0.02A), V_drop = I*R = 0.02 * 500 = 10V. 24V - 10V = 14V remaining at the transmitter. Since 14V > 12V minimum, the loop functions perfectly."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0431",
+  "slug": "a-technician-calibrates-a-ph-probe-they-record-the-readings-before-mak-l0431",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A technician calibrates a pH probe. They record the readings before making any adjustments, then calibrate the device, and record the readings again. What is this documentation standard called?",
+   "options": [
+    "As-Found and As-Left data",
+    "Zero and Span data",
+    "Hysteresis and Linearity data",
+    "Deadband tracking"
+   ],
+   "explanation": "Recording \"As-Found\" data proves how accurate the device was during operation (critical for quality auditing), while \"As-Left\" proves it was correct when the tech finished."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0432",
+  "slug": "a-temperature-transmitter-is-calibrated-for-0-c-to-200-c-during-a-5-po-l0432",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A temperature transmitter is calibrated for 0°C to 200°C. During a 5-point calibration, the tech notes that the output is perfectly accurate going up the scale, but reads consistently 2 degrees high when coming down the scale. What physical phenomenon is the instrument exhibiting?",
+   "options": [
+    "Hysteresis",
+    "Zero Shift",
+    "Span Error",
+    "Linearity Error"
+   ],
+   "explanation": "Hysteresis is the maximum difference in output for the same input value when approached from opposite directions (increasing vs decreasing)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0433",
+  "slug": "a-vibration-analyst-reviews-an-fft-spectrum-on-a-large-centrifugal-fan-l0433",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A vibration analyst reviews an FFT spectrum on a large centrifugal fan running at 1800 RPM (30 Hz). There is a massive spike exactly at 1X running speed (30 Hz). What is the most likely mechanical fault?",
+   "options": [
+    "Mass unbalance of the fan rotor",
+    "Bearing inner race defect",
+    "Gear mesh failure",
+    "Cavitation"
+   ],
+   "explanation": "A high vibration amplitude exactly at 1X turning speed is the classic signature of mass unbalance. The heavy spot causes one vibration peak per revolution."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0434",
+  "slug": "an-induction-motor-driving-a-pump-via-a-flexible-coupling-shows-high-v-l0434",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "An induction motor driving a pump via a flexible coupling shows high vibration at 1X and 2X turning speed, accompanied by a 180-degree phase shift across the coupling. What is the definitive diagnosis?",
+   "options": [
+    "Angular misalignment between the motor and the pump",
+    "A bent shaft on the pump",
+    "Loose foundation bolts (soft foot)",
+    "Rolling element bearing failure"
+   ],
+   "explanation": "Misalignment typically shows up as high 1X and 2X radial/axial vibration. A 180-degree phase shift across the coupling confirms that the shafts are out of alignment, fighting each other."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0435",
+  "slug": "a-maintenance-electrician-scans-a-3-phase-motor-starter-with-an-infrar-l0435",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A maintenance electrician scans a 3-phase motor starter with an infrared camera. Phase A is 45°C, Phase B is 46°C, and Phase C is 95°C. What is the most likely cause of this discrepancy?",
+   "options": [
+    "A loose connection on Phase C causing high resistance heating",
+    "Phase C is carrying normal load current",
+    "The motor has a blown Phase A fuse",
+    "The infrared camera needs to be recalibrated"
+   ],
+   "explanation": "A single hot phase in a 3-phase connection is almost always caused by high resistance at a loose, corroded, or failing termination."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0436",
+  "slug": "when-conducting-an-outdoor-thermography-inspection-of-a-substation-on--l0436",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "When conducting an outdoor thermography inspection of a substation on a bright sunny day, the technician notes that all the ceramic insulators on the east side appear extremely hot. What must the technician consider?",
+   "options": [
+    "Solar loading (sunlight) is heating the components, masking or mimicking electrical faults",
+    "Ceramic inherently generates heat on the east side due to magnetic fields",
+    "The east side of a substation always carries more current",
+    "The emissivity of ceramic changes depending on the time of day"
+   ],
+   "explanation": "Solar loading is a major factor in outdoor thermography. Sun shining on equipment heats it up, which can create false hotspots or hide true electrical faults."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0437",
+  "slug": "a-process-engineer-wants-to-change-the-alarm-setpoint-of-a-high-pressu-l0437",
+  "examSource": "CompTIA (General IT) / BICSI",
+  "examNumber": null,
+  "topic": "Maintenance",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A process engineer wants to change the alarm setpoint of a high-pressure reactor from 500 psi to 550 psi to prevent nuisance trips. The vessel is rated for 600 psi. What formal process MUST be followed before the technician makes the change in the PLC?",
+   "options": [
+    "Management of Change (MOC) procedure",
+    "Root Cause Analysis (RCA)",
+    "Lockout/Tagout (LOTO)",
+    "Failure Mode and Effects Analysis (FMEA)"
+   ],
+   "explanation": "Any modification to process safety parameters, setpoints, or equipment design requires a formal Management of Change (MOC) to evaluate risks and update documentation before implementation."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0453",
+  "slug": "a-junior-admin-is-looking-at-a-packet-capture-and-notices-mac-addresse-l0453",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A junior admin is looking at a packet capture and notices MAC addresses are being used to forward frames. Which OSI layer is responsible for this activity?",
+   "options": [
+    "Data Link",
+    "Network",
+    "Physical",
+    "Transport"
+   ],
+   "explanation": "Objective 1.1: The Data Link layer (Layer 2) uses MAC addresses for local frame delivery. Network uses IP, Physical uses bits, Transport uses ports."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0454",
+  "slug": "while-investigating-a-slow-application-you-observe-tcp-window-size-zer-l0454",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "While investigating a slow application, you observe TCP window size zero messages in Wireshark. At what layer of the OSI model does this flow control issue reside?",
+   "options": [
+    "Transport",
+    "Application",
+    "Session",
+    "Network"
+   ],
+   "explanation": "Objective 1.1: The Transport layer (Layer 4) handles TCP flow control, including windowing. Application is Layer 7, Session Layer 5, Network Layer 3."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0455",
+  "slug": "users-report-that-their-web-browsers-are-failing-to-negotiate-tls-encr-l0455",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Users report that their web browsers are failing to negotiate TLS encryption with a newly deployed internal server. Which OSI layer is failing to establish this secure connection?",
+   "options": [
+    "Presentation",
+    "Application",
+    "Session",
+    "Transport"
+   ],
+   "explanation": "Objective 1.1: The Presentation layer (Layer 6) handles encryption/decryption like TLS. Application handles HTTP, Session handles teardown, Transport handles TCP."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0456",
+  "slug": "an-engineer-connects-a-spectrum-analyzer-to-a-coax-cable-to-check-for--l0456",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "An engineer connects a spectrum analyzer to a coax cable to check for electromagnetic interference. What OSI layer is being analyzed?",
+   "options": [
+    "Physical",
+    "Data Link",
+    "Network",
+    "Transport"
+   ],
+   "explanation": "Objective 1.1: The Physical layer (Layer 1) deals with signaling, cables, and interference. Data Link is frames, Network is packets."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0457",
+  "slug": "a-routing-loop-has-caused-ttl-values-to-expire-dropping-ip-packets-in--l0457",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A routing loop has caused TTL values to expire, dropping IP packets. In which OSI layer does the TTL field exist?",
+   "options": [
+    "Network",
+    "Transport",
+    "Data Link",
+    "Session"
+   ],
+   "explanation": "Objective 1.1: The Network layer (Layer 3) encapsulates IP packets which contain the TTL field. Transport is ports, Data Link is MACs."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0458",
+  "slug": "during-a-network-outage-a-technician-finds-that-a-fiber-optic-cable-wa-l0458",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "During a network outage, a technician finds that a fiber optic cable was accidentally severed. Which layer of the OSI model is directly impacted by this physical break?",
+   "options": [
+    "Physical",
+    "Network",
+    "Data Link",
+    "Application"
+   ],
+   "explanation": "Objective 1.1: The Physical layer (Layer 1) encompasses the physical media like fiber cables. Network is logical routing, Data Link is MAC."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0459",
+  "slug": "an-application-requires-persistent-connections-and-checkpointing-durin-l0459",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "An application requires persistent connections and checkpointing during a large file transfer so it can resume if interrupted. Which OSI layer provides these dialog control features?",
+   "options": [
+    "Session",
+    "Transport",
+    "Application",
+    "Presentation"
+   ],
+   "explanation": "Objective 1.1: The Session layer (Layer 5) establishes, manages, and terminates sessions/dialogs between applications."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0460",
+  "slug": "you-are-troubleshooting-an-ipsec-vpn-tunnel-where-esp-packets-are-bein-l0460",
+  "examSource": "Cisco CCNA 200-301",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "You are troubleshooting an IPsec VPN tunnel where ESP packets are being dropped by an intermediary firewall. Which OSI layer protocols are being blocked?",
+   "options": [
+    "Network",
+    "Transport",
+    "Session",
+    "Data Link"
+   ],
+   "explanation": "Objective 1.1: IPsec (including ESP) operates at the Network layer (Layer 3). Transport is Layer 4, Session Layer 5, Data link Layer 2."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0461",
+  "slug": "a-user-complains-that-they-cannot-access-a-specific-internal-webpage-r-l0461",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A user complains that they cannot access a specific internal webpage, receiving an HTTP 500 error. At what OSI layer is this error generated?",
+   "options": [
+    "Application",
+    "Presentation",
+    "Session",
+    "Transport"
+   ],
+   "explanation": "Objective 1.1: HTTP errors are generated by the web service at the Application layer (Layer 7)."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0462",
+  "slug": "a-switch-receives-a-frame-with-a-destination-mac-address-of-ff-ff-ff-f-l0462",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A switch receives a frame with a destination MAC address of FF:FF:FF:FF:FF:FF. Which OSI layer is responsible for flooding this frame out all ports?",
+   "options": [
+    "Data Link",
+    "Physical",
+    "Network",
+    "Transport"
+   ],
+   "explanation": "Objective 1.1: Switches operate primarily at the Data Link layer (Layer 2) to flood broadcast MAC addresses."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0463",
+  "slug": "a-small-office-connects-all-their-computers-to-a-single-central-switch-l0463",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A small office connects all their computers to a single central switch. What physical topology is in use?",
+   "options": [
+    "Star",
+    "Ring",
+    "Mesh",
+    "Bus"
+   ],
+   "explanation": "Objective 1.2: A central switch with radiating connections forms a physical star topology. Ring uses sequential tokens, Mesh connects all, Bus uses a single backbone."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0464",
+  "slug": "an-enterprise-connects-its-5-branch-offices-directly-to-every-other-br-l0464",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "An enterprise connects its 5 branch offices directly to every other branch office using point-to-point links for maximum redundancy. What topology does this represent?",
+   "options": [
+    "Full Mesh",
+    "Partial Mesh",
+    "Star",
+    "Ring"
+   ],
+   "explanation": "Objective 1.2: A full mesh topology connects every node to every other node. Partial mesh only connects some, Star uses a central hub."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0465",
+  "slug": "a-legacy-industrial-control-system-uses-a-single-coaxial-cable-that-lo-l0465",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A legacy industrial control system uses a single coaxial cable that loops through each machine on the factory floor. If a break occurs, the entire segment fails. What topology is described?",
+   "options": [
+    "Physical Bus",
+    "Logical Ring",
+    "Star",
+    "Mesh"
+   ],
+   "explanation": "Objective 1.2: A single continuous cable subject to total failure upon a break is a physical bus topology."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0466",
+  "slug": "a-campus-network-consists-of-several-star-topology-building-networks-c-l0466",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A campus network consists of several star-topology building networks connected together via a high-speed fiber backbone ring. Which term best describes this overall design?",
+   "options": [
+    "Hybrid",
+    "Mesh",
+    "Bus",
+    "Star"
+   ],
+   "explanation": "Objective 1.2: A hybrid topology combines two or more different topologies, such as star networks linked via a ring."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0467",
+  "slug": "to-save-costs-a-regional-isp-connects-its-routers-in-a-circle-where-ea-l0467",
+  "examSource": "CompTIA Network+ N10-009",
+  "examNumber": null,
+  "topic": "Networking",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "To save costs, a regional ISP connects its routers in a circle, where each router only links to its two nearest neighbors. What topology is deployed?",
+   "options": [
+    "Ring",
+    "Bus",
+    "Star",
+    "Mesh"
+   ],
+   "explanation": "Objective 1.2: Connecting nodes in a closed loop where each connects to exactly two neighbors is a ring topology."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0692",
+  "slug": "a-technician-is-documenting-ladder-logic-contact-which-statement-belon-l0692",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A technician is documenting ladder-logic contact. Which statement belongs in the notes?",
+   "options": [
+    "tests a logical condition associated with an input or internal bit",
+    "physically carries motor current in every case",
+    "is always an analog output",
+    "replaces the PLC processor"
+   ],
+   "explanation": "ladder-logic contact tests a logical condition associated with an input or internal bit."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0693",
+  "slug": "a-certification-question-asks-about-servo-motor-system-which-answer-is-l0693",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A certification question asks about servo motor system. Which answer is correct?",
+   "options": [
+    "uses feedback for precise control of position, speed, or torque",
+    "always operates open-loop with no sensor",
+    "moves only in fixed steps without feedback",
+    "is limited to constant-speed fans"
+   ],
+   "explanation": "servo motor system uses feedback for precise control of position, speed, or torque."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0694",
+  "slug": "a-certification-question-asks-about-stepper-motor-which-answer-is-corr-l0694",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A certification question asks about stepper motor. Which answer is correct?",
+   "options": [
+    "moves in discrete angular steps and can provide open-loop position control",
+    "requires analog feedback for every step",
+    "cannot reverse direction",
+    "is an AC induction motor only"
+   ],
+   "explanation": "stepper motor moves in discrete angular steps and can provide open-loop position control."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0695",
+  "slug": "a-certification-question-asks-about-protective-grounding-which-answer--l0695",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A certification question asks about protective grounding. Which answer is correct?",
+   "options": [
+    "provides a low-impedance fault path so protective devices can operate and exposed metal stays safer",
+    "is intended to carry normal load current continuously",
+    "raises enclosure voltage during a fault",
+    "replaces overcurrent protection"
+   ],
+   "explanation": "protective grounding provides a low-impedance fault path so protective devices can operate and exposed metal stays safer."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L0696",
+  "slug": "a-certification-question-asks-about-verification-of-zero-energy-which--l0696",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "A certification question asks about verification of zero energy. Which answer is correct?",
+   "options": [
+    "confirms hazardous electrical, mechanical, pressure, thermal, and stored energy is controlled before work",
+    "means trusting the position of a switch",
+    "is performed only after maintenance is finished",
+    "eliminates the need for lockout and tagging"
+   ],
+   "explanation": "verification of zero energy confirms hazardous electrical, mechanical, pressure, thermal, and stored energy is controlled before work."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1019",
+  "slug": "a-supervisor-tests-your-knowledge-of-semiconductor-diode-which-answer--l1019",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A supervisor tests your knowledge of semiconductor diode. Which answer is best?",
+   "options": [
+    "normally conducts mainly in one direction when correctly biased",
+    "amplifies every signal like an operational amplifier",
+    "stores energy only in a magnetic field",
+    "has no polarity behavior"
+   ],
+   "explanation": "semiconductor diode normally conducts mainly in one direction when correctly biased."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1020",
+  "slug": "a-supervisor-tests-your-knowledge-of-binary-number-system-which-answer-l1020",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A supervisor tests your knowledge of binary number system. Which answer is best?",
+   "options": [
+    "uses base 2 with digits 0 and 1",
+    "uses base 8 with digits 0 through 7",
+    "uses base 10 only",
+    "uses sixteen voltage levels for every bit"
+   ],
+   "explanation": "binary number system uses base 2 with digits 0 and 1."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1021",
+  "slug": "a-supervisor-tests-your-knowledge-of-thermocouple-which-answer-is-best-l1021",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A supervisor tests your knowledge of thermocouple. Which answer is best?",
+   "options": [
+    "generates a small voltage related to the temperature difference between dissimilar-metal junctions",
+    "changes resistance only through a platinum element",
+    "measures pressure using a diaphragm only",
+    "requires no reference-junction consideration"
+   ],
+   "explanation": "thermocouple generates a small voltage related to the temperature difference between dissimilar-metal junctions."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1022",
+  "slug": "a-supervisor-tests-your-knowledge-of-plc-scan-cycle-which-answer-is-be-l1022",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A supervisor tests your knowledge of PLC scan cycle. Which answer is best?",
+   "options": [
+    "typically reads inputs, executes the control program, updates outputs, and performs housekeeping repeatedly",
+    "updates outputs before reading any inputs and then stops",
+    "runs the program only once after installation",
+    "is a mechanical motor-starting sequence"
+   ],
+   "explanation": "PLC scan cycle typically reads inputs, executes the control program, updates outputs, and performs housekeeping repeatedly."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1023",
+  "slug": "a-certification-question-asks-about-zener-diode-which-answer-is-correc-l1023",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A certification question asks about Zener diode. Which answer is correct?",
+   "options": [
+    "is designed to operate in reverse breakdown for voltage reference or regulation",
+    "must never conduct in reverse bias",
+    "is used only as a mechanical switch",
+    "produces an adjustable magnetic field"
+   ],
+   "explanation": "Zener diode is designed to operate in reverse breakdown for voltage reference or regulation."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1024",
+  "slug": "a-certification-question-asks-about-and-gate-which-answer-is-correct-l1024",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A certification question asks about AND gate. Which answer is correct?",
+   "options": [
+    "outputs logic 1 only when all required inputs are logic 1",
+    "outputs 1 when any input is 1",
+    "always inverts its input",
+    "outputs 1 only when inputs differ"
+   ],
+   "explanation": "AND gate outputs logic 1 only when all required inputs are logic 1."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1025",
+  "slug": "a-certification-question-asks-about-resistance-temperature-detector-wh-l1025",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A certification question asks about resistance temperature detector. Which answer is correct?",
+   "options": [
+    "uses the predictable resistance change of a metal such as platinum to measure temperature",
+    "generates large AC voltage without excitation",
+    "detects only magnetic fields",
+    "is a digital communication protocol"
+   ],
+   "explanation": "resistance temperature detector uses the predictable resistance change of a metal such as platinum to measure temperature."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1026",
+  "slug": "a-supervisor-tests-your-knowledge-of-bipolar-junction-transistor-which-l1026",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A supervisor tests your knowledge of bipolar junction transistor. Which answer is best?",
+   "options": [
+    "uses base current to control a larger collector-emitter current",
+    "has only two terminals",
+    "is controlled only by light",
+    "cannot operate as a switch"
+   ],
+   "explanation": "bipolar junction transistor uses base current to control a larger collector-emitter current."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1027",
+  "slug": "a-supervisor-tests-your-knowledge-of-or-gate-which-answer-is-best-l1027",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A supervisor tests your knowledge of OR gate. Which answer is best?",
+   "options": [
+    "outputs logic 1 when at least one input is logic 1",
+    "outputs 1 only when all inputs are 1",
+    "always stores the previous state",
+    "outputs the complement of one input"
+   ],
+   "explanation": "OR gate outputs logic 1 when at least one input is logic 1."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "L1028",
+  "slug": "a-supervisor-tests-your-knowledge-of-thermistor-which-answer-is-best-l1028",
+  "examSource": "Technical Foundations",
+  "examNumber": null,
+  "topic": "Electronics & Automation",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A supervisor tests your knowledge of thermistor. Which answer is best?",
+   "options": [
+    "is a resistor with a strong temperature-dependent resistance",
+    "is a constant-resistance precision shunt",
+    "measures rotation using optical slots only",
+    "is a type of hydraulic valve"
+   ],
+   "explanation": "thermistor is a resistor with a strong temperature-dependent resistance."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ }
+]

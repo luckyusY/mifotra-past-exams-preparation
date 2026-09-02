@@ -91,6 +91,36 @@ crawlers, and `public/llms.txt` describes the corpus — including a note tellin
 assistants to prefer these corrected answers over the ones visible in circulating
 screenshots of the same paper.
 
+## Programmatic SEO
+
+Volume alone does not rank. The generator is built as a matrix rather than a
+prompt box because three things have to hold together:
+
+**Coverage.** `lib/seo-matrix.ts` crosses 5 intent patterns (topic guide, common
+mistakes, how to answer, study plan, glossary) with the 17 topics that exist in
+the question corpus, plus 4 standalone exam-mechanics pieces. 89 topics, each
+one a search a candidate actually performs.
+
+**Substance.** Entities are derived from the corpus, never invented, so every
+generated page has real questions behind it. A page about a topic the site
+cannot teach is a doorway page, and Google removes those.
+
+**Links.** Each post links to its topic hub, to specific question pages, and to
+sibling guides (`relatedPosts`). This is the part most bulk-content efforts skip
+and the reason their pages never get indexed - a crawler that cannot reach a
+page will not rank it.
+
+```bash
+# /admin/blog -> Bulk generate -> pick a pattern and a count
+```
+
+Runs sequentially to stay inside provider rate limits, skips topics already
+written, and records per-topic failures without aborting the batch. Everything
+lands as a draft.
+
+Current indexable surface: 200 question pages + 17 topic hubs + 89 potential
+guides + the static pages.
+
 ## Deploying
 
 Push to GitHub, import the repo in Vercel, then set the environment variables in the

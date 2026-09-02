@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { timingSafeEqual } from 'node:crypto';
 import { getDb } from '@/lib/db';
 import { draftPost, providerConfigured } from '@/lib/llm';
+import { linksFor } from '@/lib/seo-matrix';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -59,6 +60,8 @@ export async function POST(req: Request) {
     createdAt: new Date(),
     publishedAt: null as Date | null,
     topic: topic.trim(),
+    // Match the bulk path: every post links into the corpus.
+    links: linksFor(topic.trim()),
   };
   await posts.insertOne({ ...doc });
 

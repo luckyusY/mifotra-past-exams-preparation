@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { postBySlug } from '@/lib/posts';
+import { postBySlug, relatedPosts } from '@/lib/posts';
 import UpsellCard from '@/app/UpsellCard';
 
 export const revalidate = 300;
@@ -31,6 +31,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   const post = await postBySlug((await params).slug).catch(() => null);
   if (!post) notFound();
 
+  const related = await relatedPosts(post).catch(() => []);
   const site = process.env.NEXT_PUBLIC_SITE_URL ?? '';
 
   // Article plus FAQPage: the FAQ block is what tends to win rich results.
@@ -110,6 +111,39 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               <p style={{ marginBottom: 0 }}>{f.answer}</p>
             </div>
           ))}
+        </section>
+      )}
+
+      {post.links && (post.links.topicHref || post.links.questions.length > 0) && (
+        <section style={{ marginBottom: '1.6rem' }}>
+          <h2>Practise this</h2>
+          {post.links.topicHref && (
+            <p>
+              <Link href={post.links.topicHref}>
+                All {post.entity} questions
+              </Link>
+            </p>
+          )}
+          <ul>
+            {post.links.questions.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href}>{l.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {related.length > 0 && (
+        <section style={{ marginBottom: '1.6rem' }}>
+          <h2>Related guides</h2>
+          <ul>
+            {related.map((r) => (
+              <li key={r.slug}>
+                <Link href={`/blog/${r.slug}`}>{r.title}</Link>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 

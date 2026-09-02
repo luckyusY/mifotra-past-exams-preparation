@@ -32,6 +32,10 @@ export default function BlogConsole() {
   const [note, setNote] = useState('');
   const [rows, setRows] = useState<PostRow[] | null>(null);
   const [configured, setConfigured] = useState<boolean | null>(null);
+  const [matrix, setMatrix] = useState<{ total: number; written: number } | null>(null);
+  const [bulkCount, setBulkCount] = useState(5);
+  const [bulkPattern, setBulkPattern] = useState('');
+  const [patterns, setPatterns] = useState<string[]>([]);
 
   const headers = { 'x-admin-password': pw, 'content-type': 'application/json' };
 
@@ -45,6 +49,40 @@ export default function BlogConsole() {
     }
     setRows(data.posts);
     setConfigured(data.providerConfigured);
+
+    const m = await fetch('/api/admin/blog/bulk', { headers });
+    if (m.ok) {
+      const md = await m.json();
+      setMatrix({ total: md.total, written: md.written });
+      setPatterns([...new Set(md.matrix.map((t: { pattern: string }) => t.pattern))] as string[]);
+    }
+  }
+
+  async function runBulk() {
+    setBusy(true);
+    setError('');
+    setNote('');
+    try {
+      const res = await fetch('/api/admin/blog/bulk', {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({ count: bulkCount, pattern: bulkPattern || null }),
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setError(data.error ?? 'Failed');
+        return;
+      }
+      const parts = [`Drafted ${data.created.length}.`];
+      if (data.failed?.length) parts.push(`${data.failed.length} failed: ${data.failed[0].error}`);
+      if (data.note) parts.push(data.note);
+      setNote(parts.join(' '));
+      await list();
+    } catch {
+      setError('Network error.');
+    } finally {
+      setBusy(false);
+    }
   }
 
   async function generate() {
@@ -113,7 +151,62 @@ export default function BlogConsole() {
         )}
       </div>
 
+      {matrix && (
+        <div className="card" style={{ maxWidth: 620, marginBottom: '1.2rem' }}>
+          <h2 style={{ marginTop: 0 }}>Bulk generate</h2>
+          <p className="muted" style={{ marginTop: 0 }}>
+            {matrix.written} of {matrix.total} matrix topics written.{' '}
+            {matrix.total - matrix.written} remaining. Each post links back into the
+            question corpus and to sibling guides.
+          </p>
+
+          <div style={{ display: 'flex', gap: '.6rem', flexWrap: 'wrap', marginBottom: '.8rem' }}>
+            <div style={{ flex: '1 1 120px' }}>
+              <label htmlFor="bc" style={{ fontWeight: 600, fontSize: '.9rem' }}>
+                How many
+              </label>
+              <input
+                id="bc"
+                type="text"
+                inputMode="numeric"
+                value={bulkCount}
+                onChange={(e) => setBulkCount(Number(e.target.value) || 1)}
+              />
+            </div>
+            <div style={{ flex: '2 1 220px' }}>
+              <label htmlFor="bp" style={{ fontWeight: 600, fontSize: '.9rem' }}>
+                Pattern
+              </label>
+              <select
+                id="bp"
+                value={bulkPattern}
+                onChange={(e) => setBulkPattern(e.target.value)}
+                style={{
+                  font: 'inherit', width: '100%', padding: '.6rem .75rem',
+                  borderRadius: 8, border: '1px solid var(--line)',
+                  background: 'var(--surface)', color: 'var(--ink)',
+                }}
+              >
+                <option value="">All patterns</option>
+                {patterns.map((p) => (
+                  <option key={p} value={p}>{p}</option>
+                ))}
+              </select>
+            </div>
+          </div>
+
+          <button className="btn" onClick={runBulk} disabled={!pw || busy}>
+            {busy ? 'Drafting...' : `Draft ${bulkCount} posts`}
+          </button>
+          <p className="muted" style={{ fontSize: '.85rem', marginBottom: 0 }}>
+            Runs one at a time to stay inside provider rate limits. Expect roughly
+            20&ndash;40 seconds per post.
+          </p>
+        </div>
+      )}
+
       <div className="card" style={{ maxWidth: 620, marginBottom: '1.2rem' }}>
+        <h2 style={{ marginTop: 0 }}>Single topic</h2>
         <label htmlFor="topic" style={{ fontWeight: 600 }}>
           Topic
         </label>

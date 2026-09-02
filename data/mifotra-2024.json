@@ -6,658 +6,1411 @@
     "totalQuestions": 51,
     "capturedQuestions": 50,
     "durationMinutes": 120,
-    "languages": ["en", "fr"],
+    "languages": [
+      "en",
+      "fr"
+    ],
     "note": "Transcribed from a candidate's exam session. Question 51 was not captured in the source. The 'selected' field records what the candidate chose during the exam; 'answerIndex' is an independently verified answer key and differs from the candidate's choice on several questions."
   },
   "questions": [
     {
-      "id": "MIF-001", "number": 1, "marks": 1, "topic": "Support Procedure", "answerIndex": 0, "selected": 3,
+      "id": "MIF-001",
+      "number": 1,
+      "marks": 1,
+      "topic": "Support Procedure",
+      "answerIndex": 0,
+      "selected": 3,
       "en": {
         "stem": "A doctor reports that they are unable to access the hospital management system from their home computer. What should you do to resolve this issue?",
-        "options": ["Verify the doctor's remote access privileges", "Instruct the doctor to contact their insurance provider", "Inform the doctor that remote access is not available for security reasons", "Provide the doctor with the system administrator's login credentials"],
+        "options": [
+          "Verify the doctor's remote access privileges",
+          "Instruct the doctor to contact their insurance provider",
+          "Inform the doctor that remote access is not available for security reasons",
+          "Provide the doctor with the system administrator's login credentials"
+        ],
         "explanation": "Start by checking whether the account is actually entitled to remote access. Sharing an administrator's credentials is never acceptable - it destroys accountability and breaches every access-control policy."
       },
       "fr": {
-        "stem": "Un medecin signale qu'il ne peut pas acceder au systeme de gestion de l'hopital depuis son ordinateur personnel. Que devez-vous faire pour resoudre ce probleme ?",
-        "options": ["Verifier les privileges d'acces a distance du medecin", "Demandez au medecin de contacter son assureur", "Informez le medecin que l'acces a distance n'est pas disponible pour des raisons de securite", "Fournissez au medecin les informations de connexion de l'administrateur systeme"],
-        "explanation": "Commencez par verifier si le compte dispose reellement d'un droit d'acces a distance. Partager les identifiants de l'administrateur n'est jamais acceptable."
+        "stem": "Un médecin signale qu'il ne peut pas accéder au système de gestion de l'hôpital depuis son ordinateur personnel. Que devez-vous faire pour résoudre ce problème ?",
+        "options": [
+          "Vérifier les privilèges d'accès à distance du médecin",
+          "Demandez au médecin de contacter son assureur",
+          "Informez le médecin que l'accès à distance n'est pas disponible pour des raisons de sécurité",
+          "Fournissez au médecin les informations de connexion de l'administrateur système"
+        ],
+        "explanation": "Commencez par vérifier si le compte dispose réellement d'un droit d'accès à distance. Partager les identifiants de l'administrateur n'est jamais acceptable."
       }
     },
     {
-      "id": "MIF-002", "number": 2, "marks": 1, "topic": "Customer Service", "answerIndex": 1, "selected": 1,
+      "id": "MIF-002",
+      "number": 2,
+      "marks": 1,
+      "topic": "Customer Service",
+      "answerIndex": 1,
+      "selected": 1,
       "en": {
         "stem": "Which of the following is the best way to handle an angry customer?",
-        "options": ["Interrupt them to correct their mistakes", "Listen actively and empathetically", "Hang up the call", "Transfer them to another department"],
+        "options": [
+          "Interrupt them to correct their mistakes",
+          "Listen actively and empathetically",
+          "Hang up the call",
+          "Transfer them to another department"
+        ],
         "explanation": "Active, empathetic listening defuses the situation and surfaces the real problem. Interrupting, hanging up, or deflecting all escalate it."
       },
       "fr": {
-        "stem": "Parmi les propositions suivantes, laquelle est la meilleure facon de gerer un client en colere ?",
-        "options": ["Interrompre-les pour corriger leurs erreurs", "Ecouter activement et avec empathie", "Raccrocher l'appel", "Transferez-les dans un autre departement"],
-        "explanation": "L'ecoute active et empathique desamorce la situation et fait apparaitre le vrai probleme."
+        "stem": "Parmi les propositions suivantes, laquelle est la meilleure façon de gérer un client en colère ?",
+        "options": [
+          "Interrompre-les pour corriger leurs erreurs",
+          "Écouter activement et avec empathie",
+          "Raccrocher l'appel",
+          "Transférez-les dans un autre département"
+        ],
+        "explanation": "L'écoute active et empathique désamorce la situation et fait apparaître le vrai problème."
       }
     },
     {
-      "id": "MIF-003", "number": 3, "marks": 1, "topic": "Hardware", "answerIndex": 3, "selected": 3,
+      "id": "MIF-003",
+      "number": 3,
+      "marks": 1,
+      "topic": "Hardware",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "What is the function of a Solid State Drive (SSD)?",
-        "options": ["To process data", "To display images", "To cool the computer", "To store data"],
+        "options": [
+          "To process data",
+          "To display images",
+          "To cool the computer",
+          "To store data"
+        ],
         "explanation": "An SSD is non-volatile storage. It holds data in flash memory with no moving parts, which is why it is faster and more shock-resistant than a mechanical hard drive."
       },
       "fr": {
         "stem": "Quelle est la fonction d'un disque SSD ?",
-        "options": ["Traiter les donnees", "Afficher des images", "Refroidir l'ordinateur", "Stocker des donnees"],
-        "explanation": "Un SSD est un stockage non volatil utilisant de la memoire flash, sans pieces mobiles."
+        "options": [
+          "Traiter les données",
+          "Afficher des images",
+          "Refroidir l'ordinateur",
+          "Stocker des données"
+        ],
+        "explanation": "Un SSD est un stockage non volatil utilisant de la mémoire flash, sans pièces mobiles."
       }
     },
     {
-      "id": "MIF-004", "number": 4, "marks": 1, "topic": "Cybersecurity", "answerIndex": 2, "selected": 2,
+      "id": "MIF-004",
+      "number": 4,
+      "marks": 1,
+      "topic": "Cybersecurity",
+      "answerIndex": 2,
+      "selected": 2,
       "en": {
         "stem": "The hospital management system is experiencing issues with data encryption and security due to a compromised encryption key. What is the best approach to resolve this issue while ensuring data protection and minimizing downtime?",
-        "options": ["Implement a data encryption mechanism with automatic key rotation", "Delete all data", "Implement a key management system with secure key storage", "Utilize a hardware security module (HSM) for secure key management"],
+        "options": [
+          "Implement a data encryption mechanism with automatic key rotation",
+          "Delete all data",
+          "Implement a key management system with secure key storage",
+          "Utilize a hardware security module (HSM) for secure key management"
+        ],
         "explanation": "A key management system with secure storage addresses the root cause: the key was exposed because it was not properly protected. Automatic rotation and an HSM are components of a good KMS rather than complete answers on their own."
       },
       "fr": {
-        "stem": "Le systeme de gestion de l'hopital rencontre des problemes de cryptage et de securite des donnees en raison d'une cle de cryptage compromise. Quelle est la meilleure approche pour resoudre ce probleme tout en garantissant la protection des donnees et en minimisant les temps d'arret ?",
-        "options": ["Implementer un mecanisme de cryptage des donnees avec rotation automatique des cles", "Supprimer toutes les donnees", "Mettre en oeuvre un systeme de gestion des cles avec stockage securise des cles", "Utiliser un module de securite materiel (HSM) pour une gestion securisee des cles"],
-        "explanation": "Un systeme de gestion des cles avec stockage securise traite la cause racine : la cle etait exposee car mal protegee."
+        "stem": "Le système de gestion de l'hôpital rencontre des problèmes de cryptage et de sécurité des données en raison d'une clé de cryptage compromise. Quelle est la meilleure approche pour résoudre ce problème tout en garantissant la protection des données et en minimisant les temps d'arrêt ?",
+        "options": [
+          "Implémenter un mécanisme de cryptage des données avec rotation automatique des clés",
+          "Supprimer toutes les données",
+          "Mettre en oeuvre un système de gestion des clés avec stockage sécurisé des clés",
+          "Utiliser un module de sécurité matériel (HSM) pour une gestion sécurisée des clés"
+        ],
+        "explanation": "Un système de gestion des clés avec stockage sécurisé traite la cause racine : la clé était exposée car mal protégée."
       }
     },
     {
-      "id": "MIF-005", "number": 5, "marks": 1, "topic": "Operating Systems", "answerIndex": 3, "selected": 3,
+      "id": "MIF-005",
+      "number": 5,
+      "marks": 1,
+      "topic": "Operating Systems",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "What is the primary purpose of Safe Mode in Windows?",
-        "options": ["To delete files securely", "To update drivers", "To install new software", "To diagnose and fix problems"],
+        "options": [
+          "To delete files securely",
+          "To update drivers",
+          "To install new software",
+          "To diagnose and fix problems"
+        ],
         "explanation": "Safe Mode boots with a minimal set of drivers and services so a faulty driver or startup program can be isolated and removed."
       },
       "fr": {
-        "stem": "Quel est l'objectif principal du mode sans echec sous Windows ?",
-        "options": ["Pour supprimer des fichiers en toute securite", "Pour mettre a jour les pilotes", "Pour installer un nouveau logiciel", "Pour diagnostiquer et resoudre les problemes"],
-        "explanation": "Le mode sans echec demarre avec un minimum de pilotes et de services afin d'isoler un pilote ou un programme defectueux."
+        "stem": "Quel est l'objectif principal du mode sans échec sous Windows ?",
+        "options": [
+          "Pour supprimer des fichiers en toute sécurité",
+          "Pour mettre à jour les pilotes",
+          "Pour installer un nouveau logiciel",
+          "Pour diagnostiquer et résoudre les problèmes"
+        ],
+        "explanation": "Le mode sans échec démarre avec un minimum de pilotes et de services afin d'isoler un pilote ou un programme défectueux."
       }
     },
     {
-      "id": "MIF-006", "number": 6, "marks": 1, "topic": "Hardware", "answerIndex": 0, "selected": 0,
+      "id": "MIF-006",
+      "number": 6,
+      "marks": 1,
+      "topic": "Hardware",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "When a printer is not printing, which of the following should you check first?",
-        "options": ["All answer are correct", "Paper tray", "Printer driver installation", "Printer ink levels"],
+        "options": [
+          "All answer are correct",
+          "Paper tray",
+          "Printer driver installation",
+          "Printer ink levels"
+        ],
         "explanation": "Paper, ink and driver are all standard first-line checks in printer troubleshooting, so the combined option is the intended answer."
       },
       "fr": {
-        "stem": "Lorsqu'une imprimante n'imprime pas, lequel des elements suivants devez-vous verifier en premier ?",
-        "options": ["Toutes les reponses sont correctes", "Bac a papier", "Installation du pilote d'imprimante", "Niveaux d'encre de l'imprimante"],
-        "explanation": "Le papier, l'encre et le pilote font tous partie des premieres verifications standard."
+        "stem": "Lorsqu'une imprimante n'imprime pas, lequel des éléments suivants devez-vous vérifier en premier ?",
+        "options": [
+          "Toutes les réponses sont correctes",
+          "Bac à papier",
+          "Installation du pilote d'imprimante",
+          "Niveaux d'encre de l'imprimante"
+        ],
+        "explanation": "Le papier, l'encre et le pilote font tous partie des premières vérifications standard."
       }
     },
     {
-      "id": "MIF-007", "number": 7, "marks": 1, "topic": "Operating Systems", "answerIndex": 0, "selected": 0,
+      "id": "MIF-007",
+      "number": 7,
+      "marks": 1,
+      "topic": "Operating Systems",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "Which of the following is an example of an operating system?",
-        "options": ["Window 10", "Microsoft Word", "Adobe Photoshop", "Google Chrome"],
+        "options": [
+          "Window 10",
+          "Microsoft Word",
+          "Adobe Photoshop",
+          "Google Chrome"
+        ],
         "explanation": "Windows 10 is an operating system. Word, Photoshop and Chrome are applications that run on top of one."
       },
       "fr": {
-        "stem": "Lequel des elements suivants est un exemple de systeme d'exploitation ?",
-        "options": ["Window 10", "Microsoft Word", "Adobe Photoshop", "Google Chrome"],
-        "explanation": "Windows 10 est un systeme d'exploitation. Word, Photoshop et Chrome sont des applications."
+        "stem": "Lequel des éléments suivants est un exemple de système d'exploitation ?",
+        "options": [
+          "Window 10",
+          "Microsoft Word",
+          "Adobe Photoshop",
+          "Google Chrome"
+        ],
+        "explanation": "Windows 10 est un système d'exploitation. Word, Photoshop et Chrome sont des applications."
       }
     },
     {
-      "id": "MIF-008", "number": 8, "marks": 1, "topic": "Customer Service", "answerIndex": 1, "selected": 1,
+      "id": "MIF-008",
+      "number": 8,
+      "marks": 1,
+      "topic": "Customer Service",
+      "answerIndex": 1,
+      "selected": 1,
       "en": {
         "stem": "What should you do if you cannot resolve a customer's issue immediately?",
-        "options": ["Promise a solution without a timeline", "Escalate the issue and provide an estimated resolution time", "Tell them you can't help", "Ignore the issue"],
+        "options": [
+          "Promise a solution without a timeline",
+          "Escalate the issue and provide an estimated resolution time",
+          "Tell them you can't help",
+          "Ignore the issue"
+        ],
         "explanation": "Escalating with a realistic estimate keeps the customer informed and moves the ticket to someone who can close it."
       },
       "fr": {
-        "stem": "Que devez-vous faire si vous ne pouvez pas resoudre immediatement le probleme d'un client ?",
-        "options": ["Promettre une solution sans echeancier", "Faire remonter le probleme et fournir une estimation du temps de resolution", "Dis-leur que tu ne peux pas aider", "Ignorer le probleme"],
-        "explanation": "Faire remonter le probleme avec une estimation realiste tient le client informe."
+        "stem": "Que devez-vous faire si vous ne pouvez pas résoudre immédiatement le problème d'un client ?",
+        "options": [
+          "Promettre une solution sans échéancier",
+          "Faire remonter le problème et fournir une estimation du temps de résolution",
+          "Dis-leur que tu ne peux pas aider",
+          "Ignorer le problème"
+        ],
+        "explanation": "Faire remonter le problème avec une estimation réaliste tient le client informé."
       }
     },
     {
-      "id": "MIF-009", "number": 9, "marks": 1, "topic": "Customer Service", "answerIndex": 2, "selected": 2,
+      "id": "MIF-009",
+      "number": 9,
+      "marks": 1,
+      "topic": "Customer Service",
+      "answerIndex": 2,
+      "selected": 2,
       "en": {
         "stem": "Which of the following is a key aspect of good customer service?",
-        "options": ["Redirecting all calls to voicemail", "Using technical jargon", "Responding quickly and effectively", "Being argumentative"],
+        "options": [
+          "Redirecting all calls to voicemail",
+          "Using technical jargon",
+          "Responding quickly and effectively",
+          "Being argumentative"
+        ],
         "explanation": "Speed combined with effectiveness is the core measure of support quality."
       },
       "fr": {
-        "stem": "Parmi les elements suivants, lequel est un aspect cle d'un bon service client ?",
-        "options": ["Rediriger tous les appels vers la messagerie vocale", "Utiliser le jargon technique", "Repondre rapidement et efficacement", "Etre argumentatif"],
-        "explanation": "La rapidite combinee a l'efficacite est la mesure principale de la qualite du support."
+        "stem": "Parmi les éléments suivants, lequel est un aspect clé d'un bon service client ?",
+        "options": [
+          "Rediriger tous les appels vers la messagerie vocale",
+          "Utiliser le jargon technique",
+          "Répondre rapidement et efficacement",
+          "Être argumentatif"
+        ],
+        "explanation": "La rapidité combinée à l'efficacité est la mesure principale de la qualité du support."
       }
     },
     {
-      "id": "MIF-010", "number": 10, "marks": 1, "topic": "Troubleshooting", "answerIndex": 0, "selected": 0,
+      "id": "MIF-010",
+      "number": 10,
+      "marks": 1,
+      "topic": "Troubleshooting",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "If a user's computer is running very slowly, which of the following could be a potential cause?",
-        "options": ["All answer are correct", "Overloaded CPU", "Insufficient RAM", "Full hard drive"],
+        "options": [
+          "All answer are correct",
+          "Overloaded CPU",
+          "Insufficient RAM",
+          "Full hard drive"
+        ],
         "explanation": "CPU saturation, memory pressure and a full disk each cause slowdowns, so all three are potential causes."
       },
       "fr": {
-        "stem": "Si l'ordinateur d'un utilisateur fonctionne tres lentement, lequel des elements suivants pourrait en etre la cause potentielle ?",
-        "options": ["Toutes les reponses sont correctes", "Processeur surcharge", "RAM insuffisante", "Disque dur complet"],
-        "explanation": "La saturation du processeur, le manque de memoire et un disque plein provoquent chacun des ralentissements."
+        "stem": "Si l'ordinateur d'un utilisateur fonctionne très lentement, lequel des éléments suivants pourrait en être la cause potentielle ?",
+        "options": [
+          "Toutes les réponses sont correctes",
+          "Processeur surchargé",
+          "RAM insuffisante",
+          "Disque dur complet"
+        ],
+        "explanation": "La saturation du processeur, le manque de mémoire et un disque plein provoquent chacun des ralentissements."
       }
     },
     {
-      "id": "MIF-011", "number": 11, "marks": 1, "topic": "Hardware", "answerIndex": 2, "selected": 2,
+      "id": "MIF-011",
+      "number": 11,
+      "marks": 1,
+      "topic": "Hardware",
+      "answerIndex": 2,
+      "selected": 2,
       "en": {
         "stem": "Which of the following is a primary function of the CPU?",
-        "options": ["Network connection", "Data storage", "Processing instructions", "Display output"],
+        "options": [
+          "Network connection",
+          "Data storage",
+          "Processing instructions",
+          "Display output"
+        ],
         "explanation": "The CPU fetches, decodes and executes instructions. Storage, networking and display are handled by other components."
       },
       "fr": {
-        "stem": "Parmi les elements suivants, lequel est une fonction principale du processeur ?",
-        "options": ["Connexion reseau", "Stockage de donnees", "Instructions de traitement", "Sortie d'affichage"],
-        "explanation": "Le processeur recupere, decode et execute les instructions."
+        "stem": "Parmi les éléments suivants, lequel est une fonction principale du processeur ?",
+        "options": [
+          "Connexion réseau",
+          "Stockage de données",
+          "Instructions de traitement",
+          "Sortie d'affichage"
+        ],
+        "explanation": "Le processeur récupère, décode et exécute les instructions."
       }
     },
     {
-      "id": "MIF-012", "number": 12, "marks": 1, "topic": "Operating Systems", "answerIndex": 2, "selected": 0,
+      "id": "MIF-012",
+      "number": 12,
+      "marks": 1,
+      "topic": "Operating Systems",
+      "answerIndex": 2,
+      "selected": 0,
       "en": {
         "stem": "Which command is used to list files and directories in Linux?",
-        "options": ["list", "show", "ls", "dir"],
+        "options": [
+          "list",
+          "show",
+          "ls",
+          "dir"
+        ],
         "explanation": "ls is the standard Linux listing command. dir exists on some systems as a compatibility alias, but ls is the expected answer; list and show are not commands."
       },
       "fr": {
-        "stem": "Quelle commande est utilisee pour lister les fichiers et repertoires sous Linux ?",
-        "options": ["list", "show", "ls", "dir"],
+        "stem": "Quelle commande est utilisée pour lister les fichiers et répertoires sous Linux ?",
+        "options": [
+          "list",
+          "show",
+          "ls",
+          "dir"
+        ],
         "explanation": "ls est la commande standard sous Linux. list et show n'existent pas."
       }
     },
     {
-      "id": "MIF-013", "number": 13, "marks": 1, "topic": "Operating Systems", "answerIndex": 1, "selected": 2,
+      "id": "MIF-013",
+      "number": 13,
+      "marks": 1,
+      "topic": "Operating Systems",
+      "answerIndex": 1,
+      "selected": 2,
       "en": {
         "stem": "Which Linux command is used to record a user login session in a file?",
-        "options": ["shell", "script", "macro", "read"],
+        "options": [
+          "shell",
+          "script",
+          "macro",
+          "read"
+        ],
         "explanation": "script starts a session recorder that writes everything typed and displayed to a typescript file. macro is not a Linux command."
       },
       "fr": {
-        "stem": "Quelle commande Linux est utilisee pour enregistrer une session de connexion utilisateur dans un fichier ?",
-        "options": ["shell", "script", "macro", "read"],
-        "explanation": "script demarre un enregistreur de session qui ecrit tout dans un fichier. macro n'est pas une commande Linux."
+        "stem": "Quelle commande Linux est utilisée pour enregistrer une session de connexion utilisateur dans un fichier ?",
+        "options": [
+          "shell",
+          "script",
+          "macro",
+          "read"
+        ],
+        "explanation": "script démarre un enregistreur de session qui écrit tout dans un fichier. macro n'est pas une commande Linux."
       }
     },
     {
-      "id": "MIF-014", "number": 14, "marks": 1, "topic": "Networking", "answerIndex": 0, "selected": 0,
+      "id": "MIF-014",
+      "number": 14,
+      "marks": 1,
+      "topic": "Networking",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "What device is commonly used to connect multiple computers within a LAN?",
-        "options": ["Switch", "Router", "Firewall", "Modem"],
+        "options": [
+          "Switch",
+          "Router",
+          "Firewall",
+          "Modem"
+        ],
         "explanation": "A switch forwards frames between hosts inside the same local network. A router joins different networks; a modem converts signals for the WAN link."
       },
       "fr": {
-        "stem": "Quel appareil est couramment utilise pour connecter plusieurs ordinateurs au sein d'un reseau local ?",
-        "options": ["Switch", "Routeur", "Firewall", "Modem"],
-        "explanation": "Un commutateur transmet les trames entre hotes du meme reseau local."
+        "stem": "Quel appareil est couramment utilisé pour connecter plusieurs ordinateurs au sein d'un réseau local ?",
+        "options": [
+          "Switch",
+          "Routeur",
+          "Firewall",
+          "Modem"
+        ],
+        "explanation": "Un commutateur transmet les trames entre hôtes du même réseau local."
       }
     },
     {
-      "id": "MIF-015", "number": 15, "marks": 1, "topic": "Operating Systems", "answerIndex": 0, "selected": 0,
+      "id": "MIF-015",
+      "number": 15,
+      "marks": 1,
+      "topic": "Operating Systems",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "Which file system is commonly used on Windows operating system?",
-        "options": ["NTFS", "EXT4", "APFS", "HFS+"],
+        "options": [
+          "NTFS",
+          "EXT4",
+          "APFS",
+          "HFS+"
+        ],
         "explanation": "NTFS is the standard Windows file system. EXT4 belongs to Linux; APFS and HFS+ are Apple file systems."
       },
       "fr": {
-        "stem": "Quel systeme de fichiers est couramment utilise sur le systeme d'exploitation Windows ?",
-        "options": ["NTFS", "EXT4", "APFS", "HFS+"],
-        "explanation": "NTFS est le systeme de fichiers standard de Windows."
+        "stem": "Quel système de fichiers est couramment utilisé sur le système d'exploitation Windows ?",
+        "options": [
+          "NTFS",
+          "EXT4",
+          "APFS",
+          "HFS+"
+        ],
+        "explanation": "NTFS est le système de fichiers standard de Windows."
       }
     },
     {
-      "id": "MIF-016", "number": 16, "marks": 1, "topic": "Troubleshooting", "answerIndex": 3, "selected": 3,
+      "id": "MIF-016",
+      "number": 16,
+      "marks": 1,
+      "topic": "Troubleshooting",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "What is the first step in troubleshooting a computer that won't turn on?",
-        "options": ["Reinstall the operating system", "Replace the hard drive", "Update the BIOS", "Check the power supply and connections"],
+        "options": [
+          "Reinstall the operating system",
+          "Replace the hard drive",
+          "Update the BIOS",
+          "Check the power supply and connections"
+        ],
         "explanation": "Always start with power. A dead outlet, loose cable or failed PSU explains the symptom before anything else is worth testing."
       },
       "fr": {
-        "stem": "Quelle est la premiere etape pour depanner un ordinateur qui ne s'allume pas ?",
-        "options": ["Reinstaller le systeme d'exploitation", "Remplacer le disque dur", "Mettre a jour le BIOS", "Verifier l'alimentation et les connexions"],
+        "stem": "Quelle est la première étape pour dépanner un ordinateur qui ne s'allume pas ?",
+        "options": [
+          "Réinstaller le système d'exploitation",
+          "Remplacer le disque dur",
+          "Mettre à jour le BIOS",
+          "Vérifier l'alimentation et les connexions"
+        ],
         "explanation": "Commencez toujours par l'alimentation avant de tester autre chose."
       }
     },
     {
-      "id": "MIF-017", "number": 17, "marks": 1, "topic": "Networking", "answerIndex": 0, "selected": 3,
+      "id": "MIF-017",
+      "number": 17,
+      "marks": 1,
+      "topic": "Networking",
+      "answerIndex": 0,
+      "selected": 3,
       "en": {
         "stem": "Which cable type is most commonly used for Ethernet connections?",
-        "options": ["Twisted pair cable", "Serial cable", "Coaxial cable", "Fiber optic cable"],
+        "options": [
+          "Twisted pair cable",
+          "Serial cable",
+          "Coaxial cable",
+          "Fiber optic cable"
+        ],
         "explanation": "Twisted pair (Cat5e/Cat6) is by far the most common Ethernet medium. Fibre is used for long or high-capacity links, not for the typical desk connection."
       },
       "fr": {
-        "stem": "Quel type de cable est le plus couramment utilise pour les connexions Ethernet ?",
-        "options": ["Paire torsadee", "Cable serie", "Cable coaxial", "Cable de fibre optique"],
-        "explanation": "La paire torsadee (Cat5e/Cat6) est de loin le support Ethernet le plus courant."
+        "stem": "Quel type de câble est le plus couramment utilisé pour les connexions Ethernet ?",
+        "options": [
+          "Paire torsadée",
+          "Câble série",
+          "Câble coaxial",
+          "Câble de fibre optique"
+        ],
+        "explanation": "La paire torsadée (Cat5e/Cat6) est de loin le support Ethernet le plus courant."
       }
     },
     {
-      "id": "MIF-018", "number": 18, "marks": 1, "topic": "Operating Systems", "answerIndex": 0, "selected": 1,
+      "id": "MIF-018",
+      "number": 18,
+      "marks": 1,
+      "topic": "Operating Systems",
+      "answerIndex": 0,
+      "selected": 1,
       "en": {
         "stem": "What is the main function of an operating system?",
-        "options": ["To manage hardware resources", "To run applications", "To browse the internet", "To edit documents"],
+        "options": [
+          "To manage hardware resources",
+          "To run applications",
+          "To browse the internet",
+          "To edit documents"
+        ],
         "explanation": "The operating system manages CPU, memory, storage and devices, and schedules access to them. Running applications is a consequence of that role, not the definition of it."
       },
       "fr": {
-        "stem": "Quelle est la fonction principale d'un systeme d'exploitation ?",
-        "options": ["Gerer les ressources materielles", "Executer des applications", "Naviguer sur Internet", "Modifier des documents"],
-        "explanation": "Le systeme d'exploitation gere le processeur, la memoire, le stockage et les peripheriques."
+        "stem": "Quelle est la fonction principale d'un système d'exploitation ?",
+        "options": [
+          "Gérer les ressources matérielles",
+          "Exécuter des applications",
+          "Naviguer sur Internet",
+          "Modifier des documents"
+        ],
+        "explanation": "Le système d'exploitation gère le processeur, la mémoire, le stockage et les périphériques."
       }
     },
     {
-      "id": "MIF-019", "number": 19, "marks": 1, "topic": "Customer Service", "answerIndex": 3, "selected": 3,
+      "id": "MIF-019",
+      "number": 19,
+      "marks": 1,
+      "topic": "Customer Service",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "Which of the following phrases is most appropriate when dealing with a customer complaint?",
-        "options": ["\"Please calm down.\"", "\"It's not my problem.\"", "\"You'll need to call back later.\"", "\"I understand your frustration, let me help resolve this.\""],
+        "options": [
+          "\"Please calm down.\"",
+          "\"It's not my problem.\"",
+          "\"You'll need to call back later.\"",
+          "\"I understand your frustration, let me help resolve this.\""
+        ],
         "explanation": "Acknowledging the feeling and immediately offering help is the standard de-escalation phrasing."
       },
       "fr": {
-        "stem": "Laquelle des phrases suivantes est la plus appropriee pour traiter une reclamation client ?",
-        "options": ["\"Calmez vous s'il vous plait.\"", "\"Ce n'est pas mon probleme.\"", "\"Tu devras rappeler plus tard.\"", "\"Je comprends votre frustration, laissez-moi vous aider a resoudre ce probleme.\""],
-        "explanation": "Reconnaitre l'emotion et proposer immediatement de l'aide est la formulation standard."
+        "stem": "Laquelle des phrases suivantes est la plus appropriée pour traiter une réclamation client ?",
+        "options": [
+          "\"Calmez vous s'il vous plait.\"",
+          "\"Ce n'est pas mon problème.\"",
+          "\"Tu devras rappeler plus tard.\"",
+          "\"Je comprends votre frustration, laissez-moi vous aider à résoudre ce problème.\""
+        ],
+        "explanation": "Reconnaître l'émotion et proposer immédiatement de l'aide est la formulation standard."
       }
     },
     {
-      "id": "MIF-020", "number": 20, "marks": 1, "topic": "Troubleshooting", "answerIndex": 2, "selected": 0,
+      "id": "MIF-020",
+      "number": 20,
+      "marks": 1,
+      "topic": "Troubleshooting",
+      "answerIndex": 2,
+      "selected": 0,
       "en": {
         "stem": "A user reports that they are unable to access the hospital management system due to a slow internet connection. What steps would you take to troubleshoot this issue?",
-        "options": ["Instruct the user to contact their internet service provider", "Inform the user that the system is experiencing high traffic and recommend accessing it during off-peak hours", "Inform the user to Verify the network connectivity and sleep computer", "No correct answer"],
+        "options": [
+          "Instruct the user to contact their internet service provider",
+          "Inform the user that the system is experiencing high traffic and recommend accessing it during off-peak hours",
+          "Inform the user to Verify the network connectivity and sleep computer",
+          "No correct answer"
+        ],
         "explanation": "Verify connectivity locally before blaming an external party. Sending the user to their ISP first skips the diagnosis entirely."
       },
       "fr": {
-        "stem": "Un utilisateur signale qu'il ne parvient pas a acceder au systeme de gestion de l'hopital en raison d'une connexion Internet lente. Quelles mesures prendriez-vous pour resoudre ce probleme ?",
-        "options": ["Demandez a l'utilisateur de contacter son fournisseur d'acces Internet", "Informer l'utilisateur que le systeme connait un trafic eleve et lui recommander d'y acceder pendant les heures creuses", "Informez l'utilisateur de verifier la connectivite reseau et l'ordinateur en veille", "Pas de bonne reponse"],
-        "explanation": "Verifiez la connectivite localement avant d'incriminer un tiers externe."
+        "stem": "Un utilisateur signale qu'il ne parvient pas à accéder au système de gestion de l'hôpital en raison d'une connexion Internet lente. Quelles mesures prendriez-vous pour résoudre ce problème ?",
+        "options": [
+          "Demandez à l'utilisateur de contacter son fournisseur d'accès Internet",
+          "Informer l'utilisateur que le système connaît un trafic élevé et lui recommander d'y accéder pendant les heures creuses",
+          "Informez l'utilisateur de vérifier la connectivité réseau et l'ordinateur en veille",
+          "Pas de bonne réponse"
+        ],
+        "explanation": "Vérifiez la connectivité localement avant d'incriminer un tiers externe."
       }
     },
     {
-      "id": "MIF-021", "number": 21, "marks": 1, "topic": "Networking", "answerIndex": 3, "selected": 1,
+      "id": "MIF-021",
+      "number": 21,
+      "marks": 1,
+      "topic": "Networking",
+      "answerIndex": 3,
+      "selected": 1,
       "en": {
         "stem": "What is the purpose of DNS?",
-        "options": ["To encrypt data", "To assign IP addresses", "To store website data", "To translate domain names to IP addresses"],
+        "options": [
+          "To encrypt data",
+          "To assign IP addresses",
+          "To store website data",
+          "To translate domain names to IP addresses"
+        ],
         "explanation": "DNS resolves human-readable names to IP addresses. Assigning addresses is DHCP's job - a very common confusion."
       },
       "fr": {
         "stem": "Quel est le but du DNS ?",
-        "options": ["Pour chiffrer les donnees", "Pour attribuer des adresses IP", "Pour stocker les donnees du site Web", "Pour traduire les noms de domaine en adresses IP"],
-        "explanation": "Le DNS resout les noms en adresses IP. L'attribution d'adresses est le role du DHCP."
+        "options": [
+          "Pour chiffrer les données",
+          "Pour attribuer des adresses IP",
+          "Pour stocker les données du site Web",
+          "Pour traduire les noms de domaine en adresses IP"
+        ],
+        "explanation": "Le DNS résout les noms en adresses IP. L'attribution d'adresses est le rôle du DHCP."
       }
     },
     {
-      "id": "MIF-022", "number": 22, "marks": 1, "topic": "Troubleshooting", "answerIndex": 2, "selected": 1,
+      "id": "MIF-022",
+      "number": 22,
+      "marks": 1,
+      "topic": "Troubleshooting",
+      "answerIndex": 2,
+      "selected": 1,
       "en": {
         "stem": "What does a 'blue screen of death' (BSOD) typically indicate?",
-        "options": ["Low battery", "Hardware failure", "System crash or fatal error", "Software update"],
+        "options": [
+          "Low battery",
+          "Hardware failure",
+          "System crash or fatal error",
+          "Software update"
+        ],
         "explanation": "A BSOD is a kernel-level stop error. Hardware failure is one possible cause among many, including bad drivers and corrupt system files, so the general answer is the correct one."
       },
       "fr": {
-        "stem": "Qu'indique generalement un ecran bleu de la mort (BSOD) ?",
-        "options": ["Batterie faible", "Panne materielle", "Plantage du systeme ou erreur fatale", "Mise a jour logicielle"],
-        "explanation": "Un BSOD est une erreur d'arret au niveau du noyau, dont la panne materielle n'est qu'une cause possible."
+        "stem": "Qu'indique généralement un écran bleu de la mort (BSOD) ?",
+        "options": [
+          "Batterie faible",
+          "Panne matérielle",
+          "Plantage du système ou erreur fatale",
+          "Mise à jour logicielle"
+        ],
+        "explanation": "Un BSOD est une erreur d'arrêt au niveau du noyau, dont la panne matérielle n'est qu'une cause possible."
       }
     },
     {
-      "id": "MIF-023", "number": 23, "marks": 1, "topic": "Cybersecurity", "answerIndex": 3, "selected": 3,
+      "id": "MIF-023",
+      "number": 23,
+      "marks": 1,
+      "topic": "Cybersecurity",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "A user reports that they are unable to access the hospital management system due to a certificate expiration issue. What steps would you take to troubleshoot and resolve the issue while ensuring system availability?",
-        "options": ["No correct answer", "Utilize a certificate revocation list (CRL) to block access from expired certificates", "Promise a solution without a timeline", "Renew the expired certificate and update it on the system"],
+        "options": [
+          "No correct answer",
+          "Utilize a certificate revocation list (CRL) to block access from expired certificates",
+          "Promise a solution without a timeline",
+          "Renew the expired certificate and update it on the system"
+        ],
         "explanation": "Renewing and installing the certificate restores trust and availability. A CRL blocks access rather than restoring it."
       },
       "fr": {
-        "stem": "Un utilisateur signale qu'il ne peut pas acceder au systeme de gestion de l'hopital en raison d'un probleme d'expiration de certificat. Quelles mesures prendriez-vous pour depanner et resoudre le probleme tout en garantissant la disponibilite du systeme ?",
-        "options": ["Pas de bonne reponse", "Utiliser une liste de revocation de certificats (CRL) pour bloquer l'acces aux certificats expires", "Promettre une solution sans echeancier", "Renouveler le certificat expire et le mettre a jour sur le systeme"],
-        "explanation": "Renouveler et installer le certificat retablit la confiance et la disponibilite."
+        "stem": "Un utilisateur signale qu'il ne peut pas accéder au système de gestion de l'hôpital en raison d'un problème d'expiration de certificat. Quelles mesures prendriez-vous pour dépanner et résoudre le problème tout en garantissant la disponibilité du système ?",
+        "options": [
+          "Pas de bonne réponse",
+          "Utiliser une liste de révocation de certificats (CRL) pour bloquer l'accès aux certificats expirés",
+          "Promettre une solution sans échéancier",
+          "Renouveler le certificat expiré et le mettre à jour sur le système"
+        ],
+        "explanation": "Renouveler et installer le certificat rétablit la confiance et la disponibilité."
       }
     },
     {
-      "id": "MIF-024", "number": 24, "marks": 1, "topic": "Hardware", "answerIndex": 3, "selected": 3,
+      "id": "MIF-024",
+      "number": 24,
+      "marks": 1,
+      "topic": "Hardware",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "What does RAM stand for?",
-        "options": ["Read Access Memory", "Rapid Access Memory", "Real Access Memory", "Random Access Memory"],
+        "options": [
+          "Read Access Memory",
+          "Rapid Access Memory",
+          "Real Access Memory",
+          "Random Access Memory"
+        ],
         "explanation": "Random Access Memory - volatile working memory in which any location can be reached directly, without reading through what precedes it."
       },
       "fr": {
         "stem": "Que signifie RAM ?",
-        "options": ["Read Access Memory", "Rapid Access Memory", "Real Access Memory", "Random Access Memory"],
-        "explanation": "Random Access Memory - memoire de travail volatile accessible directement a n'importe quelle adresse."
+        "options": [
+          "Read Access Memory",
+          "Rapid Access Memory",
+          "Real Access Memory",
+          "Random Access Memory"
+        ],
+        "explanation": "Random Access Memory - mémoire de travail volatile accessible directement à n'importe quelle adresse."
       }
     },
     {
-      "id": "MIF-025", "number": 25, "marks": 1, "topic": "Customer Service", "answerIndex": 3, "selected": 3,
+      "id": "MIF-025",
+      "number": 25,
+      "marks": 1,
+      "topic": "Customer Service",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "What is the best way to end a call with a satisfied customer?",
-        "options": ["Hang up quickly", "Say nothing", "Ask them to call back", "Thank them and confirm their issue is resolved"],
+        "options": [
+          "Hang up quickly",
+          "Say nothing",
+          "Ask them to call back",
+          "Thank them and confirm their issue is resolved"
+        ],
         "explanation": "Confirming resolution and thanking the caller closes the loop and prevents repeat contacts."
       },
       "fr": {
-        "stem": "Quelle est la meilleure facon de terminer un appel avec un client satisfait ?",
-        "options": ["Raccrochez rapidement", "Ne rien dire", "Demandez-leur de rappeler", "Remerciez-les et confirmez que leur probleme est resolu"],
-        "explanation": "Confirmer la resolution et remercier l'appelant boucle l'echange."
+        "stem": "Quelle est la meilleure façon de terminer un appel avec un client satisfait ?",
+        "options": [
+          "Raccrochez rapidement",
+          "Ne rien dire",
+          "Demandez-leur de rappeler",
+          "Remerciez-les et confirmez que leur problème est résolu"
+        ],
+        "explanation": "Confirmer la résolution et remercier l'appelant boucle l'échange."
       }
     },
     {
-      "id": "MIF-026", "number": 26, "marks": 1, "topic": "Networking", "answerIndex": 2, "selected": 0,
+      "id": "MIF-026",
+      "number": 26,
+      "marks": 1,
+      "topic": "Networking",
+      "answerIndex": 2,
+      "selected": 0,
       "en": {
         "stem": "Which of the following tools is used to diagnose network connectivity issues?",
-        "options": ["System Restore", "Disk Cleanup", "Ping", "Device Manager"],
+        "options": [
+          "System Restore",
+          "Disk Cleanup",
+          "Ping",
+          "Device Manager"
+        ],
         "explanation": "ping sends ICMP echo requests to test reachability and latency. The other three are local maintenance tools with no network diagnostic role."
       },
       "fr": {
-        "stem": "Lequel des outils suivants est utilise pour diagnostiquer les problemes de connectivite reseau ?",
-        "options": ["Restauration du systeme", "Nettoyage de disque", "Ping", "Gestionnaire de peripheriques"],
-        "explanation": "ping envoie des requetes ICMP pour tester l'accessibilite et la latence."
+        "stem": "Lequel des outils suivants est utilisé pour diagnostiquer les problèmes de connectivité réseau ?",
+        "options": [
+          "Restauration du système",
+          "Nettoyage de disque",
+          "Ping",
+          "Gestionnaire de périphériques"
+        ],
+        "explanation": "ping envoie des requêtes ICMP pour tester l'accessibilité et la latence."
       }
     },
     {
-      "id": "MIF-027", "number": 27, "marks": 1, "topic": "Cybersecurity", "answerIndex": 0, "selected": 0,
+      "id": "MIF-027",
+      "number": 27,
+      "marks": 1,
+      "topic": "Cybersecurity",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "The hospital management system is experiencing issues with user authentication due to a compromised authentication token. What is the best approach to resolve this issue while minimizing disruption to patient care?",
-        "options": ["both b) and c)", "Utilize a multi-factor authentication system to add an additional layer of security", "Implement a token-based authentication system with secure token storage", "Implement a token revocation mechanism to invalidate compromised tokens"],
+        "options": [
+          "both b) and c)",
+          "Utilize a multi-factor authentication system to add an additional layer of security",
+          "Implement a token-based authentication system with secure token storage",
+          "Implement a token revocation mechanism to invalidate compromised tokens"
+        ],
         "explanation": "Combining multi-factor authentication with securely stored tokens both contains the current compromise and hardens against the next one."
       },
       "fr": {
-        "stem": "Le systeme de gestion de l'hopital rencontre des problemes d'authentification des utilisateurs en raison d'un jeton d'authentification compromis. Quelle est la meilleure approche pour resoudre ce probleme tout en minimisant les perturbations dans les soins aux patients ?",
-        "options": ["b) et c) a la fois", "Utilisez un systeme d'authentification multifacteur pour ajouter une couche de securite supplementaire", "Implementez un systeme d'authentification base sur des jetons avec un stockage securise des jetons", "Implementer un mecanisme de revocation de jetons pour invalider les jetons compromis"],
-        "explanation": "Combiner l'authentification multifacteur et un stockage securise des jetons traite la compromission actuelle et future."
+        "stem": "Le système de gestion de l'hôpital rencontre des problèmes d'authentification des utilisateurs en raison d'un jeton d'authentification compromis. Quelle est la meilleure approche pour résoudre ce problème tout en minimisant les perturbations dans les soins aux patients ?",
+        "options": [
+          "b) et c) à la fois",
+          "Utilisez un système d'authentification multifacteur pour ajouter une couche de sécurité supplémentaire",
+          "Implémentez un système d'authentification base sur des jetons avec un stockage sécurisé des jetons",
+          "Implémenter un mécanisme de révocation de jetons pour invalider les jetons compromis"
+        ],
+        "explanation": "Combiner l'authentification multifacteur et un stockage sécurisé des jetons traite la compromission actuelle et future."
       }
     },
     {
-      "id": "MIF-028", "number": 28, "marks": 1, "topic": "Cybersecurity", "answerIndex": 2, "selected": 0,
+      "id": "MIF-028",
+      "number": 28,
+      "marks": 1,
+      "topic": "Cybersecurity",
+      "answerIndex": 2,
+      "selected": 0,
       "en": {
         "stem": "What is the main purpose of a firewall?",
-        "options": ["To protect against malware", "To speed up the internet", "To monitor network traffic", "To store data"],
+        "options": [
+          "To protect against malware",
+          "To speed up the internet",
+          "To monitor network traffic",
+          "To store data"
+        ],
         "explanation": "A firewall inspects and filters traffic against a rule set. Anti-malware is a separate control - a firewall does not scan files for infection."
       },
       "fr": {
         "stem": "Quel est l'objectif principal d'un pare-feu ?",
-        "options": ["Pour se proteger contre les logiciels malveillants", "Pour accelerer Internet", "Pour surveiller le trafic reseau", "Pour stocker des donnees"],
-        "explanation": "Un pare-feu inspecte et filtre le trafic selon un ensemble de regles."
+        "options": [
+          "Pour se protéger contre les logiciels malveillants",
+          "Pour accélérer Internet",
+          "Pour surveiller le trafic réseau",
+          "Pour stocker des données"
+        ],
+        "explanation": "Un pare-feu inspecte et filtre le trafic selon un ensemble de règles."
       }
     },
     {
-      "id": "MIF-029", "number": 29, "marks": 1, "topic": "Operating Systems", "answerIndex": 0, "selected": 3,
+      "id": "MIF-029",
+      "number": 29,
+      "marks": 1,
+      "topic": "Operating Systems",
+      "answerIndex": 0,
+      "selected": 3,
       "en": {
         "stem": "Which of the following is a Linux distribution?",
-        "options": ["Ubuntu", "Windows", "iOS", "macOS"],
+        "options": [
+          "Ubuntu",
+          "Windows",
+          "iOS",
+          "macOS"
+        ],
         "explanation": "Ubuntu is a Linux distribution. macOS and iOS are Apple's Unix-derived systems but are not Linux; Windows is unrelated."
       },
       "fr": {
-        "stem": "Lequel des elements suivants est une distribution Linux ?",
-        "options": ["Ubuntu", "Windows", "iOS", "macOS"],
+        "stem": "Lequel des éléments suivants est une distribution Linux ?",
+        "options": [
+          "Ubuntu",
+          "Windows",
+          "iOS",
+          "macOS"
+        ],
         "explanation": "Ubuntu est une distribution Linux. macOS et iOS ne sont pas Linux."
       }
     },
     {
-      "id": "MIF-030", "number": 30, "marks": 1, "topic": "Networking", "answerIndex": 1, "selected": 1,
+      "id": "MIF-030",
+      "number": 30,
+      "marks": 1,
+      "topic": "Networking",
+      "answerIndex": 1,
+      "selected": 1,
       "en": {
         "stem": "What does VPN stand for?",
-        "options": ["Virtual Public Network", "Virtual Private Network", "Verified Private Network", "Virtual Protected Network"],
+        "options": [
+          "Virtual Public Network",
+          "Virtual Private Network",
+          "Verified Private Network",
+          "Virtual Protected Network"
+        ],
         "explanation": "Virtual Private Network - an encrypted tunnel that carries private traffic across a public network."
       },
       "fr": {
         "stem": "Que signifie VPN ?",
-        "options": ["Virtual Public Network", "Reseau prive virtuel", "Verified Private Network", "Virtual Protected Network"],
-        "explanation": "Reseau prive virtuel - un tunnel chiffre qui transporte du trafic prive sur un reseau public."
+        "options": [
+          "Virtual Public Network",
+          "Réseau privé virtuel",
+          "Verified Private Network",
+          "Virtual Protected Network"
+        ],
+        "explanation": "Réseau privé virtuel - un tunnel chiffré qui transporte du trafic privé sur un réseau public."
       }
     },
     {
-      "id": "MIF-031", "number": 31, "marks": 3, "topic": "Cybersecurity", "answerIndex": 0, "selected": 1,
+      "id": "MIF-031",
+      "number": 31,
+      "marks": 3,
+      "topic": "Cybersecurity",
+      "answerIndex": 0,
+      "selected": 1,
       "en": {
         "stem": "What type of malware disguises itself as legitimate software?",
-        "options": ["Trojan", "Virus", "Worm", "Spyware"],
+        "options": [
+          "Trojan",
+          "Virus",
+          "Worm",
+          "Spyware"
+        ],
         "explanation": "A Trojan is defined by its disguise - it looks like something the user wants. A virus attaches to files, a worm self-propagates, spyware collects data covertly."
       },
       "fr": {
-        "stem": "Quel type de malware se fait passer pour un logiciel legitime ?",
-        "options": ["Cheval de Troie", "Virus", "Ver", "Logiciel espion"],
-        "explanation": "Un cheval de Troie se definit par son deguisement. Un virus s'attache aux fichiers, un ver se propage seul."
+        "stem": "Quel type de malware se fait passer pour un logiciel légitime ?",
+        "options": [
+          "Cheval de Troie",
+          "Virus",
+          "Ver",
+          "Logiciel espion"
+        ],
+        "explanation": "Un cheval de Troie se definit par son déguisement. Un virus s'attache aux fichiers, un ver se propage seul."
       }
     },
     {
-      "id": "MIF-032", "number": 32, "marks": 3, "topic": "Cybersecurity", "answerIndex": 1, "selected": 1,
+      "id": "MIF-032",
+      "number": 32,
+      "marks": 3,
+      "topic": "Cybersecurity",
+      "answerIndex": 1,
+      "selected": 1,
       "en": {
         "stem": "What is a common method for securing user passwords?",
-        "options": ["Sharing them openly", "Using password hashing", "Storing them in plain text", "Writing them down on paper"],
+        "options": [
+          "Sharing them openly",
+          "Using password hashing",
+          "Storing them in plain text",
+          "Writing them down on paper"
+        ],
         "explanation": "Passwords are stored as salted hashes so the original value cannot be recovered from a database breach."
       },
       "fr": {
-        "stem": "Quelle est une methode courante pour securiser les mots de passe des utilisateurs ?",
-        "options": ["Les partager ouvertement", "Utiliser le hachage de mot de passe", "Les stocker en texte brut", "Les ecrire sur papier"],
-        "explanation": "Les mots de passe sont stockes sous forme de hachages sales, irreversibles en cas de fuite."
+        "stem": "Quelle est une méthode courante pour sécuriser les mots de passe des utilisateurs ?",
+        "options": [
+          "Les partager ouvertement",
+          "Utiliser le hachage de mot de passe",
+          "Les stocker en texte brut",
+          "Les écrire sur papier"
+        ],
+        "explanation": "Les mots de passe sont stockés sous forme de hachages salés, irréversibles en cas de fuite."
       }
     },
     {
-      "id": "MIF-033", "number": 33, "marks": 3, "topic": "Cybersecurity", "answerIndex": 3, "selected": 3,
+      "id": "MIF-033",
+      "number": 33,
+      "marks": 3,
+      "topic": "Cybersecurity",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "A user reports that they are unable to access the hospital management system due to a denial-of-service (DoS) attack. What steps would you take to mitigate the attack and restore system availability?",
-        "options": ["Implement a web application firewall (WAF) to filter malicious traffic", "Implement rate-limiting mechanisms to prevent excessive requests", "Utilize a content delivery network (CDN) to distribute the system's resources", "All the answer are correct"],
+        "options": [
+          "Implement a web application firewall (WAF) to filter malicious traffic",
+          "Implement rate-limiting mechanisms to prevent excessive requests",
+          "Utilize a content delivery network (CDN) to distribute the system's resources",
+          "All the answer are correct"
+        ],
         "explanation": "WAF filtering, rate limiting and CDN distribution are complementary layers of DoS mitigation, normally deployed together rather than chosen between."
       },
       "fr": {
-        "stem": "Un utilisateur signale qu'il ne peut pas acceder au systeme de gestion de l'hopital en raison d'une attaque par deni de service (DoS). Quelles mesures prendriez-vous pour attenuer l'attaque et restaurer la disponibilite du systeme ?",
-        "options": ["Implementez un pare-feu d'application Web (WAF) pour filtrer le trafic malveillant", "Mettre en oeuvre des mecanismes de limitation de debit pour eviter les demandes excessives", "Utiliser un reseau de diffusion de contenu (CDN) pour distribuer les ressources du systeme", "Toutes les reponses sont correctes"],
-        "explanation": "Le filtrage WAF, la limitation de debit et le CDN sont des couches complementaires."
+        "stem": "Un utilisateur signale qu'il ne peut pas accéder au système de gestion de l'hôpital en raison d'une attaque par déni de service (DoS). Quelles mesures prendriez-vous pour atténuer l'attaque et restaurer la disponibilité du système ?",
+        "options": [
+          "Implémentez un pare-feu d'application Web (WAF) pour filtrer le trafic malveillant",
+          "Mettre en oeuvre des mécanismes de limitation de débit pour éviter les demandes excessives",
+          "Utiliser un réseau de diffusion de contenu (CDN) pour distribuer les ressources du système",
+          "Toutes les réponses sont correctes"
+        ],
+        "explanation": "Le filtrage WAF, la limitation de débit et le CDN sont des couches complémentaires."
       }
     },
     {
-      "id": "MIF-034", "number": 34, "marks": 3, "topic": "Operating Systems", "answerIndex": 2, "selected": 2,
+      "id": "MIF-034",
+      "number": 34,
+      "marks": 3,
+      "topic": "Operating Systems",
+      "answerIndex": 2,
+      "selected": 2,
       "en": {
         "stem": "What should you do before upgrading the operating system on a user's computer?",
-        "options": ["Disconnect from the internet", "Remove all applications", "Back up important data", "Format the hard drive"],
+        "options": [
+          "Disconnect from the internet",
+          "Remove all applications",
+          "Back up important data",
+          "Format the hard drive"
+        ],
         "explanation": "A verified backup is the mandatory first step - an upgrade can fail and leave data unrecoverable."
       },
       "fr": {
-        "stem": "Que devez-vous faire avant de mettre a niveau le systeme d'exploitation sur l'ordinateur d'un utilisateur ?",
-        "options": ["Se deconnecter d'Internet", "Supprimer toutes les applications", "Sauvegarder les donnees importantes", "Formater le disque dur"],
-        "explanation": "Une sauvegarde verifiee est l'etape obligatoire avant toute mise a niveau."
+        "stem": "Que devez-vous faire avant de mettre à niveau le système d'exploitation sur l'ordinateur d'un utilisateur ?",
+        "options": [
+          "Se déconnecter d'Internet",
+          "Supprimer toutes les applications",
+          "Sauvegarder les données importantes",
+          "Formater le disque dur"
+        ],
+        "explanation": "Une sauvegarde vérifiée est l'étape obligatoire avant toute mise à niveau."
       }
     },
     {
-      "id": "MIF-035", "number": 35, "marks": 3, "topic": "Hardware", "answerIndex": 0, "selected": 0,
+      "id": "MIF-035",
+      "number": 35,
+      "marks": 3,
+      "topic": "Hardware",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "What is the purpose of a UPS (Uninterruptible Power Supply)?",
-        "options": ["To provide backup power", "To increase processing speed", "To protect against viruses", "To connect multiple devices"],
+        "options": [
+          "To provide backup power",
+          "To increase processing speed",
+          "To protect against viruses",
+          "To connect multiple devices"
+        ],
         "explanation": "A UPS supplies battery power during an outage so equipment can ride through it or shut down cleanly."
       },
       "fr": {
         "stem": "A quoi sert un UPS (Uninterruptible Power Supply) ?",
-        "options": ["Pour fournir une alimentation de secours", "Pour augmenter la vitesse de traitement", "Pour se proteger contre les virus", "Pour connecter plusieurs appareils"],
+        "options": [
+          "Pour fournir une alimentation de secours",
+          "Pour augmenter la vitesse de traitement",
+          "Pour se protéger contre les virus",
+          "Pour connecter plusieurs appareils"
+        ],
         "explanation": "Un onduleur fournit une alimentation sur batterie pendant une coupure."
       }
     },
     {
-      "id": "MIF-036", "number": 36, "marks": 3, "topic": "Cybersecurity", "answerIndex": 2, "selected": 2,
+      "id": "MIF-036",
+      "number": 36,
+      "marks": 3,
+      "topic": "Cybersecurity",
+      "answerIndex": 2,
+      "selected": 2,
       "en": {
         "stem": "What is the main purpose of antivirus software?",
-        "options": ["To speed up the computer", "To manage files", "To detect and remove malware", "To improve graphics"],
+        "options": [
+          "To speed up the computer",
+          "To manage files",
+          "To detect and remove malware",
+          "To improve graphics"
+        ],
         "explanation": "Antivirus software identifies malicious code by signature and behaviour, then quarantines or removes it."
       },
       "fr": {
         "stem": "Quel est l'objectif principal d'un logiciel antivirus ?",
-        "options": ["Pour accelerer l'ordinateur", "Pour gerer les fichiers", "Pour detecter et supprimer les logiciels malveillants", "Pour ameliorer les graphismes"],
+        "options": [
+          "Pour accélérer l'ordinateur",
+          "Pour gérer les fichiers",
+          "Pour détecter et supprimer les logiciels malveillants",
+          "Pour améliorer les graphismes"
+        ],
         "explanation": "L'antivirus identifie le code malveillant puis le met en quarantaine ou le supprime."
       }
     },
     {
-      "id": "MIF-037", "number": 37, "marks": 3, "topic": "Cybersecurity", "answerIndex": 1, "selected": 0,
+      "id": "MIF-037",
+      "number": 37,
+      "marks": 3,
+      "topic": "Cybersecurity",
+      "answerIndex": 1,
+      "selected": 0,
       "en": {
         "stem": "Which of the following is an example of two-factor authentication?",
-        "options": ["Password and username", "Password and fingerprint", "Password and CAPTCHA", "Password and security question"],
+        "options": [
+          "Password and username",
+          "Password and fingerprint",
+          "Password and CAPTCHA",
+          "Password and security question"
+        ],
         "explanation": "Two factors must come from different categories: something you know plus something you are. A password paired with a username, CAPTCHA or security question is still only one category."
       },
       "fr": {
-        "stem": "Lequel des elements suivants est un exemple d'authentification a deux facteurs ?",
-        "options": ["Mot de passe et nom d'utilisateur", "Mot de passe et empreinte digitale", "Mot de passe et CAPTCHA", "Mot de passe et question de securite"],
-        "explanation": "Les deux facteurs doivent provenir de categories differentes : ce que vous savez et ce que vous etes."
+        "stem": "Lequel des éléments suivants est un exemple d'authentification à deux facteurs ?",
+        "options": [
+          "Mot de passe et nom d'utilisateur",
+          "Mot de passe et empreinte digitale",
+          "Mot de passe et CAPTCHA",
+          "Mot de passe et question de sécurité"
+        ],
+        "explanation": "Les deux facteurs doivent provenir de catégories différentes : ce que vous savez et ce que vous êtes."
       }
     },
     {
-      "id": "MIF-038", "number": 38, "marks": 3, "topic": "Cybersecurity", "answerIndex": 3, "selected": 1,
+      "id": "MIF-038",
+      "number": 38,
+      "marks": 3,
+      "topic": "Cybersecurity",
+      "answerIndex": 3,
+      "selected": 1,
       "en": {
         "stem": "When setting up a new user account, what is an important first step?",
-        "options": ["Deleting old user accounts", "Assigning administrative rights", "Installing all available software", "Creating a strong password"],
+        "options": [
+          "Deleting old user accounts",
+          "Assigning administrative rights",
+          "Installing all available software",
+          "Creating a strong password"
+        ],
         "explanation": "A strong password comes first. Handing out administrative rights by default violates least privilege and is the opposite of good practice."
       },
       "fr": {
-        "stem": "Lors de la creation d'un nouveau compte utilisateur, quelle est la premiere etape importante ?",
-        "options": ["Suppression des anciens comptes d'utilisateurs", "Attribution de droits d'administration", "Installation de tous les logiciels disponibles", "Creer un mot de passe fort"],
-        "explanation": "Un mot de passe fort vient en premier. Accorder des droits d'administration par defaut viole le moindre privilege."
+        "stem": "Lors de la création d'un nouveau compte utilisateur, quelle est la première étape importante ?",
+        "options": [
+          "Suppression des anciens comptes d'utilisateurs",
+          "Attribution de droits d'administration",
+          "Installation de tous les logiciels disponibles",
+          "Créer un mot de passe fort"
+        ],
+        "explanation": "Un mot de passe fort vient en premier. Accorder des droits d'administration par défaut viole le moindre privilège."
       }
     },
     {
-      "id": "MIF-039", "number": 39, "marks": 3, "topic": "Operating Systems", "answerIndex": 2, "selected": 3,
+      "id": "MIF-039",
+      "number": 39,
+      "marks": 3,
+      "topic": "Operating Systems",
+      "answerIndex": 2,
+      "selected": 3,
       "en": {
         "stem": "Which command would you use to restart a Windows computer from the Command Prompt?",
-        "options": ["exit", "reboot", "shutdown /r", "restart"],
+        "options": [
+          "exit",
+          "reboot",
+          "shutdown /r",
+          "restart"
+        ],
         "explanation": "shutdown /r restarts Windows. reboot and restart are not Windows commands, and exit only closes the prompt."
       },
       "fr": {
-        "stem": "Quelle commande utiliseriez-vous pour redemarrer un ordinateur Windows a partir de l'invite de commande ?",
-        "options": ["exit", "reboot", "shutdown /r", "restart"],
-        "explanation": "shutdown /r redemarre Windows. reboot et restart ne sont pas des commandes Windows."
+        "stem": "Quelle commande utiliseriez-vous pour redémarrer un ordinateur Windows à partir de l'invite de commande ?",
+        "options": [
+          "exit",
+          "reboot",
+          "shutdown /r",
+          "restart"
+        ],
+        "explanation": "shutdown /r redémarre Windows. reboot et restart ne sont pas des commandes Windows."
       }
     },
     {
-      "id": "MIF-040", "number": 40, "marks": 3, "topic": "Cybersecurity", "answerIndex": 0, "selected": 0,
+      "id": "MIF-040",
+      "number": 40,
+      "marks": 3,
+      "topic": "Cybersecurity",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "Which of the following is considered a strong password?",
-        "options": ["P@ssw0rd!", "12345678", "password", "qwerty"],
+        "options": [
+          "P@ssw0rd!",
+          "12345678",
+          "password",
+          "qwerty"
+        ],
         "explanation": "Of the four, only P@ssw0rd! mixes character classes. In real use it is still weak, because it is a dictionary word with predictable substitutions - length and unpredictability matter more than symbol count."
       },
       "fr": {
-        "stem": "Lequel des elements suivants est considere comme un mot de passe fort ?",
-        "options": ["P@ssw0rd!", "12345678", "password", "qwerty"],
-        "explanation": "Seul P@ssw0rd! melange les classes de caracteres, meme s'il reste faible en pratique."
+        "stem": "Lequel des éléments suivants est considéré comme un mot de passe fort ?",
+        "options": [
+          "P@ssw0rd!",
+          "12345678",
+          "password",
+          "qwerty"
+        ],
+        "explanation": "Seul P@ssw0rd! mélange les classes de caractères, même s'il reste faible en pratique."
       }
     },
     {
-      "id": "MIF-041", "number": 41, "marks": 4, "topic": "Operating Systems", "answerIndex": 2, "selected": 2,
+      "id": "MIF-041",
+      "number": 41,
+      "marks": 4,
+      "topic": "Operating Systems",
+      "answerIndex": 2,
+      "selected": 2,
       "en": {
         "stem": "Which tool would you use to check for disk errors in Windows?",
-        "options": ["Disk Management", "Task Manager", "chkdsk", "Disk Cleanup"],
+        "options": [
+          "Disk Management",
+          "Task Manager",
+          "chkdsk",
+          "Disk Cleanup"
+        ],
         "explanation": "chkdsk scans the file system and disk surface for errors. Disk Management partitions drives; Disk Cleanup only frees space."
       },
       "fr": {
-        "stem": "Quel outil utiliseriez-vous pour verifier les erreurs de disque sous Windows ?",
-        "options": ["Gestion de disque", "Gestionnaire des taches", "chkdsk", "Nettoyage de disque"],
-        "explanation": "chkdsk analyse le systeme de fichiers et la surface du disque a la recherche d'erreurs."
+        "stem": "Quel outil utiliseriez-vous pour vérifier les erreurs de disque sous Windows ?",
+        "options": [
+          "Gestion de disque",
+          "Gestionnaire des tâches",
+          "chkdsk",
+          "Nettoyage de disque"
+        ],
+        "explanation": "chkdsk analyse le système de fichiers et la surface du disque à la recherche d'erreurs."
       }
     },
     {
-      "id": "MIF-042", "number": 42, "marks": 4, "topic": "Networking", "answerIndex": 3, "selected": 3,
+      "id": "MIF-042",
+      "number": 42,
+      "marks": 4,
+      "topic": "Networking",
+      "answerIndex": 3,
+      "selected": 3,
       "en": {
         "stem": "What is the primary function of a router?",
-        "options": ["To run applications", "To store data", "To print documents", "To connect computers to the internet"],
+        "options": [
+          "To run applications",
+          "To store data",
+          "To print documents",
+          "To connect computers to the internet"
+        ],
         "explanation": "A router forwards packets between networks, which is what links a local network to the internet."
       },
       "fr": {
         "stem": "Quelle est la fonction principale d'un routeur ?",
-        "options": ["Pour executer des applications", "Pour stocker des donnees", "Pour imprimer des documents", "Pour connecter les ordinateurs a Internet"],
-        "explanation": "Un routeur achemine les paquets entre reseaux, reliant le reseau local a Internet."
+        "options": [
+          "Pour exécuter des applications",
+          "Pour stocker des données",
+          "Pour imprimer des documents",
+          "Pour connecter les ordinateurs à Internet"
+        ],
+        "explanation": "Un routeur achemine les paquets entre réseaux, reliant le réseau local à Internet."
       }
     },
     {
-      "id": "MIF-043", "number": 43, "marks": 4, "topic": "Cloud", "answerIndex": 0, "selected": 0,
+      "id": "MIF-043",
+      "number": 43,
+      "marks": 4,
+      "topic": "Cloud",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "What is the primary benefit of using cloud storage services?",
-        "options": ["Remote access to files", "Faster processing speed", "Improved graphics performance", "Higher local storage capacity"],
+        "options": [
+          "Remote access to files",
+          "Faster processing speed",
+          "Improved graphics performance",
+          "Higher local storage capacity"
+        ],
         "explanation": "Cloud storage makes files reachable from any location and device. It does not change local processing or graphics performance."
       },
       "fr": {
         "stem": "Quel est le principal avantage de l'utilisation des services de stockage cloud ?",
-        "options": ["Acces a distance aux fichiers", "Vitesse de traitement plus rapide", "Performances graphiques ameliorees", "Capacite de stockage locale plus elevee"],
+        "options": [
+          "Accès à distance aux fichiers",
+          "Vitesse de traitement plus rapide",
+          "Performances graphiques améliorées",
+          "Capacité de stockage locale plus élevée"
+        ],
         "explanation": "Le stockage cloud rend les fichiers accessibles depuis n'importe quel endroit et appareil."
       }
     },
     {
-      "id": "MIF-044", "number": 44, "marks": 4, "topic": "Networking", "answerIndex": 1, "selected": 1,
+      "id": "MIF-044",
+      "number": 44,
+      "marks": 4,
+      "topic": "Networking",
+      "answerIndex": 1,
+      "selected": 1,
       "en": {
         "stem": "What protocol is used to send email?",
-        "options": ["HTTP", "SMTP", "POP3", "IMAP"],
+        "options": [
+          "HTTP",
+          "SMTP",
+          "POP3",
+          "IMAP"
+        ],
         "explanation": "SMTP sends mail. POP3 and IMAP retrieve it; HTTP serves web content."
       },
       "fr": {
-        "stem": "Quel protocole est utilise pour envoyer des emails ?",
-        "options": ["HTTP", "SMTP", "POP3", "IMAP"],
-        "explanation": "SMTP envoie le courrier. POP3 et IMAP servent a le recuperer."
+        "stem": "Quel protocole est utilisé pour envoyer des e-mails ?",
+        "options": [
+          "HTTP",
+          "SMTP",
+          "POP3",
+          "IMAP"
+        ],
+        "explanation": "SMTP envoie le courrier. POP3 et IMAP servent à le récupérer."
       }
     },
     {
-      "id": "MIF-045", "number": 45, "marks": 4, "topic": "Networking", "answerIndex": 2, "selected": 2,
+      "id": "MIF-045",
+      "number": 45,
+      "marks": 4,
+      "topic": "Networking",
+      "answerIndex": 2,
+      "selected": 2,
       "en": {
         "stem": "A user reports that they are unable to access the hospital management system due to a firewall blocking the connection. What should you do to resolve this issue?",
-        "options": ["Contact the system administrator for assistance", "Inform the user that the system is down for maintenance", "Configure the firewall to allow the system connection", "Instruct the user to contact their internet service provider"],
+        "options": [
+          "Contact the system administrator for assistance",
+          "Inform the user that the system is down for maintenance",
+          "Configure the firewall to allow the system connection",
+          "Instruct the user to contact their internet service provider"
+        ],
         "explanation": "Add the required rule so legitimate traffic is permitted. The other options either misinform the user or push the problem elsewhere."
       },
       "fr": {
-        "stem": "Un utilisateur signale qu'il ne peut pas acceder au systeme de gestion de l'hopital en raison d'un pare-feu bloquant la connexion. Que devez-vous faire pour resoudre ce probleme ?",
-        "options": ["Contactez l'administrateur systeme pour obtenir de l'aide", "Informer l'utilisateur que le systeme est en panne pour maintenance", "Configurer le pare-feu pour autoriser la connexion au systeme", "Demandez a l'utilisateur de contacter son fournisseur d'acces Internet"],
-        "explanation": "Ajoutez la regle necessaire pour autoriser le trafic legitime."
+        "stem": "Un utilisateur signale qu'il ne peut pas accéder au système de gestion de l'hôpital en raison d'un pare-feu bloquant la connexion. Que devez-vous faire pour résoudre ce problème ?",
+        "options": [
+          "Contactez l'administrateur système pour obtenir de l'aide",
+          "Informer l'utilisateur que le système est en panne pour maintenance",
+          "Configurer le pare-feu pour autoriser la connexion au système",
+          "Demandez à l'utilisateur de contacter son fournisseur d'accès Internet"
+        ],
+        "explanation": "Ajoutez la règle nécessaire pour autoriser le trafic légitime."
       }
     },
     {
-      "id": "MIF-046", "number": 46, "marks": 4, "topic": "Customer Service", "answerIndex": 3, "selected": 1,
+      "id": "MIF-046",
+      "number": 46,
+      "marks": 4,
+      "topic": "Customer Service",
+      "answerIndex": 3,
+      "selected": 1,
       "en": {
         "stem": "Which of the following is the most important when dealing with a frustrated customer?",
-        "options": ["Using technical jargon to assert authority", "Speaking quickly to resolve the issue faster", "Redirecting them to online resources", "Maintaining a calm and empathetic demeanor"],
+        "options": [
+          "Using technical jargon to assert authority",
+          "Speaking quickly to resolve the issue faster",
+          "Redirecting them to online resources",
+          "Maintaining a calm and empathetic demeanor"
+        ],
         "explanation": "Staying calm and empathetic is what actually de-escalates. Speaking quickly tends to make a frustrated caller feel dismissed."
       },
       "fr": {
-        "stem": "Parmi les elements suivants, lequel est le plus important lorsque vous traitez avec un client frustre ?",
-        "options": ["Utiliser le jargon technique pour affirmer l'autorite", "Parler vite pour resoudre le probleme plus rapidement", "Les rediriger vers des ressources en ligne", "Garder une attitude calme et empathique"],
-        "explanation": "Rester calme et empathique desamorce reellement la situation."
+        "stem": "Parmi les éléments suivants, lequel est le plus important lorsque vous traitez avec un client frustré ?",
+        "options": [
+          "Utiliser le jargon technique pour affirmer l'autorité",
+          "Parler vite pour résoudre le problème plus rapidement",
+          "Les rediriger vers des ressources en ligne",
+          "Garder une attitude calme et empathique"
+        ],
+        "explanation": "Rester calme et empathique désamorce réellement la situation."
       }
     },
     {
-      "id": "MIF-047", "number": 47, "marks": 4, "topic": "IT Fundamentals", "answerIndex": 1, "selected": 2,
+      "id": "MIF-047",
+      "number": 47,
+      "marks": 4,
+      "topic": "IT Fundamentals",
+      "answerIndex": 1,
+      "selected": 2,
       "en": {
         "stem": "What is a common reason for emails being marked as spam?",
-        "options": ["Large attachments", "Use of common phrases and links associated with spam", "Multiple recipients", "Short message content"],
+        "options": [
+          "Large attachments",
+          "Use of common phrases and links associated with spam",
+          "Multiple recipients",
+          "Short message content"
+        ],
         "explanation": "Spam filters score message content against known spam patterns - trigger phrases and suspicious links. Recipient count alone does not mark a message as spam."
       },
       "fr": {
-        "stem": "Quelle est la raison courante pour laquelle les e-mails sont marques comme spam ?",
-        "options": ["Pieces jointes volumineuses", "Utilisation d'expressions courantes et de liens associes au spam", "Plusieurs destinataires", "Contenu du message court"],
-        "explanation": "Les filtres analysent le contenu par rapport a des motifs de spam connus."
+        "stem": "Quelle est la raison courante pour laquelle les e-e-mails sont marqués comme spam ?",
+        "options": [
+          "Pièces jointes volumineuses",
+          "Utilisation d'expressions courantes et de liens associés au spam",
+          "Plusieurs destinataires",
+          "Contenu du message court"
+        ],
+        "explanation": "Les filtres analysent le contenu par rapport à des motifs de spam connus."
       }
     },
     {
-      "id": "MIF-048", "number": 48, "marks": 4, "topic": "Cybersecurity", "answerIndex": 1, "selected": 1,
+      "id": "MIF-048",
+      "number": 48,
+      "marks": 4,
+      "topic": "Cybersecurity",
+      "answerIndex": 1,
+      "selected": 1,
       "en": {
         "stem": "Which of the following is an example of a phishing attack?",
-        "options": ["A system-generated error message", "An email that asks for personal information by pretending to be from a legitimate source", "A newsletter subscription confirmation", "A software update notification"],
+        "options": [
+          "A system-generated error message",
+          "An email that asks for personal information by pretending to be from a legitimate source",
+          "A newsletter subscription confirmation",
+          "A software update notification"
+        ],
         "explanation": "Phishing is social engineering by impersonation - a message that pretends to be a trusted sender in order to extract credentials or personal data."
       },
       "fr": {
-        "stem": "Lequel des elements suivants est un exemple d'attaque de phishing ?",
-        "options": ["Un message d'erreur genere par le systeme", "Un e-mail qui demande des informations personnelles en pretendant provenir d'une source legitime", "Une confirmation d'inscription a la newsletter", "Une notification de mise a jour du logiciel"],
-        "explanation": "Le phishing est une usurpation d'identite visant a extraire des identifiants ou des donnees personnelles."
+        "stem": "Lequel des éléments suivants est un exemple d'attaque de phishing ?",
+        "options": [
+          "Un message d'erreur généré par le système",
+          "Un e-mail qui demande des informations personnelles en prétendant provenir d'une source légitime",
+          "Une confirmation d'inscription à la newsletter",
+          "Une notification de mise à jour du logiciel"
+        ],
+        "explanation": "Le phishing est une usurpation d'identité visant à extraire des identifiants ou des données personnelles."
       }
     },
     {
-      "id": "MIF-049", "number": 49, "marks": 4, "topic": "Troubleshooting", "answerIndex": 0, "selected": 0,
+      "id": "MIF-049",
+      "number": 49,
+      "marks": 4,
+      "topic": "Troubleshooting",
+      "answerIndex": 0,
+      "selected": 0,
       "en": {
         "stem": "A user reports that their computer screen is flickering. What should be your first step in troubleshooting this issue?",
-        "options": ["Update the graphics driver", "Replace the monitor", "Reinstall the operating system", "Check the power supply"],
+        "options": [
+          "Update the graphics driver",
+          "Replace the monitor",
+          "Reinstall the operating system",
+          "Check the power supply"
+        ],
         "explanation": "Update the driver first: it is free, reversible and a very common cause. Replacing hardware or reinstalling the OS are far more disruptive and belong later in the sequence."
       },
       "fr": {
-        "stem": "Un utilisateur signale que l'ecran de son ordinateur scintille. Quelle devrait etre votre premiere etape pour resoudre ce probleme ?",
-        "options": ["Mettre a jour le pilote graphique", "Remplacer le moniteur", "Reinstaller le systeme d'exploitation", "Verifier l'alimentation"],
-        "explanation": "Mettez d'abord a jour le pilote : c'est gratuit, reversible et une cause tres frequente."
+        "stem": "Un utilisateur signale que l'écran de son ordinateur scintille. Quelle devrait être votre première étape pour résoudre ce problème ?",
+        "options": [
+          "Mettre à jour le pilote graphique",
+          "Remplacer le moniteur",
+          "Réinstaller le système d'exploitation",
+          "Vérifier l'alimentation"
+        ],
+        "explanation": "Mettez d'abord à jour le pilote : c'est gratuit, réversible et une cause très fréquente."
       }
     },
     {
-      "id": "MIF-050", "number": 50, "marks": 4, "topic": "Cloud", "answerIndex": 1, "selected": 1,
+      "id": "MIF-050",
+      "number": 50,
+      "marks": 4,
+      "topic": "Cloud",
+      "answerIndex": 1,
+      "selected": 1,
       "en": {
         "stem": "What does SaaS stand for in cloud computing?",
-        "options": ["System as a Service", "Software as a Service", "Security as a Service", "Storage as a Service"],
+        "options": [
+          "System as a Service",
+          "Software as a Service",
+          "Security as a Service",
+          "Storage as a Service"
+        ],
         "explanation": "Software as a Service - applications delivered over the network, with the provider managing the underlying infrastructure entirely."
       },
       "fr": {
         "stem": "Que signifie SaaS dans le cloud computing ?",
-        "options": ["System as a Service", "Logiciel en tant que service", "Securite en tant que service", "Stockage en tant que service"],
-        "explanation": "Logiciel en tant que service - des applications livrees via le reseau, l'infrastructure etant geree par le fournisseur."
+        "options": [
+          "System as a Service",
+          "Logiciel en tant que service",
+          "Sécurité en tant que service",
+          "Stockage en tant que service"
+        ],
+        "explanation": "Logiciel en tant que service - des applications livrées via le réseau, l'infrastructure étant gérée par le fournisseur."
       }
     }
   ]

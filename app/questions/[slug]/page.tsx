@@ -2,11 +2,15 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { freeQuestions, questionBySlug, topicSlug } from '@/lib/questions';
+import { previewBySlug, relatedPreviews, type QuestionPreview } from '@/lib/preview';
+import UpsellCard from '@/app/UpsellCard';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
-// Every free question becomes a static, crawlable page. This is the surface that
-// search engines and AI assistants actually read.
+export const revalidate = 86400;
+// Free questions are prerendered; paid previews render on demand and are cached.
+export const dynamicParams = true;
+
 export function generateStaticParams() {
   return freeQuestions.map((q) => ({ slug: q.slug }));
 }
@@ -16,79 +20,203 @@ export async function generateMetadata({
 }: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
-  const q = questionBySlug((await params).slug);
-  if (!q) return {};
+  const slug = (await params).slug;
+
+  const free = questionBySlug(slug);
+  if (free) {
+    return {
+      title: free.en.stem.slice(0, 65),
+      description:
+        `${free.en.stem} Answer: ${free.en.options[free.answerIndex]}. ${free.en.explanation}`.slice(
+          0,
+          300
+        ),
+      alternates: { canonical: `/questions/${free.slug}` },
+    };
+  }
+
+  const paid = await previewBySlug(slug).catch(() => null);
+  if (!paid) return {};
+
+  // The description must describe what the page actually shows. Promising an
+  // answer the page does not display is the kind of mismatch that gets pages
+  // demoted, quite apart from being untrue.
   return {
-    title: q.en.stem.slice(0, 65),
-    description: `${q.en.stem} Answer: ${q.en.options[q.answerIndex]}. ${q.en.explanation}`.slice(0, 300),
-    alternates: { canonical: `/questions/${q.slug}` },
+    title: paid.en.stem.slice(0, 65),
+    description:
+      `${paid.en.stem} Practice question on ${paid.topic} for Rwandan public service ICT exams, with four answer options.`.slice(
+        0,
+        300
+      ),
+    alternates: { canonical: `/questions/${paid.slug}` },
   };
 }
 
 export default async function QuestionPage({ params }: { params: Promise<{ slug: string }> }) {
-  const q = questionBySlug((await params).slug);
-  if (!q) notFound();
+  const slug = (await params).slug;
+  const free = questionBySlug(slug);
 
-  // Schema.org Question markup makes the answer eligible for rich results and
-  // easy for AI crawlers to attribute.
+  if (free) {
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'QAPage',
+      mainEntity: {
+        '@type': 'Question',
+        name: free.en.stem,
+        text: free.en.stem,
+        answerCount: 1,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${free.en.options[free.answerIndex]}. ${free.en.explanation}`,
+        },
+        suggestedAnswer: free.en.options
+          .filter((_, i) => i !== free.answerIndex)
+          .map((o) => ({ '@type': 'Answer', text: o })),
+      },
+    };
+
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+
+        <p className="muted" style={{ marginBottom: '.4rem' }}>
+          <Link href="/topics">Topics</Link> /{' '}
+          <Link href={`/topics/${topicSlug(free.topic)}`}>{free.topic}</Link>
+        </p>
+
+        <h1 style={{ fontSize: '1.5rem' }}>{free.en.stem}</h1>
+        {free.fr && <p className="lead">{free.fr.stem}</p>}
+
+        <div className="card" style={{ margin: '1.2rem 0' }}>
+          <div className="lbl muted">Answers</div>
+          {free.en.options.map((opt, i) => (
+            <div key={i} className={'opt ' + (i === free.answerIndex ? 'correct' : '')}>
+              <span className="letter">{LETTERS[i]}</span>
+              <span className="dot">
+                <i />
+              </span>
+              <span className="txt">
+                <span>{opt}</span>
+                {free.fr && <span className="fr">{free.fr.options[i]}</span>}
+              </span>
+            </div>
+          ))}
+          <div className="explain">
+            <b>
+              Correct answer: {LETTERS[free.answerIndex]} &mdash;{' '}
+              {free.en.options[free.answerIndex]}
+            </b>
+            <div>{free.en.explanation}</div>
+            {free.fr && (
+              <div className="muted" style={{ marginTop: '.4rem' }}>
+                {free.fr.explanation}
+              </div>
+            )}
+          </div>
+        </div>
+
+        <p className="muted">
+          {free.examSource}
+          {free.examNumber ? ` · Question ${free.examNumber}` : ''} &middot; {free.marks}{' '}
+          {free.marks === 1 ? 'mark' : 'marks'} &middot; {free.difficulty}
+        </p>
+
+        <div className="navrow">
+          <Link className="btn" href="/exam">
+            Practise the full past paper
+          </Link>
+          <Link className="btn ghost" href="/unlock">
+            Unlock all 2,446 questions
+          </Link>
+        </div>
+      </>
+    );
+  }
+
+  const paid: QuestionPreview | null = await previewBySlug(slug).catch(() => null);
+  if (!paid) notFound();
+
+  const related = await relatedPreviews(paid.topic, paid.slug).catch(() => []);
+
+  // No acceptedAnswer: this page does not show one. Emitting the correct answer
+  // in structured data while withholding it from the page is exactly the
+  // mismatch between markup and content that manual actions target.
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'QAPage',
     mainEntity: {
       '@type': 'Question',
-      name: q.en.stem,
-      text: q.en.stem,
-      answerCount: 1,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `${q.en.options[q.answerIndex]}. ${q.en.explanation}`,
-      },
-      suggestedAnswer: q.en.options
-        .filter((_, i) => i !== q.answerIndex)
-        .map((o) => ({ '@type': 'Answer', text: o })),
+      name: paid.en.stem,
+      text: paid.en.stem,
+      answerCount: 0,
+      suggestedAnswer: paid.en.options.map((o) => ({ '@type': 'Answer', text: o })),
     },
   };
 
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
 
       <p className="muted" style={{ marginBottom: '.4rem' }}>
-        <Link href="/topics">Topics</Link> / <Link href={`/topics/${topicSlug(q.topic)}`}>{q.topic}</Link>
+        <Link href="/topics">Topics</Link> /{' '}
+        <Link href={`/topics/${topicSlug(paid.topic)}`}>{paid.topic}</Link>
       </p>
 
-      <h1 style={{ fontSize: '1.5rem' }}>{q.en.stem}</h1>
-      {q.fr && <p className="lead">{q.fr.stem}</p>}
+      <h1 style={{ fontSize: '1.5rem' }}>{paid.en.stem}</h1>
+      {paid.fr && <p className="lead">{paid.fr.stem}</p>}
 
       <div className="card" style={{ margin: '1.2rem 0' }}>
         <div className="lbl muted">Answers</div>
-        {q.en.options.map((opt, i) => (
-          <div key={i} className={'opt ' + (i === q.answerIndex ? 'correct' : '')}>
+        {paid.en.options.map((opt, i) => (
+          <div key={i} className="opt">
             <span className="letter">{LETTERS[i]}</span>
-            <span className="dot"><i /></span>
+            <span className="dot">
+              <i />
+            </span>
             <span className="txt">
               <span>{opt}</span>
-              {q.fr && <span className="fr">{q.fr.options[i]}</span>}
+              {paid.fr && <span className="fr">{paid.fr.options[i]}</span>}
             </span>
           </div>
         ))}
-        <div className="explain">
-          <b>Correct answer: {LETTERS[q.answerIndex]} &mdash; {q.en.options[q.answerIndex]}</b>
-          <div>{q.en.explanation}</div>
-          {q.fr && <div className="muted" style={{ marginTop: '.4rem' }}>{q.fr.explanation}</div>}
+
+        <div className="locked">
+          <strong>The answer and explanation are in the full bank.</strong>
+          <p className="muted">
+            This question is one of 2,246 in the paid banks. Each comes with the correct
+            answer and the reasoning behind it, not just a mark.
+          </p>
+          <Link className="btn" href="/unlock">
+            Unlock for 5,000 RWF
+          </Link>
         </div>
       </div>
 
       <p className="muted">
-        {q.examSource}
-        {q.examNumber ? ` \u00b7 Question ${q.examNumber}` : ''} &middot; {q.marks}{' '}
-        {q.marks === 1 ? 'mark' : 'marks'} &middot; {q.difficulty}
+        {paid.examSource} &middot; {paid.marks} {paid.marks === 1 ? 'mark' : 'marks'} &middot;{' '}
+        {paid.difficulty}
       </p>
 
-      <div className="navrow">
-        <Link className="btn" href="/exam">Practise the full past paper</Link>
-        <Link className="btn ghost" href="/unlock">Unlock all 2,446 questions</Link>
-      </div>
+      {related.length > 0 && (
+        <section style={{ margin: '1.8rem 0' }}>
+          <h2>More {paid.topic} questions</h2>
+          <ul>
+            {related.map((r) => (
+              <li key={r.slug}>
+                <Link href={`/questions/${r.slug}`}>{r.en.stem}</Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      <UpsellCard variant="full" />
     </>
   );
 }

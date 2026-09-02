@@ -118,8 +118,29 @@ Runs sequentially to stay inside provider rate limits, skips topics already
 written, and records per-topic failures without aborting the batch. Everything
 lands as a draft.
 
-Current indexable surface: 200 question pages + 17 topic hubs + 89 potential
-guides + the static pages.
+### Paid question previews
+
+The 2,246 paid questions are also indexable, as previews: stem and four options
+public, answer key and explanation gated. Two rules make this safe rather than
+clever.
+
+`answerIndex` and `explanation` are projected out at the database layer
+(`lib/preview.ts`), so they never reach the server component, the HTML or the
+client bundle. Hiding them with CSS would still ship them in the payload.
+
+Crawlers and people get a byte-identical document - verified by comparing
+response hashes across a browser UA, Googlebot and GPTBot. Serving the answer to
+Googlebot while gating it for users is cloaking, and it gets sites delisted. For
+the same reason the preview's JSON-LD carries `suggestedAnswer` for all four
+options and no `acceptedAnswer`: the markup has to describe what the page
+actually shows.
+
+Topic hubs paginate through the previews at 60 per page, which is the crawl path
+into the deep pages. Sitemap-only discovery does not reliably index thousands of
+URLs.
+
+Current indexable surface: 2,446 question pages + 17 topic hubs + 89 potential
+guides + the static pages. Sitemap: 2,468 URLs.
 
 ## Deploying
 

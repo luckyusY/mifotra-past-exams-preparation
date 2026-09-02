@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { freeQuestions, topics, topicSlug } from '@/lib/questions';
 import { publishedPosts } from '@/lib/posts';
+import { allPreviewSlugs } from '@/lib/preview';
 
 const site = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 
@@ -13,6 +14,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     posts = await publishedPosts();
   } catch {
     posts = [];
+  }
+
+  // Paid question previews. A database failure must degrade the sitemap, not
+  // break it - an empty sitemap is far worse than a partial one.
+  let previews: { slug: string }[] = [];
+  try {
+    previews = await allPreviewSlugs();
+  } catch {
+    previews = [];
   }
 
   return [
@@ -29,6 +39,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       url: `${site}/questions/${q.slug}`,
       lastModified: now,
       priority: 0.6,
+    })),
+    ...previews.map((p) => ({
+      url: `${site}/questions/${p.slug}`,
+      lastModified: now,
+      priority: 0.4,
     })),
     { url: `${site}/blog`, lastModified: now, priority: 0.8 },
     ...posts.map((p) => ({

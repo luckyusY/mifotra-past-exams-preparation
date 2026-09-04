@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { freeQuestions, mifotraQuestions, topics, topicSlug } from '@/lib/questions';
 import UpsellCard from './UpsellCard';
+import { COURSES, freeQuestionsFor } from '@/lib/courses';
 
 export default function Home() {
   const marks = mifotraQuestions.reduce((a, q) => a + q.marks, 0);
@@ -20,6 +21,29 @@ export default function Home() {
         <div className="navrow">
           <Link className="btn" href="/exam">Start the past paper</Link>
           <Link className="btn ghost" href="/practice">Quick 20-question drill</Link>
+        </div>
+      </section>
+
+      {/* The picker is the first thing a visitor should meet: it answers "is this
+          for the exam I am sitting?" in one glance, and gives crawlers a direct
+          path to all seven hubs from the homepage. */}
+      <section style={{ marginBottom: '1.5rem' }}>
+        <div className="block-head">
+          <h2 style={{ margin: 0 }}>Which area are you preparing?</h2>
+          <Link href="/courses" className="muted">All courses</Link>
+        </div>
+        <div className="picker">
+          {COURSES.map((c) => {
+            const n = freeQuestionsFor(c).length;
+            return (
+              <Link key={c.slug} href={`/courses/${c.slug}`} className="picker-item">
+                <span className="picker-name">{c.short}</span>
+                <span className="muted picker-meta">
+                  {c.slug === 'mifotra-ict-officer' ? 'Real past paper' : `${n} free questions`}
+                </span>
+              </Link>
+            );
+          })}
         </div>
       </section>
 

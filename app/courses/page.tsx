@@ -37,8 +37,10 @@ export default async function CoursesPage() {
 
       <h1>Courses</h1>
       <p className="lead" style={{ marginBottom: '1.4rem' }}>
-        Pick the exam you are sitting. Every course draws on the same{' '}
-        {(2446).toLocaleString()}-question bank, filtered to what that exam actually tests.
+        Every course here is MIFOTRA exam preparation, drawn from the same{' '}
+        {(2446).toLocaleString()}-question bank and filtered to one area. Fifty of those
+        questions are the real past paper; the rest are practice written to the published
+        objectives the exam draws on.
       </p>
 
       <div className="grid" style={{ marginBottom: '2rem' }}>

@@ -365,3 +365,24 @@ article ul { max-width: 68ch; color: var(--ink); }
 }
 .course-card { display: block; transition: border-color .15s; }
 .course-card:hover { border-color: var(--blue); }
+
+/* ---- homepage course picker ---- */
+.block-head {
+  display: flex; align-items: baseline; gap: 1rem;
+  flex-wrap: wrap; margin-bottom: .7rem;
+}
+.block-head a { margin-left: auto; text-decoration: none; font-size: .9rem; }
+.picker {
+  display: grid; gap: .6rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.picker-item {
+  display: flex; flex-direction: column; gap: .2rem;
+  padding: .85rem 1rem; border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--line);
+  text-decoration: none; color: inherit; transition: border-color .15s, transform .15s;
+}
+.picker-item:hover { border-color: var(--blue); transform: translateY(-1px); }
+.picker-name { font-weight: 600; }
+.picker-meta { font-size: .84rem; }
+.picker-item:first-child { border-color: var(--green-line); background: var(--green-soft); }

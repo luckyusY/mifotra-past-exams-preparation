@@ -2,25 +2,31 @@ import Link from 'next/link';
 import { freeQuestions, mifotraQuestions, topics, topicSlug } from '@/lib/questions';
 import UpsellCard from './UpsellCard';
 import { COURSES, freeQuestionsFor } from '@/lib/courses';
+import Hero3D from './Hero3D';
 
 export default function Home() {
   const marks = mifotraQuestions.reduce((a, q) => a + q.marks, 0);
 
   return (
     <>
-      <section style={{ padding: '2rem 0 1rem' }}>
-        <span className="pill">Rwanda &middot; Public Service ICT</span>
-        <h1 style={{ marginTop: '.7rem' }}>
-          Practise the real MIFOTRA ICT exam, in English and French.
-        </h1>
-        <p className="lead">
-          The full {mifotraQuestions.length}-question Centralized ICT Acquisition Officer past
-          paper, every answer independently verified and explained. Free to practise, no account
-          needed.
-        </p>
-        <div className="navrow">
-          <Link className="btn" href="/exam">Start the past paper</Link>
-          <Link className="btn ghost" href="/practice">Quick 20-question drill</Link>
+      <section style={{ padding: '2rem 0 1.5rem' }}>
+        <div className="hero-wrap">
+          <div>
+            <span className="pill">Rwanda &middot; Public Service ICT</span>
+            <h1 style={{ marginTop: '.7rem' }}>
+              Practise the real MIFOTRA ICT exam, in English and French.
+            </h1>
+            <p className="lead">
+              The full {mifotraQuestions.length}-question Centralized ICT Acquisition Officer
+              past paper, every answer independently verified and explained. Free to practise,
+              no account needed.
+            </p>
+            <div className="navrow">
+              <Link className="btn" href="/exam">Start the past paper</Link>
+              <Link className="btn ghost" href="/practice">Quick 20-question drill</Link>
+            </div>
+          </div>
+          <Hero3D />
         </div>
       </section>
 

@@ -48,10 +48,11 @@ try {
   if (vTag) {
     // A token carrying the DNS prefix renders a tag Google rejects, and the
     // failure looks identical to having no tag at all.
+    const bare = !/^google-site-verification=/i.test(vTag[1]) && !/[<>"']/.test(vTag[1]);
     t(
       'verification token is bare (no prefix, no markup)',
-      !/^google-site-verification=/i.test(vTag[1]) && !/[<>"']/.test(vTag[1]),
-      `content is "${vTag[1].slice(0, 60)}" - strip the google-site-verification= prefix`
+      bare,
+      bare ? '' : `content is "${vTag[1].slice(0, 60)}" - strip the google-site-verification= prefix`
     );
   }
 } catch (err) {

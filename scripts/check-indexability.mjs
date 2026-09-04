@@ -37,11 +37,23 @@ try {
     robotsTag ? `header is "${robotsTag}"` : 'header absent'
   );
   t('no noindex meta tag', !/<meta[^>]+name=["']robots["'][^>]*noindex/i.test(home.text));
+  const vTag = home.text.match(
+    /<meta[^>]+name=["']google-site-verification["'][^>]*content=["']([^"']*)["']/i
+  );
   t(
     'Search Console verification tag present',
-    /name=["']google-site-verification["']/i.test(home.text),
-    'set GOOGLE_SITE_VERIFICATION if missing'
+    Boolean(vTag),
+    vTag ? '' : 'set GOOGLE_SITE_VERIFICATION'
   );
+  if (vTag) {
+    // A token carrying the DNS prefix renders a tag Google rejects, and the
+    // failure looks identical to having no tag at all.
+    t(
+      'verification token is bare (no prefix, no markup)',
+      !/^google-site-verification=/i.test(vTag[1]) && !/[<>"']/.test(vTag[1]),
+      `content is "${vTag[1].slice(0, 60)}" - strip the google-site-verification= prefix`
+    );
+  }
 } catch (err) {
   t('home reachable', false, String(err).slice(0, 80));
 }

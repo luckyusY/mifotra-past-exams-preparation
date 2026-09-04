@@ -4,6 +4,19 @@ import './globals.css';
 
 const site = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 
+/**
+ * Google shows the token three different ways - a bare string in the HTML-tag
+ * method, `google-site-verification=TOKEN` in the DNS method, and wrapped in a
+ * full <meta> tag when you copy the snippet. Accept all three and emit the bare
+ * token, because pasting the wrong one renders a tag Google silently rejects.
+ */
+function verificationToken(): string | undefined {
+  const raw = process.env.GOOGLE_SITE_VERIFICATION?.trim();
+  if (!raw) return undefined;
+  const fromMeta = raw.match(/content=["']([^"']+)["']/i)?.[1];
+  return (fromMeta ?? raw).replace(/^google-site-verification=/i, '').trim() || undefined;
+}
+
 export const metadata: Metadata = {
   metadataBase: new URL(site),
   title: {
@@ -21,9 +34,7 @@ export const metadata: Metadata = {
   alternates: { languages: { en: '/', fr: '/' } },
   // Search Console verification. Set GOOGLE_SITE_VERIFICATION to the content
   // value from the "HTML tag" method; the tag only renders once it is set.
-  verification: process.env.GOOGLE_SITE_VERIFICATION
-    ? { google: process.env.GOOGLE_SITE_VERIFICATION }
-    : undefined,
+  verification: verificationToken() ? { google: verificationToken() } : undefined,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

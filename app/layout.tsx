@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import './globals.css';
+import { WHATSAPP_DISPLAY, whatsappLink } from './Contact';
 
 const site = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 
@@ -54,8 +55,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </span>
             </Link>
             <nav>
+              <Link href="/courses">Courses</Link>
               <Link href="/exam">Past paper</Link>
-              <Link href="/practice">Practice</Link>
               <Link href="/topics">Topics</Link>
               <Link href="/blog">Guides</Link>
               <Link href="/unlock">Unlock full bank</Link>
@@ -70,8 +71,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               recruitment exams. Not affiliated with MIFOTRA, CompTIA or Cisco.
             </p>
             <p className="muted">
-              Practice questions are original, written against publicly published exam
-              objectives. Past-paper items are reproduced for study purposes.
+              The MIFOTRA past paper is reproduced for study. All other questions are
+              original practice written against publicly published exam objectives, and are
+              labelled as such on every page.
+            </p>
+            <p>
+              Questions about payment or access:{' '}
+              <a href={whatsappLink('Hello, I have a question about the MIFOTRA question bank.')} target="_blank" rel="noopener noreferrer">
+                WhatsApp {WHATSAPP_DISPLAY}
+              </a>
             </p>
           </div>
         </footer>

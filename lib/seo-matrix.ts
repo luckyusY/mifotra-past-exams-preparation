@@ -1,4 +1,5 @@
 import { freeQuestions, topicSlug } from '@/lib/questions';
+import { COURSES } from '@/lib/courses';
 
 /**
  * Programmatic SEO topic matrix.
@@ -97,12 +98,40 @@ export function entities(): string[] {
   return [...new Set(freeQuestions.map((q) => q.topic))].sort();
 }
 
-/** The full matrix: patterns x entities, plus the standalone set. */
+/**
+ * Course-level patterns. These target the higher-volume searches - people look
+ * for "how hard is CCNA" far more than for any single topic - and each one has
+ * a course hub to link into.
+ */
+const COURSE_PATTERNS: { id: string; title: (n: string) => string; steer: (n: string) => string }[] = [
+  {
+    id: 'course-overview',
+    title: (n) => `${n}: what the exam covers and how to prepare`,
+    steer: (n) => `An orientation to ${n} for a Rwandan candidate: scope, difficulty, and a sensible order to study in.`,
+  },
+  {
+    id: 'course-difficulty',
+    title: (n) => `How hard is ${n}, really?`,
+    steer: (n) => `Honest assessment of ${n} difficulty and preparation time. Do not invent pass rates or statistics.`,
+  },
+  {
+    id: 'course-vs',
+    title: (n) => `${n} or a Rwandan public-service ICT exam: which to sit first`,
+    steer: (n) => `Compare ${n} against Rwandan public-service ICT recruitment in terms of cost, recognition and job outcomes locally.`,
+  },
+];
+
+/** The full matrix: topic patterns x topics, course patterns x courses, plus standalones. */
 export function buildMatrix(): SeoTopic[] {
   const out: SeoTopic[] = [];
   for (const entity of entities()) {
     for (const p of PATTERNS) {
       out.push({ title: p.title(entity), pattern: p.id, entity, steer: p.steer(entity) });
+    }
+  }
+  for (const c of COURSES) {
+    for (const p of COURSE_PATTERNS) {
+      out.push({ title: p.title(c.name), pattern: p.id, entity: c.short, steer: p.steer(c.name) });
     }
   }
   return [...STANDALONE, ...out];

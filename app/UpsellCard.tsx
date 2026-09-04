@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import WhatsAppButton, { WHATSAPP_DISPLAY } from './Contact';
 
 /**
  * The standing offer, in three densities. Everything stated here is a real
@@ -62,9 +63,14 @@ export default function UpsellCard({
         <li>
           Send <strong>5,000 RWF</strong> to <strong>MoMo Pay 232255</strong> (Rugira Yahaya)
         </li>
-        <li>Send the transaction reference to that number</li>
+        <li>
+          Send the reference on WhatsApp to <strong>{WHATSAPP_DISPLAY}</strong>
+        </li>
         <li>You get a code &mdash; enter it and start</li>
       </ol>
+      <div className="navrow">
+        <WhatsAppButton variant="btn ghost" label="Ask on WhatsApp" />
+      </div>
     </aside>
   );
 }

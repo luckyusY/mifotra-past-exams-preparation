@@ -351,3 +351,17 @@ article ul { max-width: 68ch; color: var(--ink); }
 
 .qlist { padding-left: 1.1rem; margin-bottom: 1.4rem; }
 .qlist li { margin-bottom: .5rem; }
+
+/* ---- provenance ---- */
+.badge-real {
+  display: inline-block;
+  font-size: .74rem;
+  font-weight: 700;
+  padding: .16rem .55rem;
+  border-radius: 99px;
+  background: var(--green-soft);
+  border: 1px solid var(--green-line);
+  color: var(--ink);
+}
+.course-card { display: block; transition: border-color .15s; }
+.course-card:hover { border-color: var(--blue); }

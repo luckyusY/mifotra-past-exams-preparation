@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { freeQuestions, topics, topicSlug } from '@/lib/questions';
 import { publishedPosts } from '@/lib/posts';
 import { allPreviewSlugs } from '@/lib/preview';
+import { COURSES } from '@/lib/courses';
 
 const site = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 
@@ -30,6 +31,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${site}/exam`, lastModified: now, priority: 0.9 },
     { url: `${site}/practice`, lastModified: now, priority: 0.7 },
     { url: `${site}/topics`, lastModified: now, priority: 0.8 },
+    { url: `${site}/courses`, lastModified: now, priority: 0.9 },
+    ...COURSES.map((c) => ({
+      url: `${site}/courses/${c.slug}`,
+      lastModified: now,
+      priority: 0.9,
+    })),
     ...topics.map((t) => ({
       url: `${site}/topics/${topicSlug(t)}`,
       lastModified: now,

@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { freeQuestions, questionBySlug, topicSlug } from '@/lib/questions';
 import { previewBySlug, relatedPreviews, type QuestionPreview } from '@/lib/preview';
 import UpsellCard from '@/app/UpsellCard';
+import Provenance from '@/app/Provenance';
+import { coursesForQuestion } from '@/lib/courses';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -57,7 +59,17 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
   const free = questionBySlug(slug);
 
   if (free) {
-    const jsonLd = {
+    const site = process.env.NEXT_PUBLIC_SITE_URL ?? '';
+    const courses = coursesForQuestion(free);
+    const jsonLd = [{
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Topics', item: `${site}/topics` },
+        { '@type': 'ListItem', position: 2, name: free.topic, item: `${site}/topics/${topicSlug(free.topic)}` },
+        { '@type': 'ListItem', position: 3, name: free.en.stem.slice(0, 70), item: `${site}/questions/${free.slug}` },
+      ],
+    }, {
       '@context': 'https://schema.org',
       '@type': 'QAPage',
       mainEntity: {
@@ -73,7 +85,7 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
           .filter((_, i) => i !== free.answerIndex)
           .map((o) => ({ '@type': 'Answer', text: o })),
       },
-    };
+    }];
 
     return (
       <>
@@ -118,11 +130,20 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
           </div>
         </div>
 
-        <p className="muted">
-          {free.examSource}
-          {free.examNumber ? ` · Question ${free.examNumber}` : ''} &middot; {free.marks}{' '}
-          {free.marks === 1 ? 'mark' : 'marks'} &middot; {free.difficulty}
-        </p>
+        <Provenance q={free} />
+
+        {courses.length > 0 && (
+          <section style={{ margin: '1.6rem 0' }}>
+            <h2>Courses that include this</h2>
+            <ul className="qlist">
+              {courses.map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/courses/${c.slug}`}>{c.name}</Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         <div className="navrow">
           <Link className="btn" href="/exam">
@@ -144,7 +165,16 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
   // No acceptedAnswer: this page does not show one. Emitting the correct answer
   // in structured data while withholding it from the page is exactly the
   // mismatch between markup and content that manual actions target.
-  const jsonLd = {
+  const site = process.env.NEXT_PUBLIC_SITE_URL ?? '';
+  const jsonLd = [{
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Topics', item: `${site}/topics` },
+      { '@type': 'ListItem', position: 2, name: paid.topic, item: `${site}/topics/${topicSlug(paid.topic)}` },
+      { '@type': 'ListItem', position: 3, name: paid.en.stem.slice(0, 70), item: `${site}/questions/${paid.slug}` },
+    ],
+  }, {
     '@context': 'https://schema.org',
     '@type': 'QAPage',
     mainEntity: {
@@ -154,7 +184,7 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
       answerCount: 0,
       suggestedAnswer: paid.en.options.map((o) => ({ '@type': 'Answer', text: o })),
     },
-  };
+  }];
 
   return (
     <>
@@ -198,10 +228,7 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
         </div>
       </div>
 
-      <p className="muted">
-        {paid.examSource} &middot; {paid.marks} {paid.marks === 1 ? 'mark' : 'marks'} &middot;{' '}
-        {paid.difficulty}
-      </p>
+      <Provenance q={{ ...paid, examNumber: null }} />
 
       {related.length > 0 && (
         <section style={{ margin: '1.8rem 0' }}>

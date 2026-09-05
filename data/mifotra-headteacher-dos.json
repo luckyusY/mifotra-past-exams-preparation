@@ -1,0 +1,262 @@
+{
+  "exam": {
+    "id": "mifotra-deputy-headteacher-dos",
+    "name": "Deputy Headteacher in Charge of Studies",
+    "authority": "MIFOTRA - Republic of Rwanda",
+    "totalQuestions": 50,
+    "durationMinutes": 150,
+    "languages": ["en"],
+    "note": "Transcribed from a blank MIFOTRA examination-portal paper. Unlike the ICT paper, nothing was marked in the source, so there is no candidate answer key and no official key. Answers here were determined from education-leadership and assessment theory. Seven questions ask for specific Rwandan policy figures (NST1/ESSP targets) or lost text to the page margin in the source scan; those are published with answerIndex null and verified false rather than guessed."
+  },
+  "questions": [
+    { "id": "HT-001", "number": 1, "marks": 1, "topic": "Teacher Standards", "answerIndex": 0, "verified": true,
+      "stem": "Demonstrate your understanding of the teacher professional standards in Rwanda by choosing the correct statement from the following ones.",
+      "options": ["Teacher professional standards are meant to provide a framework of teacher professional capacity building.", "Teacher professional standards are referred to as a tool used to set the strategic direction of the teacher training policy.", "The purpose of teacher professional standards is solely to identify the competences that characterise professional teachers.", "Professional content is not of the components of the teacher professional standards in Rwanda."],
+      "explanation": "The standards exist as a framework for building teacher capacity across a career. C fails on 'solely' - the standards do more than identify competences - and D is simply false, since professional content is one of the components." },
+
+    { "id": "HT-002", "number": 2, "marks": 1, "topic": "Curriculum", "answerIndex": 3, "verified": true,
+      "stem": "If a teacher asks you in a meeting an example of what a professional teacher should do in terms of curriculum implementation, which answer would you give him/her from the suggested ones?",
+      "options": ["A teacher should link teaching content knowledge and skills to everyday life experiences", "A teacher should plan what to teach annually, termly, monthly, weekly and daily", "A teacher should participate in professional and community networks and forums to broaden knowledge and improve practice.", "All examples in A, B & C are correct"],
+      "explanation": "Linking content to lived experience, planning across every cycle, and participating in professional networks are all part of competence-based curriculum implementation. None of the three excludes the others." },
+
+    { "id": "HT-003", "number": 3, "marks": 1, "topic": "School Leadership", "answerIndex": 3, "verified": true,
+      "stem": "If you become a deputy head teacher, which of practices would you demonstrate as an effective leader?",
+      "options": ["Plan solely for learning improvement in collaboration with teachers and parents", "Assess and provide feedback reports on learner's performance;", "Plan what to teach annually, termly, monthly, weekly and daily", "Cultivate a range of partnerships with parents and the community"],
+      "explanation": "Building partnerships with parents and the wider community is a leadership standard. A is limited by 'solely', B and C describe teacher duties rather than leadership practice." },
+
+    { "id": "HT-004", "number": 4, "marks": 1, "topic": "Teacher Support", "answerIndex": 0, "verified": true,
+      "stem": "The following are kinds of support that a school leader can give to teachers to improve learning. Indicate which of them is the odd one out.",
+      "options": ["Induction for new teachers", "Peer-observation and reflection", "Model lesson and reflection", "Professional Learning communities"],
+      "explanation": "Induction is a one-off event aimed only at new staff. Peer observation, model lessons and professional learning communities are continuing, collaborative supports available to every teacher." },
+
+    { "id": "HT-005", "number": 5, "marks": 1, "topic": "Stakeholders", "answerIndex": 0, "verified": true,
+      "stem": "Which of the following would you not value as the benefit of engaging stakeholders in the school activities?",
+      "options": ["Stakeholders provide greater cooperation and support when they know what is happening in school without necessarily being part of the decision-making process", "Challenges can be identified and addressed more easily when schools, parents and the local community work together", "Parents and other members of the wider community can help the school build up their resources for teaching and learning", "All benefits in A, B, & C are correct"],
+      "explanation": "A describes informing stakeholders while deliberately keeping them out of decisions, which is the opposite of engagement. B and C are genuine benefits of it." },
+
+    { "id": "HT-006", "number": 6, "marks": 1, "topic": "School Leadership", "answerIndex": 3, "verified": true,
+      "stem": "Which of the following would you perform as a leadership task?",
+      "options": ["Follow up the students' learning and assessment practices", "Lesson observations", "School improvement planning", "All answers in A, B & C are correct"],
+      "explanation": "Following up learning, observing lessons and leading school improvement planning are all school-leadership tasks; none excludes the others." },
+
+    { "id": "HT-007", "number": 7, "marks": 1, "topic": "Administration", "answerIndex": 3, "verified": true,
+      "stem": "Which of the following is not a type of administration according to you?",
+      "options": ["Authoritarian administration", "Democratic administration", "Laissez Faire administration", "Instructional administration"],
+      "explanation": "Authoritarian, democratic and laissez-faire are the three classical administrative styles. 'Instructional' describes a focus of leadership, not a type of administration." },
+
+    { "id": "HT-008", "number": 8, "marks": 1, "topic": "Administration", "answerIndex": 0, "verified": true,
+      "stem": "Respect of opinion is the feature of...",
+      "options": ["Democratic administration", "Instructional administration", "Authoritarian administration", "None of the above"],
+      "explanation": "Democratic administration is defined by consulting staff and respecting their views. Authoritarian administration does the opposite." },
+
+    { "id": "HT-009", "number": 9, "marks": 1, "topic": "Assessment", "answerIndex": 0, "verified": true,
+      "stem": "Permanent difficulties in learning are investigated in?",
+      "options": ["Diagnostic Assessment", "Placement Assessment", "Summative Assessment", "Formative Assessment"],
+      "explanation": "Diagnostic assessment identifies persistent, underlying learning difficulties and their causes. Placement sorts learners into levels, formative guides ongoing teaching, and summative judges attainment at the end." },
+
+    { "id": "HT-010", "number": 10, "marks": 1, "topic": "Assessment", "answerIndex": 3, "verified": true,
+      "stem": "Which of the following would you recommend to teachers as appropriate procedures used to determine the learners' abilities?",
+      "options": ["Typical performance test", "Norm performance test", "Criterion performance test", "Maximum performance test"],
+      "explanation": "Maximum performance tests measure what a learner is capable of when trying their hardest, which is what 'ability' means. Typical performance tests measure habitual behaviour, interests and attitudes instead." },
+
+    { "id": "HT-011", "number": 11, "marks": 1, "topic": "Supervision", "answerIndex": 1, "verified": true,
+      "stem": "The basic purpose of teaching and learning supervision is to help ...",
+      "options": ["Children learn more effectively", "Teachers in improving methods", "Teachers in understanding pupils", "Teachers in dealing with pupils"],
+      "explanation": "Supervision acts directly on instruction: it helps teachers improve their methods. Better learning follows from that, but it is the outcome rather than the immediate purpose." },
+
+    { "id": "HT-012", "number": 12, "marks": 1, "topic": "Leadership Theory", "answerIndex": 3, "verified": true,
+      "stem": "The leaders are not born, but trained. This means that ...",
+      "options": ["The leadership is not an innate quality but an individual whoever suffers and found out the ways of ameliorating of the masses becomes a leader", "Leadership is the outcomes of one's social welfare woks and social roles", "Leadership is not an inheritance quality", "The leadership training makes a good leader"],
+      "explanation": "The statement contrasts birth with training, so the reading that matches it is that training produces good leaders. C only restates half the claim and says nothing about training." },
+
+    { "id": "HT-013", "number": 13, "marks": 1, "topic": "Leadership Theory", "answerIndex": 0, "verified": true,
+      "stem": "Leadership can be denoted by the following:",
+      "options": ["Dominance- following", "Dominance-descendance", "Dominance- repression", "Dominance- forced support"],
+      "explanation": "Leadership is a relationship in which influence is met with willing followership. Repression and forced support describe coercion, which is not leadership." },
+
+    { "id": "HT-014", "number": 14, "marks": 1, "topic": "Leadership Styles", "answerIndex": 2, "verified": true,
+      "stem": "Leadership style that follows \"command and control Approach\" is ...",
+      "options": ["Transactional leadership", "Cross cultural leadership", "Autocratic leadership", "Democratic Leadership"],
+      "explanation": "Autocratic leadership concentrates decisions in the leader and directs subordinates. Command and control is the standard description of it." },
+
+    { "id": "HT-015", "number": 15, "marks": 1, "topic": "Leadership Styles", "answerIndex": 0, "verified": true,
+      "stem": "Which leadership style among the following one is known as \"Reward\"?",
+      "options": ["Transactional style", "Laisser-faire", "Democratic style", "None of the above answer is correct"],
+      "explanation": "Transactional leadership works through an exchange: performance is traded for reward or sanction. That contingent-reward mechanism is what defines it." },
+
+    { "id": "HT-016", "number": 16, "marks": 1, "topic": "Guidance and Counselling", "answerIndex": 1, "verified": true,
+      "stem": "A school community member in charge of catering for psychological, emotional and social needs of the learner is ...",
+      "options": ["School head teacher", "Educational counsellor", "Class teacher", "Deputy head teacher in charge of studies"],
+      "explanation": "The educational counsellor holds specific responsibility for learners' psychological, emotional and social welfare. The other roles carry it only incidentally." },
+
+    { "id": "HT-017", "number": 17, "marks": 1, "topic": "Motivation", "answerIndex": 3, "verified": true,
+      "stem": "After a lesson observation, you will tell the teacher that to increase the learners' motivation, s/he should use the following strategies ...",
+      "options": ["Empathize and build", "Remember the learner's identity", "Give a descriptive feedback", "All strategies in A, B & C"],
+      "explanation": "Empathy, recognising the learner as an individual and descriptive rather than evaluative feedback all raise motivation, and they work together rather than in competition." },
+
+    { "id": "HT-018", "number": 18, "marks": 1, "topic": "School Leadership", "answerIndex": null, "verified": false,
+      "stem": "The following are the standards for the effective school leadership in Rwanda. Which one is the one odd out?",
+      "options": ["Creating strategic direction of the school improvement planning", "Leading teaching", "Managing the school as an organisation", "Working with parents and the wider community"],
+      "explanation": "This asks which option is not one of Rwanda's published Standards for Effective School Leadership. All four are close to the wording of real standards, and distinguishing them needs the official MINEDUC/REB standards document rather than general leadership theory. Check the current framework before relying on an answer." },
+
+    { "id": "HT-019", "number": 19, "marks": 1, "topic": "Professional Capital", "answerIndex": 0, "verified": true,
+      "stem": "Which of the following would you refer to as a component of professional capital that can guide you in matters related to the quality of teachers in the school.",
+      "options": ["Human capital", "Social capital", "Decisional capital", "Working capital"],
+      "explanation": "Professional capital is human plus social plus decisional capital. Human capital is the component that refers to the knowledge and skill of individual teachers, which is what 'quality of teachers' names. Working capital is a finance term and not part of the model." },
+
+    { "id": "HT-020", "number": 20, "marks": 1, "topic": "Leadership Models", "answerIndex": 3, "verified": true,
+      "stem": "Which of the following assertion is not correct?",
+      "options": ["Participative school leadership assumes that school stakeholders take part in decision-making and that people are more likely to accept and implement decisions in which they have been involved.", "Transactional school leadership states that the relationships between headteachers, deputy headteachers and teachers are based on exchange of resources (more focus on external motivation than intrinsic motivation).", "Distributed leadership concentrates on engaging expertise wherever it exists within the organization", "Situational school leadership, is an ideal school leadership model that is best under all circumstances"],
+      "explanation": "Situational leadership is defined by adapting to the readiness of the people and the demands of the moment. Claiming it is best under all circumstances contradicts the model itself." },
+
+    { "id": "HT-021", "number": 21, "marks": 1, "topic": "Leadership Styles", "answerIndex": 3, "verified": true,
+      "stem": "One of the following is not correct about the school leadership styles. Indicate it.",
+      "options": ["At the stage of Coaching team members still need a lot of direction from the leader.", "At supporting level of development, the leader allows the team(s) to create their goals but works closely with them.", "Delegating leadership style indicates that team is well functioning and is highly competent with the task at hand.", "At the Directing stage team members have much knowledge of the task and they are able to direct their fellows"],
+      "explanation": "Directing is used precisely because members lack competence and confidence in the task. If they already had that knowledge, delegating would apply instead." },
+
+    { "id": "HT-022", "number": 22, "marks": 1, "topic": "Vision and Mission", "answerIndex": 0, "verified": true,
+      "stem": "Which of the following statements is not correct?",
+      "options": ["It is an imperative for a school to have a vision rather than a mission.", "A school vision is the desired picture of the school in the future that drives all the school activities, attitudes and values", "A clear vision statement acts as a unifying force, and has a positive impact on organizational effectiveness", "A school vision is one of the most important components of the school improvement plans"],
+      "explanation": "Vision and mission answer different questions - where the school is going, and what it does day to day - and a school needs both. Presenting them as alternatives is the error." },
+
+    { "id": "HT-023", "number": 23, "marks": 1, "topic": "School Improvement", "answerIndex": 2, "verified": true,
+      "stem": "One of the key document that a school should have is an SIP. What does this stand for in full?",
+      "options": ["School improvement planning", "Strategic improvement plan", "School improvement plan", "School improvement profile"],
+      "explanation": "SIP is the School Improvement Plan - the document itself. 'School improvement planning' names the process that produces it, not the document." },
+
+    { "id": "HT-024", "number": 24, "marks": 1, "topic": "Vision and Mission", "answerIndex": 0, "verified": true,
+      "stem": "The following are the characteristics of a powerful school vision except one. What is it?",
+      "options": ["A powerful school vision should be enthusiastic.", "A powerful school vision should be challenging.", "A powerful school vision should be motivating.", "A powerful school vision should be distinctive."],
+      "explanation": "Challenging, motivating and distinctive describe the statement itself. Enthusiasm is a quality of the people who hold a vision, not of the vision." },
+
+    { "id": "HT-025", "number": 25, "marks": 1, "topic": "School Improvement", "answerIndex": null, "verified": false,
+      "stem": "The following are the benefits of the school improvement plan apart from one. Indicate it",
+      "options": ["It helps the school to avoid misuse of school resources and ensure their effective allocation.", "It helps the school to develop a sense of ownership by school community members.", "It helps the school to develop strategies before embarking on activities", "It helps the school to ensure the effective allocation and application of school resources and ..."],
+      "explanation": "Option D is cut off at the page margin in the source scan, and as far as it can be read it overlaps almost exactly with option A. Without the missing words the intended odd-one-out cannot be identified honestly." },
+
+    { "id": "HT-026", "number": 26, "marks": 1, "topic": "School Improvement", "answerIndex": null, "verified": false,
+      "stem": "The responsibility of the deputy head teacher in charge of studies in the school improvement planning is to ...",
+      "options": ["Represent the teaching staff in the planning process.", "Provide further information about studies.", "Provide guidelines in the development of the plan.", "Help the planning team to understand the desired picture of the school."],
+      "explanation": "All four are plausible readings of the role, and which one the paper intends depends on the specific job description used by MIFOTRA for this post rather than on general practice. Check the official role description before relying on an answer." },
+
+    { "id": "HT-027", "number": 27, "marks": 1, "topic": "Teamwork", "answerIndex": 2, "verified": true,
+      "stem": "If I become a deputy head teacher, I will promote team working because teamwork leads to high achievement as ...",
+      "options": ["Members are given tasks and each member completes his/her own part.", "Members work independently towards their personal goals.", "Members collaborate to achieve common goals.", "All answers in A, B & C are correct."],
+      "explanation": "Teamwork means collaborating toward a shared goal. A describes parallel individual work and B describes independent personal goals, so neither is teamwork and D cannot hold." },
+
+    { "id": "HT-028", "number": 28, "marks": 1, "topic": "Roles and Duties", "answerIndex": 3, "verified": true,
+      "stem": "Which of the following can you value as the responsibility of a deputy head teacher?",
+      "options": ["To prepare and recommend for the approval of the school budget", "to take care of furniture, buildings, land and other property of the school", "To manage peramanent and contractual teaching staff of the school", "None of the above is correct"],
+      "explanation": "Budget preparation, property custody and staff management sit with the head teacher and the school bursar. None is a duty of the deputy in charge of studies, whose remit is academic." },
+
+    { "id": "HT-029", "number": 29, "marks": 1, "topic": "Curriculum", "answerIndex": 2, "verified": true,
+      "stem": "The following are the competences that a school leader should have for effective implementation of the competence-based curriculum. Indicate one of them that is the one odd out.",
+      "options": ["Lead and manage change and act as a change agent lead and manage change", "Design and implement a monitoring and evaluation system", "Enhance artificial and horizontal alignment of subjects in curriculum implementation", "Recognize and promote effective classroom teaching strategies"],
+      "explanation": "Curriculum alignment is vertical and horizontal. 'Artificial' alignment is not a concept in curriculum design, which makes C the odd one out." },
+
+    { "id": "HT-030", "number": 30, "marks": 1, "topic": "Professional Development", "answerIndex": 3, "verified": true,
+      "stem": "Which of the following methods would you use in leading teaching through continuous professional development?",
+      "options": ["Team teaching", "Classroom observations", "Professional learning communities", "All answers in A, B & C are correct"],
+      "explanation": "Team teaching, classroom observation and professional learning communities are all school-based CPD methods, and a school leader would normally combine them." },
+
+    { "id": "HT-031", "number": 31, "marks": 3, "topic": "Duty of Care", "answerIndex": 0, "verified": true,
+      "stem": "A child fainted during school prayer. If you are a school leader, what would you do?",
+      "options": ["Ask a teacher to conduct a prayer and take the child to the doctor", "Ask the teacher to care for the child and continue to conduct the prayer", "Ask the teacher to take the child to her home and continue with the prayer", "Ask the teacher to continue with the prayer to supervise the first aid to the child and resume with the prayer"],
+      "explanation": "A fainting child needs medical attention, and the leader carries the duty of care. Delegating the prayer and taking the child for treatment personally discharges that duty; sending a fainted child home rather than to a doctor does not." },
+
+    { "id": "HT-032", "number": 32, "marks": 3, "topic": "Leadership Models", "answerIndex": 3, "verified": true,
+      "stem": "If, in a professional learning community session, a school leader asks you to explain the meaning of managerial leadership, which of the following would you not give as an answer?",
+      "options": ["It focuses on a hierarchical structure of authority, clearly identifying the role of each position", "It is characterized by a clear division of labour, with staff having well described tasks and clear rules.", "It is based on formal relations, between school leaders and teachers, between teachers and learners.", "It is characterised by the involvement of stakeholders in decision making and decision implementation."],
+      "explanation": "Hierarchy, division of labour and formal relations all describe managerial leadership. Involving stakeholders in decisions describes participative leadership, which is a different model." },
+
+    { "id": "HT-033", "number": 33, "marks": 3, "topic": "School Improvement", "answerIndex": 1, "verified": true,
+      "stem": "In a school improvement planning meeting, one team member asks you to remind them some of the key elements to include in the SIP, which of the following would you choose as elements of your answer?",
+      "options": ["Mission, aim, goals, objectives, outcomes, priorities, monitoring and evaluation strategies, logframe, SWOT analysis.", "Vision, goals, objectives, outputs, timeframe, indicator, implementation strategies, monitoring and evaluation strategies", "SIP team members Vision, goals, objectives, outputs, timeframe, indicator, implementation strategies, monitoring and evaluation strategies", "SIP team members, School executive committee, students' performance data, school performance data, School profile"],
+      "explanation": "B lists the elements of the plan itself. C is the same list with people wrongly added to it, and D lists inputs and contributors rather than components of the document." },
+
+    { "id": "HT-034", "number": 34, "marks": 3, "topic": "Policy", "answerIndex": 2, "verified": true,
+      "stem": "A school leader should be familiar with the different policies and documents that call for the teacher continuous professional development. Assuming that you have become a deputy head teacher who is now attending a district pedagogical meeting, that you are asked to recommend such policies. Indicate which ones you cannot recommend from the following.",
+      "options": ["Sustainable Development Goals.", "Rwanda Vision 2050", "Economic Development and Poverty Reduction Strategy (EDPRS) II (2013-2018)", "ICT in Education Policy"],
+      "explanation": "EDPRS II ran to 2018 and has been superseded by the National Strategy for Transformation. Recommending an expired strategy as current policy is the error; the other three remain in force." },
+
+    { "id": "HT-035", "number": 35, "marks": 3, "topic": "Policy", "answerIndex": 0, "verified": true,
+      "stem": "Teacher Development and Management (TDM) Policy (2015) is a policy that seeks to professionalize teaching in Rwanda. If you are consulted to suggest some principles to include in the policy, which one would you remove from the following?",
+      "options": ["Teacher development is a career-short term process.", "Every teacher has diverse professional needs.", "Teacher development and management are a shared responsibility among teachers and employers at different levels;", "Teacher development and management draw on all stakeholders' creativity, proactivity, flexibility and resourceful planning."],
+      "explanation": "Teacher development is understood as career-long and continuous. Describing it as a short-term process contradicts the premise of continuous professional development that the policy rests on." },
+
+    { "id": "HT-036", "number": 36, "marks": 3, "topic": "School Leadership", "answerIndex": 3, "verified": true,
+      "stem": "Refer to the professional standards for effective leadership in Rwanda and indicate which of the following you can perform as a skill to be demonstrated by an effective school leader.",
+      "options": ["Monitoring and evaluating the implementation of the school improvement plan", "Putting student learning achievement first in all their undertakings", "Meeting the learning needs of all students", "All answers in A, B & C are correct."],
+      "explanation": "Monitoring the plan, putting learning first and meeting the needs of all students are each expected of an effective school leader, and they reinforce rather than exclude one another." },
+
+    { "id": "HT-037", "number": 37, "marks": 3, "topic": "Leading Teaching", "answerIndex": 3, "verified": true,
+      "stem": "Reflect on the responsibilities of a deputy head teacher in charge of studies and then indicate which of the evidences you can provide as a leader of teaching if you become successful on the position you have applied for.",
+      "options": ["Records of borrowing, creating and use of teaching and learning materials", "A record of SMART learning goals and students performance targets", "Clearly written school vision, mission and values visible and accessible for all", "All answers in A, B & C are correct."],
+      "explanation": "Each of the three is documentary evidence of leading teaching: resources in use, targets set and tracked, and a vision the school can see. A portfolio would contain all three." },
+
+    { "id": "HT-038", "number": 38, "marks": 3, "topic": "Change Management", "answerIndex": 3, "verified": true,
+      "stem": "In order to become an effective school leader you should have the skills of leading change processes perceived as a difficult task. Choose an option that best explain the reason why it is not easy to lead changes",
+      "options": ["Change is a linear process although people are not often involved in the change planning", "Change is not a linear process and people are  often involved in the change planning.", "Change is a linear process, people are often involved in the change planning.", "Change is not a linear process, people are not often involved in the change planning."],
+      "explanation": "Two things make change hard: it does not proceed in a straight line, and the people affected are usually left out of the planning. Only D states both, and B describes involvement, which would make change easier rather than harder." },
+
+    { "id": "HT-039", "number": 39, "marks": 3, "topic": "Leadership Theory", "answerIndex": 1, "verified": true,
+      "stem": "Think about the Leadership attributes and complete the best option to complete this statement: \"Leadership is to ... and achieve the vision through ...\"",
+      "options": ["Inspiring and motivating individuals.", "Influencing and motivating individuals", "Influencing and control individuals", "Controlling and governing individuals"],
+      "explanation": "Leadership is standardly defined as influencing and motivating people toward a shared vision. Control and governance describe management or authority rather than leadership." },
+
+    { "id": "HT-040", "number": 40, "marks": 3, "topic": "Professional Development", "answerIndex": 2, "verified": true,
+      "stem": "Peer coaching can be the most suitable professional development strategy that a school leader can use. In which of the following situations would be applied?",
+      "options": ["Teachers have received training on a new instructional strategy and are ready to implement it in their classrooms.", "Teachers as a group wish to learn more about the benefits and limitations of a particular instructional strategy.", "Teachers have identified a problem in a specific area of instruction and are ready to develop a plan to address the need.", "Teachers from several schools in the district have been reassigned to teach at a newly built school."],
+      "explanation": "Peer coaching fits a specific, teacher-identified instructional problem that a pair can work on together. A suits follow-up support after training, B suits a study group, and D is a staffing matter." },
+
+    { "id": "HT-041", "number": 41, "marks": 4, "topic": "Case Study", "answerIndex": null, "verified": false,
+      "stem": "Case study: A head teacher called a staff training on ICT in teaching and learning. All teachers including new teachers were present apart from two who were absent without informing the head teacher; one was sick and had gone to see her doctor, the other had lost his father and forgot to inform the school leaders. The head teacher asked the deputy head teacher, Mrs. Kayitesi, to draft letters requesting explanations for their absenteeism. The deputy told the head teacher she already knew the reasons because each had sent her a short text message, but the head teacher insisted the letters be written because he had not been informed. Meanwhile other teachers were murmuring that the endless discussions were wasting half the training time. Before the training ended, participants were asked to share the training outcomes and one raised his hand and said, \"To me, the training was not fruitful. It was about less content than what I know, and I don't understand why competent teachers like were invited\". The deputy head teacher supported him and said that next time such teachers will be exempted from attendance. She also refused to draft the letters, arguing that would not be fair. Q41.A. The problem of the teacher absenteeism would not have been complicated if ...",
+      "options": ["The head teacher applied the concern based adoption model in decision making", "Deputy head teacher did not tell the head teacher that she was informed about their problems", "(option cut off at the page margin in the source)", "(option cut off at the page margin in the source)"],
+      "explanation": "Options C and D run past the right edge of the page in the source scan and are not recoverable. The case study itself is reproduced in full so the following sub-questions (42 to 45) can be answered, but this part cannot be keyed honestly." },
+
+    { "id": "HT-042", "number": 42, "marks": 4, "topic": "Case Study", "answerIndex": 2, "verified": true,
+      "stem": "Q41.B. If you were Kayitesi, something different you would have done is ...",
+      "options": ["To call the teachers to show up at school and ask for permission instead of using telephone short message", "To request the chair of the head teacher to postpone the training.", "To advice the head teacher to take care of each and every one's concern before decision making", "To draft the request for explanation letters as instructed by the head teacher."],
+      "explanation": "The deputy's failing was refusing the instruction outright rather than advising the head teacher to weigh each teacher's circumstances first. C keeps the professional relationship intact while still addressing the substance." },
+
+    { "id": "HT-043", "number": 43, "marks": 4, "topic": "Case Study", "answerIndex": 0, "verified": true,
+      "stem": "Q41.C. Which feedback would you give to the teacher who said that he was not in need of the training?",
+      "options": ["That he would always attend the trainings and scaffold his fellow teachers.", "That he should be attending the trainings as he wants.", "That he would plan for other teaching activities he would be busy of in the classroom while the trainings are taking place.", "That he would always attend the trainings and take such time to prepare for his lessons."],
+      "explanation": "A competent teacher is an asset to a training session rather than an exception to it. Inviting him to attend and support colleagues turns his expertise into a resource; the other options excuse him from attending or waste his time there." },
+
+    { "id": "HT-044", "number": 44, "marks": 4, "topic": "Case Study", "answerIndex": 2, "verified": true,
+      "stem": "Q41.D. According to you, what was the fundamental reasons of organizing the teacher training on the use of ICT in teaching and learning?",
+      "options": ["To equip teachers with competences in ICT use in their teaching.", "To remind teachers about the policy of ICT in education implementation", "To ensure effective use of ICT and quality learning.", "To induct new teachers on the effective teaching and learning by means of ICT"],
+      "explanation": "The fundamental reason is the end the training serves - effective ICT use leading to quality learning. A names the immediate output, and B and D describe narrower purposes." },
+
+    { "id": "HT-045", "number": 45, "marks": 4, "topic": "Case Study", "answerIndex": 3, "verified": true,
+      "stem": "Q41.E. Which of the following piece of advice would you suggest for the effectiveness of the next training?",
+      "options": ["The school head teacher should not be involved in the next trainings", "Teachers who are competent and skilful enough should not be obliged to attend the trainings.", "The deputy head teacher should organize academic trainings himself as it one of one amongst her duties", "Teachers should be sensitized about the relevance of continuous professional development"],
+      "explanation": "The session failed because staff did not see why it mattered. Sensitising teachers to the purpose of continuous professional development addresses that; excluding the head teacher or exempting able teachers would make it worse." },
+
+    { "id": "HT-046", "number": 46, "marks": 4, "topic": "Case Study", "answerIndex": 2, "verified": true,
+      "stem": "Case study: A new teacher was teaching in a class where learners with and learners without learning difficulties were mixed. When one learner asked him to increase the size of his handwriting on the chalkboard, the teacher asked that learner to stand up and go out. When the deputy head teacher in charge of studies passed around the class, he found the learner out and asked her to immediately return to the classroom. He entered with her and, in front of the class, he told the teacher that he made a mistake. No sooner had the deputy head teacher finished blaming the teacher, the latter packed his stuffs and went out. He waited for the deputy head teacher and asked him to discuss the case out of the classroom. Q46.A. What would you appreciate on behalf of the teacher?",
+      "options": ["He managed the school effectively by avoiding disruptive behaviours.", "He decided to stop the lessons instead of being ridiculous in front the learners.", "He resolved to discuss the case strategically.", "None of the above (A,B & C)  is correct"],
+      "explanation": "The question asks what is creditable in the teacher's conduct. Waiting and asking to discuss the matter away from the learners was the professional choice; abandoning the lesson was not, and sending the learner out was the original error." },
+
+    { "id": "HT-047", "number": 47, "marks": 4, "topic": "Policy", "answerIndex": 3, "verified": true,
+      "stem": "Which of the following approaches would improve literacy and numeracy in early grades and beyond?",
+      "options": ["Development of standards for pre-primary education (including for assessment) and use of these standards by pre-primary teachers", "Capacity building of teachers in early grade literacy and numeracy, including using learning resources to support teaching", "Provision of a standard package of P1-P3 teaching and learning resources to all school", "All answers in A, B & C are correct"],
+      "explanation": "Standards, teacher capacity and learning resources are complementary levers, and early-grade literacy and numeracy programmes normally pursue all three together." },
+
+    { "id": "HT-048", "number": 48, "marks": 4, "topic": "Policy", "answerIndex": null, "verified": false,
+      "stem": "(Stem not captured - the question text falls outside the page area in the source scan.) The options concern intended outcomes of Rwandan education-sector policy.",
+      "options": ["Increased access to teachers at all levels", "Enhanced quality learning outcomes that are relevant to Rwanda's social and economic development", "Strengthened CPD and management of teachers across all levels of education in Rwanda", "More innovative and responsive research and development in relation to community challenges"],
+      "explanation": "The question text was lost to the page margin in the source, and all four options are plausible sector outcomes. Answering would mean guessing which one the missing stem asks for." },
+
+    { "id": "HT-049", "number": 49, "marks": 4, "topic": "Policy", "answerIndex": null, "verified": false,
+      "stem": "What is the target Student:Teacher ratio for 2023-2024?",
+      "options": ["40:1", "43:1", "62:1", "52:1"],
+      "explanation": "This is a specific target from Rwanda's education sector plan. It cannot be derived from principle, and publishing a guess in a paid revision product would be worse than leaving it open. Check the current NST/ESSP target before answering." },
+
+    { "id": "HT-050", "number": 50, "marks": 4, "topic": "Policy", "answerIndex": null, "verified": false,
+      "stem": "In the NST 1, the Government of Rwanda envision to have Increased access to pre-primary education. The targeted net Enrolment Rate in pre-primary for 2023-2024 is:",
+      "options": ["38", "45", "58", "60"],
+      "explanation": "Another specific NST1 target figure. Confirm it against the published National Strategy for Transformation rather than relying on an inferred answer." }
+  ]
+}

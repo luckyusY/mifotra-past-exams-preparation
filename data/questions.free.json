@@ -28,6 +28,7 @@
    "explanation": "Commencez par vérifier si le compte dispose réellement d'un droit d'accès à distance. Partager les identifiants de l'administrateur n'est jamais acceptable."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -61,6 +62,7 @@
    "explanation": "L'écoute active et empathique désamorce la situation et fait apparaître le vrai problème."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -94,6 +96,7 @@
    "explanation": "Un SSD est un stockage non volatil utilisant de la mémoire flash, sans pièces mobiles."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -127,6 +130,7 @@
    "explanation": "Un système de gestion des clés avec stockage sécurisé traite la cause racine : la clé était exposée car mal protégée."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -160,6 +164,7 @@
    "explanation": "Le mode sans échec démarre avec un minimum de pilotes et de services afin d'isoler un pilote ou un programme défectueux."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -193,6 +198,7 @@
    "explanation": "Le papier, l'encre et le pilote font tous partie des premières vérifications standard."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -226,6 +232,7 @@
    "explanation": "Windows 10 est un système d'exploitation. Word, Photoshop et Chrome sont des applications."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -259,6 +266,7 @@
    "explanation": "Faire remonter le problème avec une estimation réaliste tient le client informé."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -292,6 +300,7 @@
    "explanation": "La rapidité combinée à l'efficacité est la mesure principale de la qualité du support."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -325,6 +334,7 @@
    "explanation": "La saturation du processeur, le manque de mémoire et un disque plein provoquent chacun des ralentissements."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -358,6 +368,7 @@
    "explanation": "Le processeur récupère, décode et exécute les instructions."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -391,6 +402,7 @@
    "explanation": "ls est la commande standard sous Linux. list et show n'existent pas."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -424,6 +436,7 @@
    "explanation": "script démarre un enregistreur de session qui écrit tout dans un fichier. macro n'est pas une commande Linux."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -457,6 +470,7 @@
    "explanation": "Un commutateur transmet les trames entre hôtes du même réseau local."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -490,6 +504,7 @@
    "explanation": "NTFS est le système de fichiers standard de Windows."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -523,6 +538,7 @@
    "explanation": "Commencez toujours par l'alimentation avant de tester autre chose."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -556,6 +572,7 @@
    "explanation": "La paire torsadée (Cat5e/Cat6) est de loin le support Ethernet le plus courant."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -589,6 +606,7 @@
    "explanation": "Le système d'exploitation gère le processeur, la mémoire, le stockage et les périphériques."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -622,6 +640,7 @@
    "explanation": "Reconnaître l'émotion et proposer immédiatement de l'aide est la formulation standard."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -655,6 +674,7 @@
    "explanation": "Vérifiez la connectivité localement avant d'incriminer un tiers externe."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -688,6 +708,7 @@
    "explanation": "Le DNS résout les noms en adresses IP. L'attribution d'adresses est le rôle du DHCP."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -721,6 +742,7 @@
    "explanation": "Un BSOD est une erreur d'arrêt au niveau du noyau, dont la panne matérielle n'est qu'une cause possible."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -754,6 +776,7 @@
    "explanation": "Renouveler et installer le certificat rétablit la confiance et la disponibilité."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -787,6 +810,7 @@
    "explanation": "Random Access Memory - mémoire de travail volatile accessible directement à n'importe quelle adresse."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -820,6 +844,7 @@
    "explanation": "Confirmer la résolution et remercier l'appelant boucle l'échange."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -853,6 +878,7 @@
    "explanation": "ping envoie des requêtes ICMP pour tester l'accessibilité et la latence."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -886,6 +912,7 @@
    "explanation": "Combiner l'authentification multifacteur et un stockage sécurisé des jetons traite la compromission actuelle et future."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -919,6 +946,7 @@
    "explanation": "Un pare-feu inspecte et filtre le trafic selon un ensemble de règles."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -952,6 +980,7 @@
    "explanation": "Ubuntu est une distribution Linux. macOS et iOS ne sont pas Linux."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -985,6 +1014,7 @@
    "explanation": "Réseau privé virtuel - un tunnel chiffré qui transporte du trafic privé sur un réseau public."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1018,6 +1048,7 @@
    "explanation": "Un cheval de Troie se definit par son déguisement. Un virus s'attache aux fichiers, un ver se propage seul."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1051,6 +1082,7 @@
    "explanation": "Les mots de passe sont stockés sous forme de hachages salés, irréversibles en cas de fuite."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1084,6 +1116,7 @@
    "explanation": "Le filtrage WAF, la limitation de débit et le CDN sont des couches complémentaires."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1117,6 +1150,7 @@
    "explanation": "Une sauvegarde vérifiée est l'étape obligatoire avant toute mise à niveau."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1150,6 +1184,7 @@
    "explanation": "Un onduleur fournit une alimentation sur batterie pendant une coupure."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1183,6 +1218,7 @@
    "explanation": "L'antivirus identifie le code malveillant puis le met en quarantaine ou le supprime."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1216,6 +1252,7 @@
    "explanation": "Les deux facteurs doivent provenir de catégories différentes : ce que vous savez et ce que vous êtes."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1249,6 +1286,7 @@
    "explanation": "Un mot de passe fort vient en premier. Accorder des droits d'administration par défaut viole le moindre privilège."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1282,6 +1320,7 @@
    "explanation": "shutdown /r redémarre Windows. reboot et restart ne sont pas des commandes Windows."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1315,6 +1354,7 @@
    "explanation": "Seul P@ssw0rd! mélange les classes de caractères, même s'il reste faible en pratique."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1348,6 +1388,7 @@
    "explanation": "chkdsk analyse le système de fichiers et la surface du disque à la recherche d'erreurs."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1381,6 +1422,7 @@
    "explanation": "Un routeur achemine les paquets entre réseaux, reliant le réseau local à Internet."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1414,6 +1456,7 @@
    "explanation": "Le stockage cloud rend les fichiers accessibles depuis n'importe quel endroit et appareil."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1447,6 +1490,7 @@
    "explanation": "SMTP envoie le courrier. POP3 et IMAP servent à le récupérer."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1480,6 +1524,7 @@
    "explanation": "Ajoutez la règle nécessaire pour autoriser le trafic légitime."
   },
   "answerIndex": 2,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1513,6 +1558,7 @@
    "explanation": "Rester calme et empathique désamorce réellement la situation."
   },
   "answerIndex": 3,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1546,6 +1592,7 @@
    "explanation": "Les filtres analysent le contenu par rapport à des motifs de spam connus."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1579,6 +1626,7 @@
    "explanation": "Le phishing est une usurpation d'identité visant à extraire des identifiants ou des données personnelles."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1612,6 +1660,7 @@
    "explanation": "Mettez d'abord à jour le pilote : c'est gratuit, réversible et une cause très fréquente."
   },
   "answerIndex": 0,
+  "verified": true,
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1645,7 +1694,1258 @@
    "explanation": "Logiciel en tant que service - des applications livrées via le réseau, l'infrastructure étant gérée par le fournisseur."
   },
   "answerIndex": 1,
+  "verified": true,
   "bilingual": true,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-001",
+  "slug": "demonstrate-your-understanding-of-the-teacher-professional-standards-i-ht-001",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 1,
+  "topic": "Teacher Standards",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Demonstrate your understanding of the teacher professional standards in Rwanda by choosing the correct statement from the following ones.",
+   "options": [
+    "Teacher professional standards are meant to provide a framework of teacher professional capacity building.",
+    "Teacher professional standards are referred to as a tool used to set the strategic direction of the teacher training policy.",
+    "The purpose of teacher professional standards is solely to identify the competences that characterise professional teachers.",
+    "Professional content is not of the components of the teacher professional standards in Rwanda."
+   ],
+   "explanation": "The standards exist as a framework for building teacher capacity across a career. C fails on 'solely' - the standards do more than identify competences - and D is simply false, since professional content is one of the components."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-002",
+  "slug": "if-a-teacher-asks-you-in-a-meeting-an-example-of-what-a-professional-t-ht-002",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 2,
+  "topic": "Curriculum",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "If a teacher asks you in a meeting an example of what a professional teacher should do in terms of curriculum implementation, which answer would you give him/her from the suggested ones?",
+   "options": [
+    "A teacher should link teaching content knowledge and skills to everyday life experiences",
+    "A teacher should plan what to teach annually, termly, monthly, weekly and daily",
+    "A teacher should participate in professional and community networks and forums to broaden knowledge and improve practice.",
+    "All examples in A, B & C are correct"
+   ],
+   "explanation": "Linking content to lived experience, planning across every cycle, and participating in professional networks are all part of competence-based curriculum implementation. None of the three excludes the others."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-003",
+  "slug": "if-you-become-a-deputy-head-teacher-which-of-practices-would-you-demon-ht-003",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 3,
+  "topic": "School Leadership",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "If you become a deputy head teacher, which of practices would you demonstrate as an effective leader?",
+   "options": [
+    "Plan solely for learning improvement in collaboration with teachers and parents",
+    "Assess and provide feedback reports on learner's performance;",
+    "Plan what to teach annually, termly, monthly, weekly and daily",
+    "Cultivate a range of partnerships with parents and the community"
+   ],
+   "explanation": "Building partnerships with parents and the wider community is a leadership standard. A is limited by 'solely', B and C describe teacher duties rather than leadership practice."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-004",
+  "slug": "the-following-are-kinds-of-support-that-a-school-leader-can-give-to-te-ht-004",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 4,
+  "topic": "Teacher Support",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The following are kinds of support that a school leader can give to teachers to improve learning. Indicate which of them is the odd one out.",
+   "options": [
+    "Induction for new teachers",
+    "Peer-observation and reflection",
+    "Model lesson and reflection",
+    "Professional Learning communities"
+   ],
+   "explanation": "Induction is a one-off event aimed only at new staff. Peer observation, model lessons and professional learning communities are continuing, collaborative supports available to every teacher."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-005",
+  "slug": "which-of-the-following-would-you-not-value-as-the-benefit-of-engaging--ht-005",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 5,
+  "topic": "Stakeholders",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following would you not value as the benefit of engaging stakeholders in the school activities?",
+   "options": [
+    "Stakeholders provide greater cooperation and support when they know what is happening in school without necessarily being part of the decision-making process",
+    "Challenges can be identified and addressed more easily when schools, parents and the local community work together",
+    "Parents and other members of the wider community can help the school build up their resources for teaching and learning",
+    "All benefits in A, B, & C are correct"
+   ],
+   "explanation": "A describes informing stakeholders while deliberately keeping them out of decisions, which is the opposite of engagement. B and C are genuine benefits of it."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-006",
+  "slug": "which-of-the-following-would-you-perform-as-a-leadership-task-ht-006",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 6,
+  "topic": "School Leadership",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following would you perform as a leadership task?",
+   "options": [
+    "Follow up the students' learning and assessment practices",
+    "Lesson observations",
+    "School improvement planning",
+    "All answers in A, B & C are correct"
+   ],
+   "explanation": "Following up learning, observing lessons and leading school improvement planning are all school-leadership tasks; none excludes the others."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-007",
+  "slug": "which-of-the-following-is-not-a-type-of-administration-according-to-yo-ht-007",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 7,
+  "topic": "Administration",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following is not a type of administration according to you?",
+   "options": [
+    "Authoritarian administration",
+    "Democratic administration",
+    "Laissez Faire administration",
+    "Instructional administration"
+   ],
+   "explanation": "Authoritarian, democratic and laissez-faire are the three classical administrative styles. 'Instructional' describes a focus of leadership, not a type of administration."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-008",
+  "slug": "respect-of-opinion-is-the-feature-of-ht-008",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 8,
+  "topic": "Administration",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Respect of opinion is the feature of...",
+   "options": [
+    "Democratic administration",
+    "Instructional administration",
+    "Authoritarian administration",
+    "None of the above"
+   ],
+   "explanation": "Democratic administration is defined by consulting staff and respecting their views. Authoritarian administration does the opposite."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-009",
+  "slug": "permanent-difficulties-in-learning-are-investigated-in-ht-009",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 9,
+  "topic": "Assessment",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Permanent difficulties in learning are investigated in?",
+   "options": [
+    "Diagnostic Assessment",
+    "Placement Assessment",
+    "Summative Assessment",
+    "Formative Assessment"
+   ],
+   "explanation": "Diagnostic assessment identifies persistent, underlying learning difficulties and their causes. Placement sorts learners into levels, formative guides ongoing teaching, and summative judges attainment at the end."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-010",
+  "slug": "which-of-the-following-would-you-recommend-to-teachers-as-appropriate--ht-010",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 10,
+  "topic": "Assessment",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following would you recommend to teachers as appropriate procedures used to determine the learners' abilities?",
+   "options": [
+    "Typical performance test",
+    "Norm performance test",
+    "Criterion performance test",
+    "Maximum performance test"
+   ],
+   "explanation": "Maximum performance tests measure what a learner is capable of when trying their hardest, which is what 'ability' means. Typical performance tests measure habitual behaviour, interests and attitudes instead."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-011",
+  "slug": "the-basic-purpose-of-teaching-and-learning-supervision-is-to-help-ht-011",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 11,
+  "topic": "Supervision",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The basic purpose of teaching and learning supervision is to help ...",
+   "options": [
+    "Children learn more effectively",
+    "Teachers in improving methods",
+    "Teachers in understanding pupils",
+    "Teachers in dealing with pupils"
+   ],
+   "explanation": "Supervision acts directly on instruction: it helps teachers improve their methods. Better learning follows from that, but it is the outcome rather than the immediate purpose."
+  },
+  "fr": null,
+  "answerIndex": 1,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-012",
+  "slug": "the-leaders-are-not-born-but-trained-this-means-that-ht-012",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 12,
+  "topic": "Leadership Theory",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The leaders are not born, but trained. This means that ...",
+   "options": [
+    "The leadership is not an innate quality but an individual whoever suffers and found out the ways of ameliorating of the masses becomes a leader",
+    "Leadership is the outcomes of one's social welfare woks and social roles",
+    "Leadership is not an inheritance quality",
+    "The leadership training makes a good leader"
+   ],
+   "explanation": "The statement contrasts birth with training, so the reading that matches it is that training produces good leaders. C only restates half the claim and says nothing about training."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-013",
+  "slug": "leadership-can-be-denoted-by-the-following-ht-013",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 13,
+  "topic": "Leadership Theory",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Leadership can be denoted by the following:",
+   "options": [
+    "Dominance- following",
+    "Dominance-descendance",
+    "Dominance- repression",
+    "Dominance- forced support"
+   ],
+   "explanation": "Leadership is a relationship in which influence is met with willing followership. Repression and forced support describe coercion, which is not leadership."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-014",
+  "slug": "leadership-style-that-follows-command-and-control-approach-is-ht-014",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 14,
+  "topic": "Leadership Styles",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Leadership style that follows \"command and control Approach\" is ...",
+   "options": [
+    "Transactional leadership",
+    "Cross cultural leadership",
+    "Autocratic leadership",
+    "Democratic Leadership"
+   ],
+   "explanation": "Autocratic leadership concentrates decisions in the leader and directs subordinates. Command and control is the standard description of it."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-015",
+  "slug": "which-leadership-style-among-the-following-one-is-known-as-reward-ht-015",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 15,
+  "topic": "Leadership Styles",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which leadership style among the following one is known as \"Reward\"?",
+   "options": [
+    "Transactional style",
+    "Laisser-faire",
+    "Democratic style",
+    "None of the above answer is correct"
+   ],
+   "explanation": "Transactional leadership works through an exchange: performance is traded for reward or sanction. That contingent-reward mechanism is what defines it."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-016",
+  "slug": "a-school-community-member-in-charge-of-catering-for-psychological-emot-ht-016",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 16,
+  "topic": "Guidance and Counselling",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "A school community member in charge of catering for psychological, emotional and social needs of the learner is ...",
+   "options": [
+    "School head teacher",
+    "Educational counsellor",
+    "Class teacher",
+    "Deputy head teacher in charge of studies"
+   ],
+   "explanation": "The educational counsellor holds specific responsibility for learners' psychological, emotional and social welfare. The other roles carry it only incidentally."
+  },
+  "fr": null,
+  "answerIndex": 1,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-017",
+  "slug": "after-a-lesson-observation-you-will-tell-the-teacher-that-to-increase--ht-017",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 17,
+  "topic": "Motivation",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "After a lesson observation, you will tell the teacher that to increase the learners' motivation, s/he should use the following strategies ...",
+   "options": [
+    "Empathize and build",
+    "Remember the learner's identity",
+    "Give a descriptive feedback",
+    "All strategies in A, B & C"
+   ],
+   "explanation": "Empathy, recognising the learner as an individual and descriptive rather than evaluative feedback all raise motivation, and they work together rather than in competition."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-018",
+  "slug": "the-following-are-the-standards-for-the-effective-school-leadership-in-ht-018",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 18,
+  "topic": "School Leadership",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The following are the standards for the effective school leadership in Rwanda. Which one is the one odd out?",
+   "options": [
+    "Creating strategic direction of the school improvement planning",
+    "Leading teaching",
+    "Managing the school as an organisation",
+    "Working with parents and the wider community"
+   ],
+   "explanation": "This asks which option is not one of Rwanda's published Standards for Effective School Leadership. All four are close to the wording of real standards, and distinguishing them needs the official MINEDUC/REB standards document rather than general leadership theory. Check the current framework before relying on an answer."
+  },
+  "fr": null,
+  "answerIndex": null,
+  "verified": false,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-019",
+  "slug": "which-of-the-following-would-you-refer-to-as-a-component-of-profession-ht-019",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 19,
+  "topic": "Professional Capital",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following would you refer to as a component of professional capital that can guide you in matters related to the quality of teachers in the school.",
+   "options": [
+    "Human capital",
+    "Social capital",
+    "Decisional capital",
+    "Working capital"
+   ],
+   "explanation": "Professional capital is human plus social plus decisional capital. Human capital is the component that refers to the knowledge and skill of individual teachers, which is what 'quality of teachers' names. Working capital is a finance term and not part of the model."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-020",
+  "slug": "which-of-the-following-assertion-is-not-correct-ht-020",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 20,
+  "topic": "Leadership Models",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following assertion is not correct?",
+   "options": [
+    "Participative school leadership assumes that school stakeholders take part in decision-making and that people are more likely to accept and implement decisions in which they have been involved.",
+    "Transactional school leadership states that the relationships between headteachers, deputy headteachers and teachers are based on exchange of resources (more focus on external motivation than intrinsic motivation).",
+    "Distributed leadership concentrates on engaging expertise wherever it exists within the organization",
+    "Situational school leadership, is an ideal school leadership model that is best under all circumstances"
+   ],
+   "explanation": "Situational leadership is defined by adapting to the readiness of the people and the demands of the moment. Claiming it is best under all circumstances contradicts the model itself."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-021",
+  "slug": "one-of-the-following-is-not-correct-about-the-school-leadership-styles-ht-021",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 21,
+  "topic": "Leadership Styles",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "One of the following is not correct about the school leadership styles. Indicate it.",
+   "options": [
+    "At the stage of Coaching team members still need a lot of direction from the leader.",
+    "At supporting level of development, the leader allows the team(s) to create their goals but works closely with them.",
+    "Delegating leadership style indicates that team is well functioning and is highly competent with the task at hand.",
+    "At the Directing stage team members have much knowledge of the task and they are able to direct their fellows"
+   ],
+   "explanation": "Directing is used precisely because members lack competence and confidence in the task. If they already had that knowledge, delegating would apply instead."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-022",
+  "slug": "which-of-the-following-statements-is-not-correct-ht-022",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 22,
+  "topic": "Vision and Mission",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following statements is not correct?",
+   "options": [
+    "It is an imperative for a school to have a vision rather than a mission.",
+    "A school vision is the desired picture of the school in the future that drives all the school activities, attitudes and values",
+    "A clear vision statement acts as a unifying force, and has a positive impact on organizational effectiveness",
+    "A school vision is one of the most important components of the school improvement plans"
+   ],
+   "explanation": "Vision and mission answer different questions - where the school is going, and what it does day to day - and a school needs both. Presenting them as alternatives is the error."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-023",
+  "slug": "one-of-the-key-document-that-a-school-should-have-is-an-sip-what-does--ht-023",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 23,
+  "topic": "School Improvement",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "One of the key document that a school should have is an SIP. What does this stand for in full?",
+   "options": [
+    "School improvement planning",
+    "Strategic improvement plan",
+    "School improvement plan",
+    "School improvement profile"
+   ],
+   "explanation": "SIP is the School Improvement Plan - the document itself. 'School improvement planning' names the process that produces it, not the document."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-024",
+  "slug": "the-following-are-the-characteristics-of-a-powerful-school-vision-exce-ht-024",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 24,
+  "topic": "Vision and Mission",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The following are the characteristics of a powerful school vision except one. What is it?",
+   "options": [
+    "A powerful school vision should be enthusiastic.",
+    "A powerful school vision should be challenging.",
+    "A powerful school vision should be motivating.",
+    "A powerful school vision should be distinctive."
+   ],
+   "explanation": "Challenging, motivating and distinctive describe the statement itself. Enthusiasm is a quality of the people who hold a vision, not of the vision."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-025",
+  "slug": "the-following-are-the-benefits-of-the-school-improvement-plan-apart-fr-ht-025",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 25,
+  "topic": "School Improvement",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The following are the benefits of the school improvement plan apart from one. Indicate it",
+   "options": [
+    "It helps the school to avoid misuse of school resources and ensure their effective allocation.",
+    "It helps the school to develop a sense of ownership by school community members.",
+    "It helps the school to develop strategies before embarking on activities",
+    "It helps the school to ensure the effective allocation and application of school resources and ..."
+   ],
+   "explanation": "Option D is cut off at the page margin in the source scan, and as far as it can be read it overlaps almost exactly with option A. Without the missing words the intended odd-one-out cannot be identified honestly."
+  },
+  "fr": null,
+  "answerIndex": null,
+  "verified": false,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-026",
+  "slug": "the-responsibility-of-the-deputy-head-teacher-in-charge-of-studies-in--ht-026",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 26,
+  "topic": "School Improvement",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The responsibility of the deputy head teacher in charge of studies in the school improvement planning is to ...",
+   "options": [
+    "Represent the teaching staff in the planning process.",
+    "Provide further information about studies.",
+    "Provide guidelines in the development of the plan.",
+    "Help the planning team to understand the desired picture of the school."
+   ],
+   "explanation": "All four are plausible readings of the role, and which one the paper intends depends on the specific job description used by MIFOTRA for this post rather than on general practice. Check the official role description before relying on an answer."
+  },
+  "fr": null,
+  "answerIndex": null,
+  "verified": false,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-027",
+  "slug": "if-i-become-a-deputy-head-teacher-i-will-promote-team-working-because--ht-027",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 27,
+  "topic": "Teamwork",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "If I become a deputy head teacher, I will promote team working because teamwork leads to high achievement as ...",
+   "options": [
+    "Members are given tasks and each member completes his/her own part.",
+    "Members work independently towards their personal goals.",
+    "Members collaborate to achieve common goals.",
+    "All answers in A, B & C are correct."
+   ],
+   "explanation": "Teamwork means collaborating toward a shared goal. A describes parallel individual work and B describes independent personal goals, so neither is teamwork and D cannot hold."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-028",
+  "slug": "which-of-the-following-can-you-value-as-the-responsibility-of-a-deputy-ht-028",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 28,
+  "topic": "Roles and Duties",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following can you value as the responsibility of a deputy head teacher?",
+   "options": [
+    "To prepare and recommend for the approval of the school budget",
+    "to take care of furniture, buildings, land and other property of the school",
+    "To manage peramanent and contractual teaching staff of the school",
+    "None of the above is correct"
+   ],
+   "explanation": "Budget preparation, property custody and staff management sit with the head teacher and the school bursar. None is a duty of the deputy in charge of studies, whose remit is academic."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-029",
+  "slug": "the-following-are-the-competences-that-a-school-leader-should-have-for-ht-029",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 29,
+  "topic": "Curriculum",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "The following are the competences that a school leader should have for effective implementation of the competence-based curriculum. Indicate one of them that is the one odd out.",
+   "options": [
+    "Lead and manage change and act as a change agent lead and manage change",
+    "Design and implement a monitoring and evaluation system",
+    "Enhance artificial and horizontal alignment of subjects in curriculum implementation",
+    "Recognize and promote effective classroom teaching strategies"
+   ],
+   "explanation": "Curriculum alignment is vertical and horizontal. 'Artificial' alignment is not a concept in curriculum design, which makes C the odd one out."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-030",
+  "slug": "which-of-the-following-methods-would-you-use-in-leading-teaching-throu-ht-030",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 30,
+  "topic": "Professional Development",
+  "marks": 1,
+  "difficulty": "Easy",
+  "en": {
+   "stem": "Which of the following methods would you use in leading teaching through continuous professional development?",
+   "options": [
+    "Team teaching",
+    "Classroom observations",
+    "Professional learning communities",
+    "All answers in A, B & C are correct"
+   ],
+   "explanation": "Team teaching, classroom observation and professional learning communities are all school-based CPD methods, and a school leader would normally combine them."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-031",
+  "slug": "a-child-fainted-during-school-prayer-if-you-are-a-school-leader-what-w-ht-031",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 31,
+  "topic": "Duty of Care",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A child fainted during school prayer. If you are a school leader, what would you do?",
+   "options": [
+    "Ask a teacher to conduct a prayer and take the child to the doctor",
+    "Ask the teacher to care for the child and continue to conduct the prayer",
+    "Ask the teacher to take the child to her home and continue with the prayer",
+    "Ask the teacher to continue with the prayer to supervise the first aid to the child and resume with the prayer"
+   ],
+   "explanation": "A fainting child needs medical attention, and the leader carries the duty of care. Delegating the prayer and taking the child for treatment personally discharges that duty; sending a fainted child home rather than to a doctor does not."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-032",
+  "slug": "if-in-a-professional-learning-community-session-a-school-leader-asks-y-ht-032",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 32,
+  "topic": "Leadership Models",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "If, in a professional learning community session, a school leader asks you to explain the meaning of managerial leadership, which of the following would you not give as an answer?",
+   "options": [
+    "It focuses on a hierarchical structure of authority, clearly identifying the role of each position",
+    "It is characterized by a clear division of labour, with staff having well described tasks and clear rules.",
+    "It is based on formal relations, between school leaders and teachers, between teachers and learners.",
+    "It is characterised by the involvement of stakeholders in decision making and decision implementation."
+   ],
+   "explanation": "Hierarchy, division of labour and formal relations all describe managerial leadership. Involving stakeholders in decisions describes participative leadership, which is a different model."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-033",
+  "slug": "in-a-school-improvement-planning-meeting-one-team-member-asks-you-to-r-ht-033",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 33,
+  "topic": "School Improvement",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "In a school improvement planning meeting, one team member asks you to remind them some of the key elements to include in the SIP, which of the following would you choose as elements of your answer?",
+   "options": [
+    "Mission, aim, goals, objectives, outcomes, priorities, monitoring and evaluation strategies, logframe, SWOT analysis.",
+    "Vision, goals, objectives, outputs, timeframe, indicator, implementation strategies, monitoring and evaluation strategies",
+    "SIP team members Vision, goals, objectives, outputs, timeframe, indicator, implementation strategies, monitoring and evaluation strategies",
+    "SIP team members, School executive committee, students' performance data, school performance data, School profile"
+   ],
+   "explanation": "B lists the elements of the plan itself. C is the same list with people wrongly added to it, and D lists inputs and contributors rather than components of the document."
+  },
+  "fr": null,
+  "answerIndex": 1,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-034",
+  "slug": "a-school-leader-should-be-familiar-with-the-different-policies-and-doc-ht-034",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 34,
+  "topic": "Policy",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "A school leader should be familiar with the different policies and documents that call for the teacher continuous professional development. Assuming that you have become a deputy head teacher who is now attending a district pedagogical meeting, that you are asked to recommend such policies. Indicate which ones you cannot recommend from the following.",
+   "options": [
+    "Sustainable Development Goals.",
+    "Rwanda Vision 2050",
+    "Economic Development and Poverty Reduction Strategy (EDPRS) II (2013-2018)",
+    "ICT in Education Policy"
+   ],
+   "explanation": "EDPRS II ran to 2018 and has been superseded by the National Strategy for Transformation. Recommending an expired strategy as current policy is the error; the other three remain in force."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-035",
+  "slug": "teacher-development-and-management-tdm-policy-2015-is-a-policy-that-se-ht-035",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 35,
+  "topic": "Policy",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Teacher Development and Management (TDM) Policy (2015) is a policy that seeks to professionalize teaching in Rwanda. If you are consulted to suggest some principles to include in the policy, which one would you remove from the following?",
+   "options": [
+    "Teacher development is a career-short term process.",
+    "Every teacher has diverse professional needs.",
+    "Teacher development and management are a shared responsibility among teachers and employers at different levels;",
+    "Teacher development and management draw on all stakeholders' creativity, proactivity, flexibility and resourceful planning."
+   ],
+   "explanation": "Teacher development is understood as career-long and continuous. Describing it as a short-term process contradicts the premise of continuous professional development that the policy rests on."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-036",
+  "slug": "refer-to-the-professional-standards-for-effective-leadership-in-rwanda-ht-036",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 36,
+  "topic": "School Leadership",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Refer to the professional standards for effective leadership in Rwanda and indicate which of the following you can perform as a skill to be demonstrated by an effective school leader.",
+   "options": [
+    "Monitoring and evaluating the implementation of the school improvement plan",
+    "Putting student learning achievement first in all their undertakings",
+    "Meeting the learning needs of all students",
+    "All answers in A, B & C are correct."
+   ],
+   "explanation": "Monitoring the plan, putting learning first and meeting the needs of all students are each expected of an effective school leader, and they reinforce rather than exclude one another."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-037",
+  "slug": "reflect-on-the-responsibilities-of-a-deputy-head-teacher-in-charge-of--ht-037",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 37,
+  "topic": "Leading Teaching",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Reflect on the responsibilities of a deputy head teacher in charge of studies and then indicate which of the evidences you can provide as a leader of teaching if you become successful on the position you have applied for.",
+   "options": [
+    "Records of borrowing, creating and use of teaching and learning materials",
+    "A record of SMART learning goals and students performance targets",
+    "Clearly written school vision, mission and values visible and accessible for all",
+    "All answers in A, B & C are correct."
+   ],
+   "explanation": "Each of the three is documentary evidence of leading teaching: resources in use, targets set and tracked, and a vision the school can see. A portfolio would contain all three."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-038",
+  "slug": "in-order-to-become-an-effective-school-leader-you-should-have-the-skil-ht-038",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 38,
+  "topic": "Change Management",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "In order to become an effective school leader you should have the skills of leading change processes perceived as a difficult task. Choose an option that best explain the reason why it is not easy to lead changes",
+   "options": [
+    "Change is a linear process although people are not often involved in the change planning",
+    "Change is not a linear process and people are  often involved in the change planning.",
+    "Change is a linear process, people are often involved in the change planning.",
+    "Change is not a linear process, people are not often involved in the change planning."
+   ],
+   "explanation": "Two things make change hard: it does not proceed in a straight line, and the people affected are usually left out of the planning. Only D states both, and B describes involvement, which would make change easier rather than harder."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-039",
+  "slug": "think-about-the-leadership-attributes-and-complete-the-best-option-to--ht-039",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 39,
+  "topic": "Leadership Theory",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Think about the Leadership attributes and complete the best option to complete this statement: \"Leadership is to ... and achieve the vision through ...\"",
+   "options": [
+    "Inspiring and motivating individuals.",
+    "Influencing and motivating individuals",
+    "Influencing and control individuals",
+    "Controlling and governing individuals"
+   ],
+   "explanation": "Leadership is standardly defined as influencing and motivating people toward a shared vision. Control and governance describe management or authority rather than leadership."
+  },
+  "fr": null,
+  "answerIndex": 1,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-040",
+  "slug": "peer-coaching-can-be-the-most-suitable-professional-development-strate-ht-040",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 40,
+  "topic": "Professional Development",
+  "marks": 3,
+  "difficulty": "Medium",
+  "en": {
+   "stem": "Peer coaching can be the most suitable professional development strategy that a school leader can use. In which of the following situations would be applied?",
+   "options": [
+    "Teachers have received training on a new instructional strategy and are ready to implement it in their classrooms.",
+    "Teachers as a group wish to learn more about the benefits and limitations of a particular instructional strategy.",
+    "Teachers have identified a problem in a specific area of instruction and are ready to develop a plan to address the need.",
+    "Teachers from several schools in the district have been reassigned to teach at a newly built school."
+   ],
+   "explanation": "Peer coaching fits a specific, teacher-identified instructional problem that a pair can work on together. A suits follow-up support after training, B suits a study group, and D is a staffing matter."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-041",
+  "slug": "case-study-a-head-teacher-called-a-staff-training-on-ict-in-teaching-a-ht-041",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 41,
+  "topic": "Case Study",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Case study: A head teacher called a staff training on ICT in teaching and learning. All teachers including new teachers were present apart from two who were absent without informing the head teacher; one was sick and had gone to see her doctor, the other had lost his father and forgot to inform the school leaders. The head teacher asked the deputy head teacher, Mrs. Kayitesi, to draft letters requesting explanations for their absenteeism. The deputy told the head teacher she already knew the reasons because each had sent her a short text message, but the head teacher insisted the letters be written because he had not been informed. Meanwhile other teachers were murmuring that the endless discussions were wasting half the training time. Before the training ended, participants were asked to share the training outcomes and one raised his hand and said, \"To me, the training was not fruitful. It was about less content than what I know, and I don't understand why competent teachers like were invited\". The deputy head teacher supported him and said that next time such teachers will be exempted from attendance. She also refused to draft the letters, arguing that would not be fair. Q41.A. The problem of the teacher absenteeism would not have been complicated if ...",
+   "options": [
+    "The head teacher applied the concern based adoption model in decision making",
+    "Deputy head teacher did not tell the head teacher that she was informed about their problems",
+    "(option cut off at the page margin in the source)",
+    "(option cut off at the page margin in the source)"
+   ],
+   "explanation": "Options C and D run past the right edge of the page in the source scan and are not recoverable. The case study itself is reproduced in full so the following sub-questions (42 to 45) can be answered, but this part cannot be keyed honestly."
+  },
+  "fr": null,
+  "answerIndex": null,
+  "verified": false,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-042",
+  "slug": "q41-b-if-you-were-kayitesi-something-different-you-would-have-done-is-ht-042",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 42,
+  "topic": "Case Study",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Q41.B. If you were Kayitesi, something different you would have done is ...",
+   "options": [
+    "To call the teachers to show up at school and ask for permission instead of using telephone short message",
+    "To request the chair of the head teacher to postpone the training.",
+    "To advice the head teacher to take care of each and every one's concern before decision making",
+    "To draft the request for explanation letters as instructed by the head teacher."
+   ],
+   "explanation": "The deputy's failing was refusing the instruction outright rather than advising the head teacher to weigh each teacher's circumstances first. C keeps the professional relationship intact while still addressing the substance."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-043",
+  "slug": "q41-c-which-feedback-would-you-give-to-the-teacher-who-said-that-he-wa-ht-043",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 43,
+  "topic": "Case Study",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Q41.C. Which feedback would you give to the teacher who said that he was not in need of the training?",
+   "options": [
+    "That he would always attend the trainings and scaffold his fellow teachers.",
+    "That he should be attending the trainings as he wants.",
+    "That he would plan for other teaching activities he would be busy of in the classroom while the trainings are taking place.",
+    "That he would always attend the trainings and take such time to prepare for his lessons."
+   ],
+   "explanation": "A competent teacher is an asset to a training session rather than an exception to it. Inviting him to attend and support colleagues turns his expertise into a resource; the other options excuse him from attending or waste his time there."
+  },
+  "fr": null,
+  "answerIndex": 0,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-044",
+  "slug": "q41-d-according-to-you-what-was-the-fundamental-reasons-of-organizing--ht-044",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 44,
+  "topic": "Case Study",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Q41.D. According to you, what was the fundamental reasons of organizing the teacher training on the use of ICT in teaching and learning?",
+   "options": [
+    "To equip teachers with competences in ICT use in their teaching.",
+    "To remind teachers about the policy of ICT in education implementation",
+    "To ensure effective use of ICT and quality learning.",
+    "To induct new teachers on the effective teaching and learning by means of ICT"
+   ],
+   "explanation": "The fundamental reason is the end the training serves - effective ICT use leading to quality learning. A names the immediate output, and B and D describe narrower purposes."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-045",
+  "slug": "q41-e-which-of-the-following-piece-of-advice-would-you-suggest-for-the-ht-045",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 45,
+  "topic": "Case Study",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Q41.E. Which of the following piece of advice would you suggest for the effectiveness of the next training?",
+   "options": [
+    "The school head teacher should not be involved in the next trainings",
+    "Teachers who are competent and skilful enough should not be obliged to attend the trainings.",
+    "The deputy head teacher should organize academic trainings himself as it one of one amongst her duties",
+    "Teachers should be sensitized about the relevance of continuous professional development"
+   ],
+   "explanation": "The session failed because staff did not see why it mattered. Sensitising teachers to the purpose of continuous professional development addresses that; excluding the head teacher or exempting able teachers would make it worse."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-046",
+  "slug": "case-study-a-new-teacher-was-teaching-in-a-class-where-learners-with-a-ht-046",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 46,
+  "topic": "Case Study",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Case study: A new teacher was teaching in a class where learners with and learners without learning difficulties were mixed. When one learner asked him to increase the size of his handwriting on the chalkboard, the teacher asked that learner to stand up and go out. When the deputy head teacher in charge of studies passed around the class, he found the learner out and asked her to immediately return to the classroom. He entered with her and, in front of the class, he told the teacher that he made a mistake. No sooner had the deputy head teacher finished blaming the teacher, the latter packed his stuffs and went out. He waited for the deputy head teacher and asked him to discuss the case out of the classroom. Q46.A. What would you appreciate on behalf of the teacher?",
+   "options": [
+    "He managed the school effectively by avoiding disruptive behaviours.",
+    "He decided to stop the lessons instead of being ridiculous in front the learners.",
+    "He resolved to discuss the case strategically.",
+    "None of the above (A,B & C)  is correct"
+   ],
+   "explanation": "The question asks what is creditable in the teacher's conduct. Waiting and asking to discuss the matter away from the learners was the professional choice; abandoning the lesson was not, and sending the learner out was the original error."
+  },
+  "fr": null,
+  "answerIndex": 2,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-047",
+  "slug": "which-of-the-following-approaches-would-improve-literacy-and-numeracy--ht-047",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 47,
+  "topic": "Policy",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "Which of the following approaches would improve literacy and numeracy in early grades and beyond?",
+   "options": [
+    "Development of standards for pre-primary education (including for assessment) and use of these standards by pre-primary teachers",
+    "Capacity building of teachers in early grade literacy and numeracy, including using learning resources to support teaching",
+    "Provision of a standard package of P1-P3 teaching and learning resources to all school",
+    "All answers in A, B & C are correct"
+   ],
+   "explanation": "Standards, teacher capacity and learning resources are complementary levers, and early-grade literacy and numeracy programmes normally pursue all three together."
+  },
+  "fr": null,
+  "answerIndex": 3,
+  "verified": true,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-048",
+  "slug": "stem-not-captured-the-question-text-falls-outside-the-page-area-in-the-ht-048",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 48,
+  "topic": "Policy",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "(Stem not captured - the question text falls outside the page area in the source scan.) The options concern intended outcomes of Rwandan education-sector policy.",
+   "options": [
+    "Increased access to teachers at all levels",
+    "Enhanced quality learning outcomes that are relevant to Rwanda's social and economic development",
+    "Strengthened CPD and management of teachers across all levels of education in Rwanda",
+    "More innovative and responsive research and development in relation to community challenges"
+   ],
+   "explanation": "The question text was lost to the page margin in the source, and all four options are plausible sector outcomes. Answering would mean guessing which one the missing stem asks for."
+  },
+  "fr": null,
+  "answerIndex": null,
+  "verified": false,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-049",
+  "slug": "what-is-the-target-student-teacher-ratio-for-2023-2024-ht-049",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 49,
+  "topic": "Policy",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "What is the target Student:Teacher ratio for 2023-2024?",
+   "options": [
+    "40:1",
+    "43:1",
+    "62:1",
+    "52:1"
+   ],
+   "explanation": "This is a specific target from Rwanda's education sector plan. It cannot be derived from principle, and publishing a guess in a paid revision product would be worse than leaving it open. Check the current NST/ESSP target before answering."
+  },
+  "fr": null,
+  "answerIndex": null,
+  "verified": false,
+  "bilingual": false,
+  "tier": "free",
+  "bankId": null
+ },
+ {
+  "id": "HT-050",
+  "slug": "in-the-nst-1-the-government-of-rwanda-envision-to-have-increased-acces-ht-050",
+  "examSource": "MIFOTRA Deputy Headteacher in Charge of Studies",
+  "examNumber": 50,
+  "topic": "Policy",
+  "marks": 4,
+  "difficulty": "Hard",
+  "en": {
+   "stem": "In the NST 1, the Government of Rwanda envision to have Increased access to pre-primary education. The targeted net Enrolment Rate in pre-primary for 2023-2024 is:",
+   "options": [
+    "38",
+    "45",
+    "58",
+    "60"
+   ],
+   "explanation": "Another specific NST1 target figure. Confirm it against the published National Strategy for Transformation rather than relying on an inferred answer."
+  },
+  "fr": null,
+  "answerIndex": null,
+  "verified": false,
+  "bilingual": false,
   "tier": "free",
   "bankId": null
  },
@@ -1669,6 +2969,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1693,6 +2994,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1717,6 +3019,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1741,6 +3044,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1765,6 +3069,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1789,6 +3094,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1813,6 +3119,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1837,6 +3144,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1861,6 +3169,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1885,6 +3194,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1909,6 +3219,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1933,6 +3244,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1957,6 +3269,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1981,6 +3294,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2005,6 +3319,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2029,6 +3344,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2053,6 +3369,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2077,6 +3394,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2101,6 +3419,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2125,6 +3444,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2149,6 +3469,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2173,6 +3494,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2197,6 +3519,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2221,6 +3544,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2245,6 +3569,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2269,6 +3594,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2293,6 +3619,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2317,6 +3644,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2341,6 +3669,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2365,6 +3694,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2389,6 +3719,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2413,6 +3744,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2437,6 +3769,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2461,6 +3794,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2485,6 +3819,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2509,6 +3844,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2533,6 +3869,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2557,6 +3894,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2581,6 +3919,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2605,6 +3944,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2629,6 +3969,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2653,6 +3994,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2677,6 +4019,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2701,6 +4044,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2725,6 +4069,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2749,6 +4094,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2773,6 +4119,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2797,6 +4144,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2821,6 +4169,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2845,6 +4194,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2869,6 +4219,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2893,6 +4244,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2917,6 +4269,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2941,6 +4294,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2965,6 +4319,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2989,6 +4344,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3013,6 +4369,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3037,6 +4394,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3061,6 +4419,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3085,6 +4444,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3109,6 +4469,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3133,6 +4494,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3157,6 +4519,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3181,6 +4544,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3205,6 +4569,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3229,6 +4594,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3253,6 +4619,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3277,6 +4644,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3301,6 +4669,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3325,6 +4694,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3349,6 +4719,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3373,6 +4744,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3397,6 +4769,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3421,6 +4794,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3445,6 +4819,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3469,6 +4844,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3493,6 +4869,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3517,6 +4894,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3541,6 +4919,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3565,6 +4944,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3589,6 +4969,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3613,6 +4994,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3637,6 +5019,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3661,6 +5044,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3685,6 +5069,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3709,6 +5094,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3733,6 +5119,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3757,6 +5144,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3781,6 +5169,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3805,6 +5194,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3829,6 +5219,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3853,6 +5244,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3877,6 +5269,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3901,6 +5294,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3925,6 +5319,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3949,6 +5344,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3973,6 +5369,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3997,6 +5394,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4021,6 +5419,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4045,6 +5444,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4069,6 +5469,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4093,6 +5494,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4117,6 +5519,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4141,6 +5544,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4165,6 +5569,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4189,6 +5594,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4213,6 +5619,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4237,6 +5644,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4261,6 +5669,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4285,6 +5694,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4309,6 +5719,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4333,6 +5744,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4357,6 +5769,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4381,6 +5794,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4405,6 +5819,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4429,6 +5844,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4453,6 +5869,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4477,6 +5894,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4501,6 +5919,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4525,6 +5944,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4549,6 +5969,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4573,6 +5994,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4597,6 +6019,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4621,6 +6044,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4645,6 +6069,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4669,6 +6094,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4693,6 +6119,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4717,6 +6144,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4741,6 +6169,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4765,6 +6194,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4789,6 +6219,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4813,6 +6244,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4837,6 +6269,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4861,6 +6294,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4885,6 +6319,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4909,6 +6344,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4933,6 +6369,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4957,6 +6394,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4981,6 +6419,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5005,6 +6444,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5029,6 +6469,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5053,6 +6494,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5077,6 +6519,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5101,6 +6544,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5125,6 +6569,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5149,6 +6594,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5173,6 +6619,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5197,6 +6644,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5221,6 +6669,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5245,6 +6694,7 @@
   },
   "fr": null,
   "answerIndex": 0,
+  "verified": true,
   "bilingual": false,
   "tier": "free",
   "bankId": null

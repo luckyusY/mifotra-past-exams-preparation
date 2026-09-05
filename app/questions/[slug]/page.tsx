@@ -26,13 +26,13 @@ export async function generateMetadata({
 
   const free = questionBySlug(slug);
   if (free) {
+    const description =
+      free.answerIndex === null
+        ? `${free.en.stem} MIFOTRA exam practice question with four options. ${free.en.explanation}`
+        : `${free.en.stem} Answer: ${free.en.options[free.answerIndex]}. ${free.en.explanation}`;
     return {
       title: free.en.stem.slice(0, 65),
-      description:
-        `${free.en.stem} Answer: ${free.en.options[free.answerIndex]}. ${free.en.explanation}`.slice(
-          0,
-          300
-        ),
+      description: description.slice(0, 300),
       alternates: { canonical: `/questions/${free.slug}` },
     };
   }
@@ -76,11 +76,16 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
         '@type': 'Question',
         name: free.en.stem,
         text: free.en.stem,
-        answerCount: 1,
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: `${free.en.options[free.answerIndex]}. ${free.en.explanation}`,
-        },
+        // Without a published answer there is no acceptedAnswer to declare.
+        answerCount: free.answerIndex === null ? 0 : 1,
+        ...(free.answerIndex === null
+          ? {}
+          : {
+              acceptedAnswer: {
+                '@type': 'Answer',
+                text: `${free.en.options[free.answerIndex]}. ${free.en.explanation}`,
+              },
+            }),
         suggestedAnswer: free.en.options
           .filter((_, i) => i !== free.answerIndex)
           .map((o) => ({ '@type': 'Answer', text: o })),
@@ -118,8 +123,9 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
           ))}
           <div className="explain">
             <b>
-              Correct answer: {LETTERS[free.answerIndex]} &mdash;{' '}
-              {free.en.options[free.answerIndex]}
+              {free.answerIndex === null
+                ? 'No published answer for this question'
+                : `Correct answer: ${LETTERS[free.answerIndex]} — ${free.en.options[free.answerIndex]}`}
             </b>
             <div>{free.en.explanation}</div>
             {free.fr && (

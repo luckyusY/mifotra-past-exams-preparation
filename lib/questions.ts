@@ -11,7 +11,11 @@ export type Question = {
   bilingual: boolean;
   tier: 'free' | 'paid';
   bankId: number | null;
-  answerIndex: number;
+  /** null where no answer is published - see `verified`. */
+  answerIndex: number | null;
+  /** false when the source carried no key and the answer turns on a policy
+   *  figure we will not guess. Such questions are shown but never scored. */
+  verified?: boolean;
   en: { stem: string; options: string[]; explanation: string };
   fr: { stem: string; options: string[]; explanation: string } | null;
 };

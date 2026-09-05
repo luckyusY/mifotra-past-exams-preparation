@@ -18,7 +18,9 @@ function prepare(questions: Question[], doShuffle: boolean): Prepared[] {
   return list.map((q) => {
     const idx = q.en.options.map((_, i) => i);
     const order = doShuffle ? shuffle(idx) : idx;
-    return { ...q, order, answer: order.indexOf(q.answerIndex) };
+    // answerIndex is null where no answer is published; -1 then means
+    // "nothing to match", so the item can never be marked right or wrong.
+    return { ...q, order, answer: q.answerIndex === null ? -1 : order.indexOf(q.answerIndex) };
   });
 }
 
@@ -116,13 +118,17 @@ export default function ExamRunner({
   });
 
   if (done) {
+    // Unkeyed questions are excluded from the denominator as well as the
+    // numerator - scoring someone out of marks nobody can earn is just wrong.
+    const keyed = prepared.filter((item) => item.answer >= 0);
     const scored = prepared.reduce(
-      (acc, item, idx) => (answers[idx] === item.answer ? acc + item.marks : acc),
+      (acc, item, idx) => (item.answer >= 0 && answers[idx] === item.answer ? acc + item.marks : acc),
       0
     );
-    const possible = prepared.reduce((acc, item) => acc + item.marks, 0);
-    const right = prepared.filter((item, idx) => answers[idx] === item.answer).length;
-    const pct = Math.round((scored / possible) * 100);
+    const possible = keyed.reduce((acc, item) => acc + item.marks, 0);
+    const right = prepared.filter((item, idx) => item.answer >= 0 && answers[idx] === item.answer).length;
+    const pct = possible ? Math.round((scored / possible) * 100) : 0;
+    const unkeyed = prepared.length - keyed.length;
 
     return (
       <div>
@@ -131,9 +137,16 @@ export default function ExamRunner({
           <div className="grid">
             <div className="stat"><b>{pct}%</b><span>Score</span></div>
             <div className="stat"><b>{scored}/{possible}</b><span>Marks</span></div>
-            <div className="stat"><b>{right}/{prepared.length}</b><span>Correct</span></div>
+            <div className="stat"><b>{right}/{keyed.length}</b><span>Correct</span></div>
             <div className="stat"><b>{clock(durationMinutes * 60 - left)}</b><span>Time taken</span></div>
           </div>
+          {unkeyed > 0 && (
+            <p className="muted" style={{ marginTop: '.6rem' }}>
+              {unkeyed} {unkeyed === 1 ? 'question is' : 'questions are'} not scored: the
+              source paper carried no answer key and {unkeyed === 1 ? 'it turns' : 'they turn'}{' '}
+              on published policy figures we will not guess at.
+            </p>
+          )}
           <div className="navrow">
             <button className="btn" onClick={() => location.reload()}>Retake</button>
             {showUpsell && (
@@ -173,7 +186,16 @@ export default function ExamRunner({
                   <div
                     key={pos}
                     className={
-                      'opt ' + (pos === item.answer ? 'correct' : given === pos ? 'wrong' : '')
+                      'opt ' +
+                      (item.answer < 0
+                        ? given === pos
+                          ? 'chosen'
+                          : ''
+                        : pos === item.answer
+                          ? 'correct'
+                          : given === pos
+                            ? 'wrong'
+                            : '')
                     }
                   >
                     <span className="letter">{LETTERS[pos]}</span>
@@ -183,7 +205,7 @@ export default function ExamRunner({
                 ))}
               </div>
               <div className="explain">
-                <b>Why</b>
+                <b>{item.answer >= 0 ? 'Why' : 'No published answer'}</b>
                 {item.en.explanation}
               </div>
             </div>
@@ -238,8 +260,8 @@ export default function ExamRunner({
           {q.order.map((orig, pos) => {
             const chosen = answers[i] === pos;
             let cls = 'opt';
-            if (showFeedback && pos === q.answer) cls += ' correct';
-            else if (showFeedback && chosen) cls += ' wrong';
+            if (showFeedback && q.answer >= 0 && pos === q.answer) cls += ' correct';
+            else if (showFeedback && q.answer >= 0 && chosen) cls += ' wrong';
             else if (chosen) cls += ' chosen';
             return (
               <button key={pos} className={cls} onClick={() => choose(pos)} aria-pressed={chosen}>
@@ -256,7 +278,13 @@ export default function ExamRunner({
 
         {showFeedback && (
           <div className="explain" ref={liveRef} aria-live="polite">
-            <b>{answers[i] === q.answer ? 'Correct' : `Correct answer: ${LETTERS[q.answer]}`}</b>
+            <b>
+              {q.answer < 0
+                ? 'No published answer for this question'
+                : answers[i] === q.answer
+                  ? 'Correct'
+                  : `Correct answer: ${LETTERS[q.answer]}`}
+            </b>
             {lang !== 'fr' && <div>{q.en.explanation}</div>}
             {q.fr && lang !== 'en' && <div className="muted">{q.fr.explanation}</div>}
           </div>

@@ -11,6 +11,7 @@ const BANK_SIZE = 1000;
 const FREE_LEGACY = 150;
 
 const mifotra = JSON.parse(fs.readFileSync('data/mifotra-2024.json', 'utf8'));
+const headteacher = JSON.parse(fs.readFileSync('data/mifotra-headteacher-dos.json', 'utf8'));
 const legacy = JSON.parse(fs.readFileSync('data/legacy-pool.json', 'utf8'));
 
 const slug = (s) =>
@@ -29,7 +30,29 @@ const fromMifotra = mifotra.questions.map((q) => ({
   en: q.en,
   fr: q.fr,
   answerIndex: q.answerIndex,
+  verified: true,
   bilingual: true,
+  tier: 'free',
+  bankId: null,
+}));
+
+/* Deputy Headteacher past paper. English only, and seven items carry no answer
+   because the source had no key and those questions turn on published policy
+   figures. They are still worth publishing: candidates get the real questions
+   and are told plainly which ones to look up. */
+const fromHeadteacher = headteacher.questions.map((q) => ({
+  id: q.id,
+  slug: `${slug(q.stem)}-${q.id.toLowerCase()}`,
+  examSource: 'MIFOTRA Deputy Headteacher in Charge of Studies',
+  examNumber: q.number,
+  topic: q.topic,
+  marks: q.marks,
+  difficulty: q.marks === 1 ? 'Easy' : q.marks === 3 ? 'Medium' : 'Hard',
+  en: { stem: q.stem, options: q.options, explanation: q.explanation },
+  fr: null,
+  answerIndex: q.answerIndex,
+  verified: q.verified,
+  bilingual: false,
   tier: 'free',
   bankId: null,
 }));
@@ -46,6 +69,7 @@ const fromLegacy = legacy.map((q) => ({
   en: { stem: q.stem, options: q.options, explanation: q.explanation },
   fr: null,
   answerIndex: q.answerIndex,
+  verified: true,
   bilingual: false,
   tier: 'paid',
   bankId: null,
@@ -75,7 +99,7 @@ for (let round = 0; picked < FREE_LEGACY; round++) {
 const paid = fromLegacy.filter((q) => q.tier === 'paid');
 paid.forEach((q, i) => (q.bankId = Math.floor(i / BANK_SIZE) + 1));
 
-const all = [...fromMifotra, ...fromLegacy];
+const all = [...fromMifotra, ...fromHeadteacher, ...fromLegacy];
 
 /* Slugs must be unique - they are URLs. */
 const seen = new Map();
@@ -93,7 +117,10 @@ fs.writeFileSync('data/questions.paid.json', JSON.stringify(paid, null, 1));
 const banks = {};
 for (const q of paid) banks[q.bankId] = (banks[q.bankId] ?? 0) + 1;
 
-console.log(`MIFOTRA past paper : ${fromMifotra.length}  (bilingual, free)`);
+const unverified = all.filter((q) => q.verified === false).length;
+
+console.log(`ICT past paper     : ${fromMifotra.length}  (bilingual, free)`);
+console.log(`Headteacher paper  : ${fromHeadteacher.length}  (free, ${unverified} without a published answer)`);
 console.log(`legacy pool        : ${fromLegacy.length}`);
 console.log(`-`.repeat(46));
 console.log(`free  (in repo)    : ${free.length}`);

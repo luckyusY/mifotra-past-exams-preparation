@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import './globals.css';
 import { WHATSAPP_DISPLAY, whatsappLink } from './Contact';
+import WhatsAppBubble from './WhatsAppBubble';
 
 const site = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 
@@ -59,11 +60,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/exam">Past paper</Link>
               <Link href="/topics">Topics</Link>
               <Link href="/blog">Guides</Link>
-              <Link href="/unlock">Unlock full bank</Link>
+              <Link href="/unlock" className="nav-cta">Unlock full bank</Link>
             </nav>
           </div>
         </header>
         <main className="wrap">{children}</main>
+        <WhatsAppBubble />
         <footer>
           <div className="wrap">
             <p>

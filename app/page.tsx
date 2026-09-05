@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="card grid" style={{ marginBottom: '1.5rem' }}>
+      <section className="card grid stat-grid" style={{ marginBottom: '1.5rem' }}>
         <div className="stat"><b>{mifotraQuestions.length}</b><span>Past-paper questions</span></div>
         <div className="stat"><b>{marks}</b><span>Total marks</span></div>
         <div className="stat"><b>{freeQuestions.length}</b><span>Free questions</span></div>
@@ -84,7 +84,7 @@ export default function Home() {
           {topics.map((t) => {
             const n = freeQuestions.filter((q) => q.topic === t).length;
             return (
-              <Link key={t} href={`/topics/${topicSlug(t)}`} className="card" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <Link key={t} href={`/topics/${topicSlug(t)}`} className="card topic-card" style={{ textDecoration: 'none', color: 'inherit' }}>
                 <strong>{t}</strong>
                 <div className="muted">{n} free {n === 1 ? 'question' : 'questions'}</div>
               </Link>

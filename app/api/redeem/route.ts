@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { randomUUID } from 'node:crypto';
 import { getDb, type AccessCode } from '@/lib/db';
 import { hashCode, signSession, SESSION_COOKIE, readSession } from '@/lib/session';
+import { isHttps } from '@/lib/admin-auth';
 
 export const runtime = 'nodejs';
 
@@ -70,7 +71,8 @@ export async function POST(req: Request) {
   const res = NextResponse.json({ ok: true, bankId: claimed.bankId });
   res.cookies.set(SESSION_COOKIE, token, {
     httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
+    // Same reasoning as the admin cookie: follow the scheme, not NODE_ENV.
+    secure: isHttps(req),
     sameSite: 'lax',
     path: '/',
     maxAge: 60 * 60 * 24 * 365,

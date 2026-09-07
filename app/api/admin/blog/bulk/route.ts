@@ -1,23 +1,16 @@
 import { NextResponse } from 'next/server';
-import { timingSafeEqual } from 'node:crypto';
 import { getDb } from '@/lib/db';
 import { draftPost, providerConfigured } from '@/lib/llm';
 import { buildMatrix, linksFor } from '@/lib/seo-matrix';
+import { isAdmin } from '@/lib/admin-auth';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 export const maxDuration = 300;
 
-function authorised(req: Request): boolean {
-  const expected = process.env.ADMIN_PASSWORD ?? '';
-  const given = req.headers.get('x-admin-password') ?? '';
-  if (!expected || given.length !== expected.length) return false;
-  return timingSafeEqual(Buffer.from(given), Buffer.from(expected));
-}
-
 /** The matrix, annotated with what has already been written. */
 export async function GET(req: Request) {
-  if (!authorised(req)) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
+  if (!(await isAdmin(req))) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
 
   const db = await getDb();
   const existing = await db
@@ -44,7 +37,7 @@ export async function GET(req: Request) {
  * fails. A failure on any single topic is recorded and the run continues.
  */
 export async function POST(req: Request) {
-  if (!authorised(req)) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
+  if (!(await isAdmin(req))) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
 
   const { count = 5, pattern = null } = await req.json().catch(() => ({}));
   const n = Math.min(Math.max(Number(count) || 1, 1), 25);

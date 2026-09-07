@@ -24,6 +24,59 @@ function prepare(questions: Question[], doShuffle: boolean): Prepared[] {
   });
 }
 
+/**
+ * A saved attempt.
+ *
+ * Answers are keyed by question id and store the index into that question's
+ * ORIGINAL options array. Both question order and option order are shuffled on
+ * mount, so anything positional would restore answers onto the wrong questions.
+ */
+type Saved = {
+  answers: Record<string, number>;
+  timeLeft: number;
+  savedAt: number;
+};
+
+const MAX_AGE_MS = 24 * 60 * 60 * 1000;
+const keyFor = (title: string) => `mifotra_attempt_${title.replace(/\s+/g, '_')}`;
+
+function readSaved(title: string): Saved | null {
+  try {
+    const raw = localStorage.getItem(keyFor(title));
+    if (!raw) return null;
+    const s = JSON.parse(raw) as Saved;
+    if (!s?.answers || Date.now() - s.savedAt > MAX_AGE_MS) return null;
+    return Object.keys(s.answers).length ? s : null;
+  } catch {
+    // Private mode throws on access; an attempt just is not resumable there.
+    return null;
+  }
+}
+
+function writeSaved(title: string, saved: Saved) {
+  try {
+    localStorage.setItem(keyFor(title), JSON.stringify(saved));
+  } catch {
+    /* nothing to do - the attempt continues, it simply is not saved */
+  }
+}
+
+function clearSaved(title: string) {
+  try {
+    localStorage.removeItem(keyFor(title));
+  } catch {
+    /* ignore */
+  }
+}
+
+function agoLabel(ms: number): string {
+  const mins = Math.round(ms / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return `${mins} minute${mins === 1 ? '' : 's'} ago`;
+  const hrs = Math.round(mins / 60);
+  return `${hrs} hour${hrs === 1 ? '' : 's'} ago`;
+}
+
 function clock(seconds: number): string {
   const s = Math.max(0, seconds);
   const h = Math.floor(s / 3600);
@@ -62,8 +115,16 @@ export default function ExamRunner({
   const [revealed, setRevealed] = useState<boolean[]>(() => questions.map(() => false));
   const [left, setLeft] = useState(durationMinutes * 60);
   const [done, setDone] = useState(false);
+  // Read once on mount; the mapping back onto questions waits until the user
+  // chooses Resume, by which point the shuffle has settled.
+  const [pending, setPending] = useState<Saved | null>(null);
+  const [started, setStarted] = useState(false);
   const [lang, setLang] = useState<Lang>('both');
   const liveRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    setPending(readSaved(title));
+  }, [title]);
 
   useEffect(() => {
     if (done) return;
@@ -83,6 +144,52 @@ export default function ExamRunner({
   const q = prepared[i];
   const answered = answers.filter((a) => a !== null).length;
   const showFeedback = mode === 'study' && revealed[i];
+
+  // Save whenever an answer changes, and let the clock ride along. Writing on
+  // every tick would be wasteful; the clock is only ever a few seconds stale.
+  useEffect(() => {
+    if (done || !answered) return;
+    const byId: Record<string, number> = {};
+    prepared.forEach((item, idx) => {
+      const pos = answers[idx];
+      if (pos !== null && pos !== undefined) byId[item.id] = item.order[pos];
+    });
+    writeSaved(title, { answers: byId, timeLeft: left, savedAt: Date.now() });
+    // `left` is deliberately excluded: it changes every second and the answer
+    // map is what actually needs persisting.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [answers, prepared, done, answered, title]);
+
+  // Warn before an in-progress attempt is thrown away.
+  useEffect(() => {
+    if (done || !answered) return;
+    const onLeave = (e: BeforeUnloadEvent) => e.preventDefault();
+    window.addEventListener('beforeunload', onLeave);
+    return () => window.removeEventListener('beforeunload', onLeave);
+  }, [done, answered]);
+
+  function resume() {
+    if (!pending) return;
+    const nextAnswers = prepared.map((item) => {
+      const orig = pending.answers[item.id];
+      if (orig === undefined) return null;
+      const pos = item.order.indexOf(orig);
+      return pos >= 0 ? pos : null;
+    });
+    setAnswers(nextAnswers);
+    if (mode === 'study') setRevealed(nextAnswers.map((a) => a !== null));
+    setLeft(pending.timeLeft);
+    const firstUnanswered = nextAnswers.findIndex((a) => a === null);
+    setI(firstUnanswered >= 0 ? firstUnanswered : 0);
+    setPending(null);
+    setStarted(true);
+  }
+
+  function startOver() {
+    clearSaved(title);
+    setPending(null);
+    setStarted(true);
+  }
 
   function choose(optIdx: number) {
     if (showFeedback) return;
@@ -118,6 +225,7 @@ export default function ExamRunner({
   });
 
   if (done) {
+    clearSaved(title);
     // Unkeyed questions are excluded from the denominator as well as the
     // numerator - scoring someone out of marks nobody can earn is just wrong.
     const keyed = prepared.filter((item) => item.answer >= 0);
@@ -218,6 +326,24 @@ export default function ExamRunner({
   return (
     <div>
       {showUpsell && <UpsellModal answeredCount={answered} triggerAfter={8} />}
+
+      {pending && !started && (
+        <div className="resume-bar" role="status">
+          <div>
+            <strong>You have an attempt in progress</strong>
+            <span className="muted">
+              {' '}
+              &mdash; {Object.keys(pending.answers).length} answered,{' '}
+              {agoLabel(Date.now() - pending.savedAt)}
+            </span>
+          </div>
+          <div className="resume-actions">
+            <button className="btn" onClick={resume}>Resume</button>
+            <button className="btn ghost" onClick={startOver}>Start over</button>
+          </div>
+        </div>
+      )}
+
       <div className="exam-head">
         <span className="exam-title">{title}</span>
         <div className={'timeblock' + (left < 300 ? ' low' : '')}>
@@ -237,7 +363,19 @@ export default function ExamRunner({
             </button>
           ))}
         </div>
-        <button className="btn green" onClick={() => setDone(true)}>FINISH EXAM</button>
+        <button
+          className="btn green"
+          onClick={() => {
+            const left = prepared.length - answered;
+            const msg =
+              left > 0
+                ? `Finish now? ${left} question${left === 1 ? '' : 's'} still unanswered.`
+                : 'Finish and see your result?';
+            if (confirm(msg)) setDone(true);
+          }}
+        >
+          FINISH EXAM
+        </button>
       </div>
 
       <div className="progress" role="progressbar" aria-valuenow={answered} aria-valuemin={0} aria-valuemax={prepared.length}>

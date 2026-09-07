@@ -1,26 +1,29 @@
 import { NextResponse } from 'next/server';
 import { revalidatePath } from 'next/cache';
-import { timingSafeEqual } from 'node:crypto';
 import { getDb } from '@/lib/db';
 import { draftPost, providerConfigured } from '@/lib/llm';
 import { inferEntity, linksFor } from '@/lib/seo-matrix';
+import { isAdmin } from '@/lib/admin-auth';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
 export const maxDuration = 60;
 
-function authorised(req: Request): boolean {
-  const expected = process.env.ADMIN_PASSWORD ?? '';
-  const given = req.headers.get('x-admin-password') ?? '';
-  if (!expected || given.length !== expected.length) return false;
-  return timingSafeEqual(Buffer.from(given), Buffer.from(expected));
-}
-
 /** List every post, drafts included. */
 export async function GET(req: Request) {
-  if (!authorised(req)) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
+  if (!(await isAdmin(req))) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
 
   const db = await getDb();
+
+  // ?slug= returns one post WITH its body, so a draft can be reviewed before it
+  // is published. Without this the only way to read a draft is to publish it.
+  const slug = new URL(req.url).searchParams.get('slug');
+  if (slug) {
+    const post = await db.collection('posts').findOne({ slug }, { projection: { _id: 0 } });
+    if (!post) return NextResponse.json({ error: 'No such post.' }, { status: 404 });
+    return NextResponse.json({ post });
+  }
+
   const posts = await db
     .collection('posts')
     .find({}, { projection: { _id: 0, sections: 0, faq: 0 } })
@@ -33,7 +36,7 @@ export async function GET(req: Request) {
 
 /** Draft a post from a topic and save it unpublished. */
 export async function POST(req: Request) {
-  if (!authorised(req)) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
+  if (!(await isAdmin(req))) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
 
   const { topic, extra = '' } = await req.json().catch(() => ({}));
   if (typeof topic !== 'string' || topic.trim().length < 8) {
@@ -75,7 +78,7 @@ export async function POST(req: Request) {
 
 /** Publish, unpublish, or delete. */
 export async function PATCH(req: Request) {
-  if (!authorised(req)) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
+  if (!(await isAdmin(req))) return NextResponse.json({ error: 'Unauthorised' }, { status: 401 });
 
   const { slug, action } = await req.json().catch(() => ({}));
   if (typeof slug !== 'string') return NextResponse.json({ error: 'Missing slug' }, { status: 400 });

@@ -679,3 +679,67 @@ a.card:hover, .course-card:hover {
   .stat-grid .stat:hover { transform: none; }
   .brand:hover .brand-mark { transform: none; }
 }
+
+/* ============================================================
+   Resume bar, admin panels, preview
+   ============================================================ */
+
+.resume-bar {
+  display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+  background: var(--green-soft);
+  border: 1px solid var(--green-line);
+  border-radius: var(--radius);
+  padding: .8rem 1.05rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--e1);
+}
+.resume-bar > div:first-child { flex: 1 1 240px; }
+.resume-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+.resume-actions .btn.ghost { background: var(--surface); }
+
+.admin-bar {
+  display: flex; align-items: center; gap: .6rem;
+  margin-bottom: 1rem; padding-bottom: .6rem;
+  border-bottom: 1px solid var(--line);
+}
+.admin-bar .muted { margin-right: auto; font-size: .88rem; }
+
+.btn.mini { padding: .28rem .65rem; font-size: .82rem; }
+
+/* One code, its Copy and its Send, on one line - this is the sales workflow. */
+.code-row {
+  display: flex; align-items: center; gap: .55rem; flex-wrap: wrap;
+  padding: .5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.code-row:last-of-type { border-bottom: 0; }
+.code-row code {
+  flex: 1 1 auto;
+  font-size: 1.05rem; letter-spacing: .04em;
+  background: var(--surface-2); padding: .35rem .6rem; border-radius: 6px;
+  user-select: all;               /* one click selects the whole code */
+}
+
+.section-head {
+  display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap;
+}
+.section-head .muted { margin-left: auto; font-size: .88rem; }
+
+.progress-line { margin-top: .8rem; display: grid; gap: .35rem; }
+.progress-line .muted { font-size: .85rem; }
+
+.preview-panel { margin-bottom: 1.2rem; border-left: 3px solid var(--blue); }
+.preview-panel h3 { margin: 1.2rem 0 .4rem; font-size: 1.05rem; }
+.preview-panel p { max-width: 68ch; }
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+
+@media (max-width: 560px) {
+  .code-row code { flex: 1 1 100%; }
+  .resume-actions { width: 100%; }
+  .resume-actions .btn { flex: 1; }
+}

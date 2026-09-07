@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import AdminPanel from './AdminPanel';
+import AdminGate from '../AdminGate';
 
 export const metadata: Metadata = {
   title: 'Admin',
@@ -18,7 +19,9 @@ export default function AdminPage() {
       <p className="navrow">
         <Link className="btn ghost" href="/admin/blog">Blog generator</Link>
       </p>
-      <AdminPanel />
+      <AdminGate>
+        <AdminPanel />
+      </AdminGate>
     </>
   );
 }

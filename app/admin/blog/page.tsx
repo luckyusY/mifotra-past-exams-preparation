@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import BlogConsole from './BlogConsole';
+import AdminGate from '@/app/AdminGate';
 
 export const metadata: Metadata = {
   title: 'Blog generator',
@@ -14,7 +15,9 @@ export default function AdminBlogPage() {
         Draft an SEO guide from a topic, review it, then publish. Drafts are not public
         until you publish them, and nothing is posted automatically.
       </p>
-      <BlogConsole />
+      <AdminGate>
+        <BlogConsole />
+      </AdminGate>
     </>
   );
 }

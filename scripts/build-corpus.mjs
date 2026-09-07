@@ -99,7 +99,50 @@ for (let round = 0; picked < FREE_LEGACY; round++) {
 const paid = fromLegacy.filter((q) => q.tier === 'paid');
 paid.forEach((q, i) => (q.bankId = Math.floor(i / BANK_SIZE) + 1));
 
-const all = [...fromMifotra, ...fromHeadteacher, ...fromLegacy];
+/**
+ * Break the answer-position tell.
+ *
+ * The legacy bank stored the correct answer first, so 100% of its answers sat
+ * at option A. The exam runner reshuffles at runtime, but the static question
+ * pages and the paid PREVIEW pages render the stored order - which meant every
+ * paid answer was readable for free by picking A. The paywall did not hold.
+ *
+ * Shuffling is seeded on the question id so it is identical on every build:
+ * static pages must not churn, and a reseed must not move answers under people
+ * who already hold a bank.
+ */
+function seeded(id) {
+  let h = 1779033703 ^ id.length;
+  for (let i = 0; i < id.length; i++) {
+    h = Math.imul(h ^ id.charCodeAt(i), 3432918353);
+    h = (h << 13) | (h >>> 19);
+  }
+  return () => {
+    h = Math.imul(h ^ (h >>> 16), 2246822507);
+    h = Math.imul(h ^ (h >>> 13), 3266489909);
+    return ((h ^= h >>> 16) >>> 0) / 4294967296;
+  };
+}
+
+function deshuffle(q) {
+  if (q.answerIndex === null || q.answerIndex === undefined) return q;
+  const rand = seeded(q.id);
+  const idx = q.en.options.map((_, i) => i);
+  for (let i = idx.length - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1));
+    [idx[i], idx[j]] = [idx[j], idx[i]];
+  }
+  const remap = (block) =>
+    block ? { ...block, options: idx.map((i) => block.options[i]) } : block;
+  return {
+    ...q,
+    en: remap(q.en),
+    fr: remap(q.fr),
+    answerIndex: idx.indexOf(q.answerIndex),
+  };
+}
+
+const all = [...fromMifotra, ...fromHeadteacher, ...fromLegacy].map(deshuffle);
 
 /* Slugs must be unique - they are URLs. */
 const seen = new Map();
@@ -110,21 +153,27 @@ for (const q of all) {
 }
 
 const free = all.filter((q) => q.tier === 'free');
+// Both tiers must come from `all`, i.e. after deshuffle. Reading `paid` off
+// fromLegacy earlier meant the paid bank kept its answer-at-A ordering.
+const paidOut = all.filter((q) => q.tier === 'paid');
 
 fs.writeFileSync('data/questions.free.json', JSON.stringify(free, null, 1));
-fs.writeFileSync('data/questions.paid.json', JSON.stringify(paid, null, 1));
+fs.writeFileSync('data/questions.paid.json', JSON.stringify(paidOut, null, 1));
 
 const banks = {};
-for (const q of paid) banks[q.bankId] = (banks[q.bankId] ?? 0) + 1;
+for (const q of paidOut) banks[q.bankId] = (banks[q.bankId] ?? 0) + 1;
 
 const unverified = all.filter((q) => q.verified === false).length;
+const dist = [0, 0, 0, 0];
+for (const q of all) if (q.answerIndex !== null) dist[q.answerIndex]++;
+const keyed = dist.reduce((a, b) => a + b, 0);
 
 console.log(`ICT past paper     : ${fromMifotra.length}  (bilingual, free)`);
 console.log(`Headteacher paper  : ${fromHeadteacher.length}  (free, ${unverified} without a published answer)`);
 console.log(`legacy pool        : ${fromLegacy.length}`);
 console.log(`-`.repeat(46));
 console.log(`free  (in repo)    : ${free.length}`);
-console.log(`paid  (MongoDB)    : ${paid.length}`);
+console.log(`paid  (MongoDB)    : ${paidOut.length}`);
 console.log(`total              : ${all.length}`);
 console.log(`\npaid banks:`);
 for (const [id, n] of Object.entries(banks)) console.log(`  bank ${id}: ${n} questions`);

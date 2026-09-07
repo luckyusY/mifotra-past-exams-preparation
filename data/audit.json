@@ -1,0 +1,5172 @@
+{
+ "explanation does not mention the answer": [
+  {
+   "id": "MIF-003",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What is the function of a Solid State Drive (SSD)?",
+   "detail": ""
+  },
+  {
+   "id": "MIF-005",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What is the primary purpose of Safe Mode in Windows?",
+   "detail": ""
+  },
+  {
+   "id": "MIF-008",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What should you do if you cannot resolve a customer's issue immediatel",
+   "detail": ""
+  },
+  {
+   "id": "MIF-009",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "Which of the following is a key aspect of good customer service?",
+   "detail": ""
+  },
+  {
+   "id": "MIF-010",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "If a user's computer is running very slowly, which of the following co",
+   "detail": ""
+  },
+  {
+   "id": "MIF-019",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "Which of the following phrases is most appropriate when dealing with a",
+   "detail": ""
+  },
+  {
+   "id": "MIF-033",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "A user reports that they are unable to access the hospital management ",
+   "detail": ""
+  },
+  {
+   "id": "MIF-034",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What should you do before upgrading the operating system on a user's c",
+   "detail": ""
+  },
+  {
+   "id": "MIF-045",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "A user reports that they are unable to access the hospital management ",
+   "detail": ""
+  },
+  {
+   "id": "HT-002",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "If a teacher asks you in a meeting an example of what a professional t",
+   "detail": ""
+  },
+  {
+   "id": "HT-006",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Which of the following would you perform as a leadership task?",
+   "detail": ""
+  },
+  {
+   "id": "HT-013",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Leadership can be denoted by the following:",
+   "detail": ""
+  },
+  {
+   "id": "HT-017",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "After a lesson observation, you will tell the teacher that to increase",
+   "detail": ""
+  },
+  {
+   "id": "HT-027",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "If I become a deputy head teacher, I will promote team working because",
+   "detail": ""
+  },
+  {
+   "id": "HT-028",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Which of the following can you value as the responsibility of a deputy",
+   "detail": ""
+  },
+  {
+   "id": "HT-030",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Which of the following methods would you use in leading teaching throu",
+   "detail": ""
+  },
+  {
+   "id": "HT-033",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "In a school improvement planning meeting, one team member asks you to ",
+   "detail": ""
+  },
+  {
+   "id": "HT-034",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "A school leader should be familiar with the different policies and doc",
+   "detail": ""
+  },
+  {
+   "id": "HT-036",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Refer to the professional standards for effective leadership in Rwanda",
+   "detail": ""
+  },
+  {
+   "id": "HT-037",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Reflect on the responsibilities of a deputy head teacher in charge of ",
+   "detail": ""
+  },
+  {
+   "id": "HT-047",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Which of the following approaches would improve literacy and numeracy ",
+   "detail": ""
+  },
+  {
+   "id": "L0013",
+   "source": "Cisco CCNA 200-301",
+   "stem": "Two OSPF routers are connected over a point-to-point link. One router ",
+   "detail": ""
+  },
+  {
+   "id": "L0081",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A tier-1 agent cannot resolve a complex database connectivity issue af",
+   "detail": ""
+  },
+  {
+   "id": "L0085",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Group Policy Objects (GPOs) are applied in a specific order. According",
+   "detail": ""
+  },
+  {
+   "id": "L0088",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Which AD component acts as a container to organize users, groups, and ",
+   "detail": ""
+  },
+  {
+   "id": "L0089",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user is locked out of their workstation. Which AD snap-in tool is pr",
+   "detail": ""
+  },
+  {
+   "id": "L0123",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A developer is testing an application on a Type 2 hypervisor. They are",
+   "detail": ""
+  },
+  {
+   "id": "L0132",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A Linux admin needs to assign read, write, and execute permissions to ",
+   "detail": ""
+  },
+  {
+   "id": "L0133",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user is trying to install an unverified application. A prompt appear",
+   "detail": ""
+  },
+  {
+   "id": "L0135",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user experiences a Blue Screen of Death (BSOD) with the stop code \"I",
+   "detail": ""
+  },
+  {
+   "id": "L0353",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "A technician is running a new 50A branch circuit to a range. They pull",
+   "detail": ""
+  },
+  {
+   "id": "L0397",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "When measuring Optical Return Loss (ORL) on a single-mode video link, ",
+   "detail": ""
+  },
+  {
+   "id": "L0426",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A technician is troubleshooting a PLC ladder logic program. A physical",
+   "detail": ""
+  },
+  {
+   "id": "L0430",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A 4-20mA loop is wired in series through a transmitter, a PLC input ca",
+   "detail": ""
+  },
+  {
+   "id": "L0094",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Two users co-author a Word document offline. When they reconnect, OneD",
+   "detail": ""
+  },
+  {
+   "id": "L0096",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "An admin needs to prevent users from forwarding sensitive emails outsi",
+   "detail": ""
+  },
+  {
+   "id": "L0110",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A business states that in the event of a crash, they cannot afford to ",
+   "detail": ""
+  },
+  {
+   "id": "L0114",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "An admin needs secure CLI access to a Linux server over an untrusted n",
+   "detail": ""
+  },
+  {
+   "id": "L0116",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A Mac user requires remote assistance from a Windows IT department. Wh",
+   "detail": ""
+  },
+  {
+   "id": "L0160",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "Under the cloud shared responsibility model for a SaaS application (li",
+   "detail": ""
+  },
+  {
+   "id": "L0171",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A technician is calculating the power requirements for a new PC build.",
+   "detail": ""
+  },
+  {
+   "id": "L0185",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user accidentally installed malware that acts as a fake antivirus pr",
+   "detail": ""
+  },
+  {
+   "id": "L0196",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user wants to encrypt a single highly sensitive folder on their Wind",
+   "detail": ""
+  },
+  {
+   "id": "L0215",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "When documenting a complex server migration, what is the purpose of cr",
+   "detail": ""
+  },
+  {
+   "id": "L0296",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "To ensure a hard drive image is exactly identical to the original susp",
+   "detail": ""
+  },
+  {
+   "id": "L0309",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A sophisticated threat group uses malware that dynamically modifies it",
+   "detail": ""
+  },
+  {
+   "id": "L0322",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "An attacker gains access to a password database and sees that all pass",
+   "detail": ""
+  },
+  {
+   "id": "L0330",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A network relies on a firewall architecture where an external firewall",
+   "detail": ""
+  },
+  {
+   "id": "L0377",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "A technician is checking rotation on a 3-phase motor. The motor is spi",
+   "detail": ""
+  },
+  {
+   "id": "L0380",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "During routine maintenance, a technician notices a loud buzzing noise ",
+   "detail": ""
+  },
+  {
+   "id": "L0412",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "A technician strips the 250-micron acrylate coating off a fiber to pre",
+   "detail": ""
+  },
+  {
+   "id": "L0418",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "A tech is pulling a loose-tube gel-filled cable into a building. Code ",
+   "detail": ""
+  },
+  {
+   "id": "L0422",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "On an OTDR, what parameter determines the index of refraction (IoR) se",
+   "detail": ""
+  },
+  {
+   "id": "L0441",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A technician calibrates a 0-100 psig pressure transmitter. They apply ",
+   "detail": ""
+  },
+  {
+   "id": "L0450",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "Which of the following scenarios is the best application of a \"Run-to-",
+   "detail": ""
+  },
+  {
+   "id": "L0520",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "A user can access local network shares but cannot reach the internet. ",
+   "detail": ""
+  },
+  {
+   "id": "L0521",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "A technician runs a traceroute to a remote server and the output shows",
+   "detail": ""
+  },
+  {
+   "id": "L0532",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During the DORA process, which message does the server send to officia",
+   "detail": ""
+  },
+  {
+   "id": "L1031",
+   "source": "Technical Foundations",
+   "stem": "A beginner asks about binary number system. Which answer should you gi",
+   "detail": ""
+  },
+  {
+   "id": "L1051",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an ideal transfor",
+   "detail": ""
+  },
+  {
+   "id": "L1052",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an electromagneti",
+   "detail": ""
+  },
+  {
+   "id": "L1074",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a fusion splice s",
+   "detail": ""
+  },
+  {
+   "id": "L1077",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about link-budget margi",
+   "detail": ""
+  },
+  {
+   "id": "L1097",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about syslog should gui",
+   "detail": ""
+  },
+  {
+   "id": "L1099",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about RAM should guide ",
+   "detail": ""
+  },
+  {
+   "id": "L1101",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a file system sho",
+   "detail": ""
+  },
+  {
+   "id": "L1106",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about the 3-2-1 backup ",
+   "detail": ""
+  },
+  {
+   "id": "L1107",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about version control s",
+   "detail": ""
+  },
+  {
+   "id": "L1109",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about HTTP should guide",
+   "detail": ""
+  },
+  {
+   "id": "L1110",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about TLS should guide ",
+   "detail": ""
+  },
+  {
+   "id": "L1113",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about RAID 1 should gui",
+   "detail": ""
+  },
+  {
+   "id": "L1115",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about change management",
+   "detail": ""
+  },
+  {
+   "id": "L1116",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a help-desk ticke",
+   "detail": ""
+  },
+  {
+   "id": "L1120",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about electrostatic-dis",
+   "detail": ""
+  },
+  {
+   "id": "L1121",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about preventive mainte",
+   "detail": ""
+  },
+  {
+   "id": "L1124",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about instrument calibr",
+   "detail": ""
+  },
+  {
+   "id": "L1125",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about specified fastene",
+   "detail": ""
+  },
+  {
+   "id": "L1127",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about shaft alignment s",
+   "detail": ""
+  },
+  {
+   "id": "L1128",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about vibration analysi",
+   "detail": ""
+  },
+  {
+   "id": "L1130",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about lubricating-oil a",
+   "detail": ""
+  },
+  {
+   "id": "L1131",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about technical cleanin",
+   "detail": ""
+  },
+  {
+   "id": "L1132",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a maintenance ins",
+   "detail": ""
+  },
+  {
+   "id": "L1134",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about root-cause analys",
+   "detail": ""
+  },
+  {
+   "id": "L1137",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about maintenance close",
+   "detail": ""
+  },
+  {
+   "id": "L1140",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about availability shou",
+   "detail": ""
+  },
+  {
+   "id": "L1145",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about a digital signatu",
+   "detail": ""
+  },
+  {
+   "id": "L1152",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about phishing should g",
+   "detail": ""
+  },
+  {
+   "id": "L1153",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about ransomware should",
+   "detail": ""
+  },
+  {
+   "id": "L1154",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about a vulnerability s",
+   "detail": ""
+  },
+  {
+   "id": "L1156",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about incident containm",
+   "detail": ""
+  },
+  {
+   "id": "L1157",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about an offline or imm",
+   "detail": ""
+  },
+  {
+   "id": "L1162",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a Trusted Platfor",
+   "detail": ""
+  },
+  {
+   "id": "L1164",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about UEFI firmware sho",
+   "detail": ""
+  },
+  {
+   "id": "L1175",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about data loss prevent",
+   "detail": ""
+  },
+  {
+   "id": "L1176",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about Security+ inciden",
+   "detail": ""
+  },
+  {
+   "id": "L1177",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about controlled change",
+   "detail": ""
+  },
+  {
+   "id": "L1185",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about an EtherChannel s",
+   "detail": ""
+  },
+  {
+   "id": "L1192",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about the ip helper-add",
+   "detail": ""
+  },
+  {
+   "id": "L1200",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about CPU thermal compo",
+   "detail": ""
+  },
+  {
+   "id": "L1205",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about SMART drive monit",
+   "detail": ""
+  },
+  {
+   "id": "L1208",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about motherboard UEFI ",
+   "detail": ""
+  },
+  {
+   "id": "L1209",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a platform Truste",
+   "detail": ""
+  },
+  {
+   "id": "L1210",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about firmware Secure B",
+   "detail": ""
+  },
+  {
+   "id": "L1217",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a no-power troubl",
+   "detail": ""
+  },
+  {
+   "id": "L1218",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a semiconductor d",
+   "detail": ""
+  },
+  {
+   "id": "L1223",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a voltage compara",
+   "detail": ""
+  },
+  {
+   "id": "L1233",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a PLC scan cycle ",
+   "detail": ""
+  },
+  {
+   "id": "L1241",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Current measu",
+   "detail": ""
+  },
+  {
+   "id": "L1242",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A replacement",
+   "detail": ""
+  },
+  {
+   "id": "L1266",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A green APC c",
+   "detail": ""
+  },
+  {
+   "id": "L1271",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A splice appe",
+   "detail": ""
+  },
+  {
+   "id": "L1274",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A cable route",
+   "detail": ""
+  },
+  {
+   "id": "L1275",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A technician ",
+   "detail": ""
+  },
+  {
+   "id": "L1280",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: One end of an",
+   "detail": ""
+  },
+  {
+   "id": "L1281",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Users can pin",
+   "detail": ""
+  },
+  {
+   "id": "L1287",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A redundant L",
+   "detail": ""
+  },
+  {
+   "id": "L1288",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Two ports con",
+   "detail": ""
+  },
+  {
+   "id": "L1296",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A firewall or",
+   "detail": ""
+  },
+  {
+   "id": "L1298",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A desktop sho",
+   "detail": ""
+  },
+  {
+   "id": "L1300",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A computer's ",
+   "detail": ""
+  },
+  {
+   "id": "L1302",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A server's sy",
+   "detail": ""
+  },
+  {
+   "id": "L1304",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A browser rea",
+   "detail": ""
+  },
+  {
+   "id": "L1308",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A long-lived ",
+   "detail": ""
+  },
+  {
+   "id": "L1325",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A calibrated ",
+   "detail": ""
+  },
+  {
+   "id": "L1327",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Corrosion is ",
+   "detail": ""
+  },
+  {
+   "id": "L1334",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A critical im",
+   "detail": ""
+  },
+  {
+   "id": "L1335",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Loose tools a",
+   "detail": ""
+  },
+  {
+   "id": "L1336",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A task risk a",
+   "detail": ""
+  },
+  {
+   "id": "L1338",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: An email urge",
+   "detail": ""
+  },
+  {
+   "id": "L1345",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: An applicatio",
+   "detail": ""
+  },
+  {
+   "id": "L1349",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A service pre",
+   "detail": ""
+  },
+  {
+   "id": "L1350",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A SIEM has no",
+   "detail": ""
+  },
+  {
+   "id": "L1355",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: An administra",
+   "detail": ""
+  },
+  {
+   "id": "L1358",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A laptop batt",
+   "detail": ""
+  },
+  {
+   "id": "L1361",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A mirrored st",
+   "detail": ""
+  },
+  {
+   "id": "L1365",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: An endpoint d",
+   "detail": ""
+  },
+  {
+   "id": "L1367",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A Linux user ",
+   "detail": ""
+  },
+  {
+   "id": "L1374",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A remote user",
+   "detail": ""
+  },
+  {
+   "id": "L1384",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Two switches ",
+   "detail": ""
+  },
+  {
+   "id": "L1394",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Clients on a ",
+   "detail": ""
+  },
+  {
+   "id": "L1396",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Remote manage",
+   "detail": ""
+  },
+  {
+   "id": "L1402",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A drive repor",
+   "detail": ""
+  },
+  {
+   "id": "L1412",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A system with",
+   "detail": ""
+  },
+  {
+   "id": "L1416",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: An operating-",
+   "detail": ""
+  },
+  {
+   "id": "L1426",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A 7 kHz signa",
+   "detail": ""
+  },
+  {
+   "id": "L1429",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A mechanical ",
+   "detail": ""
+  },
+  {
+   "id": "L1430",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A flip-flop c",
+   "detail": ""
+  },
+  {
+   "id": "L1434",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A PID-control",
+   "detail": ""
+  },
+  {
+   "id": "L2388",
+   "source": "Technical Foundations",
+   "stem": "In the multiplier position, what does a gold band mean?",
+   "detail": ""
+  }
+ ],
+ "correct option is much the longest": [
+  {
+   "id": "MIF-008",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What should you do if you cannot resolve a customer's issue immediatel",
+   "detail": "59 vs 16"
+  },
+  {
+   "id": "MIF-016",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What is the first step in troubleshooting a computer that won't turn o",
+   "detail": "38 vs 15"
+  },
+  {
+   "id": "MIF-019",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "Which of the following phrases is most appropriate when dealing with a",
+   "detail": "58 vs 19"
+  },
+  {
+   "id": "MIF-021",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What is the purpose of DNS?",
+   "detail": "41 vs 15"
+  },
+  {
+   "id": "MIF-022",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What does a 'blue screen of death' (BSOD) typically indicate?",
+   "detail": "27 vs 11"
+  },
+  {
+   "id": "MIF-025",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What is the best way to end a call with a satisfied customer?",
+   "detail": "46 vs 11"
+  },
+  {
+   "id": "MIF-039",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "Which command would you use to restart a Windows computer from the Com",
+   "detail": "11 vs 4"
+  },
+  {
+   "id": "MIF-042",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What is the primary function of a router?",
+   "detail": "36 vs 13"
+  },
+  {
+   "id": "MIF-047",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What is a common reason for emails being marked as spam?",
+   "detail": "52 vs 17"
+  },
+  {
+   "id": "MIF-048",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "Which of the following is an example of a phishing attack?",
+   "detail": "88 vs 30"
+  },
+  {
+   "id": "HT-005",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Which of the following would you not value as the benefit of engaging ",
+   "detail": "157 vs 37"
+  },
+  {
+   "id": "HT-030",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Which of the following methods would you use in leading teaching throu",
+   "detail": "35 vs 13"
+  },
+  {
+   "id": "HT-034",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "A school leader should be familiar with the different policies and doc",
+   "detail": "74 vs 18"
+  },
+  {
+   "id": "L0002",
+   "source": "Cisco CCNA 200-301",
+   "stem": "After replacing a PC, the switchport logs show a continuous flapping o",
+   "detail": "44 vs 16"
+  },
+  {
+   "id": "L0003",
+   "source": "Cisco CCNA 200-301",
+   "stem": "An engineer analyzes a packet capture and observes ARP replies arrivin",
+   "detail": "30 vs 13"
+  },
+  {
+   "id": "L0004",
+   "source": "Cisco CCNA 200-301",
+   "stem": "Users complain of slow performance. An interface shows late collisions",
+   "detail": "47 vs 17"
+  },
+  {
+   "id": "L0005",
+   "source": "Cisco CCNA 200-301",
+   "stem": "A router needs to forward a packet but its ARP cache is empty for the ",
+   "detail": "60 vs 16"
+  },
+  {
+   "id": "L0008",
+   "source": "Cisco CCNA 200-301",
+   "stem": "A technician configures a floating static route as a backup to an EIGR",
+   "detail": "49 vs 24"
+  },
+  {
+   "id": "L0010",
+   "source": "Cisco CCNA 200-301",
+   "stem": "You need to route traffic to the internet but do not have a specific r",
+   "detail": "34 vs 16"
+  },
+  {
+   "id": "L0077",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user submits a ticket stating their screen is completely black, but ",
+   "detail": "53 vs 16"
+  },
+  {
+   "id": "L0080",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user’s laptop connects to the Wi-Fi but shows \"No Internet Access\". ",
+   "detail": "56 vs 22"
+  },
+  {
+   "id": "L0082",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user complains of application crashes immediately after installing a",
+   "detail": "57 vs 15"
+  },
+  {
+   "id": "L0083",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A remote user needs software installed, requiring administrative privi",
+   "detail": "40 vs 12"
+  },
+  {
+   "id": "L0084",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user can log into their Windows PC but cannot access a department sh",
+   "detail": "54 vs 24"
+  },
+  {
+   "id": "L0085",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Group Policy Objects (GPOs) are applied in a specific order. According",
+   "detail": "24 vs 4"
+  },
+  {
+   "id": "L0087",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "An admin deletes a user account by mistake. After recreating the exact",
+   "detail": "57 vs 25"
+  },
+  {
+   "id": "L0088",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Which AD component acts as a container to organize users, groups, and ",
+   "detail": "24 vs 11"
+  },
+  {
+   "id": "L0089",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user is locked out of their workstation. Which AD snap-in tool is pr",
+   "detail": "43 vs 11"
+  },
+  {
+   "id": "L0122",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A gamer is building a new PC and wants the fastest possible boot times",
+   "detail": "12 vs 4"
+  },
+  {
+   "id": "L0130",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "You run `sfc /scannow` and it reports `Windows Resource Protection fou",
+   "detail": "46 vs 14"
+  },
+  {
+   "id": "L0133",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user is trying to install an unverified application. A prompt appear",
+   "detail": "26 vs 9"
+  },
+  {
+   "id": "L0135",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user experiences a Blue Screen of Death (BSOD) with the stop code \"I",
+   "detail": "38 vs 16"
+  },
+  {
+   "id": "L0136",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A technician has just finished replacing a faulty power supply in a us",
+   "detail": "41 vs 16"
+  },
+  {
+   "id": "L0137",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A laptop screen is entirely black, but shining a flashlight on it reve",
+   "detail": "21 vs 9"
+  },
+  {
+   "id": "L0141",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "An office is experiencing slow network speeds when transferring large ",
+   "detail": "15 vs 5"
+  },
+  {
+   "id": "L0179",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A technician is trying to format a stubborn USB drive that fails forma",
+   "detail": "8 vs 3"
+  },
+  {
+   "id": "L0222",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A threat actor creates a fake LinkedIn profile claiming to be an IT re",
+   "detail": "10 vs 4"
+  },
+  {
+   "id": "L0227",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "An employee unknowingly downloads a malicious browser extension that r",
+   "detail": "9 vs 4"
+  },
+  {
+   "id": "L0231",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "An endpoint detection system flags unusual PowerShell activity. Invest",
+   "detail": "16 vs 6"
+  },
+  {
+   "id": "L0354",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "While remodeling a residential bathroom, an apprentice wires a new 20A",
+   "detail": "80 vs 39"
+  },
+  {
+   "id": "L0356",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "During an inspection of a commercial kitchen, you notice the 125V, 15A",
+   "detail": "115 vs 52"
+  },
+  {
+   "id": "L0357",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "An electrician installs a 100A subpanel in a detached garage using a 3",
+   "detail": "90 vs 41"
+  },
+  {
+   "id": "L0359",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "You place a clamp-on ammeter around an extension cord powering a runni",
+   "detail": "85 vs 30"
+  },
+  {
+   "id": "L0364",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "A large induction motor utilizes a star-delta starter to reduce inrush",
+   "detail": "101 vs 37"
+  },
+  {
+   "id": "L0365",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "An operator reports that a 3-phase conveyor motor is \"humming loudly a",
+   "detail": "68 vs 32"
+  },
+  {
+   "id": "L0393",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "While analyzing an OTDR trace of a newly installed 5km single-mode lin",
+   "detail": "70 vs 24"
+  },
+  {
+   "id": "L0394",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "An OTDR trace shows an event at 4km that appears to be a \"gainer\" (the",
+   "detail": "97 vs 48"
+  },
+  {
+   "id": "L0397",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "When measuring Optical Return Loss (ORL) on a single-mode video link, ",
+   "detail": "99 vs 30"
+  },
+  {
+   "id": "L0398",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "A technician scopes an SC/UPC connector and sees a large dark smudge d",
+   "detail": "95 vs 44"
+  },
+  {
+   "id": "L0400",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "During a campus backbone installation, a contractor pulls a 24-strand ",
+   "detail": "116 vs 38"
+  },
+  {
+   "id": "L0402",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "A crew is pulling a heavy armored OSP cable using a tugger. They excee",
+   "detail": "108 vs 36"
+  },
+  {
+   "id": "L0425",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A technician repairing a failed boiler feed pump decides to analyze wh",
+   "detail": "42 vs 20"
+  },
+  {
+   "id": "L0426",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A technician is troubleshooting a PLC ladder logic program. A physical",
+   "detail": "47 vs 21"
+  },
+  {
+   "id": "L0427",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A PLC controls a pneumatic cylinder. The sequence stops mid-cycle. The",
+   "detail": "115 vs 29"
+  },
+  {
+   "id": "L0428",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A pressure transmitter operates on a standard 4-20mA loop. What is the",
+   "detail": "108 vs 38"
+  },
+  {
+   "id": "L0430",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A 4-20mA loop is wired in series through a transmitter, a PLC input ca",
+   "detail": "101 vs 49"
+  },
+  {
+   "id": "L0433",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A vibration analyst reviews an FFT spectrum on a large centrifugal fan",
+   "detail": "31 vs 10"
+  },
+  {
+   "id": "L0434",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "An induction motor driving a pump via a flexible coupling shows high v",
+   "detail": "51 vs 24"
+  },
+  {
+   "id": "L0465",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "A legacy industrial control system uses a single coaxial cable that lo",
+   "detail": "12 vs 4"
+  },
+  {
+   "id": "L0692",
+   "source": "Technical Foundations",
+   "stem": "A technician is documenting ladder-logic contact. Which statement belo",
+   "detail": "66 vs 26"
+  },
+  {
+   "id": "L0694",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about stepper motor. Which answer is cor",
+   "detail": "74 vs 24"
+  },
+  {
+   "id": "L0695",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about protective grounding. Which answer",
+   "detail": "99 vs 31"
+  },
+  {
+   "id": "L0696",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about verification of zero energy. Which",
+   "detail": "105 vs 39"
+  },
+  {
+   "id": "L1019",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of semiconductor diode. Which answer",
+   "detail": "63 vs 24"
+  },
+  {
+   "id": "L1021",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of thermocouple. Which answer is bes",
+   "detail": "98 vs 40"
+  },
+  {
+   "id": "L1022",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of PLC scan cycle. Which answer is b",
+   "detail": "107 vs 39"
+  },
+  {
+   "id": "L1023",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about Zener diode. Which answer is corre",
+   "detail": "79 vs 34"
+  },
+  {
+   "id": "L1024",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about AND gate. Which answer is correct?",
+   "detail": "57 vs 24"
+  },
+  {
+   "id": "L1025",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about resistance temperature detector. W",
+   "detail": "89 vs 28"
+  },
+  {
+   "id": "L1026",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of bipolar junction transistor. Whic",
+   "detail": "63 vs 22"
+  },
+  {
+   "id": "L1028",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of thermistor. Which answer is best?",
+   "detail": "60 vs 28"
+  },
+  {
+   "id": "L0023",
+   "source": "Cisco CCNA 200-301",
+   "stem": "When a newly powered-on switch begins the root bridge election process",
+   "detail": "5 vs 1"
+  },
+  {
+   "id": "L0031",
+   "source": "Cisco CCNA 200-301",
+   "stem": "An admin configured `access-list 10 permit 192.168.1.0 0.0.0.255` and ",
+   "detail": "70 vs 30"
+  },
+  {
+   "id": "L0038",
+   "source": "Cisco CCNA 200-301",
+   "stem": "Instead of using ARP, how do IPv6 hosts resolve an IPv6 address to a M",
+   "detail": "41 vs 14"
+  },
+  {
+   "id": "L0051",
+   "source": "Cisco CCNA 200-301",
+   "stem": "An admin configures NTP to synchronize router clocks. Why is accurate ",
+   "detail": "51 vs 24"
+  },
+  {
+   "id": "L0059",
+   "source": "Cisco CCNA 200-301",
+   "stem": "Dynamic ARP Inspection (DAI) is configured on a switch. For DAI to val",
+   "detail": "30 vs 9"
+  },
+  {
+   "id": "L0062",
+   "source": "Cisco CCNA 200-301",
+   "stem": "A PC receives a frame. What field in the Ethernet header does it check",
+   "detail": "26 vs 3"
+  },
+  {
+   "id": "L0070",
+   "source": "Cisco CCNA 200-301",
+   "stem": "What is the primary benefit of deploying an SD-WAN solution over a tra",
+   "detail": "53 vs 14"
+  },
+  {
+   "id": "L0073",
+   "source": "Cisco CCNA 200-301",
+   "stem": "A network engineer enables DHCP Snooping globally and on VLAN 10. Howe",
+   "detail": "67 vs 33"
+  },
+  {
+   "id": "L0074",
+   "source": "Cisco CCNA 200-301",
+   "stem": "A switch receives a frame with a destination MAC address of FF:FF:FF:F",
+   "detail": "49 vs 8"
+  },
+  {
+   "id": "L0076",
+   "source": "Cisco CCNA 200-301",
+   "stem": "A network administrator changes the OSPF reference bandwidth on a rout",
+   "detail": "67 vs 24"
+  },
+  {
+   "id": "L0093",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A new employee logs into the portal but sees a message that they do no",
+   "detail": "55 vs 23"
+  },
+  {
+   "id": "L0094",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Two users co-author a Word document offline. When they reconnect, OneD",
+   "detail": "70 vs 32"
+  },
+  {
+   "id": "L0095",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Which Microsoft 365 application is primarily used for persistent chat,",
+   "detail": "15 vs 6"
+  },
+  {
+   "id": "L0097",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user deleted an important email 10 days ago and emptied their Delete",
+   "detail": "52 vs 21"
+  },
+  {
+   "id": "L0098",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Before applying a risky patch to a virtual server, an admin captures t",
+   "detail": "21 vs 5"
+  },
+  {
+   "id": "L0101",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A company replaces all desktop PCs with lightweight thin clients that ",
+   "detail": "36 vs 3"
+  },
+  {
+   "id": "L0106",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Before an admin upgrades the core firewall, they must submit a plan de",
+   "detail": "27 vs 13"
+  },
+  {
+   "id": "L0110",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A business states that in the event of a crash, they cannot afford to ",
+   "detail": "30 vs 4"
+  },
+  {
+   "id": "L0114",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "An admin needs secure CLI access to a Linux server over an untrusted n",
+   "detail": "18 vs 3"
+  },
+  {
+   "id": "L0115",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "To access a remote internal web server securely without a VPN, a techn",
+   "detail": "31 vs 11"
+  },
+  {
+   "id": "L0116",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A Mac user requires remote assistance from a Windows IT department. Wh",
+   "detail": "31 vs 3"
+  },
+  {
+   "id": "L0149",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A gamer has purchased a high-end graphics card. Upon installation, the",
+   "detail": "23 vs 3"
+  },
+  {
+   "id": "L0153",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A retail store uses a receipt printer. The receipts are coming out com",
+   "detail": "42 vs 20"
+  },
+  {
+   "id": "L0154",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A designer is using a 3D printer to create a plastic prototype. Which ",
+   "detail": "26 vs 5"
+  },
+  {
+   "id": "L0155",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A desktop PC shuts down randomly after 15 minutes of heavy use. The fa",
+   "detail": "36 vs 15"
+  },
+  {
+   "id": "L0156",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A user powers on their PC and sees a message stating \"No Boot Device F",
+   "detail": "48 vs 15"
+  },
+  {
+   "id": "L0162",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A laptop user reports their cursor jumps randomly while typing. What i",
+   "detail": "50 vs 17"
+  },
+  {
+   "id": "L0165",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "Which component is required in the BIOS/UEFI to allow a Type 2 hypervi",
+   "detail": "46 vs 7"
+  },
+  {
+   "id": "L0170",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A technician installs a new M.2 NVMe drive, but it does not appear in ",
+   "detail": "78 vs 25"
+  },
+  {
+   "id": "L0171",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A technician is calculating the power requirements for a new PC build.",
+   "detail": "14 vs 4"
+  },
+  {
+   "id": "L0173",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A user needs to print multi-part carbonless forms. Which type of print",
+   "detail": "27 vs 13"
+  },
+  {
+   "id": "L0175",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "A laptop's Wi-Fi is not working. The OS shows no Wi-Fi networks availa",
+   "detail": "56 vs 24"
+  },
+  {
+   "id": "L0176",
+   "source": "CompTIA A+ 220-1101",
+   "stem": "Which component is responsible for storing the BIOS/UEFI firmware and ",
+   "detail": "18 vs 3"
+  },
+  {
+   "id": "L0182",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A macOS user wants to natively install a dual-boot configuration with ",
+   "detail": "19 vs 8"
+  },
+  {
+   "id": "L0186",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A company wants to block incoming connections from specific IP address",
+   "detail": "25 vs 3"
+  },
+  {
+   "id": "L0194",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A Mac user wants to quickly search their computer for a document, laun",
+   "detail": "9 vs 4"
+  },
+  {
+   "id": "L0195",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Which command is used in Linux to start, stop, or restart background s",
+   "detail": "9 vs 2"
+  },
+  {
+   "id": "L0196",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user wants to encrypt a single highly sensitive folder on their Wind",
+   "detail": "28 vs 3"
+  },
+  {
+   "id": "L0197",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A network admin needs to set up a small file sharing network for 5 com",
+   "detail": "24 vs 6"
+  },
+  {
+   "id": "L0200",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "An organization wants to securely dispose of hard drives containing se",
+   "detail": "24 vs 10"
+  },
+  {
+   "id": "L0201",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Which scripting language is predominantly used in Linux environments a",
+   "detail": "19 vs 6"
+  },
+  {
+   "id": "L0202",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user complains their PC is incredibly slow. The hard drive indicator",
+   "detail": "69 vs 13"
+  },
+  {
+   "id": "L0205",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A macOS user wants to adjust their network settings, display resolutio",
+   "detail": "39 vs 6"
+  },
+  {
+   "id": "L0208",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A technician is troubleshooting a boot issue and wants to perform a \"C",
+   "detail": "31 vs 12"
+  },
+  {
+   "id": "L0209",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A Windows user reports that an essential service fails to start automa",
+   "detail": "100 vs 17"
+  },
+  {
+   "id": "L0211",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A Mac user force-quits an application, but it remains frozen on the sc",
+   "detail": "16 vs 7"
+  },
+  {
+   "id": "L0212",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A technician is configuring a SOHO router and wants to ensure that a s",
+   "detail": "16 vs 3"
+  },
+  {
+   "id": "L0213",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A user accidentally deleted a critical project file and emptied the Re",
+   "detail": "45 vs 11"
+  },
+  {
+   "id": "L0214",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "Which type of script would MOST likely contain the syntax `$var = Get-",
+   "detail": "10 vs 4"
+  },
+  {
+   "id": "L0215",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "When documenting a complex server migration, what is the purpose of cr",
+   "detail": "73 vs 35"
+  },
+  {
+   "id": "L0216",
+   "source": "CompTIA A+ 220-1102",
+   "stem": "A technician is setting up a Windows 10 PC for a public kiosk. They wa",
+   "detail": "28 vs 3"
+  },
+  {
+   "id": "L0236",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "An attacker modifies a URL parameter from `download.php?file=report.pd",
+   "detail": "19 vs 4"
+  },
+  {
+   "id": "L0239",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A web application uses a vulnerable third-party library to process ima",
+   "detail": "26 vs 8"
+  },
+  {
+   "id": "L0245",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A threat actor continuously sends IEEE 802.11 management frames to dis",
+   "detail": "23 vs 7"
+  },
+  {
+   "id": "L0275",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A traditional router ACL checks only the source/destination IP and por",
+   "detail": "18 vs 3"
+  },
+  {
+   "id": "L0296",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "To ensure a hard drive image is exactly identical to the original susp",
+   "detail": "52 vs 24"
+  },
+  {
+   "id": "L0297",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A security analyst reviews a vulnerability scanner report and sees a v",
+   "detail": "8 vs 3"
+  },
+  {
+   "id": "L0300",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A retail store that processes online credit card transactions must imp",
+   "detail": "7 vs 3"
+  },
+  {
+   "id": "L0304",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "An attacker identifies that a company's marketing team frequently visi",
+   "detail": "20 vs 7"
+  },
+  {
+   "id": "L0305",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A user receives an urgent message appearing to be from the IT departme",
+   "detail": "20 vs 7"
+  },
+  {
+   "id": "L0307",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A disgruntled system administrator writes a script that will automatic",
+   "detail": "10 vs 4"
+  },
+  {
+   "id": "L0308",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A user downloads a free game toolbar. While the toolbar works, it also",
+   "detail": "12 vs 4"
+  },
+  {
+   "id": "L0310",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A tester types `<script>alert(\"Hacked\")</script>` into a website's sea",
+   "detail": "13 vs 4"
+  },
+  {
+   "id": "L0312",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A mobile application hardcodes an API key in its source code to authen",
+   "detail": "20 vs 3"
+  },
+  {
+   "id": "L0315",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "An attacker crafts an 802.1Q tagged frame with two VLAN tags. The nati",
+   "detail": "29 vs 9"
+  },
+  {
+   "id": "L0316",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A threat actor sets up a fake cell tower near a busy financial distric",
+   "detail": "23 vs 6"
+  },
+  {
+   "id": "L0318",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A developer ensures that their application logs all critical administr",
+   "detail": "32 vs 10"
+  },
+  {
+   "id": "L0320",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A company requires that the master encryption key used to encrypt all ",
+   "detail": "27 vs 7"
+  },
+  {
+   "id": "L0321",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "When a user connects to a web server via TLS, the server generates a u",
+   "detail": "29 vs 10"
+  },
+  {
+   "id": "L0330",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A network relies on a firewall architecture where an external firewall",
+   "detail": "24 vs 4"
+  },
+  {
+   "id": "L0341",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A publicly traded company in the United States must ensure strict accu",
+   "detail": "24 vs 4"
+  },
+  {
+   "id": "L0343",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A US federal agency requires that all data processed by a new cloud ap",
+   "detail": "16 vs 4"
+  },
+  {
+   "id": "L0347",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "An attacker identifies a race condition in a web application's banking",
+   "detail": "37 vs 15"
+  },
+  {
+   "id": "L0348",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A threat actor copies the exact email signature and logo of a trusted ",
+   "detail": "31 vs 7"
+  },
+  {
+   "id": "L0349",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A malicious actor actively modifies the OSPF routing tables on a compr",
+   "detail": "24 vs 4"
+  },
+  {
+   "id": "L0350",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "An IT department requires all administrative users to log into a jump ",
+   "detail": "42 vs 4"
+  },
+  {
+   "id": "L0368",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "A facility installs a large capacitor bank at the main switchgear to i",
+   "detail": "109 vs 52"
+  },
+  {
+   "id": "L0371",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "A synchronous motor is operating in a plant. The operator increases th",
+   "detail": "101 vs 37"
+  },
+  {
+   "id": "L0384",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "Why are time-delay (dual-element) fuses commonly used in motor circuit",
+   "detail": "93 vs 43"
+  },
+  {
+   "id": "L0385",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "An electrician needs to rack out a 480V air circuit breaker. The arc f",
+   "detail": "75 vs 28"
+  },
+  {
+   "id": "L0386",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "While performing a Lockout/Tagout (LOTO) procedure on a pump motor, an",
+   "detail": "98 vs 26"
+  },
+  {
+   "id": "L0388",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "A hospital IT system utilizes an isolated power system (IPS) in an ope",
+   "detail": "115 vs 24"
+  },
+  {
+   "id": "L0389",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "In an IEC-style TN-C-S earthing system, what happens to the PEN (Prote",
+   "detail": "92 vs 42"
+  },
+  {
+   "id": "L0390",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "What is the primary purpose of the equipment grounding conductor (bare",
+   "detail": "106 vs 43"
+  },
+  {
+   "id": "L0392",
+   "source": "NFPA 70 / IEC 60364",
+   "stem": "You hook up a power quality analyzer to a Variable Frequency Drive (VF",
+   "detail": "89 vs 35"
+  },
+  {
+   "id": "L0408",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "Which standard category represents the highest performance laser-optim",
+   "detail": "12 vs 3"
+  },
+  {
+   "id": "L0409",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "A mechanical splice is showing a loss of 1.5 dB on a single-mode link.",
+   "detail": "76 vs 34"
+  },
+  {
+   "id": "L0411",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "Why is 850nm strictly used for multimode fiber, while 1310nm and 1550n",
+   "detail": "129 vs 32"
+  },
+  {
+   "id": "L0412",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "A technician strips the 250-micron acrylate coating off a fiber to pre",
+   "detail": "75 vs 33"
+  },
+  {
+   "id": "L0414",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "A technician is using a dead-zone box (launch ring) of 1000m to test a",
+   "detail": "172 vs 53"
+  },
+  {
+   "id": "L0417",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "A 10G link over OS2 fiber works fine for weeks, then drops out randoml",
+   "detail": "127 vs 48"
+  },
+  {
+   "id": "L0420",
+   "source": "TIA-568.3-D / ITU-T G.652",
+   "stem": "What safety precaution is absolutely mandatory before viewing the end ",
+   "detail": "123 vs 26"
+  },
+  {
+   "id": "L0440",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A machine stops running. The HMI shows no faults. The tech connects a ",
+   "detail": "77 vs 29"
+  },
+  {
+   "id": "L0441",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A technician calibrates a 0-100 psig pressure transmitter. They apply ",
+   "detail": "68 vs 30"
+  },
+  {
+   "id": "L0442",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "You are tasked with replacing a variable frequency drive (VFD). You ne",
+   "detail": "64 vs 26"
+  },
+  {
+   "id": "L0443",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A gearbox exhibits a high-frequency vibration spike surrounded by side",
+   "detail": "51 vs 20"
+  },
+  {
+   "id": "L0444",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "You scan a control panel and find a fuse block that is glowing bright ",
+   "detail": "86 vs 42"
+  },
+  {
+   "id": "L0445",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "An ultrasonic level transmitter output is stuck at 22mA, triggering a ",
+   "detail": "95 vs 43"
+  },
+  {
+   "id": "L0446",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A hospital generator undergoes a weekly no-load test run for 30 minute",
+   "detail": "94 vs 46"
+  },
+  {
+   "id": "L0447",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "A maintenance technician discovers a clever way to bypass a safety int",
+   "detail": "96 vs 46"
+  },
+  {
+   "id": "L0448",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "While reviewing a piping diagram, you see a valve symbol that looks li",
+   "detail": "80 vs 13"
+  },
+  {
+   "id": "L0449",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "An automated packaging machine utilizes a servo drive. The HMI display",
+   "detail": "129 vs 56"
+  },
+  {
+   "id": "L0451",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "You are calibrating a differential pressure transmitter used for flow ",
+   "detail": "74 vs 34"
+  },
+  {
+   "id": "L0452",
+   "source": "CompTIA (General IT) / BICSI",
+   "stem": "While performing an IR scan on a motor control center, the technician ",
+   "detail": "101 vs 48"
+  },
+  {
+   "id": "L0483",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "A router sends a packet to all nodes on the local network using IPv6. ",
+   "detail": "7 vs 3"
+  },
+  {
+   "id": "L0497",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "An admin needs to ensure traffic from a specific server always takes a",
+   "detail": "12 vs 3"
+  },
+  {
+   "id": "L0521",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "A technician runs a traceroute to a remote server and the output shows",
+   "detail": "44 vs 14"
+  },
+  {
+   "id": "L0527",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "You want \"shop.company.com\" to be an alias that points directly to the",
+   "detail": "5 vs 1"
+  },
+  {
+   "id": "L0632",
+   "source": "Technical Foundations",
+   "stem": "Which statement about fuse is correct?",
+   "detail": "51 vs 13"
+  },
+  {
+   "id": "L0633",
+   "source": "Technical Foundations",
+   "stem": "During troubleshooting, which description of ground conductor is corre",
+   "detail": "47 vs 16"
+  },
+  {
+   "id": "L0634",
+   "source": "Technical Foundations",
+   "stem": "Which statement about Kirchhoff's current law is correct?",
+   "detail": "56 vs 18"
+  },
+  {
+   "id": "L0636",
+   "source": "Technical Foundations",
+   "stem": "Which statement about LED is correct?",
+   "detail": "41 vs 14"
+  },
+  {
+   "id": "L0637",
+   "source": "Technical Foundations",
+   "stem": "During troubleshooting, which description of short circuit is correct?",
+   "detail": "41 vs 18"
+  },
+  {
+   "id": "L0638",
+   "source": "Technical Foundations",
+   "stem": "Which statement about power factor is correct?",
+   "detail": "39 vs 17"
+  },
+  {
+   "id": "L0639",
+   "source": "Technical Foundations",
+   "stem": "During troubleshooting, which description of transistor is correct?",
+   "detail": "45 vs 12"
+  },
+  {
+   "id": "L0640",
+   "source": "Technical Foundations",
+   "stem": "Which statement about insulation test is correct?",
+   "detail": "39 vs 18"
+  },
+  {
+   "id": "L0706",
+   "source": "Technical Foundations",
+   "stem": "Which statement about single-mode fiber is correct?",
+   "detail": "53 vs 20"
+  },
+  {
+   "id": "L0715",
+   "source": "Technical Foundations",
+   "stem": "Which statement about cladding is correct?",
+   "detail": "40 vs 15"
+  },
+  {
+   "id": "L0725",
+   "source": "Technical Foundations",
+   "stem": "Which statement about optical power meter is correct?",
+   "detail": "39 vs 13"
+  },
+  {
+   "id": "L0735",
+   "source": "Technical Foundations",
+   "stem": "Which statement about fusion splicing is correct?",
+   "detail": "42 vs 15"
+  },
+  {
+   "id": "L0748",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about HTTP is correct?",
+   "detail": "40 vs 12"
+  },
+  {
+   "id": "L0749",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about Physical layer is correct?",
+   "detail": "40 vs 16"
+  },
+  {
+   "id": "L0750",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about VLAN is correct?",
+   "detail": "37 vs 15"
+  },
+  {
+   "id": "L0751",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about static route is correct?",
+   "detail": "22 vs 6"
+  },
+  {
+   "id": "L0752",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about 2.4 GHz Wi-Fi is correct?",
+   "detail": "49 vs 10"
+  },
+  {
+   "id": "L0753",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about APIPA address is correct?",
+   "detail": "69 vs 16"
+  },
+  {
+   "id": "L0759",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about Network layer is correct?",
+   "detail": "38 vs 12"
+  },
+  {
+   "id": "L0760",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about trunk port is correct?",
+   "detail": "32 vs 11"
+  },
+  {
+   "id": "L0762",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about 6 GHz Wi-Fi is correct?",
+   "detail": "44 vs 12"
+  },
+  {
+   "id": "L0763",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about ping by IP works but name fails is correct?",
+   "detail": "31 vs 14"
+  },
+  {
+   "id": "L0768",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about DHCP client is correct?",
+   "detail": "25 vs 12"
+  },
+  {
+   "id": "L0769",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about Session layer is correct?",
+   "detail": "30 vs 13"
+  },
+  {
+   "id": "L0771",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about OSPF is correct?",
+   "detail": "41 vs 8"
+  },
+  {
+   "id": "L0772",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about WPA2 is correct?",
+   "detail": "31 vs 10"
+  },
+  {
+   "id": "L0773",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about high latency is correct?",
+   "detail": "62 vs 14"
+  },
+  {
+   "id": "L0778",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about Telnet is correct?",
+   "detail": "40 vs 12"
+  },
+  {
+   "id": "L0779",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about Application layer is correct?",
+   "detail": "42 vs 14"
+  },
+  {
+   "id": "L0780",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about MAC table is correct?",
+   "detail": "42 vs 14"
+  },
+  {
+   "id": "L0781",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "In Networking (Routing), which statement about BGP is correct?",
+   "detail": "43 vs 11"
+  },
+  {
+   "id": "L0782",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about channel overlap is correct?",
+   "detail": "38 vs 13"
+  },
+  {
+   "id": "L0783",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about DNS cache is correct?",
+   "detail": "59 vs 18"
+  },
+  {
+   "id": "L0788",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about SMTP is correct?",
+   "detail": "46 vs 12"
+  },
+  {
+   "id": "L0790",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about port security is correct?",
+   "detail": "40 vs 14"
+  },
+  {
+   "id": "L0791",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about metric is correct?",
+   "detail": "37 vs 11"
+  },
+  {
+   "id": "L0793",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about wrong subnet mask is correct?",
+   "detail": "54 vs 14"
+  },
+  {
+   "id": "L0799",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about IP address is correct?",
+   "detail": "39 vs 13"
+  },
+  {
+   "id": "L0800",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about PoE is correct?",
+   "detail": "37 vs 6"
+  },
+  {
+   "id": "L0801",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about route summarization is correct?",
+   "detail": "39 vs 16"
+  },
+  {
+   "id": "L0802",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about band steering is correct?",
+   "detail": "46 vs 16"
+  },
+  {
+   "id": "L0803",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about firewall rule order is correct?",
+   "detail": "35 vs 13"
+  },
+  {
+   "id": "L0808",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about SNMP is correct?",
+   "detail": "38 vs 12"
+  },
+  {
+   "id": "L0809",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about ICMP is correct?",
+   "detail": "39 vs 16"
+  },
+  {
+   "id": "L0810",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about inter-VLAN routing is correct?",
+   "detail": "48 vs 12"
+  },
+  {
+   "id": "L0811",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about policy routing is correct?",
+   "detail": "48 vs 12"
+  },
+  {
+   "id": "L0812",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about beamforming is correct?",
+   "detail": "36 vs 11"
+  },
+  {
+   "id": "L0813",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about MFA is correct?",
+   "detail": "38 vs 13"
+  },
+  {
+   "id": "L0819",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about MTU is correct?",
+   "detail": "69 vs 13"
+  },
+  {
+   "id": "L0820",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about duplex mismatch is correct?",
+   "detail": "37 vs 13"
+  },
+  {
+   "id": "L0821",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about router-on-a-stick is correct?",
+   "detail": "44 vs 16"
+  },
+  {
+   "id": "L0822",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about site survey is correct?",
+   "detail": "45 vs 12"
+  },
+  {
+   "id": "L0823",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about spear phishing is correct?",
+   "detail": "45 vs 16"
+  },
+  {
+   "id": "L0830",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about managed switch is correct?",
+   "detail": "40 vs 17"
+  },
+  {
+   "id": "L0831",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about asymmetric routing is correct?",
+   "detail": "37 vs 9"
+  },
+  {
+   "id": "L0832",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about guest WLAN is correct?",
+   "detail": "51 vs 20"
+  },
+  {
+   "id": "L0833",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about vishing is correct?",
+   "detail": "39 vs 16"
+  },
+  {
+   "id": "L0842",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about wireless controller is correct?",
+   "detail": "32 vs 11"
+  },
+  {
+   "id": "L0843",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Which statement about credential stuffing is correct?",
+   "detail": "40 vs 16"
+  },
+  {
+   "id": "L0844",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of CPU. Which answer is best?",
+   "detail": "47 vs 18"
+  },
+  {
+   "id": "L0845",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of operating system. Which answer is",
+   "detail": "60 vs 15"
+  },
+  {
+   "id": "L0846",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of malware. Which answer is best?",
+   "detail": "71 vs 13"
+  },
+  {
+   "id": "L0847",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of database. Which answer is best?",
+   "detail": "60 vs 10"
+  },
+  {
+   "id": "L0849",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of cloud computing. Which answer is ",
+   "detail": "53 vs 19"
+  },
+  {
+   "id": "L0850",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of help desk ticket. Which answer is",
+   "detail": "57 vs 16"
+  },
+  {
+   "id": "L0851",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about RAM. Which answer is correct?",
+   "detail": "54 vs 20"
+  },
+  {
+   "id": "L0852",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about kernel. Which answer is correct?",
+   "detail": "57 vs 14"
+  },
+  {
+   "id": "L0853",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about virus. Which answer is correct?",
+   "detail": "55 vs 16"
+  },
+  {
+   "id": "L0854",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about table. Which answer is correct?",
+   "detail": "42 vs 14"
+  },
+  {
+   "id": "L0855",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about CSS. Which answer is correct?",
+   "detail": "45 vs 17"
+  },
+  {
+   "id": "L0856",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about IaaS. Which answer is correct?",
+   "detail": "53 vs 17"
+  },
+  {
+   "id": "L0857",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of SSD. Which answer is best?",
+   "detail": "51 vs 15"
+  },
+  {
+   "id": "L0858",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of process. Which answer is best?",
+   "detail": "34 vs 16"
+  },
+  {
+   "id": "L0859",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of worm. Which answer is best?",
+   "detail": "45 vs 14"
+  },
+  {
+   "id": "L0861",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of JavaScript. Which answer is best?",
+   "detail": "44 vs 14"
+  },
+  {
+   "id": "L0862",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of SaaS. Which answer is best?",
+   "detail": "48 vs 16"
+  },
+  {
+   "id": "L0863",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about HDD. Which answer is correct?",
+   "detail": "41 vs 18"
+  },
+  {
+   "id": "L0864",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about thread. Which answer is correct?",
+   "detail": "48 vs 15"
+  },
+  {
+   "id": "L0865",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about trojan. Which answer is correct?",
+   "detail": "51 vs 16"
+  },
+  {
+   "id": "L0866",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about foreign key. Which answer is corre",
+   "detail": "53 vs 17"
+  },
+  {
+   "id": "L0867",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about DNS. Which answer is correct?",
+   "detail": "53 vs 20"
+  },
+  {
+   "id": "L0868",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about virtual machine. Which answer is c",
+   "detail": "45 vs 16"
+  },
+  {
+   "id": "L0869",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of GPU. Which answer is best?",
+   "detail": "43 vs 20"
+  },
+  {
+   "id": "L0870",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of virtual memory. Which answer is b",
+   "detail": "58 vs 9"
+  },
+  {
+   "id": "L0871",
+   "source": "Technical Foundations",
+   "stem": "In Information Technology (Cybersecurity), which statement about ranso",
+   "detail": "42 vs 13"
+  },
+  {
+   "id": "L0872",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of SQL. Which answer is best?",
+   "detail": "60 vs 19"
+  },
+  {
+   "id": "L0873",
+   "source": "Technical Foundations",
+   "stem": "In Information Technology (Web and internet), which statement about HT",
+   "detail": "31 vs 13"
+  },
+  {
+   "id": "L0874",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about motherboard. Which answer is corre",
+   "detail": "50 vs 18"
+  },
+  {
+   "id": "L0875",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about file system. Which answer is corre",
+   "detail": "44 vs 13"
+  },
+  {
+   "id": "L0876",
+   "source": "Technical Foundations",
+   "stem": "During troubleshooting, which explanation of firewall is accurate?",
+   "detail": "51 vs 14"
+  },
+  {
+   "id": "L0877",
+   "source": "Technical Foundations",
+   "stem": "During troubleshooting, which explanation of SELECT is accurate?",
+   "detail": "30 vs 12"
+  },
+  {
+   "id": "L0878",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of preventive maintenance. Which ans",
+   "detail": "58 vs 19"
+  },
+  {
+   "id": "L0879",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of corrective maintenance. Which ans",
+   "detail": "41 vs 19"
+  },
+  {
+   "id": "L0880",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of predictive maintenance. Which ans",
+   "detail": "54 vs 20"
+  },
+  {
+   "id": "L0881",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of lockout/tagout. Which answer is b",
+   "detail": "62 vs 12"
+  },
+  {
+   "id": "L0882",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of multimeter. Which answer is best?",
+   "detail": "67 vs 22"
+  },
+  {
+   "id": "L0884",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about fault symptom. Which answer is cor",
+   "detail": "54 vs 15"
+  },
+  {
+   "id": "L0885",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about condition monitoring. Which answer",
+   "detail": "70 vs 22"
+  },
+  {
+   "id": "L0886",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about PPE. Which answer is correct?",
+   "detail": "52 vs 20"
+  },
+  {
+   "id": "L0887",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about clamp meter. Which answer is corre",
+   "detail": "76 vs 16"
+  },
+  {
+   "id": "L0888",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of manufacturer manual. Which answer",
+   "detail": "59 vs 17"
+  },
+  {
+   "id": "L0889",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of root cause. Which answer is best?",
+   "detail": "43 vs 19"
+  },
+  {
+   "id": "L0890",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of vibration analysis. Which answer ",
+   "detail": "66 vs 20"
+  },
+  {
+   "id": "L0891",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of risk assessment. Which answer is ",
+   "detail": "64 vs 17"
+  },
+  {
+   "id": "L0892",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of oscilloscope. Which answer is bes",
+   "detail": "50 vs 18"
+  },
+  {
+   "id": "L0893",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about lubrication. Which answer is corre",
+   "detail": "67 vs 21"
+  },
+  {
+   "id": "L0894",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about troubleshooting sequence. Which an",
+   "detail": "53 vs 21"
+  },
+  {
+   "id": "L0895",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about thermal imaging. Which answer is c",
+   "detail": "59 vs 28"
+  },
+  {
+   "id": "L0896",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about test before touch. Which answer is",
+   "detail": "60 vs 15"
+  },
+  {
+   "id": "L0897",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about insulation tester. Which answer is",
+   "detail": "53 vs 19"
+  },
+  {
+   "id": "L0898",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of cleaning. Which answer is best?",
+   "detail": "59 vs 16"
+  },
+  {
+   "id": "L0899",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of verify the complaint. Which answe",
+   "detail": "51 vs 24"
+  },
+  {
+   "id": "L0900",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of trend analysis. Which answer is b",
+   "detail": "57 vs 16"
+  },
+  {
+   "id": "L0901",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of stored energy. Which answer is be",
+   "detail": "68 vs 11"
+  },
+  {
+   "id": "L0902",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of torque wrench. Which answer is be",
+   "detail": "40 vs 16"
+  },
+  {
+   "id": "L0903",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about filter replacement. Which answer i",
+   "detail": "62 vs 20"
+  },
+  {
+   "id": "L0904",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about known-good substitution. Which ans",
+   "detail": "47 vs 22"
+  },
+  {
+   "id": "L0905",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about baseline measurement. Which answer",
+   "detail": "47 vs 15"
+  },
+  {
+   "id": "L0909",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of repair validation. Which answer i",
+   "detail": "61 vs 25"
+  },
+  {
+   "id": "L0910",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of alarm threshold. Which answer is ",
+   "detail": "63 vs 13"
+  },
+  {
+   "id": "L0911",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of correct tool rating. Which answer",
+   "detail": "66 vs 19"
+  },
+  {
+   "id": "L0912",
+   "source": "Technical Foundations",
+   "stem": "A supervisor tests your knowledge of cable tester. Which answer is bes",
+   "detail": "58 vs 17"
+  },
+  {
+   "id": "L0913",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about fastener check. Which answer is co",
+   "detail": "59 vs 23"
+  },
+  {
+   "id": "L0914",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about workaround. Which answer is correc",
+   "detail": "54 vs 24"
+  },
+  {
+   "id": "L0915",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about sensor calibration. Which answer i",
+   "detail": "40 vs 19"
+  },
+  {
+   "id": "L0916",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about near-miss report. Which answer is ",
+   "detail": "68 vs 20"
+  },
+  {
+   "id": "L0917",
+   "source": "Technical Foundations",
+   "stem": "A certification question asks about OTDR. Which answer is correct?",
+   "detail": "45 vs 19"
+  },
+  {
+   "id": "L0918",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "In Cybersecurity (Threats and attacks), which statement about phishing",
+   "detail": "82 vs 24"
+  },
+  {
+   "id": "L0919",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of authentication. Which answer is b",
+   "detail": "53 vs 21"
+  },
+  {
+   "id": "L0920",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "In Cybersecurity (Network and application security), a supervisor test",
+   "detail": "59 vs 29"
+  },
+  {
+   "id": "L0921",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of encryption at rest. Which answer ",
+   "detail": "63 vs 28"
+  },
+  {
+   "id": "L0922",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of security information and event ma",
+   "detail": "77 vs 35"
+  },
+  {
+   "id": "L0924",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A certification question asks about spear phishing. Which answer is co",
+   "detail": "77 vs 21"
+  },
+  {
+   "id": "L0925",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A certification question asks about authorization. Which answer is cor",
+   "detail": "58 vs 23"
+  },
+  {
+   "id": "L0928",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A certification question asks about security orchestration, automation",
+   "detail": "70 vs 31"
+  },
+  {
+   "id": "L0930",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "In Cybersecurity (Threats and attacks), which statement about smishing",
+   "detail": "50 vs 22"
+  },
+  {
+   "id": "L0933",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of symmetric encryption. Which answe",
+   "detail": "54 vs 23"
+  },
+  {
+   "id": "L0934",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of incident response plan. Which ans",
+   "detail": "87 vs 30"
+  },
+  {
+   "id": "L0936",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A certification question asks about incident containment. Which answer",
+   "detail": "90 vs 30"
+  },
+  {
+   "id": "L0939",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of zero trust. Which answer is best?",
+   "detail": "92 vs 42"
+  },
+  {
+   "id": "L0941",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of chain of custody. Which answer is",
+   "detail": "66 vs 25"
+  },
+  {
+   "id": "L0942",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A certification question asks about credential stuffing. Which answer ",
+   "detail": "60 vs 29"
+  },
+  {
+   "id": "L0945",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A certification question asks about password salt. Which answer is cor",
+   "detail": "75 vs 32"
+  },
+  {
+   "id": "L0948",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of privileged access management. Whi",
+   "detail": "64 vs 26"
+  },
+  {
+   "id": "L0950",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of digital signature. Which answer i",
+   "detail": "82 vs 38"
+  },
+  {
+   "id": "L0952",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of SODIMM. Which answer is best?",
+   "detail": "76 vs 30"
+  },
+  {
+   "id": "L0953",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of NTFS. Which answer is best?",
+   "detail": "102 vs 27"
+  },
+  {
+   "id": "L0954",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "In CompTIA Core (A+ operations and support), a supervisor tests your k",
+   "detail": "76 vs 35"
+  },
+  {
+   "id": "L0955",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "A supervisor tests your knowledge of APIPA. Which answer is best?",
+   "detail": "88 vs 33"
+  },
+  {
+   "id": "L0956",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "A supervisor tests your knowledge of DHCP reservation. Which answer is",
+   "detail": "99 vs 34"
+  },
+  {
+   "id": "L0957",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "A supervisor tests your knowledge of mean time to repair. Which answer",
+   "detail": "75 vs 33"
+  },
+  {
+   "id": "L0958",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of shoulder surfing. Which answer is",
+   "detail": "63 vs 28"
+  },
+  {
+   "id": "L0960",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of endpoint detection and response. ",
+   "detail": "78 vs 33"
+  },
+  {
+   "id": "L0961",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of data loss prevention. Which answe",
+   "detail": "86 vs 28"
+  },
+  {
+   "id": "L0962",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of public key infrastructure. Which ",
+   "detail": "73 vs 33"
+  },
+  {
+   "id": "L0964",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "A supervisor tests your knowledge of incident eradication. Which answe",
+   "detail": "78 vs 38"
+  },
+  {
+   "id": "L0966",
+   "source": "CompTIA Core Skills",
+   "stem": "A supervisor tests your knowledge of infrastructure as a service. Whic",
+   "detail": "115 vs 35"
+  },
+  {
+   "id": "L0967",
+   "source": "CompTIA Core Skills",
+   "stem": "A supervisor tests your knowledge of first troubleshooting step. Which",
+   "detail": "75 vs 34"
+  },
+  {
+   "id": "L0968",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of NVMe SSD. Which answer is best?",
+   "detail": "77 vs 25"
+  },
+  {
+   "id": "L0969",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of BitLocker. Which answer is best?",
+   "detail": "61 vs 26"
+  },
+  {
+   "id": "L0972",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A supervisor tests your knowledge of Cisco IOS longest-prefix matching",
+   "detail": "100 vs 20"
+  },
+  {
+   "id": "L0973",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A supervisor tests your knowledge of ip helper-address. Which answer i",
+   "detail": "77 vs 27"
+  },
+  {
+   "id": "L0975",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A supervisor tests your knowledge of controller-based networking. Whic",
+   "detail": "79 vs 36"
+  },
+  {
+   "id": "L0976",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A certification question asks about Layer 2 switch. Which answer is co",
+   "detail": "61 vs 27"
+  },
+  {
+   "id": "L0977",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A certification question asks about 802.1Q trunk. Which answer is corr",
+   "detail": "69 vs 33"
+  },
+  {
+   "id": "L0978",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A certification question asks about connected route administrative dis",
+   "detail": "41 vs 16"
+  },
+  {
+   "id": "L0979",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A certification question asks about NAT overload. Which answer is corr",
+   "detail": "98 vs 34"
+  },
+  {
+   "id": "L0980",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A certification question asks about extended IPv4 ACL. Which answer is",
+   "detail": "66 vs 24"
+  },
+  {
+   "id": "L0982",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A technician is documenting multilayer switch. Which statement belongs",
+   "detail": "55 vs 26"
+  },
+  {
+   "id": "L0983",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A technician is documenting native VLAN on an 802.1Q trunk. Which stat",
+   "detail": "55 vs 21"
+  },
+  {
+   "id": "L0985",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A technician is documenting Network Time Protocol. Which statement bel",
+   "detail": "79 vs 25"
+  },
+  {
+   "id": "L0986",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A technician is documenting switch port security. Which statement belo",
+   "detail": "64 vs 29"
+  },
+  {
+   "id": "L0987",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "A technician is documenting southbound API. Which statement belongs in",
+   "detail": "68 vs 23"
+  },
+  {
+   "id": "L0991",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During troubleshooting, which explanation of Domain Name System is acc",
+   "detail": "62 vs 27"
+  },
+  {
+   "id": "L0992",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During troubleshooting, which explanation of DHCP snooping is accurate",
+   "detail": "89 vs 27"
+  },
+  {
+   "id": "L0993",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During troubleshooting, which explanation of REST API is accurate?",
+   "detail": "85 vs 30"
+  },
+  {
+   "id": "L0994",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of CPU cache. Which answer is best?",
+   "detail": "96 vs 30"
+  },
+  {
+   "id": "L0995",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of SATA interface. Which answer is b",
+   "detail": "84 vs 28"
+  },
+  {
+   "id": "L0996",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of operating-system kernel. Which an",
+   "detail": "75 vs 27"
+  },
+  {
+   "id": "L0997",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of least-privilege administration. W",
+   "detail": "72 vs 35"
+  },
+  {
+   "id": "L0998",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A supervisor tests your knowledge of no-power hardware diagnosis. Whic",
+   "detail": "98 vs 36"
+  },
+  {
+   "id": "L0999",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about processor core. Which answer is co",
+   "detail": "74 vs 32"
+  },
+  {
+   "id": "L1000",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about NVMe protocol. Which answer is cor",
+   "detail": "82 vs 26"
+  },
+  {
+   "id": "L1001",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "In Hardware & Operating Systems (Operating systems), a certification q",
+   "detail": "59 vs 27"
+  },
+  {
+   "id": "L1002",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about Secure Boot. Which answer is corre",
+   "detail": "83 vs 25"
+  },
+  {
+   "id": "L1003",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about power-on self-test. Which answer i",
+   "detail": "74 vs 29"
+  },
+  {
+   "id": "L1004",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A technician is documenting simultaneous multithreading. Which stateme",
+   "detail": "75 vs 27"
+  },
+  {
+   "id": "L1006",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A technician is documenting Linux chmod. Which statement belongs in th",
+   "detail": "58 vs 24"
+  },
+  {
+   "id": "L1007",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A technician is documenting full-disk encryption. Which statement belo",
+   "detail": "79 vs 25"
+  },
+  {
+   "id": "L1008",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A technician is documenting firmware beep or LED code. Which statement",
+   "detail": "75 vs 27"
+  },
+  {
+   "id": "L1009",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about motherboard chipset. Which answer ",
+   "detail": "78 vs 33"
+  },
+  {
+   "id": "L1010",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about RAID 1. Which answer is correct?",
+   "detail": "48 vs 19"
+  },
+  {
+   "id": "L1011",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about sudo. Which answer is correct?",
+   "detail": "71 vs 32"
+  },
+  {
+   "id": "L1012",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about operating-system patching. Which a",
+   "detail": "82 vs 29"
+  },
+  {
+   "id": "L1013",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "A certification question asks about kernel panic or stop error. Which ",
+   "detail": "105 vs 29"
+  },
+  {
+   "id": "L1014",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "Which option best describes 24-pin ATX connector?",
+   "detail": "69 vs 30"
+  },
+  {
+   "id": "L1015",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "Which option best describes RAID 5?",
+   "detail": "64 vs 27"
+  },
+  {
+   "id": "L1016",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "Which option best describes systemd?",
+   "detail": "72 vs 24"
+  },
+  {
+   "id": "L1017",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "Which option best describes antimalware real-time protection?",
+   "detail": "73 vs 25"
+  },
+  {
+   "id": "L1018",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "Which option best describes full system disk?",
+   "detail": "84 vs 31"
+  },
+  {
+   "id": "L1029",
+   "source": "Technical Foundations",
+   "stem": "During troubleshooting, which explanation of MOSFET is accurate?",
+   "detail": "64 vs 21"
+  },
+  {
+   "id": "L1032",
+   "source": "Technical Foundations",
+   "stem": "A beginner asks about thermocouple. Which answer should you give?",
+   "detail": "98 vs 40"
+  },
+  {
+   "id": "L1033",
+   "source": "Technical Foundations",
+   "stem": "A beginner asks about PLC scan cycle. Which answer should you give?",
+   "detail": "107 vs 39"
+  },
+  {
+   "id": "L1034",
+   "source": "Technical Foundations",
+   "stem": "In a technical interview, what is true about verification of zero ener",
+   "detail": "105 vs 39"
+  },
+  {
+   "id": "L1035",
+   "source": "Technical Foundations",
+   "stem": "What is the best technical explanation of semiconductor diode?",
+   "detail": "63 vs 24"
+  },
+  {
+   "id": "L1037",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "Which option best describes phishing?",
+   "detail": "82 vs 24"
+  },
+  {
+   "id": "L1041",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about voltage in a para",
+   "detail": "59 vs 26"
+  },
+  {
+   "id": "L1043",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about fuse placement in",
+   "detail": "100 vs 44"
+  },
+  {
+   "id": "L1044",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a circuit breaker",
+   "detail": "85 vs 37"
+  },
+  {
+   "id": "L1047",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about RMS voltage for a",
+   "detail": "92 vs 32"
+  },
+  {
+   "id": "L1048",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about electrical impeda",
+   "detail": "70 vs 20"
+  },
+  {
+   "id": "L1049",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about inductive reactan",
+   "detail": "46 vs 21"
+  },
+  {
+   "id": "L1053",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a contactor shoul",
+   "detail": "91 vs 35"
+  },
+  {
+   "id": "L1054",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about three-phase power",
+   "detail": "82 vs 32"
+  },
+  {
+   "id": "L1056",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a protective eart",
+   "detail": "78 vs 38"
+  },
+  {
+   "id": "L1057",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about verification of a",
+   "detail": "104 vs 44"
+  },
+  {
+   "id": "L1058",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about total internal re",
+   "detail": "86 vs 41"
+  },
+  {
+   "id": "L1059",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about single-mode fiber",
+   "detail": "94 vs 40"
+  },
+  {
+   "id": "L1060",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about multimode fiber s",
+   "detail": "73 vs 29"
+  },
+  {
+   "id": "L1061",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about the fiber claddin",
+   "detail": "77 vs 37"
+  },
+  {
+   "id": "L1063",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about the 1310 nm windo",
+   "detail": "98 vs 44"
+  },
+  {
+   "id": "L1064",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about the 1550 nm windo",
+   "detail": "96 vs 26"
+  },
+  {
+   "id": "L1066",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an SC connector s",
+   "detail": "60 vs 26"
+  },
+  {
+   "id": "L1069",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an optical loss t",
+   "detail": "82 vs 34"
+  },
+  {
+   "id": "L1070",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an OTDR launch ca",
+   "detail": "98 vs 40"
+  },
+  {
+   "id": "L1071",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an OTDR receive c",
+   "detail": "85 vs 39"
+  },
+  {
+   "id": "L1072",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a macrobend shoul",
+   "detail": "98 vs 37"
+  },
+  {
+   "id": "L1073",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a microbend shoul",
+   "detail": "74 vs 32"
+  },
+  {
+   "id": "L1074",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a fusion splice s",
+   "detail": "81 vs 33"
+  },
+  {
+   "id": "L1075",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a mechanical spli",
+   "detail": "94 vs 35"
+  },
+  {
+   "id": "L1077",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about link-budget margi",
+   "detail": "108 vs 41"
+  },
+  {
+   "id": "L1078",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about the OSI physical ",
+   "detail": "84 vs 34"
+  },
+  {
+   "id": "L1079",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about the OSI data-link",
+   "detail": "74 vs 31"
+  },
+  {
+   "id": "L1081",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about the OSI transport",
+   "detail": "75 vs 30"
+  },
+  {
+   "id": "L1083",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about IPv6 Neighbor Dis",
+   "detail": "75 vs 30"
+  },
+  {
+   "id": "L1084",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about the DHCP DORA exc",
+   "detail": "86 vs 25"
+  },
+  {
+   "id": "L1087",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about UDP transport sho",
+   "detail": "58 vs 20"
+  },
+  {
+   "id": "L1088",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about an Ethernet acces",
+   "detail": "66 vs 30"
+  },
+  {
+   "id": "L1089",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about an 802.1Q trunk s",
+   "detail": "86 vs 22"
+  },
+  {
+   "id": "L1090",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about Spanning Tree Pro",
+   "detail": "63 vs 27"
+  },
+  {
+   "id": "L1091",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about LACP should guide",
+   "detail": "61 vs 22"
+  },
+  {
+   "id": "L1092",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about a host's default ",
+   "detail": "73 vs 36"
+  },
+  {
+   "id": "L1093",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about NAT overload shou",
+   "detail": "89 vs 32"
+  },
+  {
+   "id": "L1094",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about OSPF should guide",
+   "detail": "97 vs 33"
+  },
+  {
+   "id": "L1095",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about BGP should guide ",
+   "detail": "72 vs 28"
+  },
+  {
+   "id": "L1096",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about WPA3-Personal sho",
+   "detail": "81 vs 24"
+  },
+  {
+   "id": "L1097",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about syslog should gui",
+   "detail": "93 vs 37"
+  },
+  {
+   "id": "L1099",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about RAM should guide ",
+   "detail": "63 vs 27"
+  },
+  {
+   "id": "L1100",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about virtual memory sh",
+   "detail": "85 vs 30"
+  },
+  {
+   "id": "L1101",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a file system sho",
+   "detail": "73 vs 30"
+  },
+  {
+   "id": "L1102",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a process should ",
+   "detail": "76 vs 32"
+  },
+  {
+   "id": "L1104",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about an operating-syst",
+   "detail": "66 vs 20"
+  },
+  {
+   "id": "L1105",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a database transa",
+   "detail": "92 vs 21"
+  },
+  {
+   "id": "L1106",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about the 3-2-1 backup ",
+   "detail": "87 vs 26"
+  },
+  {
+   "id": "L1107",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about version control s",
+   "detail": "90 vs 31"
+  },
+  {
+   "id": "L1108",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about DNS should guide ",
+   "detail": "66 vs 23"
+  },
+  {
+   "id": "L1109",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about HTTP should guide",
+   "detail": "70 vs 26"
+  },
+  {
+   "id": "L1110",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about TLS should guide ",
+   "detail": "96 vs 33"
+  },
+  {
+   "id": "L1111",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a software contai",
+   "detail": "87 vs 39"
+  },
+  {
+   "id": "L1112",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a virtual machine",
+   "detail": "82 vs 21"
+  },
+  {
+   "id": "L1113",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about RAID 1 should gui",
+   "detail": "72 vs 31"
+  },
+  {
+   "id": "L1114",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about an uninterruptibl",
+   "detail": "103 vs 30"
+  },
+  {
+   "id": "L1115",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about change management",
+   "detail": "82 vs 26"
+  },
+  {
+   "id": "L1116",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a help-desk ticke",
+   "detail": "85 vs 30"
+  },
+  {
+   "id": "L1117",
+   "source": "CompTIA Core Skills",
+   "stem": "During routine technical work, which statement about a service-level a",
+   "detail": "87 vs 25"
+  },
+  {
+   "id": "L1118",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about lockout and tagou",
+   "detail": "78 vs 33"
+  },
+  {
+   "id": "L1120",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about electrostatic-dis",
+   "detail": "107 vs 32"
+  },
+  {
+   "id": "L1122",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about predictive mainte",
+   "detail": "70 vs 30"
+  },
+  {
+   "id": "L1124",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about instrument calibr",
+   "detail": "100 vs 27"
+  },
+  {
+   "id": "L1127",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about shaft alignment s",
+   "detail": "80 vs 28"
+  },
+  {
+   "id": "L1128",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about vibration analysi",
+   "detail": "91 vs 41"
+  },
+  {
+   "id": "L1130",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about lubricating-oil a",
+   "detail": "88 vs 39"
+  },
+  {
+   "id": "L1132",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a maintenance ins",
+   "detail": "63 vs 27"
+  },
+  {
+   "id": "L1133",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a computerized ma",
+   "detail": "76 vs 30"
+  },
+  {
+   "id": "L1134",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about root-cause analys",
+   "detail": "79 vs 39"
+  },
+  {
+   "id": "L1135",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about failure mode and ",
+   "detail": "85 vs 34"
+  },
+  {
+   "id": "L1137",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about maintenance close",
+   "detail": "86 vs 39"
+  },
+  {
+   "id": "L1139",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about integrity should ",
+   "detail": "75 vs 34"
+  },
+  {
+   "id": "L1143",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about password hashing ",
+   "detail": "85 vs 40"
+  },
+  {
+   "id": "L1145",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about a digital signatu",
+   "detail": "92 vs 45"
+  },
+  {
+   "id": "L1146",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about public key infras",
+   "detail": "84 vs 30"
+  },
+  {
+   "id": "L1147",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about a network firewal",
+   "detail": "83 vs 37"
+  },
+  {
+   "id": "L1148",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about an intrusion dete",
+   "detail": "79 vs 23"
+  },
+  {
+   "id": "L1150",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about endpoint detectio",
+   "detail": "92 vs 24"
+  },
+  {
+   "id": "L1151",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about security informat",
+   "detail": "80 vs 35"
+  },
+  {
+   "id": "L1152",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about phishing should g",
+   "detail": "99 vs 28"
+  },
+  {
+   "id": "L1153",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about ransomware should",
+   "detail": "63 vs 29"
+  },
+  {
+   "id": "L1154",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about a vulnerability s",
+   "detail": "76 vs 36"
+  },
+  {
+   "id": "L1156",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about incident containm",
+   "detail": "90 vs 39"
+  },
+  {
+   "id": "L1157",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about an offline or imm",
+   "detail": "97 vs 39"
+  },
+  {
+   "id": "L1158",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about USB Type-C should",
+   "detail": "97 vs 20"
+  },
+  {
+   "id": "L1159",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about Thunderbolt shoul",
+   "detail": "86 vs 31"
+  },
+  {
+   "id": "L1160",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about an NVMe SSD shoul",
+   "detail": "70 vs 26"
+  },
+  {
+   "id": "L1161",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a SODIMM should g",
+   "detail": "69 vs 25"
+  },
+  {
+   "id": "L1162",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a Trusted Platfor",
+   "detail": "79 vs 27"
+  },
+  {
+   "id": "L1163",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about Secure Boot shoul",
+   "detail": "83 vs 31"
+  },
+  {
+   "id": "L1164",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about UEFI firmware sho",
+   "detail": "101 vs 28"
+  },
+  {
+   "id": "L1165",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about NTFS permissions ",
+   "detail": "64 vs 25"
+  },
+  {
+   "id": "L1166",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about Linux rwx permiss",
+   "detail": "70 vs 21"
+  },
+  {
+   "id": "L1167",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a hypervisor shou",
+   "detail": "65 vs 25"
+  },
+  {
+   "id": "L1168",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about an IPv6 link-loca",
+   "detail": "69 vs 25"
+  },
+  {
+   "id": "L1169",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about APIPA should guid",
+   "detail": "96 vs 30"
+  },
+  {
+   "id": "L1170",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about a DHCP reservatio",
+   "detail": "98 vs 26"
+  },
+  {
+   "id": "L1171",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During routine technical work, which statement about Power over Ethern",
+   "detail": "81 vs 29"
+  },
+  {
+   "id": "L1173",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about authentication-fa",
+   "detail": "87 vs 32"
+  },
+  {
+   "id": "L1174",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about least-privilege a",
+   "detail": "91 vs 38"
+  },
+  {
+   "id": "L1175",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about data loss prevent",
+   "detail": "71 vs 29"
+  },
+  {
+   "id": "L1176",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During routine technical work, which statement about Security+ inciden",
+   "detail": "86 vs 33"
+  },
+  {
+   "id": "L1177",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about controlled change",
+   "detail": "104 vs 31"
+  },
+  {
+   "id": "L1178",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about longest-prefix ro",
+   "detail": "99 vs 31"
+  },
+  {
+   "id": "L1181",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about an OSPF route on ",
+   "detail": "46 vs 17"
+  },
+  {
+   "id": "L1183",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about an 802.1Q trunk n",
+   "detail": "62 vs 24"
+  },
+  {
+   "id": "L1185",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about an EtherChannel s",
+   "detail": "64 vs 23"
+  },
+  {
+   "id": "L1186",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about CDP should guide ",
+   "detail": "86 vs 29"
+  },
+  {
+   "id": "L1187",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about LLDP should guide",
+   "detail": "55 vs 25"
+  },
+  {
+   "id": "L1188",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about the IPv4 10.0.0.0",
+   "detail": "67 vs 18"
+  },
+  {
+   "id": "L1190",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about IPv6 link-local a",
+   "detail": "73 vs 28"
+  },
+  {
+   "id": "L1191",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about SLAAC should guid",
+   "detail": "77 vs 21"
+  },
+  {
+   "id": "L1192",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about the ip helper-add",
+   "detail": "77 vs 20"
+  },
+  {
+   "id": "L1193",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about Cisco IOS NAT ove",
+   "detail": "93 vs 28"
+  },
+  {
+   "id": "L1196",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about DHCP snooping sho",
+   "detail": "98 vs 25"
+  },
+  {
+   "id": "L1197",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During routine technical work, which statement about a REST API using ",
+   "detail": "95 vs 37"
+  },
+  {
+   "id": "L1198",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a desktop power-s",
+   "detail": "68 vs 31"
+  },
+  {
+   "id": "L1199",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about the motherboard s",
+   "detail": "92 vs 21"
+  },
+  {
+   "id": "L1200",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about CPU thermal compo",
+   "detail": "80 vs 30"
+  },
+  {
+   "id": "L1201",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about dual-channel memo",
+   "detail": "82 vs 39"
+  },
+  {
+   "id": "L1202",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about ECC memory should",
+   "detail": "79 vs 25"
+  },
+  {
+   "id": "L1203",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about an NVMe drive sho",
+   "detail": "82 vs 26"
+  },
+  {
+   "id": "L1204",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a SATA drive shou",
+   "detail": "80 vs 25"
+  },
+  {
+   "id": "L1205",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about SMART drive monit",
+   "detail": "88 vs 16"
+  },
+  {
+   "id": "L1206",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a hardware RAID 1",
+   "detail": "65 vs 31"
+  },
+  {
+   "id": "L1207",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about RAID 5 should gui",
+   "detail": "64 vs 27"
+  },
+  {
+   "id": "L1208",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about motherboard UEFI ",
+   "detail": "82 vs 26"
+  },
+  {
+   "id": "L1209",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a platform Truste",
+   "detail": "83 vs 22"
+  },
+  {
+   "id": "L1210",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about firmware Secure B",
+   "detail": "85 vs 35"
+  },
+  {
+   "id": "L1211",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about an operating-syst",
+   "detail": "77 vs 28"
+  },
+  {
+   "id": "L1212",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about an operating-syst",
+   "detail": "91 vs 25"
+  },
+  {
+   "id": "L1213",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about the chmod command",
+   "detail": "50 vs 23"
+  },
+  {
+   "id": "L1214",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about the sudo command ",
+   "detail": "82 vs 35"
+  },
+  {
+   "id": "L1215",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a page fault shou",
+   "detail": "95 vs 24"
+  },
+  {
+   "id": "L1216",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about operating-system ",
+   "detail": "86 vs 38"
+  },
+  {
+   "id": "L1217",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During routine technical work, which statement about a no-power troubl",
+   "detail": "114 vs 37"
+  },
+  {
+   "id": "L1218",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a semiconductor d",
+   "detail": "89 vs 34"
+  },
+  {
+   "id": "L1219",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a Zener diode sho",
+   "detail": "90 vs 22"
+  },
+  {
+   "id": "L1220",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a bipolar junctio",
+   "detail": "63 vs 22"
+  },
+  {
+   "id": "L1221",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a MOSFET should g",
+   "detail": "79 vs 21"
+  },
+  {
+   "id": "L1222",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an operational am",
+   "detail": "65 vs 22"
+  },
+  {
+   "id": "L1223",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a voltage compara",
+   "detail": "62 vs 19"
+  },
+  {
+   "id": "L1224",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an RC low-pass fi",
+   "detail": "97 vs 32"
+  },
+  {
+   "id": "L1225",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about the Nyquist sampl",
+   "detail": "109 vs 42"
+  },
+  {
+   "id": "L1226",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an analog-to-digi",
+   "detail": "55 vs 18"
+  },
+  {
+   "id": "L1227",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a digital-to-anal",
+   "detail": "73 vs 30"
+  },
+  {
+   "id": "L1228",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an AND gate shoul",
+   "detail": "57 vs 24"
+  },
+  {
+   "id": "L1229",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an OR gate should",
+   "detail": "50 vs 24"
+  },
+  {
+   "id": "L1230",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about an XOR gate shoul",
+   "detail": "42 vs 16"
+  },
+  {
+   "id": "L1233",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a PLC scan cycle ",
+   "detail": "92 vs 30"
+  },
+  {
+   "id": "L1235",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a 4-20 mA measure",
+   "detail": "69 vs 29"
+  },
+  {
+   "id": "L1236",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about PID control shoul",
+   "detail": "82 vs 36"
+  },
+  {
+   "id": "L1237",
+   "source": "Technical Foundations",
+   "stem": "During routine technical work, which statement about a servo motor sys",
+   "detail": "62 vs 25"
+  },
+  {
+   "id": "L1239",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: One branch of",
+   "detail": "81 vs 36"
+  },
+  {
+   "id": "L1242",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A replacement",
+   "detail": "99 vs 37"
+  },
+  {
+   "id": "L1245",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A 24 V contro",
+   "detail": "75 vs 23"
+  },
+  {
+   "id": "L1247",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A three-phase",
+   "detail": "84 vs 37"
+  },
+  {
+   "id": "L1248",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A technician ",
+   "detail": "87 vs 39"
+  },
+  {
+   "id": "L1249",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A relay coil ",
+   "detail": "75 vs 26"
+  },
+  {
+   "id": "L1250",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A transformer",
+   "detail": "78 vs 26"
+  },
+  {
+   "id": "L1256",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A variable-fr",
+   "detail": "83 vs 31"
+  },
+  {
+   "id": "L1260",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Loss at 1550 ",
+   "detail": "67 vs 25"
+  },
+  {
+   "id": "L1263",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Two technicia",
+   "detail": "97 vs 29"
+  },
+  {
+   "id": "L1264",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A 1310 nm sin",
+   "detail": "87 vs 29"
+  },
+  {
+   "id": "L1265",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A multimode l",
+   "detail": "86 vs 37"
+  },
+  {
+   "id": "L1266",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A green APC c",
+   "detail": "91 vs 27"
+  },
+  {
+   "id": "L1268",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: No optical po",
+   "detail": "95 vs 30"
+  },
+  {
+   "id": "L1269",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A link has ac",
+   "detail": "68 vs 27"
+  },
+  {
+   "id": "L1271",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A splice appe",
+   "detail": "94 vs 32"
+  },
+  {
+   "id": "L1272",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A new multimo",
+   "detail": "43 vs 20"
+  },
+  {
+   "id": "L1273",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A duplex fibe",
+   "detail": "68 vs 28"
+  },
+  {
+   "id": "L1275",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A technician ",
+   "detail": "90 vs 44"
+  },
+  {
+   "id": "L1276",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A connector r",
+   "detail": "106 vs 29"
+  },
+  {
+   "id": "L1277",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Calculated li",
+   "detail": "80 vs 31"
+  },
+  {
+   "id": "L1278",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A switch port",
+   "detail": "75 vs 17"
+  },
+  {
+   "id": "L1279",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: An Ethernet i",
+   "detail": "79 vs 20"
+  },
+  {
+   "id": "L1280",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: One end of an",
+   "detail": "69 vs 31"
+  },
+  {
+   "id": "L1281",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Users can pin",
+   "detail": "49 vs 17"
+  },
+  {
+   "id": "L1285",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Two access po",
+   "detail": "99 vs 35"
+  },
+  {
+   "id": "L1286",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A trunk's nat",
+   "detail": "92 vs 30"
+  },
+  {
+   "id": "L1287",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A redundant L",
+   "detail": "71 vs 28"
+  },
+  {
+   "id": "L1288",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Two ports con",
+   "detail": "73 vs 16"
+  },
+  {
+   "id": "L1289",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Several nearb",
+   "detail": "85 vs 29"
+  },
+  {
+   "id": "L1290",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A wireless cl",
+   "detail": "61 vs 30"
+  },
+  {
+   "id": "L1295",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Inside hosts ",
+   "detail": "92 vs 21"
+  },
+  {
+   "id": "L1297",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Logs from dif",
+   "detail": "49 vs 15"
+  },
+  {
+   "id": "L1298",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A desktop sho",
+   "detail": "116 vs 21"
+  },
+  {
+   "id": "L1299",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A computer em",
+   "detail": "83 vs 17"
+  },
+  {
+   "id": "L1300",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A computer's ",
+   "detail": "82 vs 27"
+  },
+  {
+   "id": "L1302",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A server's sy",
+   "detail": "93 vs 24"
+  },
+  {
+   "id": "L1303",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: An applicatio",
+   "detail": "75 vs 21"
+  },
+  {
+   "id": "L1305",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A browser war",
+   "detail": "111 vs 27"
+  },
+  {
+   "id": "L1306",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: Backups repor",
+   "detail": "90 vs 30"
+  },
+  {
+   "id": "L1307",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A RAID 1 arra",
+   "detail": "111 vs 31"
+  },
+  {
+   "id": "L1308",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A long-lived ",
+   "detail": "99 vs 36"
+  },
+  {
+   "id": "L1309",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A containeriz",
+   "detail": "81 vs 32"
+  },
+  {
+   "id": "L1310",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A multi-step ",
+   "detail": "48 vs 15"
+  },
+  {
+   "id": "L1312",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A web applica",
+   "detail": "69 vs 25"
+  },
+  {
+   "id": "L1313",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A user can li",
+   "detail": "61 vs 17"
+  },
+  {
+   "id": "L1314",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A security up",
+   "detail": "111 vs 27"
+  },
+  {
+   "id": "L1315",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: An endpoint s",
+   "detail": "81 vs 30"
+  },
+  {
+   "id": "L1316",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A payroll out",
+   "detail": "68 vs 30"
+  },
+  {
+   "id": "L1317",
+   "source": "CompTIA Core Skills",
+   "stem": "During a workshop assessment, the reported condition is: A service met",
+   "detail": "80 vs 32"
+  },
+  {
+   "id": "L1318",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A bearing's t",
+   "detail": "98 vs 39"
+  },
+  {
+   "id": "L1320",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A newly coupl",
+   "detail": "55 vs 14"
+  },
+  {
+   "id": "L1321",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A vibration s",
+   "detail": "60 vs 20"
+  },
+  {
+   "id": "L1322",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: An infrared s",
+   "detail": "90 vs 35"
+  },
+  {
+   "id": "L1323",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Oil analysis ",
+   "detail": "82 vs 26"
+  },
+  {
+   "id": "L1324",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A filter's di",
+   "detail": "69 vs 32"
+  },
+  {
+   "id": "L1325",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A calibrated ",
+   "detail": "107 vs 28"
+  },
+  {
+   "id": "L1326",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Several flang",
+   "detail": "105 vs 21"
+  },
+  {
+   "id": "L1327",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Corrosion is ",
+   "detail": "106 vs 29"
+  },
+  {
+   "id": "L1328",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A belt drive ",
+   "detail": "77 vs 30"
+  },
+  {
+   "id": "L1329",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A centrifugal",
+   "detail": "69 vs 17"
+  },
+  {
+   "id": "L1330",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A mechanical ",
+   "detail": "57 vs 27"
+  },
+  {
+   "id": "L1331",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A long hot pi",
+   "detail": "77 vs 20"
+  },
+  {
+   "id": "L1332",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A CMMS histor",
+   "detail": "81 vs 29"
+  },
+  {
+   "id": "L1333",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A fuse keeps ",
+   "detail": "100 vs 34"
+  },
+  {
+   "id": "L1334",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A critical im",
+   "detail": "112 vs 43"
+  },
+  {
+   "id": "L1335",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: Loose tools a",
+   "detail": "65 vs 26"
+  },
+  {
+   "id": "L1336",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A task risk a",
+   "detail": "94 vs 29"
+  },
+  {
+   "id": "L1337",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: After a repai",
+   "detail": "102 vs 36"
+  },
+  {
+   "id": "L1338",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: An email urge",
+   "detail": "89 vs 28"
+  },
+  {
+   "id": "L1341",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A user accoun",
+   "detail": "87 vs 30"
+  },
+  {
+   "id": "L1343",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: Multiple serv",
+   "detail": "102 vs 15"
+  },
+  {
+   "id": "L1347",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A vulnerabili",
+   "detail": "93 vs 22"
+  },
+  {
+   "id": "L1348",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A vendor rele",
+   "detail": "97 vs 33"
+  },
+  {
+   "id": "L1349",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A service pre",
+   "detail": "71 vs 34"
+  },
+  {
+   "id": "L1350",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A SIEM has no",
+   "detail": "96 vs 33"
+  },
+  {
+   "id": "L1351",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A forensic dr",
+   "detail": "53 vs 14"
+  },
+  {
+   "id": "L1352",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A workstation",
+   "detail": "112 vs 23"
+  },
+  {
+   "id": "L1353",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A DLP rule bl",
+   "detail": "110 vs 20"
+  },
+  {
+   "id": "L1354",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: Ransomware en",
+   "detail": "117 vs 19"
+  },
+  {
+   "id": "L1355",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: An administra",
+   "detail": "91 vs 33"
+  },
+  {
+   "id": "L1356",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A third-party",
+   "detail": "96 vs 24"
+  },
+  {
+   "id": "L1357",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A security te",
+   "detail": "97 vs 27"
+  },
+  {
+   "id": "L1358",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A laptop batt",
+   "detail": "100 vs 39"
+  },
+  {
+   "id": "L1359",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A desktop shu",
+   "detail": "93 vs 17"
+  },
+  {
+   "id": "L1360",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: Firmware dete",
+   "detail": "83 vs 21"
+  },
+  {
+   "id": "L1361",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A mirrored st",
+   "detail": "114 vs 30"
+  },
+  {
+   "id": "L1362",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A phone charg",
+   "detail": "79 vs 35"
+  },
+  {
+   "id": "L1363",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A network pri",
+   "detail": "78 vs 22"
+  },
+  {
+   "id": "L1364",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A laptop conn",
+   "detail": "65 vs 21"
+  },
+  {
+   "id": "L1365",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: An endpoint d",
+   "detail": "98 vs 33"
+  },
+  {
+   "id": "L1366",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A Windows dev",
+   "detail": "103 vs 29"
+  },
+  {
+   "id": "L1367",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A Linux user ",
+   "detail": "60 vs 16"
+  },
+  {
+   "id": "L1368",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Clients on on",
+   "detail": "82 vs 23"
+  },
+  {
+   "id": "L1369",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Users reach a",
+   "detail": "69 vs 20"
+  },
+  {
+   "id": "L1370",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A copper link",
+   "detail": "82 vs 19"
+  },
+  {
+   "id": "L1371",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A workstation",
+   "detail": "57 vs 18"
+  },
+  {
+   "id": "L1372",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Wireless user",
+   "detail": "85 vs 18"
+  },
+  {
+   "id": "L1373",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A monitoring ",
+   "detail": "87 vs 22"
+  },
+  {
+   "id": "L1374",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: A remote user",
+   "detail": "99 vs 17"
+  },
+  {
+   "id": "L1375",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "During a workshop assessment, the reported condition is: Clients sudde",
+   "detail": "57 vs 18"
+  },
+  {
+   "id": "L1376",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: A user approv",
+   "detail": "110 vs 19"
+  },
+  {
+   "id": "L1377",
+   "source": "CompTIA Security+ SY0-701",
+   "stem": "During a workshop assessment, the reported condition is: Sensitive cus",
+   "detail": "86 vs 20"
+  },
+  {
+   "id": "L1378",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: A Cisco inter",
+   "detail": "67 vs 19"
+  },
+  {
+   "id": "L1379",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: A Cisco inter",
+   "detail": "88 vs 22"
+  },
+  {
+   "id": "L1380",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: A routing tab",
+   "detail": "45 vs 17"
+  },
+  {
+   "id": "L1381",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: A router can ",
+   "detail": "76 vs 25"
+  },
+  {
+   "id": "L1382",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: A VLAN exists",
+   "detail": "87 vs 18"
+  },
+  {
+   "id": "L1383",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: A VLAN is pre",
+   "detail": "70 vs 13"
+  },
+  {
+   "id": "L1384",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Two switches ",
+   "detail": "89 vs 16"
+  },
+  {
+   "id": "L1385",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: The wrong acc",
+   "detail": "74 vs 14"
+  },
+  {
+   "id": "L1386",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: An endpoint-f",
+   "detail": "81 vs 28"
+  },
+  {
+   "id": "L1387",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Two links con",
+   "detail": "84 vs 22"
+  },
+  {
+   "id": "L1388",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Hosts in diff",
+   "detail": "81 vs 20"
+  },
+  {
+   "id": "L1389",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Two OSPF rout",
+   "detail": "95 vs 21"
+  },
+  {
+   "id": "L1392",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: A standard IP",
+   "detail": "70 vs 17"
+  },
+  {
+   "id": "L1394",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Clients on a ",
+   "detail": "79 vs 22"
+  },
+  {
+   "id": "L1395",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Router logs c",
+   "detail": "42 vs 12"
+  },
+  {
+   "id": "L1396",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: Remote manage",
+   "detail": "95 vs 15"
+  },
+  {
+   "id": "L1397",
+   "source": "Cisco CCNA 200-301 v1.1",
+   "stem": "During a workshop assessment, the reported condition is: An automation",
+   "detail": "56 vs 20"
+  },
+  {
+   "id": "L1398",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A computer em",
+   "detail": "93 vs 16"
+  },
+  {
+   "id": "L1399",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A workstation",
+   "detail": "103 vs 23"
+  },
+  {
+   "id": "L1400",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A desktop ran",
+   "detail": "65 vs 22"
+  },
+  {
+   "id": "L1401",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A processor r",
+   "detail": "87 vs 21"
+  },
+  {
+   "id": "L1402",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A drive repor",
+   "detail": "78 vs 15"
+  },
+  {
+   "id": "L1403",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: An M.2 drive ",
+   "detail": "79 vs 36"
+  },
+  {
+   "id": "L1404",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A RAID 5 arra",
+   "detail": "78 vs 27"
+  },
+  {
+   "id": "L1405",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: Secure Boot w",
+   "detail": "78 vs 18"
+  },
+  {
+   "id": "L1406",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A TPM-protect",
+   "detail": "67 vs 24"
+  },
+  {
+   "id": "L1407",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A system repe",
+   "detail": "98 vs 19"
+  },
+  {
+   "id": "L1408",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A Linux volum",
+   "detail": "98 vs 32"
+  },
+  {
+   "id": "L1409",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: One process c",
+   "detail": "77 vs 22"
+  },
+  {
+   "id": "L1411",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A newly insta",
+   "detail": "103 vs 18"
+  },
+  {
+   "id": "L1412",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A system with",
+   "detail": "115 vs 35"
+  },
+  {
+   "id": "L1413",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A shared scri",
+   "detail": "94 vs 21"
+  },
+  {
+   "id": "L1414",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A sudo rule g",
+   "detail": "72 vs 22"
+  },
+  {
+   "id": "L1415",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A systemd ser",
+   "detail": "99 vs 22"
+  },
+  {
+   "id": "L1416",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: An operating-",
+   "detail": "94 vs 20"
+  },
+  {
+   "id": "L1417",
+   "source": "CompTIA A+ 220-1201/1202",
+   "stem": "During a workshop assessment, the reported condition is: A full-disk i",
+   "detail": "92 vs 24"
+  },
+  {
+   "id": "L1420",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A BJT switch ",
+   "detail": "85 vs 19"
+  },
+  {
+   "id": "L1421",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A MOSFET beco",
+   "detail": "46 vs 11"
+  },
+  {
+   "id": "L1422",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: An op-amp out",
+   "detail": "37 vs 17"
+  },
+  {
+   "id": "L1424",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: An RC low-pas",
+   "detail": "96 vs 24"
+  },
+  {
+   "id": "L1428",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: An unused CMO",
+   "detail": "80 vs 25"
+  },
+  {
+   "id": "L1431",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A PLC input i",
+   "detail": "95 vs 30"
+  },
+  {
+   "id": "L1432",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A 4-20 mA tra",
+   "detail": "83 vs 26"
+  },
+  {
+   "id": "L1433",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A temperature",
+   "detail": "79 vs 20"
+  },
+  {
+   "id": "L1434",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A PID-control",
+   "detail": "100 vs 21"
+  },
+  {
+   "id": "L1435",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A motor drive",
+   "detail": "87 vs 29"
+  },
+  {
+   "id": "L1436",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A servo axis ",
+   "detail": "66 vs 21"
+  },
+  {
+   "id": "L1437",
+   "source": "Technical Foundations",
+   "stem": "During a workshop assessment, the reported condition is: A stepper mot",
+   "detail": "81 vs 28"
+  },
+  {
+   "id": "L1624",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Subnet exercise N4-S1 uses /24, whose relevant mask octet is 0. What b",
+   "detail": "3 vs 1"
+  },
+  {
+   "id": "L1636",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Firewall review N4-F2 must permit standard DNS traffic. Which protocol",
+   "detail": "13 vs 6"
+  },
+  {
+   "id": "L1655",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Firewall review N4-F4 must permit standard RDP traffic. Which protocol",
+   "detail": "15 vs 7"
+  },
+  {
+   "id": "L1689",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Firewall review N4-F9 must permit standard LDAP traffic. Which protoco",
+   "detail": "14 vs 6"
+  },
+  {
+   "id": "L1697",
+   "source": "CompTIA Core Skills",
+   "stem": "Storage conversion IT4-M1 contains 8 MiB. How many bytes is that using",
+   "detail": "15 vs 7"
+  },
+  {
+   "id": "L1720",
+   "source": "CompTIA Core Skills",
+   "stem": "Service report IT4-A3 covers 720 hours with 2 hours of downtime. What ",
+   "detail": "8 vs 3"
+  },
+  {
+   "id": "L1760",
+   "source": "CompTIA Core Skills",
+   "stem": "Service report IT4-A7 covers 720 hours with 5 hours of downtime. What ",
+   "detail": "8 vs 3"
+  },
+  {
+   "id": "L2002",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Network+ subnet case CT4-H1 uses prefix /24. How many conventional usa",
+   "detail": "3 vs 1"
+  },
+  {
+   "id": "L2012",
+   "source": "CompTIA Network+ N10-009",
+   "stem": "Network+ subnet case CT4-H2 uses prefix /25. How many conventional usa",
+   "detail": "3 vs 1"
+  },
+  {
+   "id": "L2277",
+   "source": "Technical Foundations",
+   "stem": "Divider EA4-D1 has 5 V input, 100 Ω upper resistor, and 200 Ω lower re",
+   "detail": "7 vs 3"
+  },
+  {
+   "id": "L2281",
+   "source": "Technical Foundations",
+   "stem": "Ideal 10-bit ADC EA4-C1 uses 5 V reference and measures 0.5 V. What ne",
+   "detail": "3 vs 1"
+  },
+  {
+   "id": "L2282",
+   "source": "Technical Foundations",
+   "stem": "Ideal 8-bit DAC EA4-G1 uses 5 V full scale and code 30. Using code/255",
+   "detail": "7 vs 3"
+  },
+  {
+   "id": "L2287",
+   "source": "Technical Foundations",
+   "stem": "Divider EA4-D2 has 6 V input, 120 Ω upper resistor, and 230 Ω lower re",
+   "detail": "7 vs 3"
+  },
+  {
+   "id": "L2324",
+   "source": "Technical Foundations",
+   "stem": "PWM signal EA4-P5 is high for 6 ms in a 18 ms period. What duty cycle ",
+   "detail": "5 vs 2"
+  },
+  {
+   "id": "L2389",
+   "source": "Technical Foundations",
+   "stem": "How should a four-band resistor normally be oriented before reading it",
+   "detail": "60 vs 25"
+  },
+  {
+   "id": "L2396",
+   "source": "Technical Foundations",
+   "stem": "A brown-black-red-gold resistor measures 1.18 kΩ after one lead is iso",
+   "detail": "70 vs 24"
+  }
+ ],
+ "very short stem": [
+  {
+   "id": "MIF-021",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What is the purpose of DNS?",
+   "detail": "27 chars"
+  },
+  {
+   "id": "MIF-024",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What does RAM stand for?",
+   "detail": "24 chars"
+  },
+  {
+   "id": "MIF-030",
+   "source": "MIFOTRA Centralized ICT Acquisition Officer",
+   "stem": "What does VPN stand for?",
+   "detail": "24 chars"
+  }
+ ],
+ "has an all-of-the-above that is not the answer": [
+  {
+   "id": "HT-005",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Which of the following would you not value as the benefit of engaging ",
+   "detail": ""
+  },
+  {
+   "id": "HT-027",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "If I become a deputy head teacher, I will promote team working because",
+   "detail": ""
+  }
+ ],
+ "duplicate options": [
+  {
+   "id": "HT-041",
+   "source": "MIFOTRA Deputy Headteacher in Charge of Studies",
+   "stem": "Case study: A head teacher called a staff training on ICT in teaching ",
+   "detail": ""
+  }
+ ]
+}

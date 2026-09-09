@@ -18,6 +18,7 @@ export default function AdminPage() {
       </p>
       <p className="navrow">
         <Link className="btn ghost" href="/admin/blog">Blog generator</Link>
+        <Link className="btn ghost" href="/admin/questions">All questions</Link>
       </p>
       <AdminGate>
         <AdminPanel />

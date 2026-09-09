@@ -5,6 +5,7 @@ import { freeQuestions, questionBySlug, topicSlug } from '@/lib/questions';
 import { previewBySlug, relatedPreviews, type QuestionPreview } from '@/lib/preview';
 import UpsellCard from '@/app/UpsellCard';
 import Provenance from '@/app/Provenance';
+import AskAI from '@/app/AskAI';
 import { TOTAL_COUNT, PAID_COUNT, fmt } from '@/lib/counts';
 import { coursesForQuestion } from '@/lib/courses';
 
@@ -136,6 +137,8 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
             )}
           </div>
         </div>
+
+        <AskAI questionId={free.id} />
 
         <Provenance q={free} />
 

@@ -8,6 +8,7 @@ import UpsellModal from './UpsellModal';
 import { useLayoutMode, toggleFullscreen } from './useLayoutMode';
 import { Maximize2, Minimize2 } from 'lucide-react';
 import { TOTAL_COUNT, fmt } from '@/lib/counts';
+import AskAI from './AskAI';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -449,6 +450,7 @@ export default function ExamRunner({
             </b>
             {lang !== 'fr' && <div>{q.en.explanation}</div>}
             {q.fr && lang !== 'en' && <div className="muted">{q.fr.explanation}</div>}
+            <AskAI questionId={q.id} />
           </div>
         )}
 

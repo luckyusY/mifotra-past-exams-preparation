@@ -96,6 +96,7 @@ export default function ExamRunner({
   mode = 'study',
   shuffleQuestions = true,
   showUpsell = false,
+  onFinish,
 }: {
   questions: Question[];
   title: string;
@@ -104,6 +105,8 @@ export default function ExamRunner({
   shuffleQuestions?: boolean;
   /** Free surfaces offer the paid bank; the paid bank itself must not. */
   showUpsell?: boolean;
+  /** Called once when the attempt ends, so progress can be recorded. */
+  onFinish?: (results: { id: string; correct: boolean }[]) => void;
 }) {
   // Shuffling must not run during render: the server and the client would pick
   // different orders and hydration would mismatch. Render the fixed order first,
@@ -128,6 +131,20 @@ export default function ExamRunner({
 
   // A running exam takes the whole screen; the results page hands the site back.
   useLayoutMode(done ? null : 'focus');
+
+  // Report results once and only once. `done` flips on finishing, on the timer
+  // expiring and on the last Next, so a guard is needed or the tracker would
+  // count the same attempt several times.
+  const reported = useRef(false);
+  useEffect(() => {
+    if (!done || reported.current || !onFinish) return;
+    reported.current = true;
+    onFinish(
+      prepared
+        .map((item, idx) => ({ id: item.id, correct: answers[idx] === item.answer }))
+        .filter((_, idx) => answers[idx] !== null)
+    );
+  }, [done, onFinish, prepared, answers]);
 
   useEffect(() => {
     const sync = () => setIsFull(Boolean(document.fullscreenElement));

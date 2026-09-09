@@ -891,3 +891,49 @@ a.card:hover, .course-card:hover {
 .spin { animation: spin 1s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 @media (prefers-reduced-motion: reduce) { .spin { animation: none; } }
+
+/* ---- study plan ---- */
+.quote {
+  margin: 0 0 1.5rem;
+  padding: 1.1rem 1.3rem;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border-left: 3px solid var(--green);
+  box-shadow: var(--e1);
+}
+.quote blockquote { margin: 0; font-size: 1.06rem; line-height: 1.5; }
+.quote figcaption { margin-top: .5rem; color: var(--ink-muted); font-size: .88rem; }
+
+.stat-icon { color: var(--blue); margin-bottom: .3rem; }
+.goalbar, .setbar {
+  display: block; height: 5px; margin-top: .5rem;
+  background: var(--surface-2); border-radius: 99px;
+  overflow: hidden; border: 1px solid var(--line);
+}
+.goalbar > i, .setbar > i {
+  display: block; height: 100%;
+  background: linear-gradient(90deg, var(--blue), var(--green));
+  transition: width .3s;
+}
+
+.setgrid {
+  display: grid; gap: .7rem;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+}
+.setcard {
+  display: flex; flex-direction: column; gap: .15rem;
+  text-align: left; cursor: pointer; font: inherit; color: inherit;
+  padding: .85rem 1rem; border-radius: var(--radius);
+  background: var(--surface); border: 1px solid var(--line);
+  box-shadow: var(--e1);
+  transition: transform .18s cubic-bezier(.2,.7,.3,1), box-shadow .18s, border-color .15s;
+}
+.setcard:hover { transform: translateY(-3px); box-shadow: var(--e3); border-color: var(--blue); }
+.setcard.is-done { border-color: var(--green-line); background: var(--green-soft); }
+.set-n { font-weight: 700; }
+.set-meta { font-size: .82rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .setcard:hover { transform: none; }
+  .goalbar > i, .setbar > i { transition: none; }
+}

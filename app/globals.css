@@ -765,3 +765,19 @@ a.card:hover, .course-card:hover {
   background: var(--surface);
   color: var(--ink);
 }
+
+/* Who am I - only rendered once a session actually exists. */
+.session-badge {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font-size: .84rem; padding: .2rem .5rem .2rem .6rem;
+  border: 1px solid var(--line); border-radius: 99px;
+  background: var(--surface-2);
+}
+.session-badge a { text-decoration: none; }
+.session-badge.is-admin { border-color: var(--green-line); background: var(--green-soft); }
+.session-badge button {
+  font: inherit; font-size: .8rem; cursor: pointer;
+  background: none; border: 0; padding: 0 .1rem;
+  color: var(--ink-muted); text-decoration: underline;
+}
+.session-badge button:hover { color: var(--ink); }

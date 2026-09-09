@@ -3,6 +3,7 @@ import Link from 'next/link';
 import './globals.css';
 import { WHATSAPP_DISPLAY, whatsappLink } from './Contact';
 import WhatsAppBubble from './WhatsAppBubble';
+import SessionBadge from './SessionBadge';
 
 const site = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 
@@ -61,6 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/topics">Topics</Link>
               <Link href="/blog">Guides</Link>
               <Link href="/unlock" className="nav-cta">Unlock full bank</Link>
+              <SessionBadge />
             </nav>
           </div>
         </header>

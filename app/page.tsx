@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import { freeQuestions, mifotraQuestions, topics, topicSlug } from '@/lib/questions';
+import { allPastPaperQuestions, freeQuestions, ictPaperQuestions, topics, topicSlug } from '@/lib/questions';
 import UpsellCard from './UpsellCard';
 import { COURSES, freeQuestionsFor } from '@/lib/courses';
 import Hero3D from './Hero3D';
 
 export default function Home() {
-  const marks = mifotraQuestions.reduce((a, q) => a + q.marks, 0);
+  const marks = ictPaperQuestions.reduce((a, q) => a + q.marks, 0);
 
   return (
     <>
@@ -17,7 +17,7 @@ export default function Home() {
               Practise the real MIFOTRA ICT exam, in English and French.
             </h1>
             <p className="lead">
-              The full {mifotraQuestions.length}-question Centralized ICT Acquisition Officer
+              The full {ictPaperQuestions.length}-question Centralized ICT Acquisition Officer
               past paper, every answer cross-checked against the original session and explained. Free to practise,
               no account needed.
             </p>
@@ -54,7 +54,7 @@ export default function Home() {
       </section>
 
       <section className="card grid stat-grid" style={{ marginBottom: '1.5rem' }}>
-        <div className="stat"><b>{mifotraQuestions.length}</b><span>Past-paper questions</span></div>
+        <div className="stat"><b>{allPastPaperQuestions.length}</b><span>Past-paper questions</span></div>
         <div className="stat"><b>{marks}</b><span>Total marks</span></div>
         <div className="stat"><b>{freeQuestions.length}</b><span>Free questions</span></div>
         <div className="stat"><b>2</b><span>Languages</span></div>

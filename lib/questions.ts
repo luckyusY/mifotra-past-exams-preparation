@@ -31,9 +31,24 @@ export type Question = {
 
 export const freeQuestions = free as Question[];
 
-export const mifotraQuestions = freeQuestions
-  .filter((q) => q.examNumber !== null)
-  .sort((a, b) => (a.examNumber ?? 0) - (b.examNumber ?? 0));
+const byNumber = (a: Question, b: Question) => (a.examNumber ?? 0) - (b.examNumber ?? 0);
+
+/**
+ * One selector per paper. `examNumber !== null` used to mean "the past paper"
+ * back when there was only one; adding the Deputy Headteacher paper silently
+ * made it mean "both", which served a 100-question mixture under the ICT title.
+ * Each paper is now named explicitly so a third one cannot repeat that.
+ */
+export const ictPaperQuestions = freeQuestions
+  .filter((q) => q.examSource.includes('Centralized ICT'))
+  .sort(byNumber);
+
+export const headteacherQuestions = freeQuestions
+  .filter((q) => q.examSource.includes('Deputy Headteacher'))
+  .sort(byNumber);
+
+/** Both real past papers, for counting only - never for serving as one exam. */
+export const allPastPaperQuestions = freeQuestions.filter((q) => q.examNumber !== null);
 
 export const topics = [...new Set(freeQuestions.map((q) => q.topic))].sort();
 

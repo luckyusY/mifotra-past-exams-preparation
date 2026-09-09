@@ -21,8 +21,9 @@
  */
 
 import fs from 'node:fs';
+import { extraFamilies } from './drill-families-extra.mjs';
 
-const TARGET = Number(process.argv[2]) || 7600;
+const TARGET = Number(process.argv[2]) || 4200;
 
 /* ---------- deterministic randomness ---------- */
 
@@ -557,6 +558,9 @@ const FAMILIES = [
   },
 ];
 
+// Task-variety families: same physics, genuinely different question.
+FAMILIES.push(...extraFamilies({ item, pick, between, round, rand, RW }));
+
 /* ---------- generate ---------- */
 
 const out = [];
@@ -567,7 +571,20 @@ let attempts = 0;
 // No single skill should dominate. A candidate drilling the bank needs spread,
 // and a family that has run out of genuine variants must not be topped up with
 // reworded ones just to hit a number.
-const CAP = Math.ceil((TARGET / FAMILIES.length) * 1.8);
+// Hard ceiling per template. Volume must come from having many different
+// questions, never from asking one question many times.
+const CAP = Number(process.argv[3]) || 130;
+
+/**
+ * A stem may not be reused, full stop.
+ *
+ * Uniqueness on stem+options is not enough: a family whose variation lives
+ * entirely in the options produces one stem over and over, which is what a
+ * candidate actually notices. Two questions that read identically are one
+ * question however different their option lists.
+ */
+const perStem = new Map();
+const MAX_PER_STEM = 1;
 
 while (out.length < TARGET && attempts < TARGET * 120) {
   attempts++;
@@ -580,7 +597,9 @@ while (out.length < TARGET && attempts < TARGET * 120) {
   // network or resistor makes a genuinely different question.
   const key = q.stem + '||' + [...q.options].sort().join('|');
   if (seen.has(key)) continue;
+  if ((perStem.get(q.stem) ?? 0) >= MAX_PER_STEM) continue;
   seen.add(key);
+  perStem.set(q.stem, (perStem.get(q.stem) ?? 0) + 1);
 
   perFamily.set(q.skill, (perFamily.get(q.skill) ?? 0) + 1);
   out.push(q);
@@ -607,7 +626,7 @@ const pos = [0, 0, 0, 0];
 for (const q of out) pos[q.answerIndex]++;
 
 console.log(`generated ${out.length} drill questions from ${FAMILIES.length} skill families`);
-console.log(`unique stem+options: ${seen.size}`);
+console.log(`distinct stems     : ${perStem.size}  (no stem reused)`);
 console.log(`answer position: ${pos.map((n, i) => 'ABCD'[i] + ' ' + Math.round((n / out.length) * 100) + '%').join('  ')}`);
 console.log('\nper skill:');
 for (const [k, v] of [...perFamily].sort((a, b) => b[1] - a[1])) {

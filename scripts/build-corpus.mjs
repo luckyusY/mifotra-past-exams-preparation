@@ -13,9 +13,10 @@ const FREE_LEGACY = 150;
 const mifotra = JSON.parse(fs.readFileSync('data/mifotra-2024.json', 'utf8'));
 const headteacher = JSON.parse(fs.readFileSync('data/mifotra-headteacher-dos.json', 'utf8'));
 const legacy = JSON.parse(fs.readFileSync('data/legacy-pool.json', 'utf8'));
-const drills = fs.existsSync('data/drills.json')
-  ? JSON.parse(fs.readFileSync('data/drills.json', 'utf8'))
-  : [];
+const drills = [
+  ...(fs.existsSync('data/drills.json') ? JSON.parse(fs.readFileSync('data/drills.json', 'utf8')) : []),
+  ...(fs.existsSync('data/knowledge.json') ? JSON.parse(fs.readFileSync('data/knowledge.json', 'utf8')) : []),
+];
 
 const slug = (s) =>
   s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')

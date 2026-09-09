@@ -10,7 +10,7 @@ import free from '@/data/questions.free.json';
 export const FREE_COUNT = (free as unknown[]).length;
 
 /** Written by scripts/build-corpus.mjs so the paid side needs no import. */
-export const PAID_COUNT = 9846;
+export const PAID_COUNT = 7017;
 export const TOTAL_COUNT = FREE_COUNT + PAID_COUNT;
 
 export const fmt = (n: number) => n.toLocaleString('en-US');

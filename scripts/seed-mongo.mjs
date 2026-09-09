@@ -42,6 +42,27 @@ for (let i = 0; i < ops.length; i += 500) {
   console.log(`  ${i + chunk.length}/${ops.length}  (+${res.upsertedCount} new)`);
 }
 
+/**
+ * Remove questions that are no longer in the corpus.
+ *
+ * The seed was upsert-only, which quietly meant deletions never propagated: a
+ * question dropped from the corpus stayed in the paid bank and kept being sold.
+ * That is how 4,408 drills removed for being repetitive were still live after
+ * the fix that removed them.
+ */
+const localIds = new Set(paid.map((q) => q.id));
+const inDb = await db.collection('questions').find({}, { projection: { _id: 0, id: 1 } }).toArray();
+const orphans = inDb.filter((r) => !localIds.has(r.id)).map((r) => r.id);
+
+if (orphans.length) {
+  for (let i = 0; i < orphans.length; i += 1000) {
+    await db.collection('questions').deleteMany({ id: { $in: orphans.slice(i, i + 1000) } });
+  }
+  console.log(`removed ${orphans.length.toLocaleString()} questions no longer in the corpus`);
+} else {
+  console.log('no orphans - database matches the corpus');
+}
+
 const banks = await db.collection('questions').aggregate([
   { $group: { _id: '$bankId', n: { $sum: 1 } } }, { $sort: { _id: 1 } },
 ]).toArray();

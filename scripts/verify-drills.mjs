@@ -135,6 +135,43 @@ const CHECKS = {
     const [, planned, done] = q.stem.match(/planned (\d+(?:\.\d+)?) tasks and (\d+(?:\.\d+)?) were completed/);
     return [(Number(done) / Number(planned)) * 100, num(q.options[q.answerIndex])];
   },
+  'breaker-threshold': (q) => {
+    const m = q.stem.match(/A (\d+(?:\.\d+)?) kW heater runs from a (\d+) V supply on a circuit protected by a (\d+) A breaker/);
+    if (!m) return null;
+    const I = (Number(m[1]) * 1000) / Number(m[2]);
+    const breaker = Number(m[3]);
+    const keyed = q.options[q.answerIndex];
+    const saysNo = keyed.startsWith('No');
+    // encode the verdict as 1/0 so the shared comparison still applies
+    return [I > breaker ? 1 : 0, saysNo ? 1 : 0];
+  },
+  'subnet-choose-mask': (q) => {
+    const m = q.stem.match(/needs (\d+) usable addresses/);
+    if (!m) return null;
+    const need = Number(m[1]);
+    let cidr = 30;
+    while (Math.pow(2, 32 - cidr) - 2 < need && cidr > 8) cidr--;
+    return [cidr, Number(q.options[q.answerIndex].replace('/', ''))];
+  },
+  'same-subnet': (q) => {
+    const m = q.stem.match(/192\.168\.5\.(\d+)\/(\d+) and 192\.168\.5\.(\d+)\/(\d+)/);
+    if (!m) return null;
+    const block = Math.pow(2, 32 - Number(m[2]));
+    const together = Math.floor(Number(m[1]) / block) === Math.floor(Number(m[3]) / block);
+    return [together ? 1 : 0, q.options[q.answerIndex].startsWith('Yes') ? 1 : 0];
+  },
+  'compare-current': (q) => {
+    const loads = [...q.stem.matchAll(/(\d+) V across (\d+) Ω/g)].map((x) => ({ V: Number(x[1]), R: Number(x[2]) }));
+    if (loads.length !== 4) return null;
+    const power = /power/.test(q.stem);
+    const least = /smallest|least/.test(q.stem);
+    const f = (o) => (power ? (o.V * o.V) / o.R : o.V / o.R);
+    const vals = loads.map(f);
+    const wantIdx = least ? vals.indexOf(Math.min(...vals)) : vals.indexOf(Math.max(...vals));
+    const want = loads[wantIdx];
+    const got = q.options[q.answerIndex].match(/(\d+) V across (\d+) Ω/);
+    return [want.V * 10000 + want.R, Number(got[1]) * 10000 + Number(got[2])];
+  },
   'energy-cost': (q) => {
     const [, w, h, rate] = q.stem.match(/A (\d+(?:\.\d+)?) W appliance runs for (\d+(?:\.\d+)?) hours\. At (\d+(?:\.\d+)?) RWF/);
     return [((Number(w) * Number(h)) / 1000) * Number(rate), num(q.options[q.answerIndex])];

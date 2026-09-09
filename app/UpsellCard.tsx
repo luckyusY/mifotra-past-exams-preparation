@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import WhatsAppButton, { WHATSAPP_DISPLAY } from './Contact';
 import { useSession } from './SessionProvider';
+import { TOTAL_COUNT, FREE_COUNT, fmt } from '@/lib/counts';
 import { Sparkles, ArrowRight } from 'lucide-react';
 
 /**
@@ -48,7 +49,7 @@ export default function UpsellCard({
   return (
     <aside className="card upsell">
       <span className="pill">Full question bank</span>
-      <h2 style={{ margin: '.6rem 0 .4rem' }}>2,446 questions. You have seen 200.</h2>
+      <h2 style={{ margin: '.6rem 0 .4rem' }}>{fmt(TOTAL_COUNT)} questions. You have seen {FREE_COUNT}.</h2>
       <p className="muted" style={{ marginTop: 0 }}>
         One payment adds a bank of 1,000 questions across networking, cybersecurity,
         operating systems, hardware, fibre and electrical systems &mdash; each with the

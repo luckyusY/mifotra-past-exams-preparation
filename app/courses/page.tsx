@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { COURSES, freeQuestionsFor } from '@/lib/courses';
+import { TOTAL_COUNT, fmt } from '@/lib/counts';
 import { topicCounts } from '@/lib/preview';
 import UpsellCard from '@/app/UpsellCard';
 
@@ -38,9 +39,9 @@ export default async function CoursesPage() {
       <h1>Courses</h1>
       <p className="lead" style={{ marginBottom: '1.4rem' }}>
         Every course here is MIFOTRA exam preparation, drawn from the same{' '}
-        {(2446).toLocaleString()}-question bank and filtered to one area. Fifty of those
-        questions are the real past paper; the rest are practice written to the published
-        objectives the exam draws on.
+        {fmt(TOTAL_COUNT)}-question bank and filtered to one area. A hundred of those are the
+        two real past papers; the rest is practice written to the published objectives the
+        exam draws on, plus worked drills that give you the same skill on new numbers.
       </p>
 
       <div className="grid" style={{ marginBottom: '2rem' }}>

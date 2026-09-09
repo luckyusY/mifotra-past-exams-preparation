@@ -7,6 +7,7 @@ import { shuffle } from '@/lib/questions';
 import UpsellModal from './UpsellModal';
 import { useLayoutMode, toggleFullscreen } from './useLayoutMode';
 import { Maximize2, Minimize2 } from 'lucide-react';
+import { TOTAL_COUNT, fmt } from '@/lib/counts';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -285,7 +286,7 @@ export default function ExamRunner({
                 : `${possible - scored} marks were left on the table.`}
             </h2>
             <p className="muted">
-              This paper is 50 questions. The full bank is 2,446, and every answer is
+              This paper is 50 questions. The full bank is {fmt(TOTAL_COUNT)}, and every answer is
               explained rather than just marked. A bank of 1,000 is 5,000 RWF, paid once
               to MoMo Pay 232255.
             </p>

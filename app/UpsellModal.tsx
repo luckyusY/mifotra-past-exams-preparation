@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useSession } from './SessionProvider';
+import { PAID_COUNT, fmt } from '@/lib/counts';
 
 const DISMISS_KEY = 'mifotra_upsell_dismissed';
 const DISMISS_DAYS = 7;
@@ -90,7 +91,7 @@ export default function UpsellModal({
         <span className="pill">Full question bank</span>
         <h2 id="upsell-title" style={{ margin: '.6rem 0 .4rem' }}>
           {answeredCount >= triggerAfter
-            ? `${answeredCount} answered. There are 2,246 more.`
+            ? `${answeredCount} answered. There are ${fmt(PAID_COUNT)} more.`
             : 'Before you go'}
         </h2>
         <p className="muted" style={{ marginTop: 0 }}>

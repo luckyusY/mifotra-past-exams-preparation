@@ -5,6 +5,7 @@ import { freeQuestions, questionBySlug, topicSlug } from '@/lib/questions';
 import { previewBySlug, relatedPreviews, type QuestionPreview } from '@/lib/preview';
 import UpsellCard from '@/app/UpsellCard';
 import Provenance from '@/app/Provenance';
+import { TOTAL_COUNT, PAID_COUNT, fmt } from '@/lib/counts';
 import { coursesForQuestion } from '@/lib/courses';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
@@ -156,7 +157,7 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
             Practise the full past paper
           </Link>
           <Link className="btn ghost" href="/unlock">
-            Unlock all 2,446 questions
+            Unlock all {fmt(TOTAL_COUNT)} questions
           </Link>
         </div>
       </>
@@ -225,7 +226,7 @@ export default async function QuestionPage({ params }: { params: Promise<{ slug:
         <div className="locked">
           <strong>The answer and explanation are in the full bank.</strong>
           <p className="muted">
-            This question is one of 2,246 in the paid banks. Each comes with the correct
+            This question is one of {fmt(PAID_COUNT)} in the paid banks. Each comes with the correct
             answer and the reasoning behind it, not just a mark.
           </p>
           <Link className="btn" href="/unlock">

@@ -13,6 +13,9 @@ const FREE_LEGACY = 150;
 const mifotra = JSON.parse(fs.readFileSync('data/mifotra-2024.json', 'utf8'));
 const headteacher = JSON.parse(fs.readFileSync('data/mifotra-headteacher-dos.json', 'utf8'));
 const legacy = JSON.parse(fs.readFileSync('data/legacy-pool.json', 'utf8'));
+const drills = fs.existsSync('data/drills.json')
+  ? JSON.parse(fs.readFileSync('data/drills.json', 'utf8'))
+  : [];
 
 const slug = (s) =>
   s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -84,6 +87,28 @@ const fromLegacy = legacy.map((q) => ({
   bankId: null,
 }));
 
+/* Generated drills. Each is a genuinely different problem - different network,
+   different resistor - with distractors computed from real error modes, and
+   every answer re-derived from its own stem by scripts/verify-drills.mjs. */
+const fromDrills = drills.map((q) => ({
+  id: q.id,
+  slug: `${slug(q.stem)}-${q.id.toLowerCase()}`,
+  examSource: q.source,
+  examNumber: null,
+  topic: q.topic,
+  marks: q.difficulty === 'Easy' ? 1 : q.difficulty === 'Medium' ? 3 : 4,
+  difficulty: q.difficulty,
+  en: { stem: q.stem, options: q.options, explanation: q.explanation },
+  fr: null,
+  answerIndex: q.answerIndex,
+  verified: true,
+  answerSource: 'computed',
+  skill: q.skill,
+  bilingual: false,
+  tier: 'paid',
+  bankId: null,
+}));
+
 /* Spread the free legacy sample across topics so the indexed pages cover the whole syllabus. */
 const byTopic = new Map();
 for (const q of fromLegacy) {
@@ -105,7 +130,7 @@ for (let round = 0; picked < FREE_LEGACY; round++) {
 }
 
 /* Number the paid banks. */
-const paid = fromLegacy.filter((q) => q.tier === 'paid');
+const paid = [...fromLegacy.filter((q) => q.tier === 'paid'), ...fromDrills];  // bank numbering only
 paid.forEach((q, i) => (q.bankId = Math.floor(i / BANK_SIZE) + 1));
 
 /**
@@ -151,7 +176,7 @@ function deshuffle(q) {
   };
 }
 
-const all = [...fromMifotra, ...fromHeadteacher, ...fromLegacy].map(deshuffle);
+const all = [...fromMifotra, ...fromHeadteacher, ...fromLegacy, ...fromDrills].map(deshuffle);
 
 /* Slugs must be unique - they are URLs. */
 const seen = new Map();
@@ -180,6 +205,7 @@ const keyed = dist.reduce((a, b) => a + b, 0);
 console.log(`ICT past paper     : ${fromMifotra.length}  (bilingual, free)`);
 console.log(`Headteacher paper  : ${fromHeadteacher.length}  (free, ${unverified} without a published answer)`);
 console.log(`legacy pool        : ${fromLegacy.length}`);
+console.log(`generated drills   : ${fromDrills.length}`);
 console.log(`-`.repeat(46));
 console.log(`free  (in repo)    : ${free.length}`);
 console.log(`paid  (MongoDB)    : ${paidOut.length}`);

@@ -13,7 +13,9 @@
     "test:redemption": "node scripts/test-redemption.mjs",
     "dev:db": "node scripts/dev-db.mjs",
     "data:backfill-links": "node scripts/backfill-links.mjs",
-    "check:seo": "node scripts/check-indexability.mjs"
+    "check:seo": "node scripts/check-indexability.mjs",
+    "data:drills": "node scripts/generate-drills.mjs",
+    "data:verify-drills": "node scripts/verify-drills.mjs"
   },
   "dependencies": {
     "framer-motion": "^13.2.0",

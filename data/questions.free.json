@@ -29,6 +29,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -63,6 +64,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -97,6 +99,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -131,6 +134,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -165,6 +169,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -199,6 +204,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -233,6 +239,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -267,6 +274,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -301,6 +309,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -335,6 +344,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -369,6 +379,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -403,6 +414,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -437,6 +449,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -471,6 +484,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -505,6 +519,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -539,6 +554,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -573,6 +589,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -607,6 +624,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -641,6 +659,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -675,6 +694,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -709,6 +729,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -743,6 +764,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -777,6 +799,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -811,6 +834,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -845,6 +869,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -879,6 +904,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -913,6 +939,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -947,6 +974,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -981,6 +1009,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1015,6 +1044,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1049,6 +1079,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1083,6 +1114,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1117,6 +1149,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1151,6 +1184,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1185,6 +1219,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1219,6 +1254,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1253,6 +1289,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1287,6 +1324,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1321,6 +1359,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1355,6 +1394,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1389,6 +1429,7 @@
   },
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1423,6 +1464,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1457,6 +1499,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1491,6 +1534,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1525,6 +1569,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1559,6 +1604,7 @@
   },
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1593,6 +1639,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1627,6 +1674,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1661,6 +1709,7 @@
   },
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1695,6 +1744,7 @@
   },
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "cross-checked",
   "bilingual": true,
   "tier": "free",
   "bankId": null
@@ -1720,6 +1770,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1745,6 +1796,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1770,6 +1822,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1795,6 +1848,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1820,6 +1874,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1845,6 +1900,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1870,6 +1926,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1895,6 +1952,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1920,6 +1978,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1945,6 +2004,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1970,6 +2030,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -1995,6 +2056,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2020,6 +2082,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2045,6 +2108,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2070,6 +2134,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2095,6 +2160,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2120,6 +2186,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2145,6 +2212,7 @@
   "fr": null,
   "answerIndex": null,
   "verified": false,
+  "answerSource": "none",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2170,6 +2238,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2195,6 +2264,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2220,6 +2290,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2245,6 +2316,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2270,6 +2342,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2295,6 +2368,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2320,6 +2394,7 @@
   "fr": null,
   "answerIndex": null,
   "verified": false,
+  "answerSource": "none",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2345,6 +2420,7 @@
   "fr": null,
   "answerIndex": null,
   "verified": false,
+  "answerSource": "none",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2370,6 +2446,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2395,6 +2472,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2420,6 +2498,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2445,6 +2524,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2470,6 +2550,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2495,6 +2576,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2520,6 +2602,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2545,6 +2628,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2570,6 +2654,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2595,6 +2680,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2620,6 +2706,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2645,6 +2732,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2670,6 +2758,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2695,6 +2784,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2720,6 +2810,7 @@
   "fr": null,
   "answerIndex": null,
   "verified": false,
+  "answerSource": "none",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2745,6 +2836,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2770,6 +2862,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2795,6 +2888,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2820,6 +2914,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2845,6 +2940,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2870,6 +2966,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "derived",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2895,6 +2992,7 @@
   "fr": null,
   "answerIndex": null,
   "verified": false,
+  "answerSource": "none",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2920,6 +3018,7 @@
   "fr": null,
   "answerIndex": null,
   "verified": false,
+  "answerSource": "none",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2945,6 +3044,7 @@
   "fr": null,
   "answerIndex": null,
   "verified": false,
+  "answerSource": "none",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2970,6 +3070,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -2995,6 +3096,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3020,6 +3122,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3045,6 +3148,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3070,6 +3174,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3095,6 +3200,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3120,6 +3226,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3145,6 +3252,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3170,6 +3278,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3195,6 +3304,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3220,6 +3330,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3245,6 +3356,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3270,6 +3382,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3295,6 +3408,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3320,6 +3434,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3345,6 +3460,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3370,6 +3486,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3395,6 +3512,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3420,6 +3538,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3445,6 +3564,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3470,6 +3590,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3495,6 +3616,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3520,6 +3642,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3545,6 +3668,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3570,6 +3694,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3595,6 +3720,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3620,6 +3746,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3645,6 +3772,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3670,6 +3798,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3695,6 +3824,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3720,6 +3850,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3745,6 +3876,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3770,6 +3902,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3795,6 +3928,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3820,6 +3954,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3845,6 +3980,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3870,6 +4006,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3895,6 +4032,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3920,6 +4058,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3945,6 +4084,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3970,6 +4110,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -3995,6 +4136,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4020,6 +4162,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4045,6 +4188,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4070,6 +4214,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4095,6 +4240,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4120,6 +4266,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4145,6 +4292,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4170,6 +4318,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4195,6 +4344,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4220,6 +4370,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4245,6 +4396,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4270,6 +4422,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4295,6 +4448,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4320,6 +4474,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4345,6 +4500,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4370,6 +4526,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4395,6 +4552,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4420,6 +4578,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4445,6 +4604,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4470,6 +4630,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4495,6 +4656,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4520,6 +4682,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4545,6 +4708,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4570,6 +4734,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4595,6 +4760,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4620,6 +4786,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4645,6 +4812,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4670,6 +4838,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4695,6 +4864,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4720,6 +4890,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4745,6 +4916,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4770,6 +4942,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4795,6 +4968,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4820,6 +4994,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4845,6 +5020,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4870,6 +5046,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4895,6 +5072,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4920,6 +5098,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4945,6 +5124,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4970,6 +5150,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -4995,6 +5176,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5020,6 +5202,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5045,6 +5228,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5070,6 +5254,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5095,6 +5280,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5120,6 +5306,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5145,6 +5332,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5170,6 +5358,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5195,6 +5384,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5220,6 +5410,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5245,6 +5436,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5270,6 +5462,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5295,6 +5488,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5320,6 +5514,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5345,6 +5540,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5370,6 +5566,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5395,6 +5592,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5420,6 +5618,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5445,6 +5644,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5470,6 +5670,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5495,6 +5696,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5520,6 +5722,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5545,6 +5748,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5570,6 +5774,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5595,6 +5800,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5620,6 +5826,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5645,6 +5852,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5670,6 +5878,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5695,6 +5904,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5720,6 +5930,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5745,6 +5956,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5770,6 +5982,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5795,6 +6008,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5820,6 +6034,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5845,6 +6060,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5870,6 +6086,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5895,6 +6112,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5920,6 +6138,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5945,6 +6164,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5970,6 +6190,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -5995,6 +6216,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6020,6 +6242,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6045,6 +6268,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6070,6 +6294,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6095,6 +6320,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6120,6 +6346,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6145,6 +6372,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6170,6 +6398,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6195,6 +6424,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6220,6 +6450,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6245,6 +6476,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6270,6 +6502,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6295,6 +6528,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6320,6 +6554,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6345,6 +6580,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6370,6 +6606,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6395,6 +6632,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6420,6 +6658,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6445,6 +6684,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6470,6 +6710,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6495,6 +6736,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6520,6 +6762,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6545,6 +6788,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6570,6 +6814,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6595,6 +6840,7 @@
   "fr": null,
   "answerIndex": 3,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6620,6 +6866,7 @@
   "fr": null,
   "answerIndex": 2,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6645,6 +6892,7 @@
   "fr": null,
   "answerIndex": 0,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6670,6 +6918,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null
@@ -6695,6 +6944,7 @@
   "fr": null,
   "answerIndex": 1,
   "verified": true,
+  "answerSource": "authored",
   "bilingual": false,
   "tier": "free",
   "bankId": null

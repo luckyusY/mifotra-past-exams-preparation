@@ -23,7 +23,7 @@ export async function generateMetadata({
   if (!list.length) return {};
   return {
     title: `${list[0].topic} questions`,
-    description: `MIFOTRA ICT exam practice questions on ${list[0].topic}, with verified answers and explanations in English and French.`,
+    description: `MIFOTRA exam practice questions on ${list[0].topic}, each with a worked answer and explanation.`,
     alternates: { canonical: `/topics/${slug}` },
   };
 }
@@ -60,7 +60,7 @@ export default async function TopicPage({
       </p>
       <h1>{topicName}</h1>
       <p className="lead" style={{ marginBottom: '1.2rem' }}>
-        {free.length} free {free.length === 1 ? 'question' : 'questions'} with verified answers
+        {free.length} free {free.length === 1 ? 'question' : 'questions'} with worked answers
         {total > 0 && `, and ${total.toLocaleString()} more in the full bank`}.
       </p>
 

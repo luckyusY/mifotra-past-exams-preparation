@@ -42,7 +42,7 @@ export const COURSES: Course[] = [
     slug: 'mifotra-ict-officer',
     name: 'MIFOTRA Centralized ICT Acquisition Officer',
     short: 'MIFOTRA ICT Officer',
-    blurb: 'The real past paper, bilingual, with every answer verified.',
+    blurb: 'The real past paper, bilingual, cross-checked against the original session.',
     intro:
       'The complete Centralized ICT Acquisition Officer past paper as it was sat: 50 questions, two hours, marks weighted 1 to 4, every question in both English and French. Answers were re-checked item by item, and seventeen differ from the choices marked in the original session.',
     keywords: [
@@ -60,7 +60,7 @@ export const COURSES: Course[] = [
     slug: 'deputy-headteacher-dos',
     name: 'MIFOTRA Deputy Headteacher in Charge of Studies',
     short: 'Deputy Headteacher (DOS)',
-    blurb: 'The real past paper for school leadership posts.',
+    blurb: 'The real past paper for school leadership posts, with worked answers.',
     intro:
       'The complete Deputy Headteacher in Charge of Studies past paper: 50 questions, 100 marks, two and a half hours, covering school leadership, assessment, supervision, curriculum, teacher development and Rwandan education policy. Seven questions turn on published policy targets the source paper did not key; those are shown with the reasoning left open rather than answered by guesswork.',
     keywords: [

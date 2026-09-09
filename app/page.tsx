@@ -18,7 +18,7 @@ export default function Home() {
             </h1>
             <p className="lead">
               The full {mifotraQuestions.length}-question Centralized ICT Acquisition Officer
-              past paper, every answer independently verified and explained. Free to practise,
+              past paper, every answer cross-checked against the original session and explained. Free to practise,
               no account needed.
             </p>
             <div className="navrow">

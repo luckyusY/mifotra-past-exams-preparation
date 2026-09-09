@@ -16,6 +16,15 @@ export type Question = {
   /** false when the source carried no key and the answer turns on a policy
    *  figure we will not guess. Such questions are shown but never scored. */
   verified?: boolean;
+  /**
+   * How the answer came to be known. These are genuinely different standards of
+   * evidence and the site should not flatten them into one word.
+   *   cross-checked - compared against the marks in the source exam session
+   *   derived       - reasoned from the question; the source had no key
+   *   authored      - supplied already keyed by whoever wrote the item
+   *   none          - no answer published
+   */
+  answerSource?: 'cross-checked' | 'derived' | 'authored' | 'none';
   en: { stem: string; options: string[]; explanation: string };
   fr: { stem: string; options: string[]; explanation: string } | null;
 };

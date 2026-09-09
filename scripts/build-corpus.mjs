@@ -31,6 +31,9 @@ const fromMifotra = mifotra.questions.map((q) => ({
   fr: q.fr,
   answerIndex: q.answerIndex,
   verified: true,
+  // The source paper showed the candidate's own selections, so every key here
+  // was cross-checked against a real mark and 17 were corrected.
+  answerSource: 'cross-checked',
   bilingual: true,
   tier: 'free',
   bankId: null,
@@ -52,6 +55,10 @@ const fromHeadteacher = headteacher.questions.map((q) => ({
   fr: null,
   answerIndex: q.answerIndex,
   verified: q.verified,
+  // This paper arrived blank - no key, no candidate marks. Every answer here was
+  // reasoned from the question itself, so it must not claim the same standing as
+  // one checked against a real mark.
+  answerSource: q.answerIndex === null ? 'none' : 'derived',
   bilingual: false,
   tier: 'free',
   bankId: null,
@@ -70,6 +77,8 @@ const fromLegacy = legacy.map((q) => ({
   fr: null,
   answerIndex: q.answerIndex,
   verified: true,
+  // Carried over already keyed by their original author; not re-checked here.
+  answerSource: 'authored',
   bilingual: false,
   tier: 'paid',
   bankId: null,

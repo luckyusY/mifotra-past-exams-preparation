@@ -743,3 +743,14 @@ a.card:hover, .course-card:hover {
   .resume-actions { width: 100%; }
   .resume-actions .btn { flex: 1; }
 }
+
+/* Where an answer was reasoned out rather than taken from a marked paper, say
+   so on the question itself. */
+.answer-note {
+  font-size: .85rem;
+  padding: .5rem .7rem;
+  border-radius: 7px;
+  background: var(--surface-2);
+  border-left: 3px solid var(--amber, #c98a12);
+  color: var(--ink-muted);
+}

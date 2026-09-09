@@ -5,7 +5,7 @@ import { mifotraQuestions } from '@/lib/questions';
 export const metadata: Metadata = {
   title: 'MIFOTRA Centralized ICT Acquisition Officer - full past paper',
   description:
-    'Sit the complete MIFOTRA Centralized ICT Acquisition Officer past paper: 50 bilingual questions, timed, with verified answers and explanations.',
+    'Sit the complete MIFOTRA Centralized ICT Acquisition Officer past paper: 50 bilingual questions, timed, with every answer cross-checked against the original exam session.',
 };
 
 export default function ExamPage() {

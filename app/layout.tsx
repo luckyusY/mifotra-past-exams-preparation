@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     template: '%s | MIFOTRA Past Exams Preparation',
   },
   description:
-    'Free bilingual practice for the MIFOTRA Centralized ICT Acquisition Officer exam in Rwanda. Real past-paper questions with verified answers and explanations in English and French.',
+    'Free practice for Rwandan public-service MIFOTRA exams. Two real past papers - ICT Acquisition Officer and Deputy Headteacher - with worked answers and explanations, plus a large practice bank.',
   keywords: [
     'MIFOTRA past papers', 'MIFOTRA exam', 'ibizamini bya MIFOTRA',
     'Rwanda public service exam', 'Rwanda ICT officer exam',

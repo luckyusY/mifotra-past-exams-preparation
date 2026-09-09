@@ -21,6 +21,7 @@ export default function AdminPage() {
       <p className="navrow">
         <Link className="btn ghost" href="/admin/blog">Blog generator</Link>
         <Link className="btn ghost" href="/admin/questions">All questions</Link>
+        <Link className="btn ghost" href="/admin/exam">Practice exam</Link>
       </p>
       <AdminGate>
         <AdminPanel />

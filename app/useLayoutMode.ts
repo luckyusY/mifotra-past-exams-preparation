@@ -19,16 +19,38 @@ import { useEffect } from 'react';
  */
 export type LayoutMode = 'focus' | 'wide' | null;
 
+/**
+ * Claims are stacked rather than assigned.
+ *
+ * Two components can be mounted at once and want different things - the admin
+ * practice page asks for `wide`, and the exam it launches asks for `focus`.
+ * With a plain assignment the last writer won and, worse, the first to unmount
+ * cleared the mode outright, dropping the admin page back to a reading column
+ * while it was still open. A stack means the strongest active claim applies and
+ * releasing one restores whatever is still asking.
+ */
+const PRIORITY: Record<Exclude<LayoutMode, null>, number> = { wide: 1, focus: 2 };
+const claims = new Map<symbol, Exclude<LayoutMode, null>>();
+
+function apply() {
+  const root = document.documentElement;
+  let winner: Exclude<LayoutMode, null> | null = null;
+  for (const mode of claims.values()) {
+    if (!winner || PRIORITY[mode] > PRIORITY[winner]) winner = mode;
+  }
+  if (winner) root.dataset.mode = winner;
+  else delete root.dataset.mode;
+}
+
 export function useLayoutMode(mode: LayoutMode) {
   useEffect(() => {
-    const root = document.documentElement;
-    if (mode) root.dataset.mode = mode;
-    else delete root.dataset.mode;
-
-    // Leaving the page mid-exam must not strand the rest of the site in focus
-    // mode - the nav would stay hidden with no way to bring it back.
+    if (!mode) return;
+    const id = Symbol('layout-mode');
+    claims.set(id, mode);
+    apply();
     return () => {
-      delete root.dataset.mode;
+      claims.delete(id);
+      apply();
     };
   }, [mode]);
 }

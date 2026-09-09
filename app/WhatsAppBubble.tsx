@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from 'react';
 import { whatsappLink, PAYMENT_MESSAGE, WHATSAPP_DISPLAY } from './Contact';
+import { useSession } from './SessionProvider';
+import { MessageCircle, X } from 'lucide-react';
 
 /**
  * Floating WhatsApp bubble.
@@ -14,6 +16,7 @@ import { whatsappLink, PAYMENT_MESSAGE, WHATSAPP_DISPLAY } from './Contact';
 export default function WhatsAppBubble() {
   const [shown, setShown] = useState(false);
   const [open, setOpen] = useState(false);
+  const { role } = useSession();
 
   useEffect(() => {
     const onScroll = () => setShown(window.scrollY > 260);
@@ -21,6 +24,9 @@ export default function WhatsAppBubble() {
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
+
+  // An admin does not need a sales channel to themselves.
+  if (role === 'admin') return null;
 
   return (
     <div className={'wa-wrap' + (shown ? ' is-shown' : '')}>

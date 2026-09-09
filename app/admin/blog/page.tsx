@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import AdminMode from '../AdminMode';
 import BlogConsole from './BlogConsole';
 import AdminGate from '@/app/AdminGate';
 
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function AdminBlogPage() {
   return (
     <>
+      <AdminMode />
       <h1>Blog generator</h1>
       <p className="lead">
         Draft an SEO guide from a topic, review it, then publish. Drafts are not public

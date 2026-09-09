@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import AdminMode from '../AdminMode';
 import Link from 'next/link';
 import QuestionBrowser from './QuestionBrowser';
 
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function AdminQuestionsPage() {
   return (
     <>
+      <AdminMode />
       <p className="muted">
         <Link href="/admin">Admin</Link>
       </p>

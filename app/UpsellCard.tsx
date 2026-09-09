@@ -1,5 +1,9 @@
+'use client';
+
 import Link from 'next/link';
 import WhatsAppButton, { WHATSAPP_DISPLAY } from './Contact';
+import { useSession } from './SessionProvider';
+import { Sparkles, ArrowRight } from 'lucide-react';
 
 /**
  * The standing offer, in three densities. Everything stated here is a real
@@ -12,6 +16,10 @@ export default function UpsellCard({
 }: {
   variant?: 'full' | 'inline' | 'compact';
 }) {
+  const { showOffers } = useSession();
+  // An admin or an existing customer already has the thing being advertised.
+  if (!showOffers) return null;
+
   if (variant === 'compact') {
     return (
       <Link href="/unlock" className="card upsell upsell-compact">

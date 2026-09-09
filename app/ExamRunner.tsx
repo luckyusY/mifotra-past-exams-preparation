@@ -5,6 +5,8 @@ import Link from 'next/link';
 import type { Question } from '@/lib/questions';
 import { shuffle } from '@/lib/questions';
 import UpsellModal from './UpsellModal';
+import { useLayoutMode, toggleFullscreen } from './useLayoutMode';
+import { Maximize2, Minimize2 } from 'lucide-react';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
@@ -120,6 +122,16 @@ export default function ExamRunner({
   const [pending, setPending] = useState<Saved | null>(null);
   const [started, setStarted] = useState(false);
   const [lang, setLang] = useState<Lang>('both');
+  const [isFull, setIsFull] = useState(false);
+
+  // A running exam takes the whole screen; the results page hands the site back.
+  useLayoutMode(done ? null : 'focus');
+
+  useEffect(() => {
+    const sync = () => setIsFull(Boolean(document.fullscreenElement));
+    document.addEventListener('fullscreenchange', sync);
+    return () => document.removeEventListener('fullscreenchange', sync);
+  }, []);
   const liveRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -263,6 +275,8 @@ export default function ExamRunner({
           </div>
         </div>
 
+        {showUpsell && <UpsellModal answeredCount={answered} triggerAfter={1} />}
+
         {showUpsell && (
           <aside className="card upsell" style={{ marginBottom: '1rem' }}>
             <h2 style={{ marginTop: 0 }}>
@@ -325,8 +339,6 @@ export default function ExamRunner({
 
   return (
     <div>
-      {showUpsell && <UpsellModal answeredCount={answered} triggerAfter={8} />}
-
       {pending && !started && (
         <div className="resume-bar" role="status">
           <div>
@@ -363,6 +375,17 @@ export default function ExamRunner({
             </button>
           ))}
         </div>
+        <a className="exam-exit" href="/" title="Leave the exam">
+          Exit
+        </a>
+        <button
+          className="btn ghost exam-full"
+          onClick={async () => setIsFull(await toggleFullscreen())}
+          title={isFull ? 'Leave fullscreen' : 'Fullscreen'}
+          aria-label={isFull ? 'Leave fullscreen' : 'Enter fullscreen'}
+        >
+          {isFull ? <Minimize2 size={16} /> : <Maximize2 size={16} />}
+        </button>
         <button
           className="btn green"
           onClick={() => {

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import AdminMode from './AdminMode';
 import Link from 'next/link';
 import AdminPanel from './AdminPanel';
 import AdminGate from '../AdminGate';
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
 export default function AdminPage() {
   return (
     <>
+      <AdminMode />
       <h1>Access codes</h1>
       <p className="lead">
         Generate a code after confirming a MoMo payment. The plaintext is shown once and is not

@@ -4,6 +4,8 @@ import './globals.css';
 import { WHATSAPP_DISPLAY, whatsappLink } from './Contact';
 import WhatsAppBubble from './WhatsAppBubble';
 import SessionBadge from './SessionBadge';
+import SessionProvider from './SessionProvider';
+import NavCta from './NavCta';
 
 const site = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
 
@@ -44,6 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        <SessionProvider>
         <header className="topbar">
           <div className="wrap">
             {/* Original wordmark. Deliberately not the MIFOTRA state crest: this is an
@@ -61,7 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/exam">Past paper</Link>
               <Link href="/topics">Topics</Link>
               <Link href="/blog">Guides</Link>
-              <Link href="/unlock" className="nav-cta">Unlock full bank</Link>
+              <NavCta />
               <SessionBadge />
             </nav>
           </div>
@@ -87,6 +90,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </p>
           </div>
         </footer>
+        </SessionProvider>
       </body>
     </html>
   );

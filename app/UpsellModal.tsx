@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { useSession } from './SessionProvider';
 
 const DISMISS_KEY = 'mifotra_upsell_dismissed';
 const DISMISS_DAYS = 7;
@@ -31,6 +32,7 @@ export default function UpsellModal({
 }) {
   const [open, setOpen] = useState(false);
   const [armed, setArmed] = useState(false);
+  const { showOffers } = useSession();
 
   useEffect(() => {
     if (!recentlyDismissed()) setArmed(true);
@@ -70,7 +72,7 @@ export default function UpsellModal({
     return () => window.removeEventListener('keydown', onKey);
   }, [open]);
 
-  if (!open) return null;
+  if (!open || !showOffers) return null;
 
   return (
     <div className="modal-back" onClick={dismiss} role="presentation">

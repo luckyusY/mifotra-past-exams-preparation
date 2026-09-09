@@ -781,3 +781,87 @@ a.card:hover, .course-card:hover {
   color: var(--ink-muted); text-decoration: underline;
 }
 .session-badge button:hover { color: var(--ink); }
+
+/* ============================================================
+   Layout modes
+   Set by useLayoutMode() on the root element. The shell stays one
+   static tree; CSS decides what a given stage shows.
+   ============================================================ */
+
+/* ---- focus: a timed exam is running ---- */
+:root[data-mode='focus'] .topbar,
+:root[data-mode='focus'] footer,
+:root[data-mode='focus'] .wa-wrap {
+  display: none;
+}
+:root[data-mode='focus'] main {
+  padding: .75rem 0 2rem;
+}
+:root[data-mode='focus'] .wrap {
+  width: min(1240px, 100% - 1.5rem);
+}
+:root[data-mode='focus'] body {
+  background: var(--surface-2);
+}
+
+/* The clock and FINISH have to stay reachable however far the candidate has
+   scrolled - in the real exam they never leave the screen. */
+:root[data-mode='focus'] .exam-head {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  box-shadow: var(--e2);
+}
+
+/* With the page furniture gone the question card can breathe. */
+:root[data-mode='focus'] .qcard {
+  padding: 1.5rem;
+}
+:root[data-mode='focus'] .stem {
+  font-size: 1.06rem;
+}
+:root[data-mode='focus'] .opt .txt {
+  padding-top: .85rem;
+  padding-bottom: .85rem;
+}
+
+.exam-full {
+  padding: .35rem .6rem !important;
+  font-size: 1rem !important;
+  line-height: 1;
+}
+
+/* Leaving focus mode - the site nav is hidden, so the exam owns the exit. */
+.exam-exit {
+  font-size: .84rem;
+  color: var(--ink-muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.exam-exit:hover { color: var(--ink); }
+
+/* ---- wide: dense admin views ---- */
+:root[data-mode='wide'] .wrap {
+  width: min(1440px, 100% - 2rem);
+}
+
+@media (max-width: 700px) {
+  /* On a phone the exam is already effectively fullscreen; keep the head
+     compact so the question is not pushed off the first screen. */
+  :root[data-mode='focus'] .exam-head {
+    padding: .6rem .75rem;
+    gap: .5rem;
+  }
+  :root[data-mode='focus'] .exam-title { font-size: .9rem; }
+  :root[data-mode='focus'] .qcard { padding: 1rem; }
+}
+
+/* Icons sit on the text baseline wherever they appear inline. */
+.nav-cta, .session-badge, .btn { display: inline-flex; align-items: center; gap: .4rem; }
+.nav-cta svg, .session-badge svg { flex: 0 0 auto; }
+.session-badge button { display: inline-flex; align-items: center; gap: .25rem; }
+.sr-only-sm {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}

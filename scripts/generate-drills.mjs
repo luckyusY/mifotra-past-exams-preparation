@@ -23,7 +23,7 @@
 import fs from 'node:fs';
 import { extraFamilies } from './drill-families-extra.mjs';
 
-const TARGET = Number(process.argv[2]) || 4200;
+const TARGET = Number(process.argv[2]) || 12000;
 
 /* ---------- deterministic randomness ---------- */
 
@@ -566,14 +566,7 @@ FAMILIES.push(...extraFamilies({ item, pick, between, round, rand, RW }));
 const out = [];
 const seen = new Set();
 const perFamily = new Map();
-let attempts = 0;
-
-// No single skill should dominate. A candidate drilling the bank needs spread,
-// and a family that has run out of genuine variants must not be topped up with
-// reworded ones just to hit a number.
-// Hard ceiling per template. Volume must come from having many different
-// questions, never from asking one question many times.
-const CAP = Number(process.argv[3]) || 130;
+const perStem = new Map();
 
 /**
  * A stem may not be reused, full stop.
@@ -583,24 +576,50 @@ const CAP = Number(process.argv[3]) || 130;
  * candidate actually notices. Two questions that read identically are one
  * question however different their option lists.
  */
-const perStem = new Map();
 const MAX_PER_STEM = 1;
 
-while (out.length < TARGET && attempts < TARGET * 120) {
+/**
+ * Each family sizes itself to the parameters it genuinely has.
+ *
+ * Guessing a cap gets it wrong in both directions - it pads families whose
+ * space ran out and starves ones with thousands of real combinations left. So
+ * instead a family is retired once it has failed MISS_LIMIT times in a row to
+ * produce anything new, which is the point at which more attempts would only
+ * re-enumerate what is already there.
+ *
+ * The global ceiling stops any single family dominating even when its space is
+ * effectively unlimited: subnetting alone could fill the whole bank.
+ */
+const MISS_LIMIT = 300;
+const CAP = Number(process.argv[3]) || Math.ceil(TARGET * 0.09);
+
+const misses = new Map();
+const retired = new Set();
+let attempts = 0;
+
+while (out.length < TARGET && retired.size < FAMILIES.length && attempts < TARGET * 400) {
   attempts++;
   const fam = FAMILIES[attempts % FAMILIES.length];
-  if ((perFamily.get(fam.id) ?? 0) >= CAP) continue;
+  if (retired.has(fam.id)) continue;
+  if ((perFamily.get(fam.id) ?? 0) >= CAP) {
+    retired.add(fam.id);
+    continue;
+  }
+
   const q = fam.make();
-  if (!q) continue;
+  const key = q ? q.stem + '||' + [...q.options].sort().join('|') : null;
+  const fresh = q && !seen.has(key) && (perStem.get(q.stem) ?? 0) < MAX_PER_STEM;
 
-  // Uniqueness is on the whole item: same stem AND same options. A different
-  // network or resistor makes a genuinely different question.
-  const key = q.stem + '||' + [...q.options].sort().join('|');
-  if (seen.has(key)) continue;
-  if ((perStem.get(q.stem) ?? 0) >= MAX_PER_STEM) continue;
+  if (!fresh) {
+    const m = (misses.get(fam.id) ?? 0) + 1;
+    misses.set(fam.id, m);
+    if (m >= MISS_LIMIT) retired.add(fam.id);
+    continue;
+  }
+
+  misses.set(fam.id, 0);
   seen.add(key);
-  perStem.set(q.stem, (perStem.get(q.stem) ?? 0) + 1);
-
+  perStem.set(q.stem, 1);
   perFamily.set(q.skill, (perFamily.get(q.skill) ?? 0) + 1);
   out.push(q);
 }
@@ -626,6 +645,7 @@ const pos = [0, 0, 0, 0];
 for (const q of out) pos[q.answerIndex]++;
 
 console.log(`generated ${out.length} drill questions from ${FAMILIES.length} skill families`);
+console.log(`families retired after exhausting their parameters: ${retired.size}`);
 console.log(`distinct stems     : ${perStem.size}  (no stem reused)`);
 console.log(`answer position: ${pos.map((n, i) => 'ABCD'[i] + ' ' + Math.round((n / out.length) * 100) + '%').join('  ')}`);
 console.log('\nper skill:');

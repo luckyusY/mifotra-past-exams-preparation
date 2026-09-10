@@ -349,6 +349,8 @@ export default function ExamRunner({
                 <b>{item.answer >= 0 ? 'Why' : 'No published answer'}</b>
                 {item.en.explanation}
               </div>
+              {/* The review is where an exam-mode attempt gets its teacher. */}
+              <AskAI questionId={item.id} />
             </div>
           );
         })}
@@ -467,9 +469,15 @@ export default function ExamRunner({
             </b>
             {lang !== 'fr' && <div>{q.en.explanation}</div>}
             {q.fr && lang !== 'en' && <div className="muted">{q.fr.explanation}</div>}
-            <AskAI questionId={q.id} />
           </div>
         )}
+
+        {/* Available on every question while studying, not only after answering -
+            it was nested in the feedback block, so it stayed invisible until you
+            committed to an answer and never appeared in exam mode at all.
+            Exam mode still withholds it during the attempt: asking the teacher
+            mid-exam defeats the point of sitting one. */}
+        {mode === 'study' && <AskAI questionId={q.id} />}
 
         <div className="navrow">
           <button className="btn ghost" onClick={() => setI((v) => Math.max(0, v - 1))} disabled={i === 0}>

@@ -64,6 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <Link href="/exam">Past paper</Link>
               <Link href="/study">Study plan</Link>
               <Link href="/topics">Topics</Link>
+              <Link href="/jobs">Jobs</Link>
               <Link href="/blog">Guides</Link>
               <NavCta />
               <SessionBadge />

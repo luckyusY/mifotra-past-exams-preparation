@@ -7,6 +7,7 @@ import ExamRunner from '@/app/ExamRunner';
 import type { Question } from '@/lib/questions';
 import { useSession } from '@/app/SessionProvider';
 import { quoteOfDay } from '@/lib/quotes';
+import Tracker from './Tracker';
 import {
   read, record, setDailyGoal, answeredToday, streak, statsFor, weakIds, type Progress,
 } from '@/lib/progress';
@@ -119,6 +120,10 @@ export default function StudyDashboard({ freeQuestions }: { freeQuestions: Quest
           <span>correct so far</span>
         </div>
       </div>
+
+      <Tracker progress={progress} bankIds={bundle.questions.map((q) => q.id)} />
+
+      <div style={{ height: '1.5rem' }} />
 
       {weak.length >= 5 && (
         <div className="card upsell" style={{ marginBottom: '1.5rem' }}>

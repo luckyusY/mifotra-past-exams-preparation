@@ -21,16 +21,33 @@ export type Progress = {
   days: string[];
   /** questions per day the learner is aiming for */
   dailyGoal: number;
+  /**
+   * date -> how many questions were answered that day.
+   *
+   * Kept separately because `answers` holds only the most recent attempt per
+   * question, so re-doing a question would silently erase the day it was first
+   * answered on and the tracker would lose history.
+   */
+  daily: Record<string, number>;
+  /** date -> how many were correct, so the tracker can show quality not just volume */
+  dailyCorrect: Record<string, number>;
 };
 
-const EMPTY: Progress = { answers: {}, days: [], dailyGoal: 20 };
+const EMPTY: Progress = { answers: {}, days: [], dailyGoal: 20, daily: {}, dailyCorrect: {} };
 
 export function read(): Progress {
   try {
     const raw = localStorage.getItem(KEY);
     if (!raw) return { ...EMPTY };
     const p = JSON.parse(raw) as Progress;
-    return { ...EMPTY, ...p, answers: p.answers ?? {}, days: p.days ?? [] };
+    return {
+      ...EMPTY,
+      ...p,
+      answers: p.answers ?? {},
+      days: p.days ?? [],
+      daily: p.daily ?? {},
+      dailyCorrect: p.dailyCorrect ?? {},
+    };
   } catch {
     return { ...EMPTY };
   }
@@ -54,6 +71,8 @@ export function record(results: { id: string; correct: boolean }[]) {
   for (const r of results) p.answers[r.id] = { correct: r.correct, at: now };
   const today = dayOf(now);
   if (!p.days.includes(today)) p.days.push(today);
+  p.daily[today] = (p.daily[today] ?? 0) + results.length;
+  p.dailyCorrect[today] = (p.dailyCorrect[today] ?? 0) + results.filter((r) => r.correct).length;
   write(p);
 }
 
@@ -74,8 +93,32 @@ export function reset() {
 /* ---------- derived ---------- */
 
 export function answeredToday(p: Progress): number {
-  const today = dayOf(Date.now());
-  return Object.values(p.answers).filter((a) => dayOf(a.at) === today).length;
+  return p.daily[dayOf(Date.now())] ?? 0;
+}
+
+/** Total questions answered across all time, including repeats. */
+export function totalAnswered(p: Progress): number {
+  return Object.values(p.daily).reduce((a, b) => a + b, 0);
+}
+
+export function totalCorrect(p: Progress): number {
+  return Object.values(p.dailyCorrect).reduce((a, b) => a + b, 0);
+}
+
+/** The last `weeks` weeks of activity, oldest first, for the tracker grid. */
+export function calendar(p: Progress, weeks = 14): { date: string; count: number; correct: number }[] {
+  const out: { date: string; count: number; correct: number }[] = [];
+  const cursor = new Date();
+  cursor.setHours(12, 0, 0, 0);
+  // Wind back to the most recent Sunday so the grid's columns are whole weeks.
+  cursor.setDate(cursor.getDate() - cursor.getDay());
+  const start = new Date(cursor);
+  start.setDate(start.getDate() - (weeks - 1) * 7);
+  for (let d = new Date(start); d <= new Date(); d.setDate(d.getDate() + 1)) {
+    const key = dayOf(d.getTime());
+    out.push({ date: key, count: p.daily[key] ?? 0, correct: p.dailyCorrect[key] ?? 0 });
+  }
+  return out;
 }
 
 /**

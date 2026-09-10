@@ -937,3 +937,53 @@ a.card:hover, .course-card:hover {
   .setcard:hover { transform: none; }
   .goalbar > i, .setbar > i { transition: none; }
 }
+
+/* ---- level ---- */
+.level-card { margin-bottom: 1rem; }
+.level-top { display: flex; align-items: center; gap: .8rem; margin-bottom: .6rem; }
+.level-badge {
+  flex: 0 0 auto; width: 40px; height: 40px; border-radius: 50%;
+  display: grid; place-items: center; font-weight: 800;
+  color: #fff; background: linear-gradient(135deg, var(--blue), var(--green));
+  box-shadow: var(--e2);
+}
+.level-pct { margin-left: auto; font-variant-numeric: tabular-nums; }
+
+/* ---- daily tracker ---- */
+.tracker { display: flex; gap: .4rem; overflow-x: auto; padding-bottom: .3rem; }
+.tracker-days {
+  display: grid; grid-template-rows: repeat(7, 1fr); gap: 3px;
+  font-size: .68rem; color: var(--ink-muted); flex: 0 0 auto;
+}
+.tracker-days span { line-height: 13px; height: 13px; }
+.tracker-grid { display: flex; gap: 3px; }
+.tracker-week { display: grid; grid-template-rows: repeat(7, 1fr); gap: 3px; }
+
+.cell {
+  width: 13px; height: 13px; border-radius: 3px;
+  background: var(--surface-2); border: 1px solid var(--line);
+  display: inline-block;
+}
+.cell.b1 { background: color-mix(in srgb, var(--green) 30%, var(--surface-2)); border-color: transparent; }
+.cell.b2 { background: color-mix(in srgb, var(--green) 60%, var(--surface-2)); border-color: transparent; }
+.cell.b3 { background: var(--green); border-color: transparent; }
+
+.tracker-legend {
+  display: flex; align-items: center; gap: .3rem;
+  margin-top: .6rem; font-size: .78rem;
+}
+
+/* ---- badges ---- */
+.badges { display: grid; gap: .6rem; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.badge {
+  display: flex; gap: .6rem; align-items: flex-start;
+  padding: .7rem .85rem; border-radius: 9px;
+  background: var(--surface-2); border: 1px solid var(--line);
+  color: var(--ink-muted);
+}
+.badge.is-earned {
+  background: var(--green-soft); border-color: var(--green-line); color: var(--ink);
+}
+.badge svg { flex: 0 0 auto; margin-top: .15rem; }
+.badge strong { display: block; font-size: .92rem; }
+.badge-hint { font-size: .78rem; }

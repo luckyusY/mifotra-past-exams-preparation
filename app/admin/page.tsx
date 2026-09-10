@@ -22,6 +22,7 @@ export default function AdminPage() {
         <Link className="btn ghost" href="/admin/blog">Blog generator</Link>
         <Link className="btn ghost" href="/admin/questions">All questions</Link>
         <Link className="btn ghost" href="/admin/exam">Practice exam</Link>
+        <Link className="btn ghost" href="/admin/explanations">AI explanations</Link>
       </p>
       <AdminGate>
         <AdminPanel />

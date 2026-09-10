@@ -7,6 +7,7 @@ import {
   AI_COOKIE, claim, hasAiTier, newDeviceId, quotaFor, TIER_LABEL, type Tier,
 } from '@/lib/ai-quota';
 import { freeQuestions } from '@/lib/questions';
+import { readCached, writeCached } from '@/lib/explanations';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -75,7 +76,9 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: 'Unknown question.' }, { status: 404 });
   }
 
-  // Spend first: a model call that fails after the claim has still cost money.
+  // Quota is spent whether or not the model is called. Serving cache costs
+  // nothing, but if cached answers were unlimited the whole bank would be
+  // freely explained within a week and the paid tier would be worth nothing.
   const allowed = await claim(device, tier);
   if (!allowed) {
     const q = await quotaFor(device, tier);
@@ -88,6 +91,26 @@ export async function POST(req: Request) {
       },
       { status: 429 }
     );
+  }
+
+  // A stored explanation is served instantly, which is the point of keeping
+  // them: the bank improves as people use it.
+  const cached = await readCached(questionId, ask).catch(() => null);
+  if (cached) {
+    const q = await quotaFor(device, tier);
+    const hit = NextResponse.json({
+      explanation: cached.text,
+      cached: true,
+      tier,
+      remaining: Number.isFinite(q.remaining) ? q.remaining : null,
+      limit: Number.isFinite(q.limit) ? q.limit : null,
+    });
+    if (issued) {
+      hit.cookies.set(AI_COOKIE, device, {
+        httpOnly: true, sameSite: 'lax', path: '/', maxAge: 60 * 60 * 24 * 365,
+      });
+    }
+    return hit;
   }
 
   const opts = question.en.options
@@ -144,9 +167,14 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: 'No explanation came back.' }, { status: 502 });
     }
 
+    // Store before responding, so the next learner gets it instantly. A failure
+    // here must not lose the answer the learner already paid quota for.
+    await writeCached(questionId, ask, text, data.model ?? 'openai').catch(() => {});
+
     const q = await quotaFor(device, tier);
     const out = NextResponse.json({
       explanation: text,
+      cached: false,
       tier,
       remaining: Number.isFinite(q.remaining) ? q.remaining : null,
       limit: Number.isFinite(q.limit) ? q.limit : null,
